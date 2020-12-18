@@ -23010,8 +23010,10 @@ Guest starring Julie Graham, Patrick O'Kane, Ian McElhinney and Steve Toussaint.
                                                      po:medium_synopsis "With the Doctor imprisoned halfway across the universe, can the return of Captain Jack Harkness help Graham, Yaz and Ryan stop a deadly Dalek takeover of planet Earth?" ;
                                                      po:long_synopsis "The Doctor is imprisoned halfway across the universe. On Earth, the sighting of a Dalek alerts Ryan, Graham and Yaz. Can the return of Captain Jack Harkness help them stop a deadly Dalek takeover?" ;
                                                      po:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
-                                                     po:image_pid "p06ls33z" ;
-                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p06ls33z.jpg> ;
+                                                     po:image_pid "p06ls33z" ,
+                                                                  "p091r102" ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p06ls33z.jpg> ,
+                                                                    <https://ichef.bbci.co.uk/images/ic/640x360/p091r102.jpg> ;
                                                      po:version <http://www.bbc.co.uk/programmes/m000qr8h#programme> ,
                                                                 <http://www.bbc.co.uk/programmes/m000qzz2#programme> ;
                                                      po:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
