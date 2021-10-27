@@ -1101,7 +1101,8 @@
                                                                 <http://www.bbc.co.uk/programmes/m000frjp#programme> ,
                                                                 <http://www.bbc.co.uk/programmes/m000g09m#programme> ,
                                                                 <http://www.bbc.co.uk/programmes/m000qr8k#programme> ,
-                                                                <http://www.bbc.co.uk/programmes/m00116r4#programme> ;
+                                                                <http://www.bbc.co.uk/programmes/m00116r4#programme> ,
+                                                                <http://www.bbc.co.uk/programmes/m0011g6k#programme> ;
                                                      po:clip <http://www.bbc.co.uk/programmes/p050f6mp#programme> ,
                                                              <http://www.bbc.co.uk/programmes/p04ywrc6#programme> ,
                                                              <http://www.bbc.co.uk/programmes/p050f58b#programme> ,
@@ -23053,4 +23054,25 @@ Guest starring Julie Graham, Patrick O'Kane, Ian McElhinney and Steve Toussaint.
                                            rdfs:label 'BBC webpage about the episode "The Halloween Apocalypse"' .
 
 <http://www.bbc.co.uk/programmes/m00116r6#programme> rdf:type po:Series ;
-                                                     po:episode <http://www.bbc.co.uk/programmes/m00116r4#programme> .
+                                                     po:episode <http://www.bbc.co.uk/programmes/m00116r4#programme> ,
+                                                                <http://www.bbc.co.uk/programmes/m0011g6k#programme> .
+
+<http://www.bbc.co.uk/programmes/m0011g6k#programme> rdf:type po:Episode ;
+                                                     dc:title "War of the Sontarans" ;
+                                                     po:short_synopsis "The Doctor discovers the British army at war with Sontarans in the Crimea." ;
+                                                     po:medium_synopsis "During the Crimean War, the Doctor discovers the British army fighting a brutal alien army of Sontarans. What is the Temple of Atropos? Who are the Mouri?" ;
+                                                     po:long_synopsis "During the Crimean War, the Doctor discovers the British army fighting a brutal alien army of Sontarans, as Yaz and Dan are thrown deeper into a battle for survival. What is the Temple of Atropos? Who are the Mouri?" ;
+                                                     po:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     po:image_pid "p06ls33z" ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p06ls33z.jpg> ;
+                                                     po:version <http://www.bbc.co.uk/programmes/m0011g6j#programme> ,
+                                                                <http://www.bbc.co.uk/programmes/m0011h87#programme> ;
+                                                     po:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     po:position "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+                                                     po:pid "m0011g6k" .
+
+<http://www.bbc.co.uk/programmes/m0011g6k.rdf> foaf:primaryTopic <http://www.bbc.co.uk/programmes/m0011g6k#programme> ;
+                                               rdfs:label 'Description of the episode "War of the Sontarans"' .
+
+<http://www.bbc.co.uk/programmes/m0011g6k> foaf:primaryTopic <http://www.bbc.co.uk/programmes/m0011g6k#programme> ;
+                                           rdfs:label 'BBC webpage about the episode "War of the Sontarans"' .
