@@ -23039,8 +23039,10 @@ Guest starring Julie Graham, Patrick O'Kane, Ian McElhinney and Steve Toussaint.
                                                      po:medium_synopsis "On Halloween, all across the universe, terrifying forces are stirring. The life of Dan Lewis is about to change forever. Why is the Doctor chasing Karvanista? What is the Flux?" ;
                                                      po:long_synopsis "On Halloween, all across the universe, terrifying forces are stirring. From the Arctic Circle to deep space, an ancient evil is breaking free. And in present-day Liverpool, the life of Dan Lewis is about to change forever. Why is the Doctor on the trail of the fearsome Karvanista? And what is the Flux?" ;
                                                      po:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
-                                                     po:image_pid "p06ls33z" ;
-                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p06ls33z.jpg> ;
+                                                     po:image_pid "p06ls33z" ,
+                                                                  "p0b0mts8" ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p06ls33z.jpg> ,
+                                                                    <https://ichef.bbci.co.uk/images/ic/640x360/p0b0mts8.jpg> ;
                                                      po:version <http://www.bbc.co.uk/programmes/m00116r2#programme> ,
                                                                 <http://www.bbc.co.uk/programmes/m0011dt8#programme> ;
                                                      po:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
@@ -23063,8 +23065,10 @@ Guest starring Julie Graham, Patrick O'Kane, Ian McElhinney and Steve Toussaint.
                                                      po:medium_synopsis "During the Crimean War, the Doctor discovers the British army fighting a brutal alien army of Sontarans. What is the Temple of Atropos? Who are the Mouri?" ;
                                                      po:long_synopsis "During the Crimean War, the Doctor discovers the British army fighting a brutal alien army of Sontarans, as Yaz and Dan are thrown deeper into a battle for survival. What is the Temple of Atropos? Who are the Mouri?" ;
                                                      po:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
-                                                     po:image_pid "p06ls33z" ;
-                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p06ls33z.jpg> ;
+                                                     po:image_pid "p06ls33z" ,
+                                                                  "p0b0n5gc" ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p06ls33z.jpg> ,
+                                                                    <https://ichef.bbci.co.uk/images/ic/640x360/p0b0n5gc.jpg> ;
                                                      po:version <http://www.bbc.co.uk/programmes/m0011g6j#programme> ,
                                                                 <http://www.bbc.co.uk/programmes/m0011h87#programme> ;
                                                      po:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
