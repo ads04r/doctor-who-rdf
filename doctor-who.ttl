@@ -1102,7 +1102,8 @@
                                                                 <http://www.bbc.co.uk/programmes/m000g09m#programme> ,
                                                                 <http://www.bbc.co.uk/programmes/m000qr8k#programme> ,
                                                                 <http://www.bbc.co.uk/programmes/m00116r4#programme> ,
-                                                                <http://www.bbc.co.uk/programmes/m0011g6k#programme> ;
+                                                                <http://www.bbc.co.uk/programmes/m0011g6k#programme> ,
+                                                                <http://www.bbc.co.uk/programmes/m0011nfd#programme> ;
                                                      po:clip <http://www.bbc.co.uk/programmes/p050f6mp#programme> ,
                                                              <http://www.bbc.co.uk/programmes/p04ywrc6#programme> ,
                                                              <http://www.bbc.co.uk/programmes/p050f58b#programme> ,
@@ -23058,7 +23059,8 @@ Guest starring Julie Graham, Patrick O'Kane, Ian McElhinney and Steve Toussaint.
 
 <http://www.bbc.co.uk/programmes/m00116r6#programme> rdf:type po:Series ;
                                                      po:episode <http://www.bbc.co.uk/programmes/m00116r4#programme> ,
-                                                                <http://www.bbc.co.uk/programmes/m0011g6k#programme> .
+                                                                <http://www.bbc.co.uk/programmes/m0011g6k#programme> ,
+                                                                <http://www.bbc.co.uk/programmes/m0011nfd#programme> .
 
 <http://www.bbc.co.uk/programmes/m0011g6k#programme> rdf:type po:Episode ;
                                                      dc:title "War of the Sontarans" ;
@@ -23081,3 +23083,23 @@ Guest starring Julie Graham, Patrick O'Kane, Ian McElhinney and Steve Toussaint.
 
 <http://www.bbc.co.uk/programmes/m0011g6k> foaf:primaryTopic <http://www.bbc.co.uk/programmes/m0011g6k#programme> ;
                                            rdfs:label 'BBC webpage about the episode "War of the Sontarans"' .
+
+<http://www.bbc.co.uk/programmes/m0011nfd#programme> rdf:type po:Episode ;
+                                                     dc:title "Episode 3" ;
+                                                     po:short_synopsis "To be confirmed." ;
+                                                     po:medium_synopsis "" ;
+                                                     po:long_synopsis "" ;
+                                                     po:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     po:image_pid "p0b0n5gc" ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p0b0n5gc.jpg> ;
+                                                     po:version <http://www.bbc.co.uk/programmes/m0011nfc#programme> ,
+                                                                <http://www.bbc.co.uk/programmes/m0011pt5#programme> ;
+                                                     po:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     po:position "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+                                                     po:pid "m0011nfd" .
+
+<http://www.bbc.co.uk/programmes/m0011nfd.rdf> foaf:primaryTopic <http://www.bbc.co.uk/programmes/m0011nfd#programme> ;
+                                               rdfs:label 'Description of the episode "Episode 3"' .
+
+<http://www.bbc.co.uk/programmes/m0011nfd> foaf:primaryTopic <http://www.bbc.co.uk/programmes/m0011nfd#programme> ;
+                                           rdfs:label 'BBC webpage about the episode "Episode 3"' .
