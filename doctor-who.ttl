@@ -23099,8 +23099,10 @@ Guest starring Julie Graham, Patrick O'Kane, Ian McElhinney and Steve Toussaint.
                                                      po:long_synopsis "" ,
                                                                       "'Time is beginning to run wild.' On a planet that shouldn’t exist, in the aftermath of apocalypse, the Doctor, Dan, Yaz and Vinder face a battle to survive." ;
                                                      po:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
-                                                     po:image_pid "p0b0n5gc" ;
-                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p0b0n5gc.jpg> ;
+                                                     po:image_pid "p0b0n5gc" ,
+                                                                  "p0b35bl2" ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p0b0n5gc.jpg> ,
+                                                                    <https://ichef.bbci.co.uk/images/ic/640x360/p0b35bl2.jpg> ;
                                                      po:version <http://www.bbc.co.uk/programmes/m0011nfc#programme> ,
                                                                 <http://www.bbc.co.uk/programmes/m0011pt5#programme> ;
                                                      po:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
