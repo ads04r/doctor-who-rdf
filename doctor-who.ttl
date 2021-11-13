@@ -23144,9 +23144,12 @@ graveyard, there is one gravestone too many. Why is Medderton known as the Curse
                                            rdfs:label 'BBC webpage about the episode "Village of the Angels"' .
 
 <http://www.bbc.co.uk/programmes/m00123l4#programme> rdf:type po:Episode ;
-                                                     dc:title "Episode 5" ;
-                                                     po:short_synopsis "To be confirmed." ;
-                                                     po:medium_synopsis "" ;
+                                                     dc:title "Episode 5" ,
+                                                              "Survivors of the Flux" ;
+                                                     po:short_synopsis "To be confirmed." ,
+                                                                       "As the forces of evil mass, the Doctor, Yaz and Dan face impossible odds." ;
+                                                     po:medium_synopsis "" ,
+                                                                        "As the forces of evil mass, the Doctor, Yaz and Dan face perilous journeys and seemingly insurmountable obstacles in their quest for survival." ;
                                                      po:long_synopsis "" ;
                                                      po:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
                                                      po:image_pid "p0b0n5gc" ;
@@ -23158,7 +23161,9 @@ graveyard, there is one gravestone too many. Why is Medderton known as the Curse
                                                      po:pid "m00123l4" .
 
 <http://www.bbc.co.uk/programmes/m00123l4.rdf> foaf:primaryTopic <http://www.bbc.co.uk/programmes/m00123l4#programme> ;
-                                               rdfs:label 'Description of the episode "Episode 5"' .
+                                               rdfs:label 'Description of the episode "Episode 5"' ,
+                                                          'Description of the episode "Survivors of the Flux"' .
 
 <http://www.bbc.co.uk/programmes/m00123l4> foaf:primaryTopic <http://www.bbc.co.uk/programmes/m00123l4#programme> ;
-                                           rdfs:label 'BBC webpage about the episode "Episode 5"' .
+                                           rdfs:label 'BBC webpage about the episode "Episode 5"' ,
+                                                      'BBC webpage about the episode "Survivors of the Flux"' .
