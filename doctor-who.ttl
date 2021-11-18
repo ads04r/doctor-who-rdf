@@ -23171,10 +23171,14 @@ graveyard, there is one gravestone too many. Why is Medderton known as the Curse
                                                       'BBC webpage about the episode "Survivors of the Flux"' .
 
 <http://www.bbc.co.uk/programmes/m00129lb#programme> rdf:type po:Episode ;
-                                                     dc:title "Episode 6" ;
-                                                     po:short_synopsis "To be confirmed." ;
-                                                     po:medium_synopsis "" ;
-                                                     po:long_synopsis "" ;
+                                                     dc:title "Episode 6" ,
+                                                              "The Vanquishers" ;
+                                                     po:short_synopsis "To be confirmed." ,
+                                                                       "The forces of darkness are in control. Who is left to save the day?" ;
+                                                     po:medium_synopsis "" ,
+                                                                        "The forces of darkness are in control. Wwhen the monsters have won, who can you count upon to save the universe?" ;
+                                                     po:long_synopsis "" ,
+                                                                      "In the final epic chapter in the story of the Flux, all hope is lost. The forces of darkness  are in control. But when the monsters have won, who can you count upon to save the universe?" ;
                                                      po:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
                                                      po:image_pid "p0b0n5gc" ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p0b0n5gc.jpg> ;
@@ -23185,7 +23189,9 @@ graveyard, there is one gravestone too many. Why is Medderton known as the Curse
                                                      po:pid "m00129lb" .
 
 <http://www.bbc.co.uk/programmes/m00129lb.rdf> foaf:primaryTopic <http://www.bbc.co.uk/programmes/m00129lb#programme> ;
-                                               rdfs:label 'Description of the episode "Episode 6"' .
+                                               rdfs:label 'Description of the episode "Episode 6"' ,
+                                                          'Description of the episode "The Vanquishers"' .
 
 <http://www.bbc.co.uk/programmes/m00129lb> foaf:primaryTopic <http://www.bbc.co.uk/programmes/m00129lb#programme> ;
-                                           rdfs:label 'BBC webpage about the episode "Episode 6"' .
+                                           rdfs:label 'BBC webpage about the episode "Episode 6"' ,
+                                                      'BBC webpage about the episode "The Vanquishers"' .
