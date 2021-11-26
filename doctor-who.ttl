@@ -23184,7 +23184,8 @@ graveyard, there is one gravestone too many. Why is Medderton known as the Curse
                                                                         "The forces of darkness are in control. Wwhen the monsters have won, who can you count upon to save the universe?" ,
                                                                         "The forces of darkness are in control. When the monsters have won, who can you count upon to save the universe?" ;
                                                      po:long_synopsis "" ,
-                                                                      "In the final epic chapter in the story of the Flux, all hope is lost. The forces of darkness  are in control. But when the monsters have won, who can you count upon to save the universe?" ;
+                                                                      "In the final epic chapter in the story of the Flux, all hope is lost. The forces of darkness  are in control. But when the monsters have won, who can you count upon to save the universe?" ,
+                                                                      "In the final epic chapter in the story of the Flux, all hope is lost. The forces of darkness are in control. But when the monsters have won, who can you count upon to save the universe?" ;
                                                      po:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
                                                      po:image_pid "p0b0n5gc" ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p0b0n5gc.jpg> ;
