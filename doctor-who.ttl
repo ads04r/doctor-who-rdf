@@ -1106,7 +1106,8 @@
                                                                 <http://www.bbc.co.uk/programmes/m0011nfd#programme> ,
                                                                 <http://www.bbc.co.uk/programmes/m0011vnw#programme> ,
                                                                 <http://www.bbc.co.uk/programmes/m00123l4#programme> ,
-                                                                <http://www.bbc.co.uk/programmes/m00129lb#programme> ;
+                                                                <http://www.bbc.co.uk/programmes/m00129lb#programme> ,
+                                                                <http://www.bbc.co.uk/programmes/m00134mm#programme> ;
                                                      po:clip <http://www.bbc.co.uk/programmes/p050f6mp#programme> ,
                                                              <http://www.bbc.co.uk/programmes/p04ywrc6#programme> ,
                                                              <http://www.bbc.co.uk/programmes/p050f58b#programme> ,
@@ -23211,3 +23212,23 @@ graveyard, there is one gravestone too many. Why is Medderton known as the Curse
 <http://www.bbc.co.uk/programmes/m00129lb> foaf:primaryTopic <http://www.bbc.co.uk/programmes/m00129lb#programme> ;
                                            rdfs:label 'BBC webpage about the episode "Episode 6"' ,
                                                       'BBC webpage about the episode "The Vanquishers"' .
+
+<http://www.bbc.co.uk/programmes/m00134mm#programme> rdf:type po:Episode ;
+                                                     dc:title "Eve of the Daleks" ;
+                                                     po:short_synopsis "On New Year’s Eve, an executioner Dalek instigates a deadly countdown to midnight." ;
+                                                     po:medium_synopsis "On New Year’s Eve, the appearance of an executioner Dalek means Sarah and Nick’s countdown to midnight will be the strangest and deadliest they have ever known. Can the Doctor, Yaz and Dan save them?" ;
+                                                     po:long_synopsis "New Year’s Eve. Sarah is working - again. Nick is her only customer - again. Same old same old. Except this year, their countdown to midnight will be the strangest and deadliest they have ever known. Why is an executioner Dalek targeting these two people, in this place, on this night? Why are they having to live through the same moments again? Can the Doctor, Yaz and Dan save them and survive into the New Year?" ;
+                                                     po:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     po:image_pid "p0b0n5gc" ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p0b0n5gc.jpg> ;
+                                                     po:version <http://www.bbc.co.uk/programmes/m00134mj#programme> ,
+                                                                <http://www.bbc.co.uk/programmes/m00135n4#programme> ;
+                                                     po:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     po:position "68"^^<http://www.w3.org/2001/XMLSchema#int> ;
+                                                     po:pid "m00134mm" .
+
+<http://www.bbc.co.uk/programmes/m00134mm.rdf> foaf:primaryTopic <http://www.bbc.co.uk/programmes/m00134mm#programme> ;
+                                               rdfs:label 'Description of the episode "Eve of the Daleks"' .
+
+<http://www.bbc.co.uk/programmes/m00134mm> foaf:primaryTopic <http://www.bbc.co.uk/programmes/m00134mm#programme> ;
+                                           rdfs:label 'BBC webpage about the episode "Eve of the Daleks"' .
