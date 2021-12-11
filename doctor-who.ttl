@@ -23200,7 +23200,9 @@ graveyard, there is one gravestone too many. Why is Medderton known as the Curse
                                                      po:version <http://www.bbc.co.uk/programmes/m00129l9#programme> ,
                                                                 <http://www.bbc.co.uk/programmes/m0012cbl#programme> ,
                                                                 <http://www.bbc.co.uk/programmes/p0b803fn#programme> ,
-                                                                <http://www.bbc.co.uk/programmes/p0b803fs#programme> ;
+                                                                <http://www.bbc.co.uk/programmes/p0b803fs#programme> ,
+                                                                <http://www.bbc.co.uk/programmes/p0b97fsf#programme> ,
+                                                                <http://www.bbc.co.uk/programmes/p0b97fst#programme> ;
                                                      po:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      po:position "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
                                                      po:pid "m00129lb" .
