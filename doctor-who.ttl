@@ -23221,8 +23221,10 @@ graveyard, there is one gravestone too many. Why is Medderton known as the Curse
                                                      po:medium_synopsis "On New Year’s Eve, the appearance of an executioner Dalek means Sarah and Nick’s countdown to midnight will be the strangest and deadliest they have ever known. Can the Doctor, Yaz and Dan save them?" ;
                                                      po:long_synopsis "New Year’s Eve. Sarah is working - again. Nick is her only customer - again. Same old same old. Except this year, their countdown to midnight will be the strangest and deadliest they have ever known. Why is an executioner Dalek targeting these two people, in this place, on this night? Why are they having to live through the same moments again? Can the Doctor, Yaz and Dan save them and survive into the New Year?" ;
                                                      po:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
-                                                     po:image_pid "p0b0n5gc" ;
-                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p0b0n5gc.jpg> ;
+                                                     po:image_pid "p0b0n5gc" ,
+                                                                  "p0b9q8h2" ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p0b0n5gc.jpg> ,
+                                                                    <https://ichef.bbci.co.uk/images/ic/640x360/p0b9q8h2.jpg> ;
                                                      po:version <http://www.bbc.co.uk/programmes/m00134mj#programme> ,
                                                                 <http://www.bbc.co.uk/programmes/m00135n4#programme> ;
                                                      po:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
