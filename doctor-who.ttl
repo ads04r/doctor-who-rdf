@@ -23247,8 +23247,10 @@ graveyard, there is one gravestone too many. Why is Medderton known as the Curse
                                                      po:medium_synopsis "The Doctor, Yaz and Dan come face to fin with some of the Doctor’s oldest adversaries, the Sea Devils. What terrifying forces lurk beneath the oceans of the 19th century?" ;
                                                      po:long_synopsis "In a swashbuckling special adventure, the Doctor, Yaz and Dan come face to fin with one of the Doctor’s oldest adversaries, the Sea Devils. Why has legendary pirate queen Madam Ching come searching for a lost treasure? What terrifying forces lurk beneath the oceans of the 19th century? And did Yaz really have to dress Dan up as a pirate?" ;
                                                      po:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
-                                                     po:image_pid "p0b0n5gc" ;
-                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p0b0n5gc.jpg> ;
+                                                     po:image_pid "p0b0n5gc" ,
+                                                                  "p0bzxhlw" ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p0b0n5gc.jpg> ,
+                                                                    <https://ichef.bbci.co.uk/images/ic/640x360/p0bzxhlw.jpg> ;
                                                      po:version <http://www.bbc.co.uk/programmes/m0016lkv#programme> ,
                                                                 <http://www.bbc.co.uk/programmes/m0016mrc#programme> ;
                                                      po:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
