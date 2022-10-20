@@ -1,0 +1,57 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns0: <http://purl.org/ontology/po/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://www.bbc.co.uk/programmes/p00t7k3z#programme> rdf:type ns0:Series ;
+                                                     dc:title "Survival" ;
+                                                     ns0:position "4" ;
+                                                     ns0:pid "p00t7k3z" ;
+                                                     ns0:short_synopsis "People have been transported to a strange planet on the verge of destruction." ;
+                                                     ns0:medium_synopsis "After being transported to a world on the verge of destruction, prolonged exposure to the place changes everyone into Cheetah-People. Both Ace and the Master are affected..." ;
+                                                     ns0:long_synopsis "After being transported to a world on the verge of destruction, prolonged exposure to the place changes everyone into Cheetah-People. Both Ace and the Master are affected..." ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:episode <http://www.bbc.co.uk/programmes/p00vbk5x#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00vbk72#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00vbkc8#programme> .
+
+<http://www.bbc.co.uk/programmes/p00vbk5x#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 1" ;
+                                                     ns0:position "1" ;
+                                                     ns0:pid "p00vbk5x" ;
+                                                     ns0:short_synopsis "Ace is cornered by a Cheetah-Person called Kara, who transports her to a far-off planet..." ;
+                                                     ns0:medium_synopsis "Trying to work out why people have been disappearing from Perivale, Ace is cornered by Kara, a Cheetah-Person who transports her to a far-off planet.." ;
+                                                     ns0:image_pid "p00vd41n" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00vbk5y#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02xzsng#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01zhc0t#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01zhbjl#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vd41n.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00vbk72#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 2" ;
+                                                     ns0:position "2" ;
+                                                     ns0:pid "p00vbk72" ;
+                                                     ns0:short_synopsis "The Doctor follows Ace to the Cheetah-People's world, where the Master lies in wait." ;
+                                                     ns0:medium_synopsis "The Doctor and a number of people from Perivale follow Ace to the Cheetah-People's world, where the Master lies in wait. He cannot leave without the Doctor's assistance." ;
+                                                     ns0:image_pid "p00vd425" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00vbk73#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02xzstp#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01zhckl#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vd425.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00vbkc8#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 3" ;
+                                                     ns0:position "3" ;
+                                                     ns0:pid "p00vbkc8" ;
+                                                     ns0:short_synopsis "As the alien world dies around them, the Doctor and the Master fight like animals." ;
+                                                     ns0:medium_synopsis "As the alien world dies around them, the Doctor and the Master fight like animals before escaping to Earth, where their war ends. And somewhere else, the tea is getting cold..." ;
+                                                     ns0:image_pid "p00vd42k" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00vbkc9#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02xzstc#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01zhdnp#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01zhd1t#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vd42k.jpg> .

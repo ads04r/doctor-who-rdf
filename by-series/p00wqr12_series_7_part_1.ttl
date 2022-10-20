@@ -1,0 +1,137 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns0: <http://purl.org/ontology/po/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://www.bbc.co.uk/programmes/p00wqr12#programme> rdf:type ns0:Series ;
+                                                     ns0:pid "p00wqr12" ;
+                                                     dc:title "Series 7 Part 1" ;
+                                                     ns0:short_synopsis "Adventures across time and space with the time-travelling hero." ;
+                                                     ns0:medium_synopsis "Adventures across time and space with the time-travelling hero." ;
+                                                     foaf:depiction <http://www.bbc.co.uk/iplayer/images/series/p00wqr12_512_288.jpg> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p016dy23#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p0156mtj#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p011h3sb#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p011h37l#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00zn6ff#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p0109672#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00y24v8#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00xr87b#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00xq2jv#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00xnrj7#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00wtrmm#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00qfq58#programme> ;
+                                                     ns0:episode <http://www.bbc.co.uk/programmes/p00wqr14#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/b01mm5c9#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/b01mxx3h#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/b01n2tmc#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/b01n70f3#programme> .
+
+<http://www.bbc.co.uk/programmes/p00wqr14#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Asylum of the Daleks" ;
+                                                     ns0:position "1" ;
+                                                     ns0:pid "p00wqr14" ;
+                                                     ns0:short_synopsis "When the Doctor is kidnapped by his oldest foe, he is forced on an impossible mission." ;
+                                                     ns0:medium_synopsis "Kidnapped by his oldest foe, the Doctor is forced on an impossible mission - to a place even the Daleks are too terrified to enter..." ;
+                                                     ns0:image_pid "p01hx38g" ;
+                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/b01mm121#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00y302j#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02jgvgp#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p00y2rzx#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00y24zj#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00xz5hp#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00xtbyk#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00xk7zc#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00xfh08#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p01hx38g.jpg> .
+
+<http://www.bbc.co.uk/programmes/b01mm5c9#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Dinosaurs on a Spaceship" ;
+                                                     ns0:position "2" ;
+                                                     ns0:pid "b01mm5c9" ;
+                                                     ns0:short_synopsis "The Doctor battles to save an unmanned spaceship and its impossible cargo... of dinosaurs!" ;
+                                                     ns0:medium_synopsis "Sci-fi drama. An unmanned spaceship hurtles towards certain destruction. Only the Doctor can save it, along with its impossible cargo... of dinosaurs!" ;
+                                                     ns0:long_synopsis "An unmanned spaceship hurtles towards certain destruction, unless the Doctor can save it, along with its impossible cargo... of dinosaurs! By his side are a ragtag gang of adventurers: a big game hunter, an Egyptian queen and a surprised member of the Pond family. But little does the Doctor know that there is someone else onboard who will stop at nothing to keep hold of his precious, prehistoric cargo." ;
+                                                     ns0:image_pid "p01hxhhq" ;
+                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/b01mm513#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00ycb7g#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02jgw56#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p00ybccp#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00y83my#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00y82lx#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00y761m#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00y2s0b#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00y2rmy#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00y2rj0#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p01hxhhq.jpg> .
+
+<http://www.bbc.co.uk/programmes/b01mxx3h#programme> rdf:type ns0:Episode ;
+                                                     dc:title "A Town Called Mercy" ;
+                                                     ns0:position "3" ;
+                                                     ns0:pid "b01mxx3h" ;
+                                                     ns0:short_synopsis "The Doctor gets a Stetson (and a gun!) and finds himself a reluctant marshal." ;
+                                                     ns0:medium_synopsis "The Doctor gets a stetson (and a gun!) and finds himself the reluctant marshal of a Western town under siege by a relentless cyborg." ;
+                                                     ns0:image_pid "p01hxjmp" ;
+                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/b01mxx1y#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00yms52#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02jgvbk#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p00ylmfs#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00yjr56#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00yjp69#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00yj81b#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00yhk4z#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00y9r9j#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00yb5zy#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p01hxjmp.jpg> .
+
+<http://www.bbc.co.uk/programmes/b01n2tmc#programme> rdf:type ns0:Episode ;
+                                                     dc:title "The Power of Three" ;
+                                                     ns0:position "4" ;
+                                                     ns0:pid "b01n2tmc" ;
+                                                     ns0:short_synopsis "The Doctor and the Ponds puzzle over an unlikely invasion of Earth." ;
+                                                     ns0:medium_synopsis "The Doctor and the Ponds puzzle over an unlikely invasion of Earth, as millions of sinister black cubes arrive overnight..." ;
+                                                     ns0:long_synopsis "The Doctor and the Ponds puzzle over an unlikely invasion of Earth, as millions of sinister black cubes arrive overnight, almost like presents falling from the sky. But what are they, what is inside them and, most importantly, who sent them? With the international community at a loss, it is left to the Doctor to unearth who is behind the mystery." ;
+                                                     ns0:image_pid "p01hxw4y" ;
+                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/b01n2tlq#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00yx9xx#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02jgwn6#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p00ywgdg#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00yv9pj#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00ys5z3#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00yrdym#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00ypztd#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00ylntq#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00ylsxt#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p01hxw4y.jpg> .
+
+<http://www.bbc.co.uk/programmes/b01n70f3#programme> rdf:type ns0:Episode ;
+                                                     dc:title "The Angels Take Manhattan" ;
+                                                     ns0:position "5" ;
+                                                     ns0:pid "b01n70f3" ;
+                                                     ns0:short_synopsis "The Doctor's heart-breaking farewell to Amy and Rory." ;
+                                                     ns0:medium_synopsis "The Doctor's heart-breaking farewell to Amy and Rory - a race against time through the streets of Manhattan, as New York's statues come to life around them..." ;
+                                                     ns0:image_pid "p01hyf7z" ;
+                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/b01n70f1#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00z5b94#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02jgwkg#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p00z572r#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00z56w8#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00z4cw2#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00z4fjm#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00z2g4p#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00z1721#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00z1278#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00ywfgt#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00ywj67#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p01hyf7z.jpg> .

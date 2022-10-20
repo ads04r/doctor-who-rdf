@@ -1,0 +1,69 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns0: <http://purl.org/ontology/po/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://www.bbc.co.uk/programmes/p00sx3w7#programme> rdf:type ns0:Series ;
+                                                     dc:title "Planet of Fire" ;
+                                                     ns0:position "5" ;
+                                                     ns0:pid "p00sx3w7" ;
+                                                     ns0:short_synopsis "On the planet Sarn the truth of Turlough's original exile is revealed." ;
+                                                     ns0:medium_synopsis "Kamelion once again falls under the control of the Master who flies the TARDIS to the planet Sarn. Here the truth of Turlough’s original exile is revealed." ;
+                                                     ns0:long_synopsis "Kamelion once again falls under the control of the Master who flies the TARDIS to the planet Sarn. Here the truth of Turlough’s original exile is revealed." ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:episode <http://www.bbc.co.uk/programmes/p00v8yyw#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v8z01#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v8z14#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v8z20#programme> .
+
+<http://www.bbc.co.uk/programmes/p00v8yyw#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 1" ;
+                                                     ns0:position "1" ;
+                                                     ns0:pid "p00v8yyw" ;
+                                                     ns0:short_synopsis "Peri Brown wants a break from her stepfather, but the Master has other plans." ;
+                                                     ns0:medium_synopsis "On the planet Sarn, the truth about the god Logar is being sought, while on Earth, Peri wants a break from her stepfather. But the Master has other plans for everyone..." ;
+                                                     ns0:image_pid "p00vbx6x" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v8yyx#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02nx60p#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01ljyyj#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vbx6x.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v8z01#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 2" ;
+                                                     ns0:position "2" ;
+                                                     ns0:pid "p00v8z01" ;
+                                                     ns0:short_synopsis "Kamelion has taken the TARDIS to Sarn and is trying to locate his master." ;
+                                                     ns0:medium_synopsis "Kamelion has taken the TARDIS to Sarn and is trying to locate his master, while the Doctor explores the mystery of the Misos Triangle - much to Turlough's consternation…" ;
+                                                     ns0:image_pid "p00vbx7m" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v8z02#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02nx6s1#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01ljznk#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vbx7m.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v8z14#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 3" ;
+                                                     ns0:position "3" ;
+                                                     ns0:pid "p00v8z14" ;
+                                                     ns0:short_synopsis "Timanov demands sacrifices to appease his god, Logar." ;
+                                                     ns0:medium_synopsis "Logar is angry and the volcano shakes with his displeasure – according to Timanov, who demands sacrifices to appease his god. Peri discovers the Master's whereabouts..." ;
+                                                     ns0:image_pid "p00vbx8k" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v8z15#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02nx6rz#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01ljzs7#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vbx8k.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v8z20#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 4" ;
+                                                     ns0:position "4" ;
+                                                     ns0:pid "p00v8z20" ;
+                                                     ns0:short_synopsis "The Doctor is forced to take drastic measures against Kamelion and the Master." ;
+                                                     ns0:medium_synopsis "The Doctor is forced to take drastic measures against Kamelion and the Master to stop Sarn being completely destroyed by the numismaton gas that has been released..." ;
+                                                     ns0:image_pid "p00vbxbc" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v8z21#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02nx6z7#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01lk05f#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vbxbc.jpg> .

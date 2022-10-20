@@ -1,0 +1,73 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns0: <http://purl.org/ontology/po/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://www.bbc.co.uk/programmes/p00pn842#programme> rdf:type ns0:Series ;
+                                                     dc:title "The Three Doctors" ;
+                                                     ns0:position "1" ;
+                                                     ns0:pid "p00pn842" ;
+                                                     ns0:short_synopsis "Gel creatures materialise around UNIT HQ and commence a full scale attack." ;
+                                                     ns0:medium_synopsis "As gel creatures materialise around UNIT HQ and begin a full scale attack, the Doctor realises the situation is beyond even him control and sends out a desperate SOS..." ;
+                                                     ns0:long_synopsis "As gel creatures materialise around UNIT HQ and begin a full scale attack, the Doctor realises the situation is beyond even him control and sends out a desperate SOS..." ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:episode <http://www.bbc.co.uk/programmes/p00v8rnk#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v8rsg#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v8rxp#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v8s0v#programme> .
+
+<http://www.bbc.co.uk/programmes/p00v8rnk#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 1" ;
+                                                     ns0:position "1" ;
+                                                     ns0:pid "p00v8rnk" ;
+                                                     ns0:short_synopsis "Attacked by an antimatter creature the Doctor sends an SOS to the Time Lords." ;
+                                                     ns0:medium_synopsis "In search of the Doctor, an antimatter creature attacks UNIT and the Doctor is forced to send an SOS to his people, the Time Lords, but they have troubles of their own." ;
+                                                     ns0:long_synopsis "In search of the Doctor, an antimatter creature attacks UNIT and the Doctor is forced to send an SOS to his people, the Time Lords, but they have troubles of their own." ;
+                                                     ns0:image_pid "p00v50pl" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v8rnl#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02xwgrt#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01bv2g7#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v50pl.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v8rsg#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 2" ;
+                                                     ns0:position "2" ;
+                                                     ns0:pid "p00v8rsg" ;
+                                                     ns0:short_synopsis "The Doctor and Jo pass through the black hole to the desolate world of antimatter." ;
+                                                     ns0:medium_synopsis "Following the advice of the First Doctor, the Third Doctor and Jo have crossed through the black hole to the strange, desolate world of antimatter." ;
+                                                     ns0:long_synopsis "Following the advice of the First Doctor, the Third Doctor and Jo have crossed through the black hole to the strange, desolate world of antimatter." ;
+                                                     ns0:image_pid "p00v50qx" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v8rsh#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02xwh20#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01bv38v#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v50qx.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v8rxp#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 3" ;
+                                                     ns0:position "3" ;
+                                                     ns0:pid "p00v8rxp" ;
+                                                     ns0:short_synopsis "The Doctors are trapped in the universe of antimatter where they confront Omega." ;
+                                                     ns0:medium_synopsis "The Doctors are trapped in the universe of antimatter. There they confront the creator of the world – Omega, a legendary figure from Time Lord history, long believed dead." ;
+                                                     ns0:long_synopsis "The Doctors are trapped in the universe of antimatter. There they confront the creator of the world – Omega, a legendary figure from Time Lord history, long believed dead." ;
+                                                     ns0:image_pid "p00v50tt" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v8rxq#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02xwh8z#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01bv3gy#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v50tt.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v8s0v#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 4" ;
+                                                     ns0:position "4" ;
+                                                     ns0:pid "p00v8s0v" ;
+                                                     ns0:short_synopsis "Omega intends to escape his antimatter world and needs the Doctors to take his place." ;
+                                                     ns0:medium_synopsis "Omega intends to escape his antimatter world and needs the Doctors to take his place. But they discover the terrible truth about Omega and realise that he can never escape." ;
+                                                     ns0:long_synopsis "Omega intends to escape his antimatter world and needs the Doctors to take his place. But they discover the terrible truth about Omega and realise that he can never escape." ;
+                                                     ns0:image_pid "p00v50xq" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v8s0x#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02xwhjl#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01bv3my#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v50xq.jpg> .

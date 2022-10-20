@@ -1,0 +1,162 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns0: <http://purl.org/ontology/po/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://www.bbc.co.uk/programmes/p00ksl1y#programme> rdf:type ns0:Series ;
+                                                     dc:title "The War Games" ;
+                                                     ns0:position "7" ;
+                                                     ns0:pid "p00ksl1y" ;
+                                                     ns0:short_synopsis "In the Second Doctor's swansong, the TARDIS lands in the Great War… or does it?" ;
+                                                     ns0:medium_synopsis "The TARDIS takes the Doctor, Jamie and Zoe to the battlefields of World War I but once they are captured it starts to become clear that things aren't quite what they seem." ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:episode <http://www.bbc.co.uk/programmes/p00v54p8#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v54qb#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v54rs#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v54w1#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v54ww#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v54yr#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v54zp#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v550n#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v552r#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v553n#programme> .
+
+<http://www.bbc.co.uk/programmes/p00v54p8#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 1" ;
+                                                     ns0:position "1" ;
+                                                     ns0:pid "p00v54p8" ;
+                                                     ns0:short_synopsis "The TARDIS arrives in no man's land during World War I. Or has it?" ;
+                                                     ns0:medium_synopsis "The TARDIS arrives in no man's land during World War I. Rescued from the Germans, the travellers are put on trial by the British General Smythe who is not all he seems." ;
+                                                     ns0:long_synopsis "The TARDIS arrives in no man's land during World War I. Rescued from the Germans, the travellers are put on trial by the British General Smythe who is not all he seems." ;
+                                                     ns0:image_pid "p00v368v" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v54p9#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p042sksr#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p014yfn3#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v368v.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v54qb#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 2" ;
+                                                     ns0:position "2" ;
+                                                     ns0:pid "p00v54qb" ;
+                                                     ns0:short_synopsis "Finding evidence of alien tech in Smythe's office, the Doctor, Jamie and Zoe must escape." ;
+                                                     ns0:medium_synopsis "Finding evidence of alien technology in Smythe's office, the Doctor, Jamie and Zoe make their escape in Lady Jennifer's ambulance, but Smythe gives orders to have them killed." ;
+                                                     ns0:long_synopsis "Finding evidence of alien technology in Smythe's office, the Doctor, Jamie and Zoe make their escape in Lady Jennifer's ambulance, but Smythe gives orders to have them killed." ;
+                                                     ns0:image_pid "p00v369h" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v54qc#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p042sksx#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p014yfy9#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v369h.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v54rs#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 3" ;
+                                                     ns0:position "3" ;
+                                                     ns0:pid "p00v54rs" ;
+                                                     ns0:short_synopsis "The Doctor discovers that they are on an alien planet divided into different time zones." ;
+                                                     ns0:medium_synopsis "The Doctor discovers that they are on an alien planet divided into different time zones where human soldiers fight never ending wars." ;
+                                                     ns0:long_synopsis "The Doctor discovers that they are on an alien planet divided into different time zones where human soldiers fight never ending wars." ;
+                                                     ns0:image_pid "p00v36dg" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v54rt#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p042slgc#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p014ygb2#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v36dg.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v54w1#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 4" ;
+                                                     ns0:position "4" ;
+                                                     ns0:pid "p00v54w1" ;
+                                                     ns0:short_synopsis "The Doctor and Zoe penetrate the Aliens' HQ from where the war games are controlled." ;
+                                                     ns0:medium_synopsis "The Doctor and Zoe penetrate the Aliens' HQ from where the war games are controlled. Carstairs is reconditioned and exposes the Doctor and Zoe as German spies." ;
+                                                     ns0:long_synopsis "The Doctor and Zoe penetrate the Aliens' HQ from where the war games are controlled. Carstairs is reconditioned and exposes the Doctor and Zoe as German spies." ;
+                                                     ns0:image_pid "p00v36jq" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v54w2#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p042slfv#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p014yjnf#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v36jq.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v54ww#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 5" ;
+                                                     ns0:position "5" ;
+                                                     ns0:pid "p00v54ww" ;
+                                                     ns0:short_synopsis "In the American Civil War zone, Jamie and Lady Jennifer join forces with the resistance..." ;
+                                                     ns0:medium_synopsis "In the American Civil War zone, Jamie and Lady Jennifer join forces with resistance fighters from various time zones and prepare to launch an attack on Central Control." ;
+                                                     ns0:long_synopsis "In the American Civil War zone, Jamie and Lady Jennifer join forces with resistance fighters from various time zones and prepare to launch an attack on Central Control." ;
+                                                     ns0:image_pid "p00v36lx" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v54wx#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p042slk5#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p014yjtk#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v36lx.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v54yr#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 6" ;
+                                                     ns0:position "6" ;
+                                                     ns0:pid "p00v54yr" ;
+                                                     ns0:short_synopsis "The Doctor sends Zoe to the war zones to assemble a resistance force." ;
+                                                     ns0:medium_synopsis "The Doctor sends Zoe to the war zones to assemble a resistance force. The Doctor remains in Central Control to steal the processing machine, but the War Chief is one step ahead." ;
+                                                     ns0:long_synopsis "The Doctor sends Zoe to the war zones to assemble a resistance force. The Doctor remains in Central Control to steal the processing machine, but the War Chief is one step ahead." ;
+                                                     ns0:image_pid "p00v36ng" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v54ys#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p042slhj#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p014yn0z#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v36ng.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v54zp#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 7" ;
+                                                     ns0:position "7" ;
+                                                     ns0:pid "p00v54zp" ;
+                                                     ns0:short_synopsis "The Doctor, Jamie and Carstairs escape back to the 1917 war zone, only to be shot down." ;
+                                                     ns0:medium_synopsis "The Doctor, Jamie and Carstairs have escaped back to the 1917 war zone, but General Smythe is waiting for them and opens fire on them with a machine gun." ;
+                                                     ns0:long_synopsis "The Doctor, Jamie and Carstairs have escaped back to the 1917 war zone, but General Smythe is waiting for them and opens fire on them with a machine gun." ;
+                                                     ns0:image_pid "p00v36r7" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v54zq#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p042slg4#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p014ysg5#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v36r7.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v550n#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 8" ;
+                                                     ns0:position "8" ;
+                                                     ns0:pid "p00v550n" ;
+                                                     ns0:short_synopsis "The Doctor is caught by the War Chief, who belongs to the same race of people as he does!" ;
+                                                     ns0:medium_synopsis "The Doctor is captured by the War Chief, who belongs to the same race of people as the Doctor, and offers an alliance. In the 1917 zone, fighters prepare to attack Central Control." ;
+                                                     ns0:long_synopsis "The Doctor is captured by the War Chief, who belongs to the same race of people as the Doctor, and offers an alliance. In the 1917 zone, fighters prepare to attack Central Control." ;
+                                                     ns0:image_pid "p00v36t0" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v550q#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p042slhg#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p014zjjx#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v36t0.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v552r#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 9" ;
+                                                     ns0:position "9" ;
+                                                     ns0:pid "p00v552r" ;
+                                                     ns0:short_synopsis "The rebels take over the aliens' HQ but the Doctor is forced to send a call for help." ;
+                                                     ns0:medium_synopsis "The rebels seize control of the aliens' HQ but the Doctor is forced to send a call for help to his own people, the Time Lords." ;
+                                                     ns0:long_synopsis "The rebels seize control of the aliens' HQ but the Doctor is forced to send a call for help to his own people, the Time Lords." ;
+                                                     ns0:image_pid "p00v3738" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v552s#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p042sljh#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p014zjmh#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v3738.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v553n#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 10" ;
+                                                     ns0:position "10" ;
+                                                     ns0:pid "p00v553n" ;
+                                                     ns0:short_synopsis "The war games may be over but the Doctor is put on trial by the Time Lords…" ;
+                                                     ns0:medium_synopsis "The war games are over and after a sad farewell to Jamie and Zoe, the Doctor is put on trial by the Time Lords for breaking their ancient laws." ;
+                                                     ns0:long_synopsis "The war games are over and after a sad farewell to Jamie and Zoe, the Doctor is put on trial by the Time Lords for breaking their ancient laws." ;
+                                                     ns0:image_pid "p00v376p" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v553p#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p042skt2#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p014zjrg#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v376p.jpg> .

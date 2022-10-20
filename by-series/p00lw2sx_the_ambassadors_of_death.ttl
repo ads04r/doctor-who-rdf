@@ -1,0 +1,117 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns0: <http://purl.org/ontology/po/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://www.bbc.co.uk/programmes/p00lw2sx#programme> rdf:type ns0:Series ;
+                                                     dc:title "The Ambassadors of Death" ;
+                                                     ns0:position "3" ;
+                                                     ns0:pid "p00lw2sx" ;
+                                                     ns0:short_synopsis "Contact has been lost with Mars Probe 7 since it set off on its return journey to Earth." ;
+                                                     ns0:medium_synopsis "Contact has been lost with Mars Probe 7 since it set off on its return journey to Earth. The Doctor embarks on a solo mission the recovery ship but is intercepted by an alien ship." ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:episode <http://www.bbc.co.uk/programmes/p00v787n#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v788g#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v78bt#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v78f2#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v78fq#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v78gr#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v78hj#programme> .
+
+<http://www.bbc.co.uk/programmes/p00v787n#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 1" ;
+                                                     ns0:position "1" ;
+                                                     ns0:pid "p00v787n" ;
+                                                     ns0:short_synopsis "All contact has been lost with the Mars Probe 7 space mission." ;
+                                                     ns0:medium_synopsis "Contact has been lost with Mars Probe 7. When contact is also lost with the recovery ship, UNIT is called in and the Doctor learns that someone is sending messages to the vessel." ;
+                                                     ns0:long_synopsis "Contact has been lost with Mars Probe 7. When contact is also lost with the recovery ship, UNIT is called in and the Doctor learns that someone is sending messages to the vessel." ;
+                                                     ns0:image_pid "p00v8s6p" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v787p#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p0318r6z#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p0198nzw#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v8s6p.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v788g#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 2" ;
+                                                     ns0:position "2" ;
+                                                     ns0:pid "p00v788g" ;
+                                                     ns0:short_synopsis "Recovery 7 returns to Earth but the UNIT convoy transporting the capsule is ambushed." ;
+                                                     ns0:medium_synopsis "Recovery 7 has returned to Earth but the UNIT convoy transporting the capsule is ambushed. The Doctor is able to relocate the capsule, but is he too late?" ;
+                                                     ns0:long_synopsis "Recovery 7 has returned to Earth but the UNIT convoy transporting the capsule is ambushed. The Doctor is able to relocate the capsule, but is he too late?" ;
+                                                     ns0:image_pid "p00v8scj" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v788h#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p0318rrj#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p0198p7t#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v8scj.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v78bt#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 3" ;
+                                                     ns0:position "3" ;
+                                                     ns0:pid "p00v78bt" ;
+                                                     ns0:short_synopsis "The Doctor deduces that the occupants of Recovery 7 were not human." ;
+                                                     ns0:medium_synopsis "The recovery capsule is empty with the astronauts seemingly kidnapped. But Liz notices that the radiation count is  high and the Doctor deduces that the occupants were not human." ;
+                                                     ns0:long_synopsis "The recovery capsule is empty with the astronauts seemingly kidnapped. But Liz notices that the radiation count is  high and the Doctor deduces that the occupants were not human." ;
+                                                     ns0:image_pid "p00v8slm" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v78bv#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p0318rx4#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p0198pcm#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v8slm.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v78f2#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 4" ;
+                                                     ns0:position "4" ;
+                                                     ns0:pid "p00v78f2" ;
+                                                     ns0:short_synopsis "Quinlan, the Doctor suspects, is part of the conspiracy, but Quinlan is killed." ;
+                                                     ns0:medium_synopsis "Liz has been captured by Reegan who is holding the three aliens captive. The Doctor suspects Quinlan's part in the conspiracy, but Quinlan is killed before he can reveal the truth." ;
+                                                     ns0:long_synopsis "Liz has been captured by Reegan who is holding the three aliens captive. The Doctor suspects Quinlan's part in the conspiracy, but Quinlan is killed before he can reveal the truth." ;
+                                                     ns0:image_pid "p00v8spt" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v78f3#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p0318rx8#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p0198pjx#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v8spt.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v78fq#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 5" ;
+                                                     ns0:position "5" ;
+                                                     ns0:pid "p00v78fq" ;
+                                                     ns0:short_synopsis "The Doctor prepares to pilot the Recovery 7 ship into space." ;
+                                                     ns0:medium_synopsis "The Doctor prepares to pilot the Recovery 7 ship into space, but Reegan sabotages the fuel supply which will send the Doctor into the sun." ;
+                                                     ns0:long_synopsis "The Doctor prepares to pilot the Recovery 7 ship into space, but Reegan sabotages the fuel supply which will send the Doctor into the sun." ;
+                                                     ns0:image_pid "p00v8st2" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v78fr#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p0318s9n#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p0198pzb#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v8st2.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v78gr#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 6" ;
+                                                     ns0:position "6" ;
+                                                     ns0:pid "p00v78gr" ;
+                                                     ns0:short_synopsis "The alien captain demands the return of the ambassadors or he will destroy the world." ;
+                                                     ns0:medium_synopsis "On board a vast spacecraft, the Doctor meets the alien captain who demands the return of the three ambassadors sent to Earth or he will destroy the world." ;
+                                                     ns0:long_synopsis "On board a vast spacecraft, the Doctor meets the alien captain who demands the return of the three ambassadors sent to Earth or he will destroy the world." ;
+                                                     ns0:image_pid "p00v8sy7" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v78gs#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p0318sch#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p0198r54#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v8sy7.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v78hj#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 7" ;
+                                                     ns0:position "7" ;
+                                                     ns0:pid "p00v78hj" ;
+                                                     ns0:short_synopsis "Carrington intends to turn the world against the aliens by revealing them on TV." ;
+                                                     ns0:medium_synopsis "General Carrington is behind the kidnapping of the ambassadors and intends to turn the world against the aliens by revealing their true identity to the world in a TV broadcast." ;
+                                                     ns0:long_synopsis "General Carrington is behind the kidnapping of the ambassadors and intends to turn the world against the aliens by revealing their true identity to the world in a TV broadcast." ;
+                                                     ns0:image_pid "p00v8t22" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v78hk#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p0318sf2#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p0198rn5#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v8t22.jpg> .

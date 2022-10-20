@@ -1,0 +1,69 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns0: <http://purl.org/ontology/po/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://www.bbc.co.uk/programmes/p00q0521#programme> rdf:type ns0:Series ;
+                                                     dc:title "The Masque of Mandragora" ;
+                                                     ns0:position "1" ;
+                                                     ns0:pid "p00q0521" ;
+                                                     ns0:short_synopsis "In 15th Century Italy, the Doctor and Sarah must save Earth from the Mandragora Helix." ;
+                                                     ns0:medium_synopsis "The TARDIS is caught in the Mandragora Helix and the Doctor and Sarah must hide from a ball of its deadly energy. But when they escape, the Mandragora entity stows away." ;
+                                                     ns0:long_synopsis "The TARDIS is caught in the Mandragora Helix and the Doctor and Sarah must hide from a ball of its deadly energy. But when they escape, the Mandragora entity stows away." ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:episode <http://www.bbc.co.uk/programmes/p00vf6cq#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00vf6l8#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00vf6mj#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00vf6qt#programme> .
+
+<http://www.bbc.co.uk/programmes/p00vf6cq#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 1" ;
+                                                     ns0:position "1" ;
+                                                     ns0:pid "p00vf6cq" ;
+                                                     ns0:short_synopsis "The Doctor lands in Renaissance Italy unaware he has brought an alien energy with him." ;
+                                                     ns0:medium_synopsis "The Doctor and Sarah arrive in Renaissance Italy unaware that they have brought a deadly alien energy force with them." ;
+                                                     ns0:image_pid "p00vfbqq" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00vf6cr#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02xzsgv#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01f6ygd#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vfbqq.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00vf6l8#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 2" ;
+                                                     ns0:position "2" ;
+                                                     ns0:pid "p00vf6l8" ;
+                                                     ns0:short_synopsis "The Mandragora energy joins forces with the secret Brotherhood of Demnos." ;
+                                                     ns0:medium_synopsis "The Mandragora energy joins forces with the secret Brotherhood of Demnos. Count Federico plots to steal the Dukedom of San Martino from his nephew, Giuliano." ;
+                                                     ns0:image_pid "p00vfctd" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00vf6l9#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02xzsk4#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01f6yqh#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vfctd.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00vf6mj#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 3" ;
+                                                     ns0:position "3" ;
+                                                     ns0:pid "p00vf6mj" ;
+                                                     ns0:short_synopsis "Tempted by the power offered by Mandragora, Hieronymous plots to eliminate his enemies." ;
+                                                     ns0:medium_synopsis "Tempted by the promises of ultimate power offered by Mandragora, Hieronymous plots to eliminate the threat posed by the Doctor and uses an unwitting Sarah as his weapon." ;
+                                                     ns0:image_pid "p00vfcxd" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00vf6mk#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02xzsjk#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01f6zp9#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vfcxd.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00vf6qt#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 4" ;
+                                                     ns0:position "4" ;
+                                                     ns0:pid "p00vf6qt" ;
+                                                     ns0:short_synopsis "As the leading scholars of the era assemble for the masque, Mandragora prepares to attack." ;
+                                                     ns0:medium_synopsis "As the leading scholars of the era assemble in the palace for the masque, Mandragora prepares to attack, intent on sending the world into a new dark age." ;
+                                                     ns0:image_pid "p00vfd35" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00vf6qv#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02xzswc#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01f7013#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vfd35.jpg> .

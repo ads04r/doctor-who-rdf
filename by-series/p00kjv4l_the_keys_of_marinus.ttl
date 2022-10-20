@@ -1,0 +1,96 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns0: <http://purl.org/ontology/po/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://www.bbc.co.uk/programmes/p00kjv4l#programme> rdf:type ns0:Series ;
+                                                     dc:title "The Keys of Marinus" ;
+                                                     ns0:position "5" ;
+                                                     ns0:pid "p00kjv4l" ;
+                                                     ns0:short_synopsis "The travellers undertake a series of dangerous quests to find the keys of Marinus." ;
+                                                     ns0:medium_synopsis "The travellers land on the planet Marinus where they meet Arbitan, keeper of the Conscience of Marinus, a device that's eliminated evil from the minds of the planet's inhabitants." ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:episode <http://www.bbc.co.uk/programmes/p00v1p8t#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v1pgf#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v1ph4#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v1pjf#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v1pkd#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v1pl5#programme> .
+
+<http://www.bbc.co.uk/programmes/p00v1p8t#programme> rdf:type ns0:Episode ;
+                                                     dc:title "The Sea of Death" ;
+                                                     ns0:position "1" ;
+                                                     ns0:pid "p00v1p8t" ;
+                                                     ns0:short_synopsis "The TARDIS lands on a remote island, surrounded by a sea of acid and are set a task." ;
+                                                     ns0:medium_synopsis "The TARDIS lands on a remote island, surrounded by a sea of acid. They meet Arbitan, keeper of the Conscience of Marinus who forces the travellers to go in search of five keys." ;
+                                                     ns0:image_pid "p00v29p4" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v1p8x#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p0494qnq#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p0111sp3#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v29p4.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v1pgf#programme> rdf:type ns0:Episode ;
+                                                     dc:title "The Velvet Web" ;
+                                                     ns0:position "2" ;
+                                                     ns0:pid "p00v1pgf" ;
+                                                     ns0:short_synopsis "In the city of Morphoton, the Doctor, Barbara, Ian and Susan are welcomed as guests." ;
+                                                     ns0:medium_synopsis "In the city of Morphoton, the Doctor, Barbara, Ian and Susan are welcomed as honoured guests and given anything they want. But Barbara soon discovers that paradise is an illusion." ;
+                                                     ns0:image_pid "p00v29py" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v1pgh#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p0494qx5#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p0111vm7#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v29py.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v1ph4#programme> rdf:type ns0:Episode ;
+                                                     dc:title "The Screaming Jungle" ;
+                                                     ns0:position "3" ;
+                                                     ns0:pid "p00v1ph4" ;
+                                                     ns0:short_synopsis "Ian and Barbara find a temple in the middle of a hostile jungle. " ;
+                                                     ns0:medium_synopsis "Ian and Barbara find a temple in the middle of a hostile jungle. Inside is the ailing Darrius, keeper of one of the keys. As Darrius dies he gives Ian a clue to find the key." ;
+                                                     ns0:image_pid "p00v29sg" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v1ph5#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p046886j#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01122qd#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v29sg.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v1pjf#programme> rdf:type ns0:Episode ;
+                                                     dc:title "The Snows of Terror" ;
+                                                     ns0:position "4" ;
+                                                     ns0:pid "p00v1pjf" ;
+                                                     ns0:short_synopsis "In a snowy wasteland, Vasor, an unscrupulous trapper, imprisons the travellers. " ;
+                                                     ns0:medium_synopsis "In a snowy wasteland, Vasor, an unscrupulous trapper, imprisons the travellers in a frozen cavern inside a mountain. There they find one of the keys frozen in a block of ice." ;
+                                                     ns0:image_pid "p00v29t2" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v1pjh#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p0468878#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01122cj#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v29t2.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v1pkd#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Sentence of Death" ;
+                                                     ns0:position "5" ;
+                                                     ns0:pid "p00v1pkd" ;
+                                                     ns0:short_synopsis "Arriving in Millennius, Ian is put on trial for murder. The Doctor takes his case." ;
+                                                     ns0:medium_synopsis "Arriving in the city of Millennius, Ian is put on trial for murder. The Doctor takes on the role of defence counsel and must prove Ian's innocence or he will be executed." ;
+                                                     ns0:image_pid "p00v29td" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v1pkf#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p046889g#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p011281j#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v29td.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v1pl5#programme> rdf:type ns0:Episode ;
+                                                     dc:title "The Keys of Marinus " ;
+                                                     ns0:position "6" ;
+                                                     ns0:pid "p00v1pl5" ;
+                                                     ns0:short_synopsis "The Doctor solves the murder mystery and finds the final missing key. " ;
+                                                     ns0:medium_synopsis "The Doctor solves the murder mystery and finds the final missing key. With Ian now free, the travellers return to the island only to discover that Arbitan has been murdered." ;
+                                                     ns0:image_pid "p00v29v6" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v1pl6#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p04688gc#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p011238t#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v29v6.jpg> .

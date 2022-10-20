@@ -1,0 +1,26 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns0: <http://purl.org/ontology/po/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://www.bbc.co.uk/programmes/b06hgxtt#programme> rdf:type ns0:Series ;
+                                                     ns0:pid "b06hgxtt" ;
+                                                     dc:title "Series 9 - Omnibus" ;
+                                                     ns0:short_synopsis "Adventures across time and space with the time-travelling hero." ;
+                                                     ns0:medium_synopsis "Adventures across time and space with the time-travelling hero." ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:episode <http://www.bbc.co.uk/programmes/b06h9y66#programme> .
+
+<http://www.bbc.co.uk/programmes/b06h9y66#programme> rdf:type ns0:Episode ;
+                                                     dc:title "The Magician's Apprentice/The Witch's Familiar" ;
+                                                     ns0:position "1" ;
+                                                     ns0:pid "b06h9y66" ;
+                                                     ns0:short_synopsis "When the skies of Earth are frozen, Clara needs her friend. But where is the Doctor?" ;
+                                                     ns0:medium_synopsis "Feature-length episode of the sci-fi drama. When the skies of Earth are frozen, Clara needs her friend. But where is the Doctor?" ;
+                                                     ns0:long_synopsis "'Where is the Doctor?' When the skies of Earth are frozen by a mysterious alien force, Clara needs her friend. But where is the Doctor, and what is he hiding from? As past deeds come back to haunt him, old enemies will come face to face, and for the Doctor and Clara, survival seems impossible. Trapped and alone, will the Doctor be able to resist his greatest temptation?" ;
+                                                     ns0:image_pid "p033hpj2" ;
+                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/b06h9wzx#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p033q2gy#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p033hpj2.jpg> .

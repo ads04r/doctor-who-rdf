@@ -1,0 +1,70 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns0: <http://purl.org/ontology/po/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://www.bbc.co.uk/programmes/p00km2cl#programme> rdf:type ns0:Series ;
+                                                     dc:title "The Savages" ;
+                                                     ns0:position "9" ;
+                                                     ns0:pid "p00km2cl" ;
+                                                     ns0:short_synopsis "The TARDIS arrives on a world with a seemingly utopian society." ;
+                                                     ns0:medium_synopsis "The TARDIS arrives on a world with a seemingly utopian society enjoy fulfilling, happy lives but it's discovered they hunt 'savages' outside their city to extract their life force." ;
+                                                     ns0:long_synopsis "The TARDIS arrives on a world with a seemingly utopian society enjoy fulfilling, happy lives but it’s discovered they hunt ‘savages’ outside their city to extract their life force." ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:episode <http://www.bbc.co.uk/programmes/p00v26k4#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v26ky#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v26nn#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v26sd#programme> .
+
+<http://www.bbc.co.uk/programmes/p00v26k4#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode1" ;
+                                                     ns0:position "1" ;
+                                                     ns0:pid "p00v26k4" ;
+                                                     ns0:short_synopsis "The TARDIS takes the Doctor, Dodo and Steven to a seemingly utopian world in the future." ;
+                                                     ns0:medium_synopsis "The TARDIS takes the Doctor, Dodo and Steven to a world in the future. They're welcomed by Jano, leader of an advanced civilization, but a secret lies behind the 'utopian' society." ;
+                                                     ns0:long_synopsis "The TARDIS takes the Doctor, Dodo and Steven to a world in the future. They're welcomed by Jano, leader of an advanced civilization, but a secret lies behind the 'utopian' society." ;
+                                                     ns0:image_pid "p00v2x3c" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v26k5#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p04yjqbb#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p04yygbs#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v2x3c.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v26ky#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 2" ;
+                                                     ns0:position "2" ;
+                                                     ns0:pid "p00v26ky" ;
+                                                     ns0:short_synopsis "The Elders hunt 'Savages' to extract their life force and the Doctor faces the same fate." ;
+                                                     ns0:medium_synopsis "The Elders are hunting the 'Savages' to extract their life force for themselves, and now the Doctor is about to face the same fate." ;
+                                                     ns0:long_synopsis "The Elders are hunting the 'Savages' to extract their life force for themselves, and now the Doctor is about to face the same fate." ;
+                                                     ns0:image_pid "p00v2x3c" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v26kz#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p04yygbz#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v2x3c.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v26nn#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 3" ;
+                                                     ns0:position "3" ;
+                                                     ns0:pid "p00v26nn" ;
+                                                     ns0:short_synopsis "Steven and Dodo break into the city of the Elders in an attempt to rescue the Doctor." ;
+                                                     ns0:medium_synopsis "Steven and Dodo break into the city of the Elders in an attempt to rescue the Doctor. But they have been detected and their escape route is cut off." ;
+                                                     ns0:long_synopsis "Steven and Dodo break into the city of the Elders in an attempt to rescue the Doctor. But they have been detected and their escape route is cut off." ;
+                                                     ns0:image_pid "p00v2x3c" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v26np#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p04yygc3#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v2x3c.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v26sd#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 4" ;
+                                                     ns0:position "4" ;
+                                                     ns0:pid "p00v26sd" ;
+                                                     ns0:short_synopsis "Absorbing the Doctor's life force, the leader Jano also acquires his conscience." ;
+                                                     ns0:medium_synopsis "Absorbing the Doctor's life force, the leader Jano also acquires his ethics. With Jano's help, the Doctor, Steven and Dodo inspire the 'Savages' to fight against their oppressors." ;
+                                                     ns0:long_synopsis "Absorbing the Doctor's life force, the leader Jano also acquires his ethics. With Jano's help, the Doctor, Steven and Dodo inspire the 'Savages' to fight against their oppressors." ;
+                                                     ns0:image_pid "p00v2x3c" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v26sf#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p04yygc9#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v2x3c.jpg> .

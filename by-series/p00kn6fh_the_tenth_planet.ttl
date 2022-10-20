@@ -1,0 +1,70 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns0: <http://purl.org/ontology/po/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://www.bbc.co.uk/programmes/p00kn6fh#programme> rdf:type ns0:Series ;
+                                                     dc:title "The Tenth Planet" ;
+                                                     ns0:position "2" ;
+                                                     ns0:pid "p00kn6fh" ;
+                                                     ns0:short_synopsis "The South Pole, 1986 and the Doctor regenerates after his first battle with the Cybermen." ;
+                                                     ns0:medium_synopsis "The TARDIS arrives at the South Pole in 1986 where the ‘Snowcap’ space tracking station, under the command of General Cutler, is in the middle of a crisis." ;
+                                                     ns0:episode <http://www.bbc.co.uk/programmes/p00v2xpn#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v2xr2#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v2xsg#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v2xvg#programme> .
+
+<http://www.bbc.co.uk/programmes/p00v2xpn#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 1" ;
+                                                     ns0:position "1" ;
+                                                     ns0:pid "p00v2xpn" ;
+                                                     ns0:short_synopsis "Landing at the South Pole the travellers find a new planet is disrupting a space shot." ;
+                                                     ns0:medium_synopsis "Landing at the South Pole, the travellers find that Earth's twin planet is disrupting a space mission. The Doctor predicts that they will soon receive visitors from the new planet." ;
+                                                     ns0:long_synopsis "Landing at the South Pole, the travellers find that Earth's twin planet is disrupting a space mission. The Doctor predicts that they will soon receive visitors from the new planet." ;
+                                                     ns0:image_pid "p00v1xds" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v2xpp#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p04b10wq#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p04yjqqc#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p011njv0#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v1xds.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v2xr2#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 2" ;
+                                                     ns0:position "2" ;
+                                                     ns0:pid "p00v2xr2" ;
+                                                     ns0:short_synopsis "Earth's energy is being drained away by the new planet, Mondas, and faces destruction…" ;
+                                                     ns0:medium_synopsis "Earth's energy is being drained away by the new planet, Mondas, and faces destruction. Cyberman invade the base and threaten to convert the humans into creatures like themselves." ;
+                                                     ns0:long_synopsis "Earth's energy is being drained away by the new planet, Mondas, and faces destruction. Cyberman invade the base and threaten to convert the humans into creatures like themselves." ;
+                                                     ns0:image_pid "p00v1xg4" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v2xr3#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p04b10wg#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p011nk4k#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v1xg4.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v2xsg#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 3" ;
+                                                     ns0:position "3" ;
+                                                     ns0:pid "p00v2xsg" ;
+                                                     ns0:short_synopsis "To stop the Cybermen and the energy drain, General Cutler prepares to launch the Z-bomb." ;
+                                                     ns0:medium_synopsis "Determined to stop the Cybermen and the energy drain, General Cutler prepares to launch the deadly Z-bomb. Ben and Polly desperately try to stop the launch as the countdown begins." ;
+                                                     ns0:long_synopsis "Determined to stop the Cybermen and the energy drain, General Cutler prepares to launch the deadly Z-bomb. Ben and Polly desperately try to stop the launch as the countdown begins." ;
+                                                     ns0:image_pid "p00v1xk4" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v2xsh#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p04b10wk#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p011nk9p#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v1xk4.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v2xvg#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 4" ;
+                                                     ns0:position "4" ;
+                                                     ns0:pid "p00v2xvg" ;
+                                                     ns0:short_synopsis "The Cybermen are defeated and back in the TARDIS, the worn out Doctor regenerates…" ;
+                                                     ns0:medium_synopsis "The Cybermen invade the Snowcap base, killing General Cutler, but they are then defeated. Back in the TARDIS, the worn out Doctor regenerates…" ;
+                                                     ns0:long_synopsis "The Cybermen invade the Snowcap base, killing General Cutler, but they are then defeated. Back in the TARDIS, the worn out Doctor regenerates…" ;
+                                                     ns0:image_pid "p00v1xql" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v2xvh#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v1xql.jpg> .

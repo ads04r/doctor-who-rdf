@@ -1,0 +1,69 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns0: <http://purl.org/ontology/po/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://www.bbc.co.uk/programmes/p00sfv02#programme> rdf:type ns0:Series ;
+                                                     dc:title "The Visitation" ;
+                                                     ns0:position "4" ;
+                                                     ns0:pid "p00sfv02" ;
+                                                     ns0:short_synopsis "The Doctor must stop a trio of Terileptil convicts wiping out the whole human race." ;
+                                                     ns0:medium_synopsis "17th century England plays host to plague rats, a murderous android and trio of escaped Terileptil convicts. The Doctor must stop them wiping out the whole human race." ;
+                                                     ns0:long_synopsis "17th century England plays host to plague rats, a murderous android and trio of escaped Terileptil convicts. The Doctor must stop them wiping out the whole human race." ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:episode <http://www.bbc.co.uk/programmes/p00v7dm6#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v7dp8#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v7ds7#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v7dv9#programme> .
+
+<http://www.bbc.co.uk/programmes/p00v7dm6#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 1" ;
+                                                     ns0:position "1" ;
+                                                     ns0:pid "p00v7dm6" ;
+                                                     ns0:short_synopsis "17th century England is being stalked by a robotic death-like figure." ;
+                                                     ns0:medium_synopsis "The TARDIS lands in 17th century England which is being stalked by a robotic death-like figure. The locals seem to be under a strange mesmeric spell." ;
+                                                     ns0:image_pid "p00vb9l8" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v7dm7#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02kx1jk#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p024q8mx#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vb9l8.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v7dp8#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 2" ;
+                                                     ns0:position "2" ;
+                                                     ns0:pid "p00v7dp8" ;
+                                                     ns0:short_synopsis "The Terileptil leader is planning to wipe out mankind with plague rats." ;
+                                                     ns0:medium_synopsis "A Terileptil is living in Sir John's basement and is planning to wipe out mankind with plague rats. It decides to arrange for the Doctor and Richard Mace to be beheaded." ;
+                                                     ns0:image_pid "p00vb9lm" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v7dp9#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02kx2c5#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p024q8vg#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vb9lm.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v7ds7#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 3" ;
+                                                     ns0:position "3" ;
+                                                     ns0:pid "p00v7ds7" ;
+                                                     ns0:short_synopsis "A mesmerised Tegan prepares to unleash the rats on the Doctor and Richard Mace..." ;
+                                                     ns0:medium_synopsis "Nyssa and Adric, pursued by the Android, head to the safety of the TARDIS. Meanwhile a mesmerised Tegan prepares to unleash the rats on the Doctor and Mace..." ;
+                                                     ns0:image_pid "p00vb9mg" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v7ds8#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02kx2cj#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p024q9j0#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vb9mg.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v7dv9#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 4" ;
+                                                     ns0:position "4" ;
+                                                     ns0:pid "p00v7dv9" ;
+                                                     ns0:short_synopsis "The Doctor discovers more Terileptil criminals in hiding in London." ;
+                                                     ns0:medium_synopsis "The Doctor discovers more Terileptil criminals in hiding in London. As he battles them, their soliton gas generator explodes, setting the city ablaze..." ;
+                                                     ns0:image_pid "p00vb9my" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v7dvb#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02kx2cs#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p024q9tf#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vb9my.jpg> .

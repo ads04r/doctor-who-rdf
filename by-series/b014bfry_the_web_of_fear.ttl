@@ -1,0 +1,97 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns0: <http://purl.org/ontology/po/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://www.bbc.co.uk/programmes/b014bfry#programme> rdf:type ns0:Series ;
+                                                     dc:title "The Web of Fear" ;
+                                                     ns0:position "5" ;
+                                                     ns0:pid "b014bfry" ;
+                                                     ns0:short_synopsis "The Doctor, Jamie and Victoria discover that Yeti have invaded the London Underground" ;
+                                                     ns0:medium_synopsis "The Doctor, Jamie and Victoria discover that Yeti have invaded the London Underground" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:episode <http://www.bbc.co.uk/programmes/b0074qdb#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v2yc9#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v2ygn#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v2yhg#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v2ys7#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v2ywr#programme> .
+
+<http://www.bbc.co.uk/programmes/b0074qdb#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 1" ;
+                                                     ns0:position "1" ;
+                                                     ns0:pid "b0074qdb" ;
+                                                     ns0:short_synopsis "The TARDIS lands in the London Underground, which is deserted apart from a glowing web..." ;
+                                                     ns0:medium_synopsis "The TARDIS lands in the London Underground, which is deserted. Jamie and Victoria are captured by the military. The Doctor is amazed to discover that Yetis are in the tunnels." ;
+                                                     ns0:image_pid "p00v7hf1" ;
+                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/b005jmnz#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p0494xg1#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p013kz4n#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v7hf1.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v2yc9#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 2" ;
+                                                     ns0:position "2" ;
+                                                     ns0:pid "p00v2yc9" ;
+                                                     ns0:short_synopsis "The deadly web continues to advance in the tunnels of the Underground." ;
+                                                     ns0:medium_synopsis "The deadly web continues to advance in the tunnels of the Underground. Professor Travers realises that the Doctor is the only man who can help bring an end to the Yeti menace." ;
+                                                     ns0:long_synopsis "The deadly web continues to advance in the tunnels of the Underground. Professor Travers realises that the Doctor is the only man who can help bring an end to the Yeti menace." ;
+                                                     ns0:image_pid "p00v7h86" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v2ycb#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p0494xn5#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v7h86.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v2ygn#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 3" ;
+                                                     ns0:position "3" ;
+                                                     ns0:pid "p00v2ygn" ;
+                                                     ns0:short_synopsis "The Doctor meets Colonel Lethbridge-Stewart who takes control of the military operation." ;
+                                                     ns0:medium_synopsis "The Doctor meets Colonel Lethbridge-Stewart who takes control of the military operation against the Yeti. But the Doctor suspects that there is a traitor in their midst." ;
+                                                     ns0:long_synopsis "The Doctor meets Colonel Lethbridge-Stewart who takes control of the military operation against the Yeti. But the Doctor suspects that there is a traitor in their midst." ;
+                                                     ns0:image_pid "p00v7h86" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v2ygp#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p0494y0g#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v7h86.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v2yhg#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 4" ;
+                                                     ns0:position "4" ;
+                                                     ns0:pid "p00v2yhg" ;
+                                                     ns0:short_synopsis "The Doctor is able to acquire a sample of the web but the Yeti strike back at Travers." ;
+                                                     ns0:medium_synopsis "The Doctor acquires a sample of the web, but when he, Jamie and Victoria return to the HQ to examine it, they discover that Professor Travers has been abducted by the Yeti!" ;
+                                                     ns0:long_synopsis "The Doctor acquires a sample of the web, but when he, Jamie and Victoria return to the HQ to examine it, they discover that Professor Travers has been abducted by the Yeti!" ;
+                                                     ns0:image_pid "p00v7h86" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v2yhh#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p0494ymn#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v7h86.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v2ys7#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 5" ;
+                                                     ns0:position "5" ;
+                                                     ns0:pid "p00v2ys7" ;
+                                                     ns0:short_synopsis "The Great Intelligence demands that the Doctor allows his mind to be drained." ;
+                                                     ns0:medium_synopsis "Using Travers's body, the Great Intelligence demands that the Doctor allows his mind to be drained. Victoria is taken hostage and the Doctor has just 20 minutes to decide her fate." ;
+                                                     ns0:long_synopsis "Using Travers's body, the Great Intelligence demands that the Doctor allows his mind to be drained. Victoria is taken hostage and the Doctor has just 20 minutes to decide her fate." ;
+                                                     ns0:image_pid "p00v7h86" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v2ys8#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p0494zcr#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v7h86.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v2ywr#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 6" ;
+                                                     ns0:position "6" ;
+                                                     ns0:pid "p00v2ywr" ;
+                                                     ns0:short_synopsis "When their HQ is destroyed by the web and everyone is captured by Yetis, all seems lost." ;
+                                                     ns0:medium_synopsis "The HQ is destroyed by the web and everyone is captured by Yetis. The traitor is revealed and all seems lost as the Doctor submits himself to the Great Intelligence's mind drain." ;
+                                                     ns0:long_synopsis "The HQ is destroyed by the web and everyone is captured by Yetis. The traitor is revealed and all seems lost as the Doctor submits himself to the Great Intelligence's mind drain." ;
+                                                     ns0:image_pid "p00v7h86" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v2yws#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p0494zhs#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v7h86.jpg> .

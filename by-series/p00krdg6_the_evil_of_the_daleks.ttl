@@ -1,0 +1,107 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns0: <http://purl.org/ontology/po/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://www.bbc.co.uk/programmes/p00krdg6#programme> rdf:type ns0:Series ;
+                                                     dc:title "The Evil of the Daleks" ;
+                                                     ns0:position "9" ;
+                                                     ns0:pid "p00krdg6" ;
+                                                     ns0:short_synopsis "The battle rages from Victorian England to Skaro where the Daleks seem finished forever..." ;
+                                                     ns0:medium_synopsis "In pursuit of the stolen TARDIS, the Doctor and Jamie visit an antique shop owned by Edward Waterfield where they are transported back in time to 1867." ;
+                                                     ns0:long_synopsis "In pursuit of the stolen TARDIS, the Doctor and Jamie visit an antique shop owned by Edward Waterfield where they are transported back in time to 1867." ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01240sf#programme> ;
+                                                     ns0:episode <http://www.bbc.co.uk/programmes/p00v30ks#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v30nn#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v30qm#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v30t0#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v30vg#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v30wt#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v30y2#programme> .
+
+<http://www.bbc.co.uk/programmes/p00v30ks#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 1" ;
+                                                     ns0:position "1" ;
+                                                     ns0:pid "p00v30ks" ;
+                                                     ns0:short_synopsis "The TARDIS has been stolen and the Doctor and Jamie follow clues to an antiques dealer." ;
+                                                     ns0:medium_synopsis "The TARDIS has been stolen and the Doctor and Jamie follow the clues which lead to an appointment at a mysterious antique shop." ;
+                                                     ns0:long_synopsis "The TARDIS has been stolen and the Doctor and Jamie follow the clues which lead to an appointment at a mysterious antique shop." ;
+                                                     ns0:image_pid "p00v1zxh" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v30kt#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p04yjqqx#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v1zxh.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v30nn#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 2" ;
+                                                     ns0:position "2" ;
+                                                     ns0:pid "p00v30nn" ;
+                                                     ns0:short_synopsis "The Doctor and Jamie have been transported back in time one hundred years." ;
+                                                     ns0:medium_synopsis "The Doctor and Jamie have been transported back in time one hundred years. There, in the home of inventor Theodore Maxtible, the Doctor encounters the Daleks." ;
+                                                     ns0:long_synopsis "The Doctor and Jamie have been transported back in time one hundred years. There, in the home of inventor Theodore Maxtible, the Doctor encounters the Daleks." ;
+                                                     ns0:image_pid "p00v1zz2" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v30np#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p00y1dd5#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v1zz2.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v30qm#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 3" ;
+                                                     ns0:position "3" ;
+                                                     ns0:pid "p00v30qm" ;
+                                                     ns0:short_synopsis "Jamie explores Maxtible's house, unaware he is part of a Dalek experiment." ;
+                                                     ns0:medium_synopsis "Jamie is exploring Maxtible's house, but unknown to him, the Doctor has been forced by the Daleks to subject his companion to a series of tests." ;
+                                                     ns0:long_synopsis "Jamie is exploring Maxtible's house, but unknown to him, the Doctor has been forced by the Daleks to subject his companion to a series of tests." ;
+                                                     ns0:image_pid "p00v1zzr" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v30qn#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v1zzr.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v30t0#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 4" ;
+                                                     ns0:position "4" ;
+                                                     ns0:pid "p00v30t0" ;
+                                                     ns0:short_synopsis "The Doctor demonstrates the strength of the human factor to the Daleks." ;
+                                                     ns0:medium_synopsis "The Doctor demonstrates the strength of the human factor to the Daleks as Jamie and his new friend, Kemel attempt to rescue Victoria Waterfield." ;
+                                                     ns0:long_synopsis "The Doctor demonstrates the strength of the human factor to the Daleks as Jamie and his new friend, Kemel attempt to rescue Victoria Waterfield." ;
+                                                     ns0:image_pid "p00v200l" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v30t1#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v200l.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v30vg#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 5" ;
+                                                     ns0:position "5" ;
+                                                     ns0:pid "p00v30vg" ;
+                                                     ns0:short_synopsis "The tests on Jamie are complete, but Victoria is still a captive of the Daleks." ;
+                                                     ns0:medium_synopsis "The tests on Jamie are complete, but Victoria is still a captive of the Daleks and Jamie suspects that the Doctor has surrendered to his arch-enemies." ;
+                                                     ns0:long_synopsis "The tests on Jamie are complete, but Victoria is still a captive of the Daleks and Jamie suspects that the Doctor has surrendered to his arch-enemies." ;
+                                                     ns0:image_pid "p00v202d" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v30vh#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v202d.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v30wt#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 6" ;
+                                                     ns0:position "6" ;
+                                                     ns0:pid "p00v30wt" ;
+                                                     ns0:short_synopsis "The Doctor and Jamie are taken to Skaro where the Dalek Emperor confronts them." ;
+                                                     ns0:medium_synopsis "The Doctor and Jamie are taken by the Daleks to Skaro where the Dalek Emperor confronts them.  The Doctor has made a terrible mistake and the Daleks have won." ;
+                                                     ns0:long_synopsis "The Doctor and Jamie are taken by the Daleks to Skaro where the Dalek Emperor confronts them.  The Doctor has made a terrible mistake and the Daleks have won." ;
+                                                     ns0:image_pid "p00v202t" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v30wv#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v202t.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v30y2#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 7" ;
+                                                     ns0:position "7" ;
+                                                     ns0:pid "p00v30y2" ;
+                                                     ns0:short_synopsis "The human factor spreads through the Dalek city and Dalek fights Dalek in a civil war." ;
+                                                     ns0:medium_synopsis "The human factor is spreading through the Dalek city and Dalek fights Dalek in a civil war. The Doctor and his friends are caught in the crossfire. Not all will survive the battle." ;
+                                                     ns0:long_synopsis "The human factor is spreading through the Dalek city and Dalek fights Dalek in a civil war. The Doctor and his friends are caught in the crossfire. Not all will survive the battle." ;
+                                                     ns0:image_pid "p00v203n" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v30y3#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v203n.jpg> .

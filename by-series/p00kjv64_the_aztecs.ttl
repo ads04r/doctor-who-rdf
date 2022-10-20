@@ -1,0 +1,69 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns0: <http://purl.org/ontology/po/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://www.bbc.co.uk/programmes/p00kjv64#programme> rdf:type ns0:Series ;
+                                                     dc:title "The Aztecs" ;
+                                                     ns0:position "6" ;
+                                                     ns0:pid "p00kjv64" ;
+                                                     ns0:short_synopsis "The travellers land in an Aztec tomb but accidentally cut themselves off from the TARDIS." ;
+                                                     ns0:medium_synopsis "The travellers land in the tomb of an Aztec High Priest but accidentally cut themselves off from the TARDIS as Barbara is proclaimed as the reincarnation of Yetaxa." ;
+                                                     ns0:long_synopsis "The travellers land in the tomb of an Aztec High Priest but accidentally cut themselves off from the TARDIS as Barbara is proclaimed as the reincarnation of Yetaxa." ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:episode <http://www.bbc.co.uk/programmes/p00v1ply#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v1pmp#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v1pnd#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v1pp3#programme> .
+
+<http://www.bbc.co.uk/programmes/p00v1ply#programme> rdf:type ns0:Episode ;
+                                                     dc:title "The Temple of Evil" ;
+                                                     ns0:position "1" ;
+                                                     ns0:pid "p00v1ply" ;
+                                                     ns0:short_synopsis "The TARDIS lands inside an Aztec temple in 15th Century Mexico and becomes sealed off." ;
+                                                     ns0:medium_synopsis "The TARDIS lands inside an Aztec temple in 15th Century Mexico and become cut off from the ship when they leave the temple to explore." ;
+                                                     ns0:image_pid "p00v29yw" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v1plz#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02xwh9c#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p0112lqp#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v29yw.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v1pmp#programme> rdf:type ns0:Episode ;
+                                                     dc:title "The Warriors of Death" ;
+                                                     ns0:position "2" ;
+                                                     ns0:pid "p00v1pmp" ;
+                                                     ns0:short_synopsis "The High Priest of Sacrifice, Tlotoxl, begins to doubt Barbara's claim to be Yetaxa." ;
+                                                     ns0:medium_synopsis "The High Priest of Sacrifice, Tlotoxl begins to doubt Barbara's claim to be the reincarnation of Yetaxa and plots to undermine her position and eliminate her friends. " ;
+                                                     ns0:image_pid "p00v2b02" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v1pmq#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02xwhgn#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p0112b7h#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v2b02.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v1pnd#programme> rdf:type ns0:Episode ;
+                                                     dc:title "The Bride of Sacrifice" ;
+                                                     ns0:position "3" ;
+                                                     ns0:pid "p00v1pnd" ;
+                                                     ns0:short_synopsis "The Doctor and Ian try to find a way back the TARDIS. Barbara attempts to distract Tlotoxl" ;
+                                                     ns0:medium_synopsis "The  Doctor and Ian attempt to find a way back the TARDIS. Barbara attempts to distract Tlotoxl but the High Priest of Sacrifice already has plans for Susan." ;
+                                                     ns0:image_pid "p00v2b0p" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v1pnf#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02xwgtw#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p0112hsm#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v2b0p.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v1pp3#programme> rdf:type ns0:Episode ;
+                                                     dc:title "The Day of Darkness" ;
+                                                     ns0:position "4" ;
+                                                     ns0:pid "p00v1pp3" ;
+                                                     ns0:short_synopsis "Tlotoxl prepares to make his move and have Barbara, the Doctor, Ian and Susan sacrificed." ;
+                                                     ns0:medium_synopsis "Tlotoxl is preparing to make his move and have Barbara, the Doctor, Ian and Susan killed. Ian prepares for a fight to the death with the warrior, Ixta." ;
+                                                     ns0:image_pid "p01129s8" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v1pp4#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02xwh1h#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p0112cnz#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p01129s8.jpg> .

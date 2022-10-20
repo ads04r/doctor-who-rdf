@@ -1,0 +1,75 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns0: <http://purl.org/ontology/po/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://www.bbc.co.uk/programmes/p00jxl63#programme> rdf:type ns0:Series ;
+                                                     dc:title "An Unearthly Child" ;
+                                                     ns0:position "1" ;
+                                                     ns0:pid "p00jxl63" ;
+                                                     ns0:short_synopsis "Two school teachers' curiosity leads them to a junk yard where they meet the Doctor." ;
+                                                     ns0:medium_synopsis "Two school teachers' curiosity leads them to a junk yard where they meet Susan's grandfather, the Doctor, and stumble into his time/space vehicle, the TARDIS." ;
+                                                     ns0:long_synopsis "Two school teachers' curiosity leads them to a junk yard where they meet Susan's grandfather, the Doctor, and stumble into his time/space vehicle, the TARDIS." ;
+                                                     foaf:depiction <http://www.bbc.co.uk/iplayer/images/series/p00jxl63_512_288.jpg> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:episode <http://www.bbc.co.uk/programmes/b03jprm9#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/b03jprmc#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/b03jprmf#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/b03jprmh#programme> .
+
+<http://www.bbc.co.uk/programmes/b03jprm9#programme> rdf:type ns0:Episode ;
+                                                     dc:title "An Unearthly Child" ;
+                                                     ns0:position "1" ;
+                                                     ns0:pid "b03jprm9" ;
+                                                     ns0:short_synopsis "Two teachers follow a pupil to a junkyard where they meet her grandfather, the Doctor." ;
+                                                     ns0:medium_synopsis "After discussing their pupil Susan, two teachers follow her to a junkyard. They meet her grandfather, the Doctor, and force their way inside a police box." ;
+                                                     ns0:long_synopsis "After discussing a strange pupil, Susan Foreman, teachers Ian and Barbara follow her to a junkyard. They meet her grandfather, the Doctor, and force their way inside a police box with frightening results." ;
+                                                     ns0:image_pid "p00v27q6" ;
+                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/b00049w3#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p0111n71#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v27q6.jpg> .
+
+<http://www.bbc.co.uk/programmes/b03jprmc#programme> rdf:type ns0:Episode ;
+                                                     dc:title "The Cave of Skulls" ;
+                                                     ns0:position "2" ;
+                                                     ns0:pid "b03jprmc" ;
+                                                     ns0:short_synopsis "The TARDIS travels to Stone Age times, where the crew make the mistake of going outside." ;
+                                                     ns0:medium_synopsis "The Cave of Skulls: The TARDIS travels back to Stone Age times, where the crew make the mistake of venturing outside." ;
+                                                     ns0:long_synopsis "Ian and Barbara are aboard the TARDIS uninvited. The Doctor ignores Susan's pleas to let them go. The TARDIS takes off and travels back to Stone Age times, where the crew make the mistake of venturing outside." ;
+                                                     ns0:image_pid "p00v27r9" ;
+                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/b00049y0#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p0111nlc#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v27r9.jpg> .
+
+<http://www.bbc.co.uk/programmes/b03jprmf#programme> rdf:type ns0:Episode ;
+                                                     dc:title "The Forest of Fear" ;
+                                                     ns0:position "3" ;
+                                                     ns0:pid "b03jprmf" ;
+                                                     ns0:short_synopsis "The Doctor and crew leave the TARDIS to explore their new surroundings, but are captured." ;
+                                                     ns0:medium_synopsis "The Forest of Fear: The Doctor and crew leave the TARDIS to explore their new surroundings, but are captured, thrown in a cave and threatened with death." ;
+                                                     ns0:long_synopsis "The Doctor and crew leave the TARDIS to explore their new surroundings, but are soon captured, thrown in a cave and threatened with death. They only have the secret of fire to bargain with." ;
+                                                     ns0:image_pid "p00v27s2" ;
+                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/b00049yr#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p0111nts#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01klfq6#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v27s2.jpg> .
+
+<http://www.bbc.co.uk/programmes/b03jprmh#programme> rdf:type ns0:Episode ;
+                                                     dc:title "The Firemaker" ;
+                                                     ns0:position "4" ;
+                                                     ns0:pid "b03jprmh" ;
+                                                     ns0:short_synopsis "The Doctor and his companions use guile to escape death at the hands of their captors." ;
+                                                     ns0:medium_synopsis "The Firemaker: The Doctor decides that the only way to escape is to show the Stone Age cave dwellers how to make fire." ;
+                                                     ns0:long_synopsis "The Doctor and his companions use guile and cunning to escape death at the hands of their Stone Age captors. The Doctor decides that the only way to escape is to show the cave dwellers how to make fire." ;
+                                                     ns0:image_pid "p00vcx0q" ;
+                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/b00049zc#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p0111p1g#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vcx0q.jpg> .

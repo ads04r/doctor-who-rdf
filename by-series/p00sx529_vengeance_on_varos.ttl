@@ -1,0 +1,41 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns0: <http://purl.org/ontology/po/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://www.bbc.co.uk/programmes/p00sx529#programme> rdf:type ns0:Series ;
+                                                     dc:title "Vengeance on Varos" ;
+                                                     ns0:position "2" ;
+                                                     ns0:pid "p00sx529" ;
+                                                     ns0:short_synopsis "The population of Varos is entertained/controlled via violent TV shows." ;
+                                                     ns0:medium_synopsis "The population of Varos is entertained/controlled via violent TV shows. The Varosian Governor is dealing with Sil from the Galatron Mining Corporation, who want Varos’s minerals." ;
+                                                     ns0:long_synopsis "The population of Varos is entertained/controlled via violent TV shows. The Varosian Governor is dealing with Sil, from the Galatron Mining Corporation, who want Varos’s minerals." ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:episode <http://www.bbc.co.uk/programmes/p00vbb5x#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00vbb6n#programme> .
+
+<http://www.bbc.co.uk/programmes/p00vbb5x#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 1" ;
+                                                     ns0:position "1" ;
+                                                     ns0:pid "p00vbb5x" ;
+                                                     ns0:short_synopsis "Needing Zeiton 7 ore urgently for the TARDIS, the Doctor takes Peri to Varos." ;
+                                                     ns0:medium_synopsis "Needing Zeiton 7 ore urgently for the TARDIS, the Doctor takes Peri to Varos. They quickly become part of the sadistic programming that entertains the populace." ;
+                                                     ns0:image_pid "p00vbpcl" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00vbb5z#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p04982p3#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01lr5cc#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vbpcl.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00vbb6n#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 2" ;
+                                                     ns0:position "2" ;
+                                                     ns0:pid "p00vbb6n" ;
+                                                     ns0:short_synopsis "The Doctor faces Sil who has negotiated mining rights on Varos." ;
+                                                     ns0:medium_synopsis "As Peri and Areta begin to transform into a bird and a reptile, the Doctor faces Sil, who has negotiated mining rights on Varos, depriving the Time Lord of what he needs..." ;
+                                                     ns0:image_pid "p00vbpd5" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00vbb6p#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p04982vr#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01lr5gq#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vbpd5.jpg> .

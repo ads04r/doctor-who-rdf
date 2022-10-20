@@ -1,0 +1,97 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns0: <http://purl.org/ontology/po/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://www.bbc.co.uk/programmes/p00kjv79#programme> rdf:type ns0:Series ;
+                                                     dc:title "The Sensorites" ;
+                                                     ns0:position "7" ;
+                                                     ns0:pid "p00kjv79" ;
+                                                     ns0:short_synopsis "The TARDIS lands in the far future inside a spaceship orbiting the planet Sense-Sphere." ;
+                                                     ns0:medium_synopsis "The TARDIS lands in the far future inside a spaceship orbiting the planet Sense-Sphere. The crew of the ship appear to be dead but then suddenly return to life." ;
+                                                     ns0:long_synopsis "The TARDIS lands in the far future inside a spaceship orbiting the planet Sense-Sphere. The crew of the ship appear to be dead but then suddenly return to life." ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:episode <http://www.bbc.co.uk/programmes/p00v1ppt#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v1pqg#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v1pr7#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v1ps1#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v1psq#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v1ptk#programme> .
+
+<http://www.bbc.co.uk/programmes/p00v1ppt#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Strangers in Space" ;
+                                                     ns0:position "1" ;
+                                                     ns0:pid "p00v1ppt" ;
+                                                     ns0:short_synopsis "The TARDIS lands inside a spaceship orbiting the planet Sense-Sphere." ;
+                                                     ns0:medium_synopsis "The TARDIS lands inside a spaceship orbiting the planet Sense-Sphere. The ship's crew are apparently dead but surprise the travellers when they abruptly return to life. " ;
+                                                     ns0:image_pid "p00v2b61" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v1ppv#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p030p3nc#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p0113pcg#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v2b61.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v1pqg#programme> rdf:type ns0:Episode ;
+                                                     dc:title "The Unwilling Warriors" ;
+                                                     ns0:position "2" ;
+                                                     ns0:pid "p00v1pqg" ;
+                                                     ns0:short_synopsis "The Doctor and his companions are on board an Earth ship trapped with the Sensorites." ;
+                                                     ns0:medium_synopsis "The Doctor and his companions are on board an Earth ship trapped in orbit around the Sense-Sphere when it is boarded by the Sensorites who steal the lock mechanism from the TARDIS." ;
+                                                     ns0:image_pid "p00v2b82" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v1pqh#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p030p4r8#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p0113psz#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v2b82.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v1pr7#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Hidden Danger" ;
+                                                     ns0:position "3" ;
+                                                     ns0:pid "p00v1pr7" ;
+                                                     ns0:short_synopsis "The Sensorites take the Doctor and members of the spaceship crew down to their planet." ;
+                                                     ns0:medium_synopsis "The Sensorites take the Doctor, Susan, Ian and members of the spaceship crew down to the surface of the Sense-Sphere. There the Doctor learns about a previous Earth expedition..." ;
+                                                     ns0:image_pid "p00v2bbb" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v1pr8#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p030p548#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p0113q10#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v2bbb.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v1ps1#programme> rdf:type ns0:Episode ;
+                                                     dc:title "A Race Against Death" ;
+                                                     ns0:position "4" ;
+                                                     ns0:pid "p00v1ps1" ;
+                                                     ns0:short_synopsis "On the Sense-Sphere, Ian has succumbed to the deadly illness that is spreading everywhere." ;
+                                                     ns0:medium_synopsis "On the Sense-Sphere, Ian has succumbed to the deadly illness that is spreading through the Sensorite city. Desperate to save his companion's life, the Doctor searches for a cure." ;
+                                                     ns0:image_pid "p00v2bf3" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v1ps2#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p030p2c3#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p0113q5c#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v2bf3.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v1psq#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Kidnap" ;
+                                                     ns0:position "5" ;
+                                                     ns0:pid "p00v1psq" ;
+                                                     ns0:short_synopsis "As Ian's condition worsens, the Doctor is still searching fruitlessly for a cure." ;
+                                                     ns0:medium_synopsis "As Ian's condition worsens, the Doctor still searces for a cure to the mysterious illness. However, the Doctor's efforts are undermined by the Sensorite City Administrator." ;
+                                                     ns0:image_pid "p00v2bhc" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v1psr#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p030p3ys#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p0113r35#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v2bhc.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v1ptk#programme> rdf:type ns0:Episode ;
+                                                     dc:title "A Desperate Venture" ;
+                                                     ns0:position "6" ;
+                                                     ns0:pid "p00v1ptk" ;
+                                                     ns0:short_synopsis "The Doctor sees the poisoning was caused by deadly nightshade and finds a cure." ;
+                                                     ns0:medium_synopsis "Having found a cure to the illness, the Doctor discovers that it is in fact deadly nightshade poisoning which has been introduced into the city water supply." ;
+                                                     ns0:image_pid "p00v2bjk" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v1ptl#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p030p23t#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p011444m#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v2bjk.jpg> .

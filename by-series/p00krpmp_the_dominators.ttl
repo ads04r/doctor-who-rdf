@@ -1,0 +1,86 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns0: <http://purl.org/ontology/po/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://www.bbc.co.uk/programmes/p00krpmp#programme> rdf:type ns0:Series ;
+                                                     dc:title "The Dominators" ;
+                                                     ns0:position "1" ;
+                                                     ns0:pid "p00krpmp" ;
+                                                     ns0:short_synopsis "A Dominator spacecraft lands on the peaceful world of Dulkis." ;
+                                                     ns0:medium_synopsis "A Dominator spacecraft lands on the peaceful world of Dulkis where two Dominators, Rago and Toba, plan to turn the entire planet into a radioactive fuel source for their war fleet." ;
+                                                     ns0:episode <http://www.bbc.co.uk/programmes/p00v52fq#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v52jd#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v52lg#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v52ml#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v52q7#programme> .
+
+<http://www.bbc.co.uk/programmes/p00v52fq#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 1" ;
+                                                     ns0:position "1" ;
+                                                     ns0:pid "p00v52fq" ;
+                                                     ns0:short_synopsis "The TARDIS lands on the planet of Dulkis, where other less peaceful aliens have arrived." ;
+                                                     ns0:medium_synopsis "The TARDIS lands on the peaceful planet of Dulkis. There, the Doctor finds the ruthless Dominators have arrived and are enslaving the inhabitants with their deadly robot Quarks." ;
+                                                     ns0:long_synopsis "The TARDIS lands on the peaceful planet of Dulkis. There, the Doctor, Jamie and Zoe discover that the ruthless Dominators have arrived and are enslaving the inhabitants with their deadly robots, the Quarks.The Doctor and his crew must prevent the destruction of the planet and help the Dulcians fight back." ;
+                                                     ns0:image_pid "p00v331k" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v52fr#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p049zvxw#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p014n970#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v331k.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v52jd#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 2" ;
+                                                     ns0:position "2" ;
+                                                     ns0:pid "p00v52jd" ;
+                                                     ns0:short_synopsis "The Doctor and Jamie are taken captive by the Dominators and subjected to tests." ;
+                                                     ns0:medium_synopsis "The Doctor and Jamie are taken captive by the Dominators and subjected to tests. Zoe heads to the Dulcian capital to request help, but the pacifist Dulcians are reluctant to act." ;
+                                                     ns0:long_synopsis "The Doctor and Jamie are taken captive by the Dominators and subjected to intelligence tests. Zoe heads to the Dulcian capital to request help, but the pacifist Dulcians are reluctant to act." ;
+                                                     ns0:image_pid "p00v331w" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v52jf#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p049zvyp#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p014n9wr#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v331w.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v52lg#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 3" ;
+                                                     ns0:position "3" ;
+                                                     ns0:pid "p00v52lg" ;
+                                                     ns0:short_synopsis "A Dominator spacecraft lands on the peaceful world of Dulkis." ;
+                                                     ns0:medium_synopsis "Zoe and the Dulcians are captured by the Quarks and set to work. Unable to convince the Dulcian council of the Dominator threat, the Doctor returns to the island to rescue Zoe." ;
+                                                     ns0:long_synopsis "Zoe and the Dulcians are captured by the Quarks and set to work. Unable to convince the Dulcian council of the Dominator threat, the Doctor returns to the island to rescue Zoe." ;
+                                                     ns0:image_pid "p00v3336" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v52lh#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p049zvyr#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p014n8xf#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v3336.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v52ml#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 4" ;
+                                                     ns0:position "4" ;
+                                                     ns0:pid "p00v52ml" ;
+                                                     ns0:short_synopsis "As Jamie and Cully fight the Quarks the Dominators threaten the other Dulcians." ;
+                                                     ns0:medium_synopsis "Jamie and Cully fight back against the Quarks but Dominator Toba threatens the lives of his prisoners if they do not identify the culprits." ;
+                                                     ns0:long_synopsis "Jamie and Cully fight back against the Quarks but Dominator Toba threatens the lives of his prisoners if they do not identify the culprits." ;
+                                                     ns0:image_pid "p00v333p" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v52mm#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p049zvyt#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p014n8lf#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v333p.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v52q7#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 5" ;
+                                                     ns0:position "5" ;
+                                                     ns0:pid "p00v52q7" ;
+                                                     ns0:short_synopsis "The Doctor hatches a plan to intercept the Dominators' atomic seed pod as it is dropped..." ;
+                                                     ns0:medium_synopsis "The Doctor hatches a plan to intercept the Dominators' atomic seed pod as it is dropped into the planet's core. If he fails, the whole of Dulkis will be destroyed." ;
+                                                     ns0:long_synopsis "The Doctor hatches a plan to intercept the Dominators' atomic seed pod as it is dropped into the planet's core. If he fails, the whole of Dulkis will be destroyed." ;
+                                                     ns0:image_pid "p00v334c" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v52q9#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p049zvyw#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p014n7vw#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v334c.jpg> .

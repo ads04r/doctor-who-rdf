@@ -1,0 +1,104 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns0: <http://purl.org/ontology/po/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://www.bbc.co.uk/programmes/p00kjv2n#programme> rdf:type ns0:Series ;
+                                                     dc:title "Marco Polo" ;
+                                                     ns0:position "4" ;
+                                                     ns0:pid "p00kjv2n" ;
+                                                     ns0:short_synopsis "The TARDIS lands in Central Asia where the travellers meet legendary explorer, Marco Polo." ;
+                                                     ns0:medium_synopsis "The TARDIS lands in Central Asia and the travellers meet the legendary Venetian explorer, Marco Polo, who confiscates the TARDIS to present it to the mighty Kublai Kahn as a gift." ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:episode <http://www.bbc.co.uk/programmes/p00v1p1w#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v1p2j#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v1p3h#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v1p45#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v1p4t#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v1p5j#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v1p6g#programme> .
+
+<http://www.bbc.co.uk/programmes/p00v1p1w#programme> rdf:type ns0:Episode ;
+                                                     dc:title "The Roof of the World" ;
+                                                     ns0:position "1" ;
+                                                     ns0:pid "p00v1p1w" ;
+                                                     ns0:short_synopsis "The TARDIS lands in the Himalayas and the Doctor, Barbara, Ian and Susan meet Marco Polo." ;
+                                                     ns0:medium_synopsis "The TARDIS lands in the Himalayas and the Doctor, Barbara, Ian and Susan meet Marco Polo and join him on his journey to Peking." ;
+                                                     ns0:image_pid "p00v28z7" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v1p1x#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p04yjpr2#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p04yydzw#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v28z7.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v1p2j#programme> rdf:type ns0:Episode ;
+                                                     dc:title "The Singing Sands" ;
+                                                     ns0:position "2" ;
+                                                     ns0:pid "p00v1p2j" ;
+                                                     ns0:short_synopsis "The caravan journeys across the dry Gobi desert. Tegana secretly slashes the water gourds." ;
+                                                     ns0:medium_synopsis "The caravan journeys across the dry Gobi desert. Tegana secretly slashes the water gourds, losing almost all of the precious water." ;
+                                                     ns0:image_pid "p00v292g" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v1p2k#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p04yydzq#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v292g.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v1p3h#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Five Hundred Eyes" ;
+                                                     ns0:position "3" ;
+                                                     ns0:pid "p00v1p3h" ;
+                                                     ns0:short_synopsis "At the Cave of Five Hundred Eyes, Tegana has a secret meeting with a bandit ." ;
+                                                     ns0:medium_synopsis "At the Cave of Five Hundred Eyes, Tegana has a secret meeting with a bandit who he instructs to kill Marco Polo. Barbara overhears the plans but is captured and imprisoned." ;
+                                                     ns0:image_pid "p00v293s" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v1p3j#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p04yydzt#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v293s.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v1p45#programme> rdf:type ns0:Episode ;
+                                                     dc:title "The Wall of Lies" ;
+                                                     ns0:position "4" ;
+                                                     ns0:pid "p00v1p45" ;
+                                                     ns0:short_synopsis "To divert attention from himself, Tegana encourages Marco not to trust the Doctor." ;
+                                                     ns0:medium_synopsis "In an effort to divert attention from himself, Tegana encourages Marco to be suspicious of the Doctor. As the caravan passes through the bamboo forest, Tegana's allies attack." ;
+                                                     ns0:image_pid "p00v296w" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v1p46#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p04yydzp#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v296w.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v1p4t#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Rider from Shang-Tu" ;
+                                                     ns0:position "5" ;
+                                                     ns0:pid "p00v1p4t" ;
+                                                     ns0:short_synopsis "Marco Polo will not accept that Tegana is plotting against him. " ;
+                                                     ns0:medium_synopsis "Marco Polo will not accept that Tegana is plotting against him. Ping Cho returns the TARDIS key to Susan so that the travellers might escape. But Tegana has other plans." ;
+                                                     ns0:image_pid "p00v2980" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v1p4v#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p04yydzk#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v2980.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v1p5j#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Mighty Kublai Khan" ;
+                                                     ns0:position "6" ;
+                                                     ns0:pid "p00v1p5j" ;
+                                                     ns0:short_synopsis "When Marco Polo discovers Ping Cho's betrayal, the girl runs away. " ;
+                                                     ns0:medium_synopsis "When Marco Polo discovers Ping Cho's betrayal, the girl runs away. Ian follows her to Cheng-Ting and there discovers that the TARDIS has been stolen by Tegana's allies. " ;
+                                                     ns0:image_pid "p00v298v" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v1p5k#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p04yydzh#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v298v.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v1p6g#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Assassin at Peking" ;
+                                                     ns0:position "7" ;
+                                                     ns0:pid "p00v1p6g" ;
+                                                     ns0:short_synopsis "Arriving at Kublai Khan's palace, the Doctor loses the TARDIS key to the Khan." ;
+                                                     ns0:medium_synopsis "Arriving at Kublai Khan's palace in Peking, the Doctor loses the TARDIS key to the Khan in a game of backgammon. Marco is now convinced of Tegana's treachery." ;
+                                                     ns0:image_pid "p00v29br" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v1p6h#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p04yydzm#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v29br.jpg> .

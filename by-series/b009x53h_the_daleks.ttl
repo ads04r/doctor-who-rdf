@@ -1,0 +1,121 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns0: <http://purl.org/ontology/po/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://www.bbc.co.uk/programmes/b009x53h#programme> rdf:type ns0:Series ;
+                                                     dc:title "The Daleks" ;
+                                                     ns0:position "2" ;
+                                                     ns0:pid "b009x53h" ;
+                                                     ns0:short_synopsis "The TARDIS lands the Doctor, Susan, Ian and Barbara on Skaro..." ;
+                                                     ns0:medium_synopsis "The TARDIS lands the Doctor, Susan, Ian and Barbara on Skaro where two opposing races have survived a neutronic war - the Daleks in their metal casings, and the beautiful Thals." ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p0122s52#programme> ;
+                                                     ns0:episode <http://www.bbc.co.uk/programmes/b009w0ll#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/b009w0ln#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/b009w0lq#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/b009w0pt#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/b009w100#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/b009w16n#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/b009w31v#programme> .
+
+<http://www.bbc.co.uk/programmes/b009w0ll#programme> rdf:type ns0:Episode ;
+                                                     dc:title "The Dead Planet" ;
+                                                     ns0:position "1" ;
+                                                     ns0:pid "b009w0ll" ;
+                                                     ns0:short_synopsis "The travellers venture explore a new world. Everything seems to be dead, but is it really?" ;
+                                                     ns0:medium_synopsis "The travellers explore the surface of a new world. Everything is dead, but beyond a petrified jungle they see a metal city which the Doctor is determined to explore." ;
+                                                     ns0:long_synopsis "The travellers venture out on to the surface of a new world. Everything is dead, but beyond a petrified jungle they see a huge metal city which the Doctor is determined to explore..." ;
+                                                     ns0:image_pid "p00v283q" ;
+                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/b009w076#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p0345n4z#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p00y4cst#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v283q.jpg> .
+
+<http://www.bbc.co.uk/programmes/b009w0ln#programme> rdf:type ns0:Episode ;
+                                                     dc:title "The Survivors" ;
+                                                     ns0:position "2" ;
+                                                     ns0:pid "b009w0ln" ;
+                                                     ns0:short_synopsis "Looking for Barbara, the travellers realise they have been exposed to radiation poisoning." ;
+                                                     ns0:medium_synopsis "Looking for Barbara, the Doctor, Ian and Susan learn that they have been exposed to lethal doses of radiation. The travellers are confronted by the city's inhabitants - the Daleks!" ;
+                                                     ns0:long_synopsis "Looking for Barbara, the Doctor, Ian and Susan discover that they have been exposed to lethal doses of radiation. The travellers are confronted by the city's inhabitants - the Daleks!" ;
+                                                     ns0:image_pid "p00v2864" ;
+                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/b009w0gv#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p0345nh8#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p00y1ytw#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v2864.jpg> .
+
+<http://www.bbc.co.uk/programmes/b009w0lq#programme> rdf:type ns0:Episode ;
+                                                     dc:title "The Escape" ;
+                                                     ns0:position "3" ;
+                                                     ns0:pid "b009w0lq" ;
+                                                     ns0:short_synopsis "Fearful of a Thal attack, the Daleks force Susan to trick the Thals." ;
+                                                     ns0:medium_synopsis "Fearful of a Thal attack, the Daleks force Susan to trick the Thals. Realising that the Daleks are planning an ambush, the four travellers try to escape and warn the Thals." ;
+                                                     ns0:image_pid "p00v287l" ;
+                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/b009w0jg#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p0345ngs#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p00y201p#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v287l.jpg> .
+
+<http://www.bbc.co.uk/programmes/b009w0pt#programme> rdf:type ns0:Episode ;
+                                                     dc:title "The Ambush" ;
+                                                     ns0:position "4" ;
+                                                     ns0:pid "b009w0pt" ;
+                                                     ns0:short_synopsis "Pretending to be a Dalek, Ian finds that that he is trapped inside the casing." ;
+                                                     ns0:medium_synopsis "Pretending to be a Dalek, Ian finds that that he is trapped inside the casing. The Doctor, Susan and Barbara have no choice but to abandon Ian as the real Daleks arrive and attack." ;
+                                                     ns0:image_pid "p00v2892" ;
+                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/b009w0nk#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p0345n39#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p00y20jh#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v2892.jpg> .
+
+<http://www.bbc.co.uk/programmes/b009w100#programme> rdf:type ns0:Episode ;
+                                                     dc:title "The Expedition" ;
+                                                     ns0:position "5" ;
+                                                     ns0:pid "b009w100" ;
+                                                     ns0:short_synopsis "Ian and Barbara join a Thal force that will penetrate the Dalek city from the rear..." ;
+                                                     ns0:medium_synopsis "Ian and Barbara join a Thal expedition that will penetrate the Dalek city from the unguarded mountains behind it. Their journey is a dangerous one, and not all will survive." ;
+                                                     ns0:image_pid "p00v28cb" ;
+                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/b009w0wt#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p0345ngw#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p00y20x8#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v28cb.jpg> .
+
+<http://www.bbc.co.uk/programmes/b009w16n#programme> rdf:type ns0:Episode ;
+                                                     dc:title "The Ordeal" ;
+                                                     ns0:position "6" ;
+                                                     ns0:pid "b009w16n" ;
+                                                     ns0:short_synopsis "The Doctor and Susan are once again taken prisoner by the Daleks." ;
+                                                     ns0:medium_synopsis "The Doctor and Susan are once again taken prisoner by the Daleks. In the mountains, Ian, Barbara and the Thals must negotiate a vast chasm to reach the city." ;
+                                                     ns0:image_pid "p00v28hr" ;
+                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/b009w10y#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p0345nbr#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p00y21w1#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v28hr.jpg> .
+
+<http://www.bbc.co.uk/programmes/b009w31v#programme> rdf:type ns0:Episode ;
+                                                     dc:title "The Rescue" ;
+                                                     ns0:position "7" ;
+                                                     ns0:pid "b009w31v" ;
+                                                     ns0:short_synopsis "The Thals and the TARDIS crew attack the Daleks from all sides, but the Daleks fight back." ;
+                                                     ns0:medium_synopsis "The Thals and the time travellers attack the Daleks from all sides as the Daleks start the countdown to release deadly doses of radiation into the atmosphere." ;
+                                                     ns0:image_pid "p00v28l9" ;
+                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/b009w31b#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p0345nky#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p00y22d2#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v28l9.jpg> .

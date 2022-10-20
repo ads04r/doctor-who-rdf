@@ -1,0 +1,69 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns0: <http://purl.org/ontology/po/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://www.bbc.co.uk/programmes/p00q054v#programme> rdf:type ns0:Series ;
+                                                     dc:title "The Deadly Assassin" ;
+                                                     ns0:position "3" ;
+                                                     ns0:pid "p00q054v" ;
+                                                     ns0:short_synopsis "The Doctor is framed for the assassination of the retiring Time Lord president." ;
+                                                     ns0:medium_synopsis "The Doctor is framed for the assassination of the retiring Time Lord president. But by nominating himself as a new candidate, he buys himself time to track down the real culprit." ;
+                                                     ns0:long_synopsis "The Doctor is framed for the assassination of the retiring Time Lord president. But by nominating himself as a new candidate, he buys himself time to track down the real culprit." ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:episode <http://www.bbc.co.uk/programmes/p00vf7gj#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00vf7k3#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00vf7qz#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00vf7tb#programme> .
+
+<http://www.bbc.co.uk/programmes/p00vf7gj#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 1" ;
+                                                     ns0:position "1" ;
+                                                     ns0:pid "p00vf7gj" ;
+                                                     ns0:short_synopsis "The Doctor returns to Gallifrey and races to prevent a tragedy." ;
+                                                     ns0:medium_synopsis "The Doctor answers a summons to return home to Gallifrey and races to prevent a tragedy as the outgoing Time Lord president prepares to announce his successor." ;
+                                                     ns0:image_pid "p00vffvm" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00vf7gk#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p030p1p4#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01fkq0z#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vffvm.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00vf7k3#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 2" ;
+                                                     ns0:position "2" ;
+                                                     ns0:pid "p00vf7k3" ;
+                                                     ns0:short_synopsis "The Time Lord president has been assassinated and the Doctor is the prime suspect." ;
+                                                     ns0:medium_synopsis "The Time Lord president has been assassinated and the Doctor is the prime suspect. The Doctor realises that he has been framed for the murder, but by whom?" ;
+                                                     ns0:image_pid "p00vfg12" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00vf7k4#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p030p2kw#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01fkq7z#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vfg12.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00vf7qz#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 3" ;
+                                                     ns0:position "3" ;
+                                                     ns0:pid "p00vf7qz" ;
+                                                     ns0:short_synopsis "The Doctor enters the virtual world of the Matrix hoping to track down the Master." ;
+                                                     ns0:medium_synopsis "The Doctor enters the virtual world of the Matrix in the hope of tracking down the Master. He is then challenged by a masked opponent to a battle that only one of them can survive." ;
+                                                     ns0:image_pid "p00vfgfv" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00vf7r0#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p030p3z9#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01fkqc6#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vfgfv.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00vf7tb#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 4" ;
+                                                     ns0:position "4" ;
+                                                     ns0:pid "p00vf7tb" ;
+                                                     ns0:short_synopsis "The Master makes his final bid to release the devastating power of the Time Lords." ;
+                                                     ns0:medium_synopsis "Goth has been exposed as the assassin but the game is not over. The Master makes his final bid to release the devastating power of the Time Lords." ;
+                                                     ns0:image_pid "p00vfgjq" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00vf7td#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p030p3fx#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01fkr5f#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vfgjq.jpg> .

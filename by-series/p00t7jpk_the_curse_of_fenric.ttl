@@ -1,0 +1,73 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns0: <http://purl.org/ontology/po/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://www.bbc.co.uk/programmes/p00t7jpk#programme> rdf:type ns0:Series ;
+                                                     dc:title "The Curse of Fenric" ;
+                                                     ns0:position "3" ;
+                                                     ns0:pid "p00t7jpk" ;
+                                                     ns0:short_synopsis "The Doctor faces an old enemy, Fenric, who is seeking revenge..." ;
+                                                     ns0:medium_synopsis "The dead are coming back to life during the latter days of the Second World War and the Doctor realises an old enemy, Fenric, is seeking revenge. But Ace is one of his weapons..." ;
+                                                     ns0:long_synopsis "The dead are coming back to life during the latter days of the Second World War and the Doctor realises an old enemy, Fenric, is seeking revenge. But Ace is one of his weapons..." ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:episode <http://www.bbc.co.uk/programmes/p00vbjjp#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00vbjq3#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00vbjqz#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00vbjry#programme> .
+
+<http://www.bbc.co.uk/programmes/p00vbjjp#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 1" ;
+                                                     ns0:position "1" ;
+                                                     ns0:pid "p00vbjjp" ;
+                                                     ns0:short_synopsis "Russians approach the English coastline as evil stirs beneath the surface of the water." ;
+                                                     ns0:medium_synopsis "As Russian forces approach the English coastline, an ancient evil stirs beneath the surface of the water.  For Ace and the Doctor, a deadly game of revenge has begun..." ;
+                                                     ns0:image_pid "p00vd3qs" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00vbjjr#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02xzsgn#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01zh5x2#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01zh4w6#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vd3qs.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00vbjq3#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 2" ;
+                                                     ns0:position "2" ;
+                                                     ns0:pid "p00vbjq3" ;
+                                                     ns0:short_synopsis "The Ultima machine offers to break the chains of the Wolves of Fenric." ;
+                                                     ns0:medium_synopsis "The Viking runes in the crypt contain a secret to Ace's past. Meanwhile, Millington and Judson's Ultima machine offer to break the chains of the Wolves of Fenric." ;
+                                                     ns0:image_pid "p00vd3ry" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00vbjq4#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02xzsw7#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01zh77n#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01zh6v1#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vd3ry.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00vbjqz#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 3" ;
+                                                     ns0:position "3" ;
+                                                     ns0:pid "p00vbjqz" ;
+                                                     ns0:short_synopsis "The Haemovores attack St Jude's church and Doctor Judson dies." ;
+                                                     ns0:medium_synopsis "The Haemovores attack St Jude's church and the insane Millington willingly sacrifices his men. Doctor Judson dies, only to be reborn as the true evil - Fenric himself..." ;
+                                                     ns0:image_pid "p00vd3sv" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00vbjr0#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02xzswd#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01zh8xk#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01zh84b#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vd3sv.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00vbjry#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 4" ;
+                                                     ns0:position "4" ;
+                                                     ns0:pid "p00vbjry" ;
+                                                     ns0:short_synopsis "The Ancient Haemovore stands upon Earth once again, determined to change the future." ;
+                                                     ns0:medium_synopsis "The Ancient Haemovore stands upon Earth once again, determined to change the future by erasing the past. Ace finally feels love for her mother..." ;
+                                                     ns0:image_pid "p00vd40v" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00vbjrz#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02xzswl#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01zh9tr#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01zh941#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vd40v.jpg> .

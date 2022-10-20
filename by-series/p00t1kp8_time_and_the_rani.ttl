@@ -1,0 +1,71 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns0: <http://purl.org/ontology/po/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://www.bbc.co.uk/programmes/p00t1kp8#programme> rdf:type ns0:Series ;
+                                                     dc:title "Time and the Rani" ;
+                                                     ns0:position "1" ;
+                                                     ns0:pid "p00t1kp8" ;
+                                                     ns0:short_synopsis "The Rani has kidnapped geniuses from throughout time to power a giant brain." ;
+                                                     ns0:medium_synopsis "The Rani has kidnapped geniuses from throughout time and space to power a giant brain she has created. The newly regenerated Doctor must stop her and rally the indolent Lakertyans." ;
+                                                     ns0:long_synopsis "The Rani has kidnapped geniuses from throughout time and space to power a giant brain she has created. The newly regenerated Doctor must stop her and rally the indolent Lakertyans." ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:episode <http://www.bbc.co.uk/programmes/p00vbcwt#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00vbcz2#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00vbd1w#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00vbd39#programme> .
+
+<http://www.bbc.co.uk/programmes/p00vbcwt#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 1" ;
+                                                     ns0:position "1" ;
+                                                     ns0:pid "p00vbcwt" ;
+                                                     ns0:short_synopsis "A newly regenerated Doctor is taken to the Rani's base by Urak the Tetrap." ;
+                                                     ns0:medium_synopsis "A newly regenerated Doctor is taken to the Rani's base by Urak the Tetrap. Meanwhile Mel meets some of the Lakertyans and falls into one of the Rani's traps." ;
+                                                     ns0:image_pid "p00vcqvl" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00vbcwv#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02jt2vl#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01g6b7h#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vcqvl.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00vbcz2#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 2" ;
+                                                     ns0:position "2" ;
+                                                     ns0:pid "p00vbcz2" ;
+                                                     ns0:short_synopsis "The Doctor attempts to learn the secret of the Loyhargil." ;
+                                                     ns0:medium_synopsis "The Rani's impersonation of Mel backfires badly because Urak can't tell the difference, while the Doctor attempts to learn the secret of the Loyhargil." ;
+                                                     ns0:image_pid "p00vcqxl" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00vbcz3#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02jt2t3#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01xrt60#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vcqxl.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00vbd1w#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 3" ;
+                                                     ns0:position "3" ;
+                                                     ns0:pid "p00vbd1w" ;
+                                                     ns0:short_synopsis "The furious Rani begins to slaughter the Lakertyans, so Mel rallies the survivors." ;
+                                                     ns0:medium_synopsis "The furious Rani begins to slaughter the Lakertyans, so Mel rallies the survivors. The Doctor is readied to donate his mind to the Rani's grotesque experiment..." ;
+                                                     ns0:image_pid "p00vcqy6" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00vbd1x#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02jt2wx#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01xrt94#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01xrtdq#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vcqy6.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00vbd39#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 4" ;
+                                                     ns0:position "4" ;
+                                                     ns0:pid "p00vbd39" ;
+                                                     ns0:short_synopsis "As Mel convinces the Lakertyans fight back, the Tetraps turn on the Rani." ;
+                                                     ns0:medium_synopsis "As Mel convinces the Lakertyans fight back, the Tetraps turn on the Rani and the Doctor ensures the missile is deflected away from the asteroid." ;
+                                                     ns0:image_pid "p00vcr06" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00vbd3b#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02jt30s#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01xrtqc#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01xrtyn#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vcr06.jpg> .

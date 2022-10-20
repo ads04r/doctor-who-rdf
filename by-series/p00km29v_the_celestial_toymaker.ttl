@@ -1,0 +1,67 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns0: <http://purl.org/ontology/po/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://www.bbc.co.uk/programmes/p00km29v#programme> rdf:type ns0:Series ;
+                                                     dc:title "The Celestial Toymaker" ;
+                                                     ns0:position "7" ;
+                                                     ns0:pid "p00km29v" ;
+                                                     ns0:short_synopsis "The Doctor and his companions meet the immortal Celestial Toymaker." ;
+                                                     ns0:medium_synopsis "The Doctor and his companions meet the immortal Celestial Toymaker who forces them to play a series of games where defeat makes them the Toymaker's playthings for eternity." ;
+                                                     ns0:long_synopsis "The Doctor and his companions meet the immortal Celestial Toymaker who forces them to play a series of games where defeat makes them the Toymaker's playthings for eternity." ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:episode <http://www.bbc.co.uk/programmes/p00v2638#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v2658#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v267h#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v26b1#programme> .
+
+<http://www.bbc.co.uk/programmes/p00v2638#programme> rdf:type ns0:Episode ;
+                                                     dc:title "The Celestial Toyroom" ;
+                                                     ns0:position "1" ;
+                                                     ns0:pid "p00v2638" ;
+                                                     ns0:short_synopsis "In the strange domain of the Celestial Toymaker, the Doctor must play the games or die." ;
+                                                     ns0:medium_synopsis "Arriving in the strange world of the Celestial Toymaker, the Doctor and his companions find themselves trapped there and forced to play a series of deadly games." ;
+                                                     ns0:image_pid "p00v2f69" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v2639#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p04yjqb6#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p04yygb5#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v2f69.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v2658#programme> rdf:type ns0:Episode ;
+                                                     dc:title "The Hall of Dolls" ;
+                                                     ns0:position "2" ;
+                                                     ns0:pid "p00v2658" ;
+                                                     ns0:short_synopsis "The Doctor must solve the Trilogic puzzle as Dodo and Steven play musical chairs…" ;
+                                                     ns0:medium_synopsis "The Doctor must solve the Trilogic puzzle whilst Dodo and Steven play a deadly game of musical chairs." ;
+                                                     ns0:image_pid "p00v2f8w" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v265b#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p04yygd3#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v2f8w.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v267h#programme> rdf:type ns0:Episode ;
+                                                     dc:title "The Dancing Floor" ;
+                                                     ns0:position "3" ;
+                                                     ns0:pid "p00v267h" ;
+                                                     ns0:short_synopsis "The Doctor is taunted by the Toymaker, and Steven and Dodo must find the TARDIS key…" ;
+                                                     ns0:medium_synopsis "The Doctor is taunted by the Toymaker as he plays the Trilogic game, and Steven and Dodo play hunt the thimble in a bid to recover the TARDIS key." ;
+                                                     ns0:image_pid "p00v2fdr" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v267k#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p04yygbv#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v2fdr.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v26b1#programme> rdf:type ns0:Episode ;
+                                                     dc:title "The Final Test" ;
+                                                     ns0:position "4" ;
+                                                     ns0:pid "p00v26b1" ;
+                                                     ns0:short_synopsis "Steven and Dodo face nasty schoolboy Cyril as the Doctor realises how to solve the puzzle." ;
+                                                     ns0:medium_synopsis "Steven and Dodo compete against nasty schoolboy Cyril as the Doctor realises that winning the game may actually be worse than losing." ;
+                                                     ns0:image_pid "p00v2fg5" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v26b2#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p04yygbn#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p011g95m#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v2fg5.jpg> .

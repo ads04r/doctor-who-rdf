@@ -1,0 +1,96 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns0: <http://purl.org/ontology/po/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://www.bbc.co.uk/programmes/p00kl45z#programme> rdf:type ns0:Series ;
+                                                     dc:title "The Chase" ;
+                                                     ns0:position "8" ;
+                                                     ns0:pid "p00kl45z" ;
+                                                     ns0:short_synopsis "The Daleks have built a space/time vehicle and are in pursuit of the Doctor." ;
+                                                     ns0:medium_synopsis "Using a Time/Space Visualiser taken from the Moroks' space museum, the Doctor, Barbara, Ian and Vicki discover the Daleks have built a space/time vehicle and are in pursuit." ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:episode <http://www.bbc.co.uk/programmes/p00v23c8#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v23m0#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v23rx#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v23sy#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v23tv#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v23w9#programme> .
+
+<http://www.bbc.co.uk/programmes/p00v23c8#programme> rdf:type ns0:Episode ;
+                                                     dc:title "The Executioners" ;
+                                                     ns0:position "1" ;
+                                                     ns0:pid "p00v23c8" ;
+                                                     ns0:short_synopsis "Ian and Vicki are trapped by a tentacled creature on the planet Aridius. " ;
+                                                     ns0:medium_synopsis "Ian and Vicki are trapped by a tentacled creature on the planet Aridius. Meanwhile, the Doctor and Barbara witness Daleks set off on a mission to eliminate them!" ;
+                                                     ns0:image_pid "p00v1vfk" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v23c9#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p03rqcvj#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p011j480#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v1vfk.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v23m0#programme> rdf:type ns0:Episode ;
+                                                     dc:title "The Death of Time" ;
+                                                     ns0:position "2" ;
+                                                     ns0:pid "p00v23m0" ;
+                                                     ns0:short_synopsis "The Doctor and his friends have been given shelter from the Daleks by the Aridians." ;
+                                                     ns0:medium_synopsis "The Doctor and his friends have been given shelter from the Daleks by the Aridians. But the Daleks threaten to kill the Aridians unless they hand over the time travellers. " ;
+                                                     ns0:image_pid "p00v1vgk" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v23m1#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p03rqcql#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p011j4t1#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v1vgk.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v23rx#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Flight through Eternity" ;
+                                                     ns0:position "3" ;
+                                                     ns0:pid "p00v23rx" ;
+                                                     ns0:short_synopsis "The Daleks pursue the TARDIS through  space and Earth's history." ;
+                                                     ns0:medium_synopsis "The Daleks pursue the TARDIS through time and space. In an attempt to lose the Daleks, the Doctor makes a stop on the top of the Empire State Building and then on a sailing ship." ;
+                                                     ns0:image_pid "p00v1vhd" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v23ry#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p03rqb6h#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p011j53f#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v1vhd.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v23sy#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Journey into Terror" ;
+                                                     ns0:position "4" ;
+                                                     ns0:pid "p00v23sy" ;
+                                                     ns0:short_synopsis "With the Daleks in pursuit, the TARDIS lands in what appears to be a haunted house…" ;
+                                                     ns0:medium_synopsis "With the Daleks in pursuit, the TARDIS lands in what appears to be a haunted house. When the Daleks arrive, the travellers depart, not realising that they have left Vicki behind!" ;
+                                                     ns0:image_pid "p00v1vjb" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v23sz#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p03rqb61#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p011j5b4#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v1vjb.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v23tv#programme> rdf:type ns0:Episode ;
+                                                     dc:title "The Death of Dr Who" ;
+                                                     ns0:position "5" ;
+                                                     ns0:pid "p00v23tv" ;
+                                                     ns0:short_synopsis "The Daleks follow the TARDIS to Mechanus and send a robot to kill the Doctor…" ;
+                                                     ns0:medium_synopsis "The Daleks follow the TARDIS to the jungle world of Mechanus which is infested with lethal plants. There the Daleks release a robot double of the Doctor that is programmed to kill." ;
+                                                     ns0:image_pid "p00v1vjp" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v23tw#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p03rqb6s#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p011j5q2#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v1vjp.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v23w9#programme> rdf:type ns0:Episode ;
+                                                     dc:title "The Planet of Decision" ;
+                                                     ns0:position "6" ;
+                                                     ns0:pid "p00v23w9" ;
+                                                     ns0:short_synopsis "The Doctor and his friends are taken prisoner by the Mechonoids, who attack the Daleks." ;
+                                                     ns0:medium_synopsis "The Doctor and his friends are taken prisoner by the Mechonoids. There they meet fellow prisoner, Steven Taylor. The Daleks break into the Mechonoid city and a battle commences." ;
+                                                     ns0:image_pid "p00v1vk9" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v23wb#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p03rqcqd#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p011j5vb#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v1vk9.jpg> .

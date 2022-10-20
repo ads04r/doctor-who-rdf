@@ -1,0 +1,97 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns0: <http://purl.org/ontology/po/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://www.bbc.co.uk/programmes/p00q0553#programme> rdf:type ns0:Series ;
+                                                     dc:title "The Talons of Weng-Chiang" ;
+                                                     ns0:position "6" ;
+                                                     ns0:pid "p00q0553" ;
+                                                     ns0:short_synopsis "The TARDIS arrives in Victorian London where the Doctor and Leela are attacked." ;
+                                                     ns0:medium_synopsis "The TARDIS arrives on a dark, foggy night in Victorian London where the Doctor and Leela are attacked by members of the Tong who follow the ‘god’ Weng-Chiang." ;
+                                                     ns0:long_synopsis "The TARDIS arrives on a dark, foggy night in Victorian London where the Doctor and Leela are attacked by members of the Tong who follow the ‘god’ Weng-Chiang." ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:episode <http://www.bbc.co.uk/programmes/p00vf9f1#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00vf9hy#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00vf9kx#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00vf9pv#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00vf9sl#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00vf9tf#programme> .
+
+<http://www.bbc.co.uk/programmes/p00vf9f1#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 1" ;
+                                                     ns0:position "1" ;
+                                                     ns0:pid "p00vf9f1" ;
+                                                     ns0:short_synopsis "The Doctor and Leela arrive in Victorian London where many young women have disappeared." ;
+                                                     ns0:medium_synopsis "The Doctor and Leela arrive in Victorian London where a number of young women have disappeared. A man's body is lifted from the Thames, covered in the bite marks of a giant rat." ;
+                                                     ns0:image_pid "p00vfjyr" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00vf9f5#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p030p1y1#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01frwnc#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vfjyr.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00vf9hy#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 2" ;
+                                                     ns0:position "2" ;
+                                                     ns0:pid "p00vf9hy" ;
+                                                     ns0:short_synopsis "The Doctor and Leela take refuge at the home of Professor Litefoot. " ;
+                                                     ns0:medium_synopsis "The Doctor and Leela take refuge at the home of Professor Litefoot. But the agents of Weng-Chiang are not far behind." ;
+                                                     ns0:image_pid "p00vfk0h" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00vf9hz#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p030p5vp#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01frx5x#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vfk0h.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00vf9kx#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 3" ;
+                                                     ns0:position "3" ;
+                                                     ns0:pid "p00vf9kx" ;
+                                                     ns0:short_synopsis "Weng-Chiang is desperate to recover his lost time cabinet." ;
+                                                     ns0:medium_synopsis "Weng-Chiang is desperate to recover his lost time cabinet. Leela takes the opportunity to track the Chinese 'god' to his lair where she must face one of his terrifying creations." ;
+                                                     ns0:image_pid "p00vfk21" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00vf9ky#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p030p5y0#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01frx9w#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vfk21.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00vf9pv#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 4" ;
+                                                     ns0:position "4" ;
+                                                     ns0:pid "p00vf9pv" ;
+                                                     ns0:short_synopsis "The Doctor plans to confront Li H'sen Chang, but Greel no longer needs his servant." ;
+                                                     ns0:medium_synopsis "The Doctor and Leela take a trip to the theatre with the intention of confronting Li H'sen Chang. But Weng-Chiang has already made plans to dispose of his former servant." ;
+                                                     ns0:image_pid "p00vfkcm" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00vf9pw#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p030p5zz#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01frxjl#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vfkcm.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00vf9sl#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 5" ;
+                                                     ns0:position "5" ;
+                                                     ns0:pid "p00vf9sl" ;
+                                                     ns0:short_synopsis "Magnus Greel has recovered his lost time cabinet and the Doctor hurries to track him down." ;
+                                                     ns0:medium_synopsis "Weng-Chiang/Magnus Greel has recovered his lost time cabinet and the Doctor hurries to track him down before he uses it and destroys the whole of London." ;
+                                                     ns0:image_pid "p00vfkh9" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00vf9sn#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p030p4f9#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01frxs8#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vfkh9.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00vf9tf#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 6" ;
+                                                     ns0:position "6" ;
+                                                     ns0:pid "p00vf9tf" ;
+                                                     ns0:short_synopsis "The Doctor tracks Greel to his secret hideaway at the House of the Dragon." ;
+                                                     ns0:medium_synopsis "The Doctor tracks Greel to his secret hideaway at the House of the Dragon. There the Doctor reveals the Weng-Chiang's real identity and confronts him for the last time." ;
+                                                     ns0:image_pid "p00vfkhg" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00vf9tg#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p030p4sm#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01fry0q#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vfkhg.jpg> .

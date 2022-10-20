@@ -1,0 +1,106 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns0: <http://purl.org/ontology/po/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://www.bbc.co.uk/programmes/p00krhkl#programme> rdf:type ns0:Series ;
+                                                     dc:title "The Ice Warriors" ;
+                                                     ns0:position "3" ;
+                                                     ns0:pid "p00krhkl" ;
+                                                     ns0:short_synopsis "The Doctor arrives on Earth during a new ice age where he meets the ruthless Ice Warriors." ;
+                                                     ns0:medium_synopsis "The TARDIS arrives on Earth during a new ice age. The Doctor, Victoria and Jamie enter Brittanicus Base but out on the glacier, a large Viking like creature is found buried." ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:episode <http://www.bbc.co.uk/programmes/p00v2xt5#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v2xtt#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v2xw3#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v2xwy#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v2xy8#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v2xzd#programme> .
+
+<http://www.bbc.co.uk/programmes/p00v2xt5#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 1" ;
+                                                     ns0:position "1" ;
+                                                     ns0:pid "p00v2xt5" ;
+                                                     ns0:short_synopsis "The TARDIS arrives on Earth during a new ice age and something has been found in the ice." ;
+                                                     ns0:medium_synopsis "The TARDIS arrives on Earth in the midst of a new ice age where Brittanicus Base is fighting a battle to force back the glaciers. A huge Ice Warrior is found frozen in the ice." ;
+                                                     ns0:long_synopsis "The TARDIS arrives on Earth in the midst of a new ice age where Brittanicus Base is fighting a battle to force back the glaciers. A huge Ice Warrior is found frozen in the ice." ;
+                                                     ns0:image_pid "p00v7gdr" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v2xt6#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p0318rjw#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p04yjrlh#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p04yyfzn#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v7gdr.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v2xtt#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 2" ;
+                                                     ns0:position "2" ;
+                                                     ns0:pid "p00v2xtt" ;
+                                                     ns0:short_synopsis "Varga, the Ice Warrior, has returned to life and has captured Victoria." ;
+                                                     ns0:medium_synopsis "Varga, the Ice Warrior, has returned to life and has captured Victoria and takes her with him to the glacier where he intends to find his frozen comrades." ;
+                                                     ns0:long_synopsis "Varga, the Ice Warrior, has returned to life and has captured Victoria and takes her with him to the glacier where he intends to find his frozen comrades." ;
+                                                     ns0:image_pid "p00v7gld" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v2xtv#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p0318rfr#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p04yyg07#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v7gld.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v2xw3#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 3" ;
+                                                     ns0:position "3" ;
+                                                     ns0:pid "p00v2xw3" ;
+                                                     ns0:short_synopsis "Varga revives his Ice Warriors from the ice and they begin to excavate their ship." ;
+                                                     ns0:medium_synopsis "Varga revives four fellow Ice Warriors from the ice and they begin to excavate their ship. Victoria places herself in jeopardy when she attempts to warn the Brittanicus Base." ;
+                                                     ns0:long_synopsis "Varga revives four fellow Ice Warriors from the ice and they begin to excavate their ship. Victoria places herself in jeopardy when she attempts to warn the Brittanicus Base." ;
+                                                     ns0:image_pid "p00v7gld" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v2xw4#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p0318rx0#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p04yyfzz#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v7gld.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v2xwy#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 4" ;
+                                                     ns0:position "4" ;
+                                                     ns0:pid "p00v2xwy" ;
+                                                     ns0:short_synopsis "Victoria is chased by the Ice Warriors deep into the glacier, but no one is safe there." ;
+                                                     ns0:medium_synopsis "Victoria is chased by the Ice Warriors deep into the caves inside the glacier. The Doctor goes to the Ice Warriors' ship in an attempt to broker a peace, but they do not trust him." ;
+                                                     ns0:long_synopsis "Victoria is chased by the Ice Warriors deep into the caves inside the glacier. The Doctor goes to the Ice Warriors' ship in an attempt to broker a peace, but they do not trust him." ;
+                                                     ns0:image_pid "p00v7gqn" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v2xwz#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p0318s56#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p04yyg0b#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p014y4kb#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v7gqn.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v2xy8#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 5" ;
+                                                     ns0:position "5" ;
+                                                     ns0:pid "p00v2xy8" ;
+                                                     ns0:short_synopsis "The Doctor is held prisoner by the Ice Warriors who are preparing to destroy the base." ;
+                                                     ns0:medium_synopsis "The Doctor and Victoria are held prisoner by the Ice Warriors who are preparing to fire their deadly sonic cannon at the Brittanicus Base." ;
+                                                     ns0:long_synopsis "The Doctor and Victoria are held prisoner by the Ice Warriors who are preparing to fire their deadly sonic cannon at the Brittanicus Base." ;
+                                                     ns0:image_pid "p00v7gwf" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v2xy9#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p0318s4z#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p04yyg0d#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p014y36f#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v7gwf.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v2xzd#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 6" ;
+                                                     ns0:position "6" ;
+                                                     ns0:pid "p00v2xzd" ;
+                                                     ns0:short_synopsis "The Ice Warriors invade the human's base, and it is up to the Doctor to repel them..." ;
+                                                     ns0:medium_synopsis "The Ice Warriors invade the human's base, and it is up to the Doctor to repel them. Using the ioniser is the only way to defeat the Martians, but to do so could have consequences." ;
+                                                     ns0:long_synopsis "The Ice Warriors invade the human's base, and it is up to the Doctor to repel them. Using the ioniser is the only way to defeat the Martians, but to do so could have consequences." ;
+                                                     ns0:image_pid "p00v7gxc" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v2xzf#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p0318scn#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p04yyg00#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p014y328#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v7gxc.jpg> .

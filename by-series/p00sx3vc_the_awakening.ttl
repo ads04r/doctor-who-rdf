@@ -1,0 +1,41 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns0: <http://purl.org/ontology/po/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://www.bbc.co.uk/programmes/p00sx3vc#programme> rdf:type ns0:Series ;
+                                                     dc:title "The Awakening" ;
+                                                     ns0:position "2" ;
+                                                     ns0:pid "p00sx3vc" ;
+                                                     ns0:short_synopsis "An ancient evil - the Malus - exists within the church at Little Hodcombe." ;
+                                                     ns0:medium_synopsis "An ancient evil - the Malus - exists within the church at Little Hodcombe. Local re-enactments of the English Civil War are creating the psychic energy needed by it to break free." ;
+                                                     ns0:long_synopsis "An ancient evil - the Malus - exists within the church at Little Hodcombe. Local re-enactments of the English Civil War are creating the psychic energy needed by it to break free." ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:episode <http://www.bbc.co.uk/programmes/p00v8y29#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v8y47#programme> .
+
+<http://www.bbc.co.uk/programmes/p00v8y29#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 1" ;
+                                                     ns0:position "1" ;
+                                                     ns0:pid "p00v8y29" ;
+                                                     ns0:short_synopsis "The Doctor is alarmed to find a boy transported from the 17th to the 20th century." ;
+                                                     ns0:medium_synopsis "Teacher Jane Hampden is increasingly frustrated by the war games being played around the village, but the Doctor is more alarmed to find a boy transported from the 17th century…" ;
+                                                     ns0:image_pid "p00vbvc4" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v8y2b#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02xzsfm#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01ldfx3#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vbvc4.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v8y47#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 2" ;
+                                                     ns0:position "2" ;
+                                                     ns0:pid "p00v8y47" ;
+                                                     ns0:short_synopsis "The Malus's influence is asserting itself, and the war games take an unpleasant turn." ;
+                                                     ns0:medium_synopsis "The Malus's influence is asserting itself all over the village and the games take a deadly turn. The Doctor and his friends rush back to the TARDIS, but what will they find within?" ;
+                                                     ns0:image_pid "p00vbvfv" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v8y48#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02xzsgz#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01ldg0w#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vbvfv.jpg> .

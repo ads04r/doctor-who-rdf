@@ -1,0 +1,69 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns0: <http://purl.org/ontology/po/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://www.bbc.co.uk/programmes/p00sftyd#programme> rdf:type ns0:Series ;
+                                                     dc:title "Four to Doomsday" ;
+                                                     ns0:position "2" ;
+                                                     ns0:pid "p00sftyd" ;
+                                                     ns0:short_synopsis "The Doctor meets Monarch who believes that he will meet a god at the start of time." ;
+                                                     ns0:medium_synopsis "Arriving on an Urbankan spaceship, containing specimens of humans from throughout time, the Doctor meets Monarch who believes that he can meet a god at the start of time - himself." ;
+                                                     ns0:long_synopsis "Arriving on an Urbankan spaceship, containing specimens of humans from throughout time, the Doctor meets Monarch who believes that he can meet a god at the start of time - himself." ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:episode <http://www.bbc.co.uk/programmes/p00v7d2f#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v7d3t#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v7d59#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v7d6y#programme> .
+
+<http://www.bbc.co.uk/programmes/p00v7d2f#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 1" ;
+                                                     ns0:position "1" ;
+                                                     ns0:pid "p00v7d2f" ;
+                                                     ns0:short_synopsis "The arrival of the TARDIS is observed by three Urbankans." ;
+                                                     ns0:medium_synopsis "The arrival of the TARDIS is observed by three Urbankans via their manopticon devices. Intrigued, they begin dividing the Doctor's friends, and disguising themselves as humans..." ;
+                                                     ns0:image_pid "p00vb99m" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v7d2g#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02xzsgk#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01kggjk#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vb99m.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v7d3t#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 2" ;
+                                                     ns0:position "2" ;
+                                                     ns0:pid "p00v7d3t" ;
+                                                     ns0:short_synopsis "A Grecian philosopher reveals a bizarre secret about Monarch." ;
+                                                     ns0:medium_synopsis "As the Doctor meets the representatives of humanity aboard the Urbankan ship, a Grecian philosopher reveals a bizarre secret about Monarch and his methods..." ;
+                                                     ns0:image_pid "p00vb9b5" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v7d3v#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02xzsgx#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01kggpc#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vb9b5.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v7d59#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 3" ;
+                                                     ns0:position "3" ;
+                                                     ns0:pid "p00v7d59" ;
+                                                     ns0:short_synopsis "Tegan accidentally pilots the TARDS into space, while Lin Fitu betrays the Doctor." ;
+                                                     ns0:medium_synopsis "Panicking, Tegan accidentally pilots the TARDS into space. Meanwhile Lin Fitu betrays the Doctor and Bigon to Monarch, who demands they be beheaded as punishment." ;
+                                                     ns0:image_pid "p00vb9d2" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v7d5b#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02xzsyn#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01kggvr#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vb9d2.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v7d6y#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 4" ;
+                                                     ns0:position "4" ;
+                                                     ns0:pid "p00v7d6y" ;
+                                                     ns0:short_synopsis "The Doctor takes a dangerous spacewalk to rescue Tegan." ;
+                                                     ns0:medium_synopsis "The Doctor takes a dangerous spacewalk to rescue Tegan while Nyssa and Bigon keep the Urbankans distracted. Adric decides exactly whose side he is on..." ;
+                                                     ns0:image_pid "p00vb9c1" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v7d6z#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02xzsys#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01kggyz#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vb9c1.jpg> .

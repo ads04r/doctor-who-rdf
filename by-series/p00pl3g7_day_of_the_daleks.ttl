@@ -1,0 +1,72 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns0: <http://purl.org/ontology/po/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://www.bbc.co.uk/programmes/p00pl3g7#programme> rdf:type ns0:Series ;
+                                                     dc:title "Day of the Daleks" ;
+                                                     ns0:position "1" ;
+                                                     ns0:pid "p00pl3g7" ;
+                                                     ns0:short_synopsis "The world is on the brink of war and Sir Reginald Styles has to negotiate a settlement." ;
+                                                     ns0:medium_synopsis "The world is on the brink of war and Sir Reginald Styles is attempting to negotiate a settlement by arranging a peace conference to be held in his home, Auderly House." ;
+                                                     ns0:episode <http://www.bbc.co.uk/programmes/p00v78w1#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v78y0#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v78yw#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v78zq#programme> .
+
+<http://www.bbc.co.uk/programmes/p00v78w1#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 1" ;
+                                                     ns0:position "1" ;
+                                                     ns0:pid "p00v78w1" ;
+                                                     ns0:short_synopsis "When Sir Reginald Styles claims to have seen a ghost, UNIT is called in." ;
+                                                     ns0:medium_synopsis "When Sir Reginald Styles claims to have seen a ghost, UNIT is called in. The Doctor and Jo spend the night at Styles' house and become the target of an assassin." ;
+                                                     ns0:long_synopsis "When Sir Reginald Styles claims to have seen a ghost, UNIT is called in. The Doctor and Jo spend the night at Styles' house and become the target of an assassin." ;
+                                                     ns0:image_pid "p00v9b30" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v78w2#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p04989y8#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p04yjs1l#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p00zw87s#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v9b30.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v78y0#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 2" ;
+                                                     ns0:position "2" ;
+                                                     ns0:pid "p00v78y0" ;
+                                                     ns0:short_synopsis "The Doctor learns of a plot to change history and Jo is transported to the 22nd Century." ;
+                                                     ns0:medium_synopsis "A captive of the guerrillas, the Doctor discovers they intend to change history. Jo is transported to the 22nd Century where she unwittingly gives vital information to the Daleks." ;
+                                                     ns0:long_synopsis "A captive of the guerrillas, the Doctor discovers they intend to change history. Jo is transported to the 22nd Century where she unwittingly gives vital information to the Daleks." ;
+                                                     ns0:image_pid "p00v9b87" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v78y1#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p0498b7l#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p00zwkxn#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v9b87.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v78yw#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 3" ;
+                                                     ns0:position "3" ;
+                                                     ns0:pid "p00v78yw" ;
+                                                     ns0:short_synopsis "The Doctor arrives in a future where Earth is ruled by the Daleks." ;
+                                                     ns0:medium_synopsis "The Doctor arrives in a bleak future where Earth is ruled by the Daleks and mankind is enslaved. Rescuing Jo, the two escape but the brutish Ogrons are in pursuit." ;
+                                                     ns0:long_synopsis "The Doctor arrives in a bleak future where Earth is ruled by the Daleks and mankind is enslaved. Rescuing Jo, the two escape but the brutish Ogrons are in pursuit." ;
+                                                     ns0:image_pid "p00v9d7q" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v78yx#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p0498bhl#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p00zwg3r#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v9d7q.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v78zq#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 4" ;
+                                                     ns0:position "4" ;
+                                                     ns0:pid "p00v78zq" ;
+                                                     ns0:short_synopsis "The Daleks travel back in time to ensure that the peace conference fails." ;
+                                                     ns0:medium_synopsis "The Controller betrays the Daleks and is exterminated. The Daleks travel back in time to the 20th Century to ensure that the peace conference fails." ;
+                                                     ns0:long_synopsis "The Controller betrays the Daleks and is exterminated. The Daleks travel back in time to the 20th Century to ensure that the peace conference fails." ;
+                                                     ns0:image_pid "p00v9dlr" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v78zr#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p0498bkp#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p00zwcqd#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v9dlr.jpg> .

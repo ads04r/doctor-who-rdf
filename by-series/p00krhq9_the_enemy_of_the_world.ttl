@@ -1,0 +1,98 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns0: <http://purl.org/ontology/po/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://www.bbc.co.uk/programmes/p00krhq9#programme> rdf:type ns0:Series ;
+                                                     dc:title "The Enemy of the World" ;
+                                                     ns0:position "4" ;
+                                                     ns0:pid "p00krhq9" ;
+                                                     ns0:short_synopsis "The Doctor discovers he has a double: an evil and powerful politician called Salamander..." ;
+                                                     ns0:medium_synopsis "After arriving in Australia, the Doctor is mistaken for a scientist called Salamander who is regarded as a hero. But some believe he is intent on being dictator of the world.." ;
+                                                     ns0:long_synopsis "After arriving in Australia, the Doctor is mistaken for a scientist called Salamander who is regarded as a hero. But some believe he is intent on being dictator of the world.." ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:episode <http://www.bbc.co.uk/programmes/p00v2y0t#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v2y1m#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v2y2h#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v2y38#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v2y55#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v2y7w#programme> .
+
+<http://www.bbc.co.uk/programmes/p00v2y0t#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 1" ;
+                                                     ns0:position "1" ;
+                                                     ns0:pid "p00v2y0t" ;
+                                                     ns0:short_synopsis "Arriving in  Australia in the future, the Doctor is mistaken for politician - Salamander." ;
+                                                     ns0:medium_synopsis "Arriving on an Australian beach in the future, the Doctor is mistaken for political leader Salamander. It gives Giles Kent an idea about how to infiltrate a research centre…" ;
+                                                     ns0:long_synopsis "Arriving on an Australian beach in the future, the Doctor is mistaken for political leader Salamander. It gives Giles Kent an idea about how to infiltrate a research centre…" ;
+                                                     ns0:image_pid "p00v7gzs" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v2y0v#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p0318rk0#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v7gzs.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v2y1m#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 2" ;
+                                                     ns0:position "2" ;
+                                                     ns0:pid "p00v2y1m" ;
+                                                     ns0:short_synopsis "Jamie and Victoria travel to Europe where they infiltrate Salamander's staff..." ;
+                                                     ns0:medium_synopsis "Jamie and Victoria travel to Europe where they infiltrate Salamander's staff. Salamander plots to take control of the Central European Zone by discrediting its leader, Denes." ;
+                                                     ns0:long_synopsis "Jamie and Victoria travel to Europe where they infiltrate Salamander's staff. Salamander plots to take control of the Central European Zone by discrediting its leader, Denes." ;
+                                                     ns0:image_pid "p00v7h25" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v2y1n#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p0318rr9#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v7h25.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v2y2h#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 3" ;
+                                                     ns0:position "3" ;
+                                                     ns0:pid "p00v2y2h" ;
+                                                     ns0:short_synopsis "Jamie and Victoria befriend Fariah, intent on discovering the truth about Salamander..." ;
+                                                     ns0:medium_synopsis "Jamie and Victoria befriend Fariah, intent on discovering the truth about Salamander. Astrid plans to rescue Denes, but not everything  goes according to plan." ;
+                                                     ns0:long_synopsis "Jamie and Victoria befriend Fariah, intent on discovering the truth about Salamander. Astrid plans to rescue Denes, but not everything  goes according to plan." ;
+                                                     ns0:image_pid "p00v7gzs" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v2y2j#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p0318rrg#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p014fw4y#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v7gzs.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v2y38#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 4" ;
+                                                     ns0:position "4" ;
+                                                     ns0:pid "p00v2y38" ;
+                                                     ns0:short_synopsis "Kent coerces the Doctor into agreeing to impersonate Salamander, no matter what the peril." ;
+                                                     ns0:medium_synopsis "Kent coerces the Doctor into agreeing to impersonate Salamander. Deep beneath his research centre, Salamander is hiding a dark secret." ;
+                                                     ns0:long_synopsis "Kent coerces the Doctor into agreeing to impersonate Salamander. Deep beneath his research centre, Salamander is hiding a dark secret." ;
+                                                     ns0:image_pid "p00v7h25" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v2y39#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p0318s0k#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v7h25.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v2y55#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 5" ;
+                                                     ns0:position "5" ;
+                                                     ns0:pid "p00v2y55" ;
+                                                     ns0:short_synopsis "Impersonating Salamander, the Doctor infiltrates the centre, but Benik is suspicious." ;
+                                                     ns0:medium_synopsis "Impersonating Salamander, the Doctor infiltrates the research centre, but Benik becomes suspicious. Underground, Salamander's deception is discovered." ;
+                                                     ns0:long_synopsis "Impersonating Salamander, the Doctor infiltrates the research centre, but Benik becomes suspicious. Underground, Salamander's deception is discovered." ;
+                                                     ns0:image_pid "p00v7gzs" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v2y57#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p0318rn3#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v7gzs.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v2y7w#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 6" ;
+                                                     ns0:position "6" ;
+                                                     ns0:pid "p00v2y7w" ;
+                                                     ns0:short_synopsis "Astrid discovers Salamander's secret, while Giles Kent reveals his true colours." ;
+                                                     ns0:medium_synopsis "Astrid discovers the underground bunker and Salamander's secret. On the surface, Giles Kent reveals his true colours." ;
+                                                     ns0:long_synopsis "Astrid discovers the underground bunker and Salamander's secret. On the surface, Giles Kent reveals his true colours." ;
+                                                     ns0:image_pid "p00v7h25" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v2y7x#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p0318rxc#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v7h25.jpg> .

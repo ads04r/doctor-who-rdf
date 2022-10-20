@@ -1,0 +1,184 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns0: <http://purl.org/ontology/po/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://www.bbc.co.uk/programmes/b01rryyj#programme> rdf:type ns0:Series ;
+                                                     ns0:pid "b01rryyj" ;
+                                                     dc:title "Series 7 Part 2" ;
+                                                     ns0:short_synopsis "Adventures across time and space with the time-travelling hero." ;
+                                                     ns0:medium_synopsis "Adventures across time and space with the time-travelling hero." ;
+                                                     foaf:depiction <http://www.bbc.co.uk/iplayer/images/series/b01rryyj_512_288.jpg> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:episode <http://www.bbc.co.uk/programmes/b01rryzz#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/b01rx0lj#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/b01s1cz7#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/b01s35ck#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/b01s8pn6#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/b01sfhyp#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/b01skfzk#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/b01skh8t#programme> .
+
+<http://www.bbc.co.uk/programmes/b01rryzz#programme> rdf:type ns0:Episode ;
+                                                     dc:title "The Bells of Saint John" ;
+                                                     ns0:position "1" ;
+                                                     ns0:pid "b01rryzz" ;
+                                                     ns0:short_synopsis "The search for Clara brings the Doctor to London, where something deadly is in the Wi-Fi." ;
+                                                     ns0:medium_synopsis "The search for Clara brings the Doctor to London, 2013, where something deadly is waiting in the Wi-Fi." ;
+                                                     ns0:image_pid "p01j4ck7" ;
+                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/b01sbtn3#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02jgwl6#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p0172mkk#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01706q4#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p016xqw8#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p016xpwj#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p016xkjx#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p016wk7m#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p016r9z9#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p016r6pw#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p01j4ck7.jpg> .
+
+<http://www.bbc.co.uk/programmes/b01rx0lj#programme> rdf:type ns0:Episode ;
+                                                     dc:title "The Rings Of Akhaten" ;
+                                                     ns0:position "2" ;
+                                                     ns0:pid "b01rx0lj" ;
+                                                     ns0:short_synopsis "The Doctor takes Clara to the Festival of Offerings, but the Old God is waking..." ;
+                                                     ns0:medium_synopsis "The Doctor takes Clara to the Festival of Offerings, but the Old God is waking and demands sacrifice!" ;
+                                                     ns0:image_pid "p01jwlzf" ;
+                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/b01rx0ld#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p017cv6k#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02jgwnq#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p017bdbp#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p0178gjc#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p0177ty8#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p0176y97#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p0172l7h#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p0172lml#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p01jwlzf.jpg> .
+
+<http://www.bbc.co.uk/programmes/b01s1cz7#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Cold War" ;
+                                                     ns0:position "3" ;
+                                                     ns0:pid "b01s1cz7" ;
+                                                     ns0:short_synopsis "On a Russian submarine, a frozen alien warrior is waking up, just as the TARDIS arrives." ;
+                                                     ns0:medium_synopsis "On a Russian submarine in 1983, a frozen alien warrior is waking up, just as the TARDIS materialises." ;
+                                                     ns0:image_pid "p01jwrz3" ;
+                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/b01s1cz5#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p017nx34#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02jgvhr#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p017mqm1#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p017knz0#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p017knwb#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p017kd9g#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p017b9yf#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p017bcn9#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p01jwrz3.jpg> .
+
+<http://www.bbc.co.uk/programmes/b01s35ck#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Hide" ;
+                                                     ns0:position "4" ;
+                                                     ns0:pid "b01s35ck" ;
+                                                     ns0:short_synopsis "Something terrifying is hiding in Caliburn House, and the Doctor joins the ghost hunt." ;
+                                                     ns0:medium_synopsis "Something terrifying is hiding in Caliburn House, and the Doctor finds himself part of the ghost hunt." ;
+                                                     ns0:image_pid "p01jx009" ;
+                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/b01s35bv#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p017zw1x#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02jgwhp#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p017y5s7#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p017zm89#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p017wl7g#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p017vrkd#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p017tff3#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p017mqtc#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p01jx009.jpg> .
+
+<http://www.bbc.co.uk/programmes/b01s8pn6#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Journey to the Centre of the TARDIS" ;
+                                                     ns0:position "5" ;
+                                                     ns0:pid "b01s8pn6" ;
+                                                     ns0:short_synopsis "The TARDIS has crashed, Clara is lost, and the Doctor has 30 minutes before it explodes!" ;
+                                                     ns0:medium_synopsis "The TARDIS has crashed, Clara is lost inside, and the Doctor has 30 minutes before his ship explodes!" ;
+                                                     ns0:image_pid "p01jx6sx" ;
+                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/b01s8pn4#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p018byk5#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02jgwhw#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01880yn#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p0187ftk#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p0185q4g#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p018448t#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p017y5g2#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p01jx6sx.jpg> .
+
+<http://www.bbc.co.uk/programmes/b01sfhyp#programme> rdf:type ns0:Episode ;
+                                                     dc:title "The Crimson Horror" ;
+                                                     ns0:position "6" ;
+                                                     ns0:pid "b01sfhyp" ;
+                                                     ns0:short_synopsis "Something ghastly is afoot in Victorian Yorkshire, as bodies are found with red skin." ;
+                                                     ns0:medium_synopsis "Something ghastly is afoot in Victorian Yorkshire, as bodies are found with their skin a waxy, glowing red." ;
+                                                     ns0:image_pid "p01jxf8y" ;
+                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/b01sfhym#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p020yx24#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02jgwlx#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p018lpy7#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p018k6r1#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p018fzx3#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p018fzmm#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01881cb#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p01jxf8y.jpg> .
+
+<http://www.bbc.co.uk/programmes/b01skfzk#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Nightmare in Silver" ;
+                                                     ns0:position "7" ;
+                                                     ns0:pid "b01skfzk" ;
+                                                     ns0:short_synopsis "The perfect theme park day out is also ground zero for a deadly silver resurrection." ;
+                                                     ns0:medium_synopsis "Hedgewick's World of Wonders: the perfect theme park day out. And ground zero for a deadly silver resurrection." ;
+                                                     ns0:image_pid "p01jxj0l" ;
+                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/b01skfzh#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p018xnrx#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02jgwjx#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p0192lhw#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p0192l0j#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p018w9s1#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p018vlbn#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p018t3h6#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p018r77s#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p018lq0k#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p01jxj0l.jpg> .
+
+<http://www.bbc.co.uk/programmes/b01skh8t#programme> rdf:type ns0:Episode ;
+                                                     dc:title "The Name of the Doctor" ;
+                                                     ns0:position "8" ;
+                                                     ns0:pid "b01skh8t" ;
+                                                     ns0:short_synopsis "The Doctor has a secret he will take to his grave. And it is discovered..." ;
+                                                     ns0:medium_synopsis "The Doctor has a secret he will take to his grave. And it is discovered..." ;
+                                                     ns0:image_pid "p01jxw6c" ;
+                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/b01skh89#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p01974tz#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02jgwmw#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p019hr50#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p019731j#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p019714x#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p0195m8j#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01953dt#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p0193z40#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p0192lz9#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p018wghc#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p018wfdw#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p018wbj2#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p01jxw6c.jpg> .

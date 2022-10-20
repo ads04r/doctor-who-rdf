@@ -1,0 +1,69 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns0: <http://purl.org/ontology/po/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://www.bbc.co.uk/programmes/p00km2bp#programme> rdf:type ns0:Series ;
+                                                     dc:title "The Gunfighters" ;
+                                                     ns0:position "8" ;
+                                                     ns0:pid "p00km2bp" ;
+                                                     ns0:short_synopsis "The travellers encounter the Wild West when the TARDIS lands in Tombstone!" ;
+                                                     ns0:medium_synopsis "After landing in Tombstone, the Doctor seeks the help of Doc Holliday, the local dentist, but a final reckoning is approaching." ;
+                                                     ns0:long_synopsis "After landing in Tombstone, the Doctor seeks the help of Doc Holliday, the local dentist, but a final reckoning is approaching." ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:episode <http://www.bbc.co.uk/programmes/p00v26dt#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v26fk#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v26gx#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v26hy#programme> .
+
+<http://www.bbc.co.uk/programmes/p00v26dt#programme> rdf:type ns0:Episode ;
+                                                     dc:title "A Holiday for the Doctor" ;
+                                                     ns0:position "1" ;
+                                                     ns0:pid "p00v26dt" ;
+                                                     ns0:short_synopsis "The Doctor, Steven and Dodo arrive in Tombstone in America's Wild West. " ;
+                                                     ns0:medium_synopsis "The Doctor, Steven and Dodo arrive in Tombstone in America's Wild West. Mistaken for the infamous Doc Holliday, the Doctor unwittingly walks into a trap." ;
+                                                     ns0:image_pid "p00v2x2v" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v26dv#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p030p2m2#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p011g9dn#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v2x2v.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v26fk#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Don't Shoot the Pianist" ;
+                                                     ns0:position "2" ;
+                                                     ns0:pid "p00v26fk" ;
+                                                     ns0:short_synopsis "Tension between the Clantons and Doc Holliday grows and Charlie's bar gets dangerous." ;
+                                                     ns0:medium_synopsis "Tensions between the Clantons and Doc Holliday continue to grow and Steven finds himself caught in the crossfire." ;
+                                                     ns0:image_pid "p00v2x2y" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v26fl#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p030p4cb#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p011g9n4#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v2x2y.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v26gx#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Johnny Ringo" ;
+                                                     ns0:position "3" ;
+                                                     ns0:pid "p00v26gx" ;
+                                                     ns0:short_synopsis "Events in Tombstone take a turn for the worse when gunslinger Johnny Ringo is hired." ;
+                                                     ns0:medium_synopsis "Events in Tombstone take a turn for the worse when gunslinger Johnny Ringo is hired by the Clantons and shots are fired in the jailhouse." ;
+                                                     ns0:image_pid "p00v2x31" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v26gy#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p030p3q5#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p011g9qn#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v2x31.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v26hy#programme> rdf:type ns0:Episode ;
+                                                     dc:title "The OK Corral" ;
+                                                     ns0:position "4" ;
+                                                     ns0:pid "p00v26hy" ;
+                                                     ns0:short_synopsis "Despite the Doctor's efforts, a final showdown at the OK Corral takes place." ;
+                                                     ns0:medium_synopsis "Despite the Doctor's efforts, a final showdown between the Clantons, Holliday, Earp and Ringo seems inevitable." ;
+                                                     ns0:image_pid "p00v2x35" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v26hz#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p030p40s#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p011g9vf#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v2x35.jpg> .

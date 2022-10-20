@@ -1,0 +1,42 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns0: <http://purl.org/ontology/po/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://www.bbc.co.uk/programmes/p00pq2fc#programme> rdf:type ns0:Series ;
+                                                     dc:title "The Sontaran Experiment" ;
+                                                     ns0:position "3" ;
+                                                     ns0:pid "p00pq2fc" ;
+                                                     ns0:short_synopsis "The Doctor, Sarah and Harry arrive on Earth which is now a desolate wilderness." ;
+                                                     ns0:medium_synopsis "The Doctor, Sarah and Harry arrive on Earth which is now a desolate wilderness. They discover a group of stranded GalSec colonists lured there by a fake distress call." ;
+                                                     ns0:long_synopsis "The Doctor, Sarah and Harry arrive on Earth which is now a desolate wilderness. They discover a group of stranded GalSec colonists lured there by a fake distress call." ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:episode <http://www.bbc.co.uk/programmes/p00vd5bt#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00vd5dl#programme> .
+
+<http://www.bbc.co.uk/programmes/p00vd5bt#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 1" ;
+                                                     ns0:position "1" ;
+                                                     ns0:pid "p00vd5bt" ;
+                                                     ns0:short_synopsis "Arriving on Earth, the Doctor, Harry and Sarah meet a group of stranded human colonists." ;
+                                                     ns0:medium_synopsis "The Doctor, Harry and Sarah find Earth is a desolate wilderness. They meet a group of stranded human colonists who are being hunted by a robot and experimented upon by its master." ;
+                                                     ns0:image_pid "p00vf23b" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00vd5bv#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02xwgrw#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p018dp8z#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vf23b.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00vd5dl#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 2" ;
+                                                     ns0:position "2" ;
+                                                     ns0:pid "p00vd5dl" ;
+                                                     ns0:short_synopsis "Sarah has been caught by Styre, the Sontaran conducting experiments on the captive humans." ;
+                                                     ns0:medium_synopsis "Sarah has been caught by the Sontaran, Field Major Styre, who is conducting cruel experiments on the captured humans, paving the way for a full-scale invasion." ;
+                                                     ns0:image_pid "p00vf273" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00vd5dm#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02xwh12#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p018gfc0#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p018dpjl#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vf273.jpg> .

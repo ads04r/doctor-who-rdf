@@ -1,0 +1,102 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns0: <http://purl.org/ontology/po/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://www.bbc.co.uk/programmes/p00pl3nx#programme> rdf:type ns0:Series ;
+                                                     dc:title "The Time Monster" ;
+                                                     ns0:position "5" ;
+                                                     ns0:pid "p00pl3nx" ;
+                                                     ns0:short_synopsis "A dream of the Master and a glowing crystal leads the Doctor to the Newton Institute." ;
+                                                     ns0:medium_synopsis "A dream of the Master and a glowing crystal leads the Doctor to the Newton Institute where his fellow Time Lord is conducting experiments with a machine he has named TOMTIT." ;
+                                                     ns0:long_synopsis "A dream of the Master and a glowing crystal leads the Doctor to the Newton Institute where his fellow Time Lord is conducting experiments with a machine he has named TOMTIT." ;
+                                                     ns0:episode <http://www.bbc.co.uk/programmes/p00v79sd#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v79t8#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v79vn#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v79wx#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v79xp#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v79ym#programme> .
+
+<http://www.bbc.co.uk/programmes/p00v79sd#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 1" ;
+                                                     ns0:position "1" ;
+                                                     ns0:pid "p00v79sd" ;
+                                                     ns0:short_synopsis "The Master is using a device called TOMTIT to summon a creature from beyond time." ;
+                                                     ns0:medium_synopsis "Masquerading as research scientist, Professor Thascales, the Master is using a device called TOMTIT to summon an ancient and powerful creature from beyond time." ;
+                                                     ns0:long_synopsis "Masquerading as research scientist, Professor Thascales, the Master is using a device called TOMTIT to summon an ancient and powerful creature from beyond time." ;
+                                                     ns0:image_pid "p00vbsd4" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v79sf#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02xwgry#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01bngtq#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vbsd4.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v79t8#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 2" ;
+                                                     ns0:position "2" ;
+                                                     ns0:pid "p00v79t8" ;
+                                                     ns0:short_synopsis "After a disastrous attempt to summon Kronos, the Master prepares to use TOMTIT once again." ;
+                                                     ns0:medium_synopsis "The Doctor tracks the Master down to the Newton Institute. There, after a disastrous attempt to summon Kronos, the Master prepares to use TOMTIT again." ;
+                                                     ns0:long_synopsis "The Doctor tracks the Master down to the Newton Institute. There, after a disastrous attempt to summon Kronos, the Master prepares to use TOMTIT again." ;
+                                                     ns0:image_pid "p00vbsrp" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v79t9#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02xwh1c#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01bnh0y#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vbsrp.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v79vn#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 3" ;
+                                                     ns0:position "3" ;
+                                                     ns0:pid "p00v79vn" ;
+                                                     ns0:short_synopsis "The Master uses TOMTIT to summon threats from the past to attack UNIT." ;
+                                                     ns0:medium_synopsis "Krasis, High Priest of Atlantis, has been summoned by the Master to help him find the crystal of Kronos. The Master uses TOMTIT to summon threats from the past to attack UNIT." ;
+                                                     ns0:long_synopsis "Krasis, High Priest of Atlantis, has been summoned by the Master to help him find the crystal of Kronos. The Master uses TOMTIT to summon threats from the past to attack UNIT." ;
+                                                     ns0:image_pid "p00vbssx" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v79vp#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02xwh8n#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01bnhbd#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vbssx.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v79wx#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 4" ;
+                                                     ns0:position "4" ;
+                                                     ns0:pid "p00v79wx" ;
+                                                     ns0:short_synopsis "The Master heads to Atlantis but he and the Doctor confront each other in the time vortex." ;
+                                                     ns0:medium_synopsis "As UNIT forces approach, the Master leaves for Atlantis in his TARDIS. However, the Doctor is not far behind and in the time vortex, the two Time Lords confront each other." ;
+                                                     ns0:long_synopsis "As UNIT forces approach, the Master leaves for Atlantis in his TARDIS. However, the Doctor is not far behind and in the time vortex, the two Time Lords confront each other." ;
+                                                     ns0:image_pid "p00vbstl" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v79wy#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02xwhgj#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01bnhss#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vbstl.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v79xp#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 5" ;
+                                                     ns0:position "5" ;
+                                                     ns0:pid "p00v79xp" ;
+                                                     ns0:short_synopsis "In Atlantis the crystal of Kronos is protected by a guardian who is half man, half beast." ;
+                                                     ns0:medium_synopsis "Arriving in Atlantis, the Master seduces the beautiful Queen Galleia so that he might possess the crystal of Kronos. But it is protected by a guardian who is half man, half beast." ;
+                                                     ns0:long_synopsis "Arriving in Atlantis, the Master seduces the beautiful Queen Galleia so that he might possess the crystal of Kronos. But it is protected by a guardian who is half man, half beast." ;
+                                                     ns0:image_pid "p00vbsw5" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v79xq#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02xwhrl#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01bnhw7#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vbsw5.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v79ym#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 6" ;
+                                                     ns0:position "6" ;
+                                                     ns0:pid "p00v79ym" ;
+                                                     ns0:short_synopsis "With the crystal of Kronos in his possession, the Master releases the Chronovore." ;
+                                                     ns0:medium_synopsis "With the crystal of Kronos in his possession, the Master prepares to release the Chronovore. The Doctor is powerless to stop his nemesis as the end of Atlantis approaches." ;
+                                                     ns0:long_synopsis "With the crystal of Kronos in his possession, the Master prepares to release the Chronovore. The Doctor is powerless to stop his nemesis as the end of Atlantis approaches." ;
+                                                     ns0:image_pid "p00vbt1z" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v79yn#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02xwhyj#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01bnhyt#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vbt1z.jpg> .

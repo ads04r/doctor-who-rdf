@@ -1,0 +1,65 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns0: <http://purl.org/ontology/po/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://www.bbc.co.uk/programmes/p00km27g#programme> rdf:type ns0:Series ;
+                                                     dc:title "The Massacre" ;
+                                                     ns0:position "5" ;
+                                                     ns0:pid "p00km27g" ;
+                                                     ns0:short_synopsis "The TARDIS takes the Doctor and Steven to Paris in 1572." ;
+                                                     ns0:medium_synopsis "The TARDIS takes the Doctor and Steven to Paris in 1572 where Steven makes friends with a group of Huguenots whilst the Doctor pays a visit on the apothecary, Charles Preslin." ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:episode <http://www.bbc.co.uk/programmes/p00v25k5#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v25ky#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v25m5#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v25r7#programme> .
+
+<http://www.bbc.co.uk/programmes/p00v25k5#programme> rdf:type ns0:Episode ;
+                                                     dc:title "War of God" ;
+                                                     ns0:position "1" ;
+                                                     ns0:pid "p00v25k5" ;
+                                                     ns0:short_synopsis "The Doctor and Steven arrive in Paris in the 16th Century." ;
+                                                     ns0:medium_synopsis "The Doctor and Steven arrive in Paris in the 16th Century. The Doctor talks science with apothecary, Charles Preslin, whilst Steven learns of a Catholic plot." ;
+                                                     ns0:image_pid "p00v2dk0" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v25k6#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p04yjqb5#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p04yyg7v#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v2dk0.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v25ky#programme> rdf:type ns0:Episode ;
+                                                     dc:title "The Sea Beggar" ;
+                                                     ns0:position "2" ;
+                                                     ns0:pid "p00v25ky" ;
+                                                     ns0:short_synopsis "Steven is suspected of being a spy and is amazed to see the Abbot looks like the Doctor." ;
+                                                     ns0:medium_synopsis "Steven is suspected of being a Catholic spy and is amazed to discover that the Catholic Abbot of Amboise is an exact double for the Doctor." ;
+                                                     ns0:image_pid "p00v2dk0" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v25kz#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p04yyg7n#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v2dk0.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v25m5#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Priest of Death" ;
+                                                     ns0:position "3" ;
+                                                     ns0:pid "p00v25m5" ;
+                                                     ns0:short_synopsis "Still believing the Abbot of Amboise is the Doctor in disguise, Steven sees him murdered." ;
+                                                     ns0:medium_synopsis "Believing the Abbot of Amboise to be the Doctor in disguise, Steven is horrified when the Abbot is murdered!" ;
+                                                     ns0:image_pid "p00v2dmy" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v25m6#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p04yyg81#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v2dmy.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v25r7#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Bell of Doom" ;
+                                                     ns0:position "4" ;
+                                                     ns0:pid "p00v25r7" ;
+                                                     ns0:short_synopsis "Steven discovers that the Abbot was the Doctor's double. But the massacre is beginning..." ;
+                                                     ns0:medium_synopsis "Steven is relieved to discover that the Abbot was the Doctor's double. But as the time of the massacre approaches, the Doctor is eager that they make their escape." ;
+                                                     ns0:image_pid "p00v2dk0" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v25r8#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p04yyg7t#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v2dk0.jpg> .

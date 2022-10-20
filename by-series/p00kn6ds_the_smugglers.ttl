@@ -1,0 +1,69 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns0: <http://purl.org/ontology/po/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://www.bbc.co.uk/programmes/p00kn6ds#programme> rdf:type ns0:Series ;
+                                                     dc:title "The Smugglers" ;
+                                                     ns0:position "1" ;
+                                                     ns0:pid "p00kn6ds" ;
+                                                     ns0:short_synopsis "The TARDIS takes the Doctor and his new companions, Ben and Polly, to Cornwall." ;
+                                                     ns0:medium_synopsis "The TARDIS takes the Doctor and his new companions, Ben and Polly to Cornwall in the 17th Century where they encounter Captain Pike and his band of treasure seeking pirates." ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:episode <http://www.bbc.co.uk/programmes/p00v2x9b#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v2xbg#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v2xc3#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v2xcv#programme> .
+
+<http://www.bbc.co.uk/programmes/p00v2x9b#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 1" ;
+                                                     ns0:position "1" ;
+                                                     ns0:pid "p00v2x9b" ;
+                                                     ns0:short_synopsis "In 17th Century Cornwall, the Doctor, Ben and Polly get caught up in a smuggling plot." ;
+                                                     ns0:medium_synopsis "In 17th Century Cornwall, Joseph Longfoot passes a message to the Doctor and is then murdered. Captain Pike is seeking treasure to which the Doctor now holds the only clue." ;
+                                                     ns0:long_synopsis "In 17th Century Cornwall, Joseph Longfoot passes a message to the Doctor and is then murdered. Captain Pike is seeking treasure to which the Doctor now holds the only clue." ;
+                                                     ns0:image_pid "p00v1x32" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v2x9c#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p04yjqq5#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p04yyfn4#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v1x32.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v2xbg#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 2" ;
+                                                     ns0:position "2" ;
+                                                     ns0:pid "p00v2xbg" ;
+                                                     ns0:short_synopsis "The Doctor is a captive aboard the pirate ship as Pike strikes a deal with the smugglers." ;
+                                                     ns0:medium_synopsis "The Doctor is held captive aboard the pirate ship whilst Captain Pike strikes a deal with the Smugglers. Ben and Polly are imprisoned, accused of murdering the church warden." ;
+                                                     ns0:long_synopsis "The Doctor is held captive aboard the pirate ship whilst Captain Pike strikes a deal with the Smugglers. Ben and Polly are imprisoned, accused of murdering the church warden." ;
+                                                     ns0:image_pid "p00v1x42" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v2xbh#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p04yyfn6#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v1x42.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v2xc3#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 3" ;
+                                                     ns0:position "3" ;
+                                                     ns0:pid "p00v2xc3" ;
+                                                     ns0:short_synopsis "Reunited with Ben and Polly, the Doctor goes in search of the treasure…" ;
+                                                     ns0:medium_synopsis "Escaping from the pirate ship and reunited with Ben and Polly, the Doctor goes in search of the hidden treasure. But the pirates and the smugglers aren't far behind." ;
+                                                     ns0:long_synopsis "Escaping from the pirate ship and reunited with Ben and Polly, the Doctor goes in search of the hidden treasure. But the pirates and the smugglers aren't far behind." ;
+                                                     ns0:image_pid "p00v1x55" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v2xc4#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p04yyfnc#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v1x55.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v2xcv#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 4" ;
+                                                     ns0:position "4" ;
+                                                     ns0:pid "p00v2xcv" ;
+                                                     ns0:short_synopsis "As Polly is held captive, the greed of the smugglers leads to betrayals and death." ;
+                                                     ns0:medium_synopsis "The greed of the pirates leads to betrayals and death. With Polly held hostage, the Doctor is forced to reveal the secret hiding place of the lost treasure." ;
+                                                     ns0:long_synopsis "The greed of the pirates leads to betrayals and death. With Polly held hostage, the Doctor is forced to reveal the secret hiding place of the lost treasure." ;
+                                                     ns0:image_pid "p00v1x87" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v2xcw#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p04yyfn2#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v1x87.jpg> .

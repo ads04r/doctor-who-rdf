@@ -1,0 +1,90 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns0: <http://purl.org/ontology/po/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://www.bbc.co.uk/programmes/p00kn6jz#programme> rdf:type ns0:Series ;
+                                                     dc:title "The Power of the Daleks" ;
+                                                     ns0:position "3" ;
+                                                     ns0:pid "p00kn6jz" ;
+                                                     ns0:short_synopsis "In the Second Doctor's debut he must defeat the Daleks on the Earth colony of Vulcan." ;
+                                                     ns0:medium_synopsis "The TARDIS arrives on the planet Vulcan, site of an Earth colony where the Doctor is mistaken as an Examiner from Earth who has been summoned to investigate a suspected rebellion." ;
+                                                     ns0:episode <http://www.bbc.co.uk/programmes/p00v2y8q#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v2yd3#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v2ydy#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v2yn2#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v2ynq#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v31lv#programme> .
+
+<http://www.bbc.co.uk/programmes/p00v2y8q#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 1" ;
+                                                     ns0:position "1" ;
+                                                     ns0:pid "p00v2y8q" ;
+                                                     ns0:short_synopsis "Ben and Polly suspect the 'new' Doctor may be an imposter. The TARDIS lands on Vulcan." ;
+                                                     ns0:medium_synopsis "Ben and Polly suspect that the 'new' Doctor is really an imposter. The TARDIS lands on the planet Vulcan where a murder has been committed." ;
+                                                     ns0:long_synopsis "Ben and Polly suspect that the 'new' Doctor is really an imposter. The TARDIS lands on the planet Vulcan where a murder has been committed." ;
+                                                     ns0:image_pid "p00v1y02" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v2y8r#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p04yjqq7#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v1y02.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v2yd3#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 2" ;
+                                                     ns0:position "2" ;
+                                                     ns0:pid "p00v2yd3" ;
+                                                     ns0:short_synopsis "Posing as an Examiner from Earth, the Doctor tries to warn Lesterson about the Daleks." ;
+                                                     ns0:medium_synopsis "Posing as an Examiner from Earth, the Doctor warns the scientist, Lesterson about the dire consequences of reactivating the dormant Daleks." ;
+                                                     ns0:long_synopsis "Posing as an Examiner from Earth, the Doctor warns the scientist, Lesterson about the dire consequences of reactivating the dormant Daleks." ;
+                                                     ns0:image_pid "p00v1y0m" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v2yd5#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v1y0m.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v2ydy#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 3" ;
+                                                     ns0:position "3" ;
+                                                     ns0:pid "p00v2ydy" ;
+                                                     ns0:short_synopsis "Polly is a prisoner of the rebels who want to use Daleks to take control of the colony." ;
+                                                     ns0:medium_synopsis "Polly is taken prisoner by the rebels who intend to use the Daleks to take control of the colony. The Doctor discovers that all three Daleks have now been reactivated." ;
+                                                     ns0:long_synopsis "Polly is taken prisoner by the rebels who intend to use the Daleks to take control of the colony. The Doctor discovers that all three Daleks have now been reactivated." ;
+                                                     ns0:image_pid "p00v1y18" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v2ydz#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v1y18.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v2yn2#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 4" ;
+                                                     ns0:position "4" ;
+                                                     ns0:pid "p00v2yn2" ;
+                                                     ns0:short_synopsis "Lesterson is driven insane when he discovers that the Daleks are reproducing themselves..." ;
+                                                     ns0:medium_synopsis "Lesterson is driven insane when he discovers that the Daleks are reproducing themselves, and are preparing to seize control of the colony." ;
+                                                     ns0:long_synopsis "Lesterson is driven insane when he discovers that the Daleks are reproducing themselves, and are preparing to seize control of the colony." ;
+                                                     ns0:image_pid "p00v1y1v" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v2yn3#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v1y1v.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v2ynq#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 5" ;
+                                                     ns0:position "5" ;
+                                                     ns0:pid "p00v2ynq" ;
+                                                     ns0:short_synopsis "Bragen leads the rebellion and takes control of the colony, killing Governor Hensell..." ;
+                                                     ns0:medium_synopsis "Bragen leads the rebellion and takes control of the colony, killing Governor Hensell. But the Daleks are also ready to make their final move." ;
+                                                     ns0:long_synopsis "Bragen leads the rebellion and takes control of the colony, killing Governor Hensell. But the Daleks are also ready to make their final move." ;
+                                                     ns0:image_pid "p00v2075" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v2ynr#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v2075.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v31lv#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 6" ;
+                                                     ns0:position "6" ;
+                                                     ns0:pid "p00v31lv" ;
+                                                     ns0:short_synopsis "A battle rages between the rebels, the loyal colonists and the Daleks…" ;
+                                                     ns0:medium_synopsis "As a battle rages between the rebels and the loyal colonists, the Daleks begin their attack. The only chance of survival for the colony rests with the Doctor." ;
+                                                     ns0:long_synopsis "As a battle rages between the rebels and the loyal colonists, the Daleks begin their attack. The only chance of survival for the colony rests with the Doctor." ;
+                                                     ns0:image_pid "p00v208d" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v31lw#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v208d.jpg> .

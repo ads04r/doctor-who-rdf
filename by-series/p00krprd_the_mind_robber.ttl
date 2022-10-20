@@ -1,0 +1,87 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns0: <http://purl.org/ontology/po/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://www.bbc.co.uk/programmes/p00krprd#programme> rdf:type ns0:Series ;
+                                                     dc:title "The Mind Robber" ;
+                                                     ns0:position "2" ;
+                                                     ns0:pid "p00krprd" ;
+                                                     ns0:short_synopsis "Escaping a volcanic eruption, the Doctor takes the TARDIS out of normal time and space." ;
+                                                     ns0:medium_synopsis "Escaping a volcanic eruption, the Doctor takes the TARDIS out of normal time and space but Jamie and Zoe are lured into a white void populated only by robots and illusions." ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:episode <http://www.bbc.co.uk/programmes/p00v52v9#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v52yd#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v52zf#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v531w#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v532r#programme> .
+
+<http://www.bbc.co.uk/programmes/p00v52v9#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 1" ;
+                                                     ns0:position "1" ;
+                                                     ns0:pid "p00v52v9" ;
+                                                     ns0:short_synopsis "To escape destruction, the Doctor removes the TARDIS from normal space and time." ;
+                                                     ns0:medium_synopsis "To escape destruction by a volcano, the Doctor removes the TARDIS from normal space and time. The travellers find themselves lured out of the ship, into a ghostly white void." ;
+                                                     ns0:long_synopsis "The Doctor activates an emergency unit on board theTARDIS to escape destruction by a volcanic eruption. Unfortunately, it moves them out of normal space and time to a deadly world where fantasy rules. The travellers find themselves lured out of the ship into a ghostly white void." ;
+                                                     ns0:image_pid "p00v335r" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v52vb#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p0380drt#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01jv0pj#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v335r.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v52yd#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 2" ;
+                                                     ns0:position "2" ;
+                                                     ns0:pid "p00v52yd" ;
+                                                     ns0:short_synopsis "Lost in the Land of Fiction, the Doctor searches for his companions in a forest of words." ;
+                                                     ns0:medium_synopsis "Arriving in the Land of Fiction, the Doctor searches for his companions in a forest of words. Clockwork soldiers are on the prowl and fictional characters come to life." ;
+                                                     ns0:long_synopsis "Arriving in the Land of Fiction, the Doctor searches for his companions in a forest of words. Clockwork soldiers are on the prowl and fictional characters come to life." ;
+                                                     ns0:image_pid "p00v336h" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v52yf#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p0380dx2#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01jv1fb#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v336h.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v52zf#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 3" ;
+                                                     ns0:position "3" ;
+                                                     ns0:pid "p00v52zf" ;
+                                                     ns0:short_synopsis "With the help of Rapunzel, Jamie escapes from a clockwork soldier into the citadel." ;
+                                                     ns0:medium_synopsis "With the help of Rapunzel, Jamie escapes from a clockwork soldier into the citadel where he makes a discovery. The Doctor and Zoe are confronted by the mythological minotaur." ;
+                                                     ns0:long_synopsis "With the help of Rapunzel, Jamie escapes from a clockwork soldier into the citadel where he makes a discovery. The Doctor and Zoe are confronted by the mythological minotaur." ;
+                                                     ns0:image_pid "p00v336s" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v52zg#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p0380f16#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01jv342#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v336s.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v531w#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 4" ;
+                                                     ns0:position "4" ;
+                                                     ns0:pid "p00v531w" ;
+                                                     ns0:short_synopsis "The Doctor is captured by the White Robots and meets the Master of the Land of Fiction." ;
+                                                     ns0:medium_synopsis "The Doctor, Jamie and Zoe are captured by the White Robots in the Citadel and are taken to meet the Master of the Land of Fiction who has a proposition for the Doctor." ;
+                                                     ns0:long_synopsis "The Doctor, Jamie and Zoe are captured by the White Robots in the Citadel and are taken to meet the Master of the Land of Fiction who has a proposition for the Doctor." ;
+                                                     ns0:image_pid "p00v337n" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v531x#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p0380f6x#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01jv39y#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v337n.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v532r#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 5" ;
+                                                     ns0:position "5" ;
+                                                     ns0:pid "p00v532r" ;
+                                                     ns0:short_synopsis "The Doctor engages the Master in battle, both using characters from fiction to help them." ;
+                                                     ns0:medium_synopsis "The Doctor engages in a battle with the Master, both summoning characters from fiction to fight each other. If the Doctor loses, he will be trapped in the Land of Fiction forever." ;
+                                                     ns0:long_synopsis "The Doctor engages in a battle with the Master, both summoning characters from fiction to fight each other. If the Doctor loses, he will be trapped in the Land of Fiction forever." ;
+                                                     ns0:image_pid "p00v338g" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v532s#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p0380f6r#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01jv3kx#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v338g.jpg> .

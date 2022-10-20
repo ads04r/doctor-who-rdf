@@ -1,0 +1,69 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns0: <http://purl.org/ontology/po/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://www.bbc.co.uk/programmes/p00km290#programme> rdf:type ns0:Series ;
+                                                     dc:title "The Ark" ;
+                                                     ns0:position "6" ;
+                                                     ns0:pid "p00km290" ;
+                                                     ns0:short_synopsis "The TARDIS travels to a giant spacecraft in the far future." ;
+                                                     ns0:medium_synopsis "The TARDIS takes the Doctor, Steven and their new travelling companion, Dodo, to a giant spacecraft in the far future carrying all that remains of Earth and the human population." ;
+                                                     ns0:long_synopsis "The TARDIS takes the Doctor, Steven and their new travelling companion, Dodo, to a giant spacecraft in the far future carrying all that remains of Earth and the human population." ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:episode <http://www.bbc.co.uk/programmes/p00v25yf#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v25z3#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v25zs#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v2625#programme> .
+
+<http://www.bbc.co.uk/programmes/p00v25yf#programme> rdf:type ns0:Episode ;
+                                                     dc:title "The Steel Sky" ;
+                                                     ns0:position "1" ;
+                                                     ns0:pid "p00v25yf" ;
+                                                     ns0:short_synopsis "The TARDIS arrives in the future on a spaceship carrying the remains of humanity." ;
+                                                     ns0:medium_synopsis "Arriving in the future on a spaceship carrying the remains of the Earth's population, the Doctor, Steven and Dodo are accused of bringing the plague when Dodo's cold turns deadly." ;
+                                                     ns0:image_pid "p00v2dv1" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v25yg#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02xzsp5#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p011g8kc#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v2dv1.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v25z3#programme> rdf:type ns0:Episode ;
+                                                     dc:title "The Plague" ;
+                                                     ns0:position "2" ;
+                                                     ns0:pid "p00v25z3" ;
+                                                     ns0:short_synopsis "Steven is on trial for bringing a deadly plague to the Ark, killing humans and Monoids." ;
+                                                     ns0:medium_synopsis "Put on trial and found guilty of introducing a deadly plague to the Ark, the lives of the Doctor, Steven and Dodo hang in the balance as the Doctor attempts to find a cure." ;
+                                                     ns0:image_pid "p00v2dwt" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v25z4#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02xzsg4#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p011g8vd#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v2dwt.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v25zs#programme> rdf:type ns0:Episode ;
+                                                     dc:title "The Return" ;
+                                                     ns0:position "3" ;
+                                                     ns0:pid "p00v25zs" ;
+                                                     ns0:short_synopsis "When the TARDIS returns to the Ark, the Monoids have taken charge and enslaved mankind." ;
+                                                     ns0:medium_synopsis "When the TARDIS returns to the Ark at the end of its centuries long voyage, the travellers discover that the humans have been enslaved by their former servants, the Monoids." ;
+                                                     ns0:image_pid "p00v2dyw" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v25zt#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02xzsjp#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p011g8y9#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v2dyw.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v2625#programme> rdf:type ns0:Episode ;
+                                                     dc:title "The Bomb" ;
+                                                     ns0:position "4" ;
+                                                     ns0:pid "p00v2625" ;
+                                                     ns0:short_synopsis "Unwilling to share Refusis with their human slaves, the Monoids plan genocide." ;
+                                                     ns0:medium_synopsis "Unwilling to share the new world, Refusis, with their human slaves, the Monoids plan to blow up the Ark with a bomb which is hidden somewhere on the ship." ;
+                                                     ns0:image_pid "p00v2f3z" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v2626#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02xzsm1#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p011g8zz#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v2f3z.jpg> .

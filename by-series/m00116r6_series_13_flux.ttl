@@ -1,0 +1,140 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns0: <http://purl.org/ontology/po/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://www.bbc.co.uk/programmes/m00116r6#programme> rdf:type ns0:Series ;
+                                                     ns0:episode <http://www.bbc.co.uk/programmes/m00116r4#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/m0011g6k#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/m0011nfd#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/m0011vnw#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/m00123l4#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/m00129lb#programme> ;
+                                                     dc:title "Series 13: Flux" .
+
+<http://www.bbc.co.uk/programmes/m00116r4#programme> rdf:type ns0:Episode ;
+                                                     dc:title "The Halloween Apocalypse" ;
+                                                     ns0:short_synopsis "On Halloween, all across the universe, terrifying forces are stirring. What is the Flux?" ;
+                                                     ns0:medium_synopsis "On Halloween, all across the universe, terrifying forces are stirring. The life of Dan Lewis is about to change forever. Why is the Doctor chasing Karvanista? What is the Flux?" ;
+                                                     ns0:long_synopsis "On Halloween, all across the universe, terrifying forces are stirring. From the Arctic Circle to deep space, an ancient evil is breaking free. And in present-day Liverpool, the life of Dan Lewis is about to change forever. Why is the Doctor on the trail of the fearsome Karvanista? And what is the Flux?" ;
+                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     ns0:image_pid "p06ls33z" ,
+                                                                   "p0b0mts8" ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p06ls33z.jpg> ,
+                                                                    <https://ichef.bbci.co.uk/images/ic/640x360/p0b0mts8.jpg> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/m00116r2#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/m0011dt8#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p0b0xf5d#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:position "1" ;
+                                                     ns0:pid "m00116r4" .
+
+<http://www.bbc.co.uk/programmes/m0011g6k#programme> rdf:type ns0:Episode ;
+                                                     dc:title "War of the Sontarans" ;
+                                                     ns0:short_synopsis "The Doctor discovers the British army at war with Sontarans in the Crimea." ;
+                                                     ns0:medium_synopsis "During the Crimean War, the Doctor discovers the British army fighting a brutal alien army of Sontarans. What is the Temple of Atropos? Who are the Mouri?" ;
+                                                     ns0:long_synopsis "During the Crimean War, the Doctor discovers the British army fighting a brutal alien army of Sontarans, as Yaz and Dan are thrown deeper into a battle for survival. What is the Temple of Atropos? Who are the Mouri?" ;
+                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     ns0:image_pid "p06ls33z" ,
+                                                                   "p0b0n5gc" ,
+                                                                   "p0b233ft" ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p06ls33z.jpg> ,
+                                                                    <https://ichef.bbci.co.uk/images/ic/640x360/p0b0n5gc.jpg> ,
+                                                                    <https://ichef.bbci.co.uk/images/ic/640x360/p0b233ft.jpg> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/m0011g6j#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/m0011h87#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p0b2f9ll#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:position "2" ;
+                                                     ns0:pid "m0011g6k" .
+
+<http://www.bbc.co.uk/programmes/m0011nfd#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 3" ,
+                                                              "Once, Upon Time" ;
+                                                     ns0:short_synopsis "To be confirmed." ,
+                                                                        "On a planet that shouldn’t exist, the Doctor and her friends face a battle to survive." ;
+                                                     ns0:medium_synopsis "" ,
+                                                                         "On a planet that shouldn’t exist, in the aftermath of apocalypse, the Doctor, Dan, Yaz and Vinder face a battle to survive." ;
+                                                     ns0:long_synopsis "" ,
+                                                                       "'Time is beginning to run wild.' On a planet that shouldn’t exist, in the aftermath of apocalypse, the Doctor, Dan, Yaz and Vinder face a battle to survive." ;
+                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     ns0:image_pid "p0b0n5gc" ,
+                                                                   "p0b35bl2" ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p0b0n5gc.jpg> ,
+                                                                    <https://ichef.bbci.co.uk/images/ic/640x360/p0b35bl2.jpg> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/m0011nfc#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/m0011pt5#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p0b3dszf#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p0b53jkw#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:position "3" ;
+                                                     ns0:pid "m0011nfd" .
+
+<http://www.bbc.co.uk/programmes/m0011vnw#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Village of the Angels" ;
+                                                     ns0:short_synopsis "In November 1967, a Devon village is haunted by the Weeping Angels." ;
+                                                     ns0:medium_synopsis """November 1967. A missing girl, psychic experiments and one gravestone too many. Why is Medderton known as the Cursed Village, and what do
+the Weeping Angels want?""" ;
+                                                     ns0:long_synopsis """Devon, November 1967. A little girl has gone missing, Professor Eustacius Jericho is conducting psychic experiments, and in the village
+graveyard, there is one gravestone too many. Why is Medderton known as the Cursed Village, and what do the Weeping Angels want?""" ,
+                                                                       "Devon, November 1967. A little girl has gone missing, Professor Eustacius Jericho is conducting psychic experiments, and in the village graveyard, there is one gravestone too many. Why is Medderton known as the Cursed Village, and what do the Weeping Angels want?" ;
+                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     ns0:image_pid "p0b0n5gc" ,
+                                                                   "p0b4zzct" ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p0b0n5gc.jpg> ,
+                                                                    <https://ichef.bbci.co.uk/images/ic/640x360/p0b4zzct.jpg> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/m0011vnv#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/m0011xgw#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p0b56cz6#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p0b5zy7c#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:position "4" ;
+                                                     ns0:pid "m0011vnw" .
+
+<http://www.bbc.co.uk/programmes/m00123l4#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 5" ,
+                                                              "Survivors of the Flux" ;
+                                                     ns0:short_synopsis "To be confirmed." ,
+                                                                        "As the forces of evil mass, the Doctor, Yaz and Dan face impossible odds." ;
+                                                     ns0:medium_synopsis "" ,
+                                                                         "As the forces of evil mass, the Doctor, Yaz and Dan face perilous journeys and seemingly insurmountable obstacles in their quest for survival." ;
+                                                     ns0:long_synopsis "" ;
+                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     ns0:image_pid "p0b0n5gc" ,
+                                                                   "p0b6jlty" ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p0b0n5gc.jpg> ,
+                                                                    <https://ichef.bbci.co.uk/images/ic/640x360/p0b6jlty.jpg> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/m00123l3#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/m001240z#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p0b6q38f#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p0b7mg1y#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p0b7mg24#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:position "5" ;
+                                                     ns0:pid "m00123l4" .
+
+<http://www.bbc.co.uk/programmes/m00129lb#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 6" ,
+                                                              "The Vanquishers" ;
+                                                     ns0:short_synopsis "To be confirmed." ,
+                                                                        "The forces of darkness are in control. Who is left to save the day?" ;
+                                                     ns0:medium_synopsis "" ,
+                                                                         "The forces of darkness are in control. Wwhen the monsters have won, who can you count upon to save the universe?" ,
+                                                                         "The forces of darkness are in control. When the monsters have won, who can you count upon to save the universe?" ;
+                                                     ns0:long_synopsis "" ,
+                                                                       "In the final epic chapter in the story of the Flux, all hope is lost. The forces of darkness  are in control. But when the monsters have won, who can you count upon to save the universe?" ,
+                                                                       "In the final epic chapter in the story of the Flux, all hope is lost. The forces of darkness are in control. But when the monsters have won, who can you count upon to save the universe?" ;
+                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     ns0:image_pid "p0b0n5gc" ,
+                                                                   "p0b6z4l4" ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p0b0n5gc.jpg> ,
+                                                                    <https://ichef.bbci.co.uk/images/ic/640x360/p0b6z4l4.jpg> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/m00129l9#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/m0012cbl#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p0b803fn#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p0b803fs#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p0b97fsf#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p0b97fst#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:position "6" ;
+                                                     ns0:pid "m00129lb" .

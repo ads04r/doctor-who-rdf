@@ -1,0 +1,72 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns0: <http://purl.org/ontology/po/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://www.bbc.co.uk/programmes/p00krh80#programme> rdf:type ns0:Series ;
+                                                     dc:title "The Tomb of the Cybermen" ;
+                                                     ns0:position "1" ;
+                                                     ns0:pid "p00krh80" ;
+                                                     ns0:short_synopsis "The TARDIS takes the Doctor, Jamie and new companion, Victoria to the world of Telos." ;
+                                                     ns0:medium_synopsis "The TARDIS takes the Doctor, Jamie and their new companion, Victoria to the world of Telos where they encounter an archaeological expedition in search of the long dead Cybermen." ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:episode <http://www.bbc.co.uk/programmes/p00v2xf6#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v2xhf#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v2xj2#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v2xjz#programme> .
+
+<http://www.bbc.co.uk/programmes/p00v2xf6#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 1" ;
+                                                     ns0:position "1" ;
+                                                     ns0:pid "p00v2xf6" ;
+                                                     ns0:short_synopsis "The Doctor meets some archaeologists investigating the Cybertombs on the planet Telos." ;
+                                                     ns0:medium_synopsis "The Doctor meets Professor Parry and his archaeologists on the planet Telos. The expedition is there to unearth the remains of Cybermen who died out long ago. Or did they..?" ;
+                                                     ns0:long_synopsis "The Doctor meets Professor Parry and his archaeologists on the planet Telos. The expedition is there to unearth the remains of Cybermen who died out long ago. Or did they..?" ;
+                                                     ns0:image_pid "p00v7fx3" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v2xf7#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02xwg83#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p014rh7h#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v7fx3.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v2xhf#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 2" ;
+                                                     ns0:position "2" ;
+                                                     ns0:pid "p00v2xhf" ;
+                                                     ns0:short_synopsis "Professor Parry and his team begin to unlock the secrets of the Cybermen's tomb." ;
+                                                     ns0:medium_synopsis "Professor Parry and his team begin to unlock the secrets of the Cybermen's tomb. But there are some amongst the explorers who have a dark agenda of their own." ;
+                                                     ns0:long_synopsis "Professor Parry and his team begin to unlock the secrets of the Cybermen's tomb. But there are some amongst the explorers who have a dark agenda of their own." ;
+                                                     ns0:image_pid "p00v7fyh" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v2xhg#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02xwg7p#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p014rgc0#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v7fyh.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v2xj2#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 3" ;
+                                                     ns0:position "3" ;
+                                                     ns0:pid "p00v2xj2" ;
+                                                     ns0:short_synopsis "The tombs are a trap. The Cybermen have risen from their centuries long slumber." ;
+                                                     ns0:medium_synopsis "The tombs are revealed to be a trap. The Cybermen have risen from their centuries long hibernation and are intent on converting the humans into a new race of Cybermen." ;
+                                                     ns0:long_synopsis "The tombs are revealed to be a trap. The Cybermen have risen from their centuries long hibernation and are intent on converting the humans into a new race of Cybermen." ;
+                                                     ns0:image_pid "p00v7g0v" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v2xj3#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02xwg7t#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p014rg8y#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v7g0v.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v2xjz#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 4" ;
+                                                     ns0:position "4" ;
+                                                     ns0:pid "p00v2xjz" ;
+                                                     ns0:short_synopsis "The Cybermen have left their icy tombs, planning to turn everyone into Cybermen." ;
+                                                     ns0:medium_synopsis "The Cyber Controller has been revitalised after leaving the icy tomb, threatening to overpower his human foes. The Doctor is determined to return the Cybermen to their long sleep." ;
+                                                     ns0:long_synopsis "The Cyber Controller has been revitalised after leaving the icy tomb, threatening to overpower his human foes. The Doctor is determined to return the Cybermen to their long sleep." ;
+                                                     ns0:image_pid "p00v7g27" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v2xk0#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02xwfzk#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p014rg4c#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v7g27.jpg> .

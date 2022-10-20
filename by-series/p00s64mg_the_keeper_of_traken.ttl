@@ -1,0 +1,69 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns0: <http://purl.org/ontology/po/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://www.bbc.co.uk/programmes/p00s64mg#programme> rdf:type ns0:Series ;
+                                                     dc:title "The Keeper of Traken" ;
+                                                     ns0:position "6" ;
+                                                     ns0:pid "p00s64mg" ;
+                                                     ns0:short_synopsis "An ancient evil threatens the peaceful world of Traken... the Master!" ;
+                                                     ns0:medium_synopsis "The TARDIS is penetrated by the ancient Keeper of Traken who senses that a terrible evil is threatening his world. He requests the Doctor’s help." ;
+                                                     ns0:long_synopsis "The TARDIS is penetrated by the ancient Keeper of Traken who senses that a terrible evil is threatening his world. He requests the Doctor’s help." ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:episode <http://www.bbc.co.uk/programmes/p00vhstj#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00vhsxg#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00vhszy#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00vht5t#programme> .
+
+<http://www.bbc.co.uk/programmes/p00vhstj#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 1" ;
+                                                     ns0:position "1" ;
+                                                     ns0:pid "p00vhstj" ;
+                                                     ns0:short_synopsis "The Keeper of Traken is nearing the end of his long reign and requests the Doctor's help." ;
+                                                     ns0:medium_synopsis "The Keeper of Traken is nearing the end of his long reign. Fearing a terrible evil is about to threaten the peace and harmony of his world, he requests the Doctor's help." ;
+                                                     ns0:image_pid "p00vhvz8" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00vhstk#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02ktsql#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01jmq2m#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vhvz8.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00vhsxg#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 2" ;
+                                                     ns0:position "2" ;
+                                                     ns0:pid "p00vhsxg" ;
+                                                     ns0:short_synopsis "As Melkur begins to return to life, he manipulates Kassia into doing its bidding." ;
+                                                     ns0:medium_synopsis "As Melkur begins to return to life, he manipulates Kassia into doing its bidding. The Doctor and Adric are held responsible for the evil that has come to Traken." ;
+                                                     ns0:image_pid "p00vhw06" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00vhsxh#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02ktss0#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01jmqq7#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vhw06.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00vhszy#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 3" ;
+                                                     ns0:position "3" ;
+                                                     ns0:pid "p00vhszy" ;
+                                                     ns0:short_synopsis "Melkur is poised to take control of the all-powerful source manipulator." ;
+                                                     ns0:medium_synopsis "The Keeper nears the end of his life and Melkur is poised to take control of the all-powerful source manipulator." ;
+                                                     ns0:image_pid "p00vhw0y" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00vhszz#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02ktsst#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01jmr4m#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vhw0y.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00vht5t#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 4" ;
+                                                     ns0:position "4" ;
+                                                     ns0:pid "p00vht5t" ;
+                                                     ns0:short_synopsis "Melkur is the new Keeper of Traken and the Doctor discovers the truth about his enemy." ;
+                                                     ns0:medium_synopsis "Melkur has become the new Keeper of Traken and begins to access the source manipulator. As the Doctor takes steps to stop him, he discovers the frightening truth about his enemy." ;
+                                                     ns0:image_pid "p00vhw1j" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00vht5w#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02ktsw8#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01jmrcg#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vhw1j.jpg> .

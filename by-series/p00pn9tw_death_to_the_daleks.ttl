@@ -1,0 +1,69 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns0: <http://purl.org/ontology/po/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://www.bbc.co.uk/programmes/p00pn9tw#programme> rdf:type ns0:Series ;
+                                                     dc:title "Death to the Daleks" ;
+                                                     ns0:position "3" ;
+                                                     ns0:pid "p00pn9tw" ;
+                                                     ns0:short_synopsis "The TARDIS is drained of power on planet Exxilon and an expedition from Earth is stranded." ;
+                                                     ns0:medium_synopsis "Landing on planet Exxilon, the TARDIS is drained of power and an expedition from Earth is also stranded. But when a third ship lands, its occupants are revealed to be Daleks." ;
+                                                     ns0:long_synopsis "Landing on planet Exxilon, the TARDIS is drained of power and an expedition from Earth is also stranded. But when a third ship lands, its occupants are revealed to be Daleks." ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:episode <http://www.bbc.co.uk/programmes/p00v7bkd#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v7bp6#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v7br0#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v7by2#programme> .
+
+<http://www.bbc.co.uk/programmes/p00v7bkd#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 1" ;
+                                                     ns0:position "1" ;
+                                                     ns0:pid "p00v7bkd" ;
+                                                     ns0:short_synopsis "The TARDIS suffers a power drain and is forced down on the planet Exxilon. " ;
+                                                     ns0:medium_synopsis "The TARDIS suffers a power drain and is forced down on the planet Exxilon. Sarah is captured by the primitive inhabitants and the Doctor comes face to face with his oldest enemies." ;
+                                                     ns0:image_pid "p00vfqvz" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v7bkf#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02xwgth#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01btl07#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vfqvz.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v7bp6#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 2" ;
+                                                     ns0:position "2" ;
+                                                     ns0:pid "p00v7bp6" ;
+                                                     ns0:short_synopsis "Dalek weapons are useless due to the power drain so they make a truce with the Doctor." ;
+                                                     ns0:medium_synopsis "The Daleks' weaponry is rendered useless by the power drain and they are forced to make a truce with the Doctor and the members of the expedition from Earth." ;
+                                                     ns0:image_pid "p00vfqy5" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v7bp7#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02xwh1p#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01btn8v#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vfqy5.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v7br0#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 3" ;
+                                                     ns0:position "3" ;
+                                                     ns0:pid "p00v7br0" ;
+                                                     ns0:short_synopsis "The Daleks force the Exillons to work as slave labour to mine the life-saving parrinium." ;
+                                                     ns0:medium_synopsis "The Daleks force the Exillons to work as slave labour to mine the life-saving parrinium. The Doctor and Bellal brave the puzzles and traps of the Exxilon city." ;
+                                                     ns0:image_pid "p00vfr6q" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v7br1#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02xwhbv#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01btnqw#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vfr6q.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v7by2#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 4" ;
+                                                     ns0:position "4" ;
+                                                     ns0:pid "p00v7by2" ;
+                                                     ns0:short_synopsis "The Daleks prepare to launch a deadly plague missile that will kill everyone on Exillon." ;
+                                                     ns0:medium_synopsis "The Doctor and Bellal arrive at the centre of the Exxilon city but the Daleks are preparing to depart and launch a plague missile that will kill everyone left behind." ;
+                                                     ns0:image_pid "p00vfr8v" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v7by3#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02xwhm3#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01btnw3#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vfr8v.jpg> .

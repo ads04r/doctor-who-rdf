@@ -1,0 +1,68 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns0: <http://purl.org/ontology/po/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://www.bbc.co.uk/programmes/p00kl41h#programme> rdf:type ns0:Series ;
+                                                     dc:title "The Romans" ;
+                                                     ns0:position "4" ;
+                                                     ns0:pid "p00kl41h" ;
+                                                     ns0:short_synopsis "The year is 64 AD and the Doctor and his friends take a holiday." ;
+                                                     ns0:medium_synopsis "The year is 64 AD and the Doctor and his friends take a holiday staying in a villa near Rome, but Barbara is sold as a slave and Ian is forced to fight in the arena as a gladiator." ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:episode <http://www.bbc.co.uk/programmes/p00v1qlm#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v1qm8#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v1qmx#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v1qph#programme> .
+
+<http://www.bbc.co.uk/programmes/p00v1qlm#programme> rdf:type ns0:Episode ;
+                                                     dc:title "The Slave Traders" ;
+                                                     ns0:position "1" ;
+                                                     ns0:pid "p00v1qlm" ;
+                                                     ns0:short_synopsis "After relaxing at a villa the Doctor is mistaken for a dead musician and taken to Rome…" ;
+                                                     ns0:medium_synopsis "After relaxing at a Roman villa the Doctor is mistaken for a murdered lyre player and targeted by an assassin. Meanwhile, Ian and Barbara are captured by slave traders." ;
+                                                     ns0:image_pid "p00v1t3n" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v1qln#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p0497z9k#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p011kpjh#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v1t3n.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v1qm8#programme> rdf:type ns0:Episode ;
+                                                     dc:title "All Roads Lead to Rome" ;
+                                                     ns0:position "2" ;
+                                                     ns0:pid "p00v1qm8" ;
+                                                     ns0:short_synopsis "Barbara is sold as a slave and Ian is to be trained as a gladiator. " ;
+                                                     ns0:medium_synopsis "Barbara is sold as a slave and Ian is to be trained as a gladiator. The Doctor and Vicki arrive at the Emperor's court with the Doctor still masquerading as Maximus Pettulian." ;
+                                                     ns0:image_pid "p00v1t5m" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v1qm9#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p0497zjr#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p011ks8h#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v1t5m.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v1qmx#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Conspiracy" ;
+                                                     ns0:position "3" ;
+                                                     ns0:pid "p00v1qmx" ;
+                                                     ns0:short_synopsis "Poppaea plans to poison Barbara who has become the object of Nero's affections. " ;
+                                                     ns0:medium_synopsis "Poppaea plans to poison Barbara who has become the object of Nero's affections. The Doctor is to be thrown to the lions and Ian and Delos are set against each other in the arena." ;
+                                                     ns0:image_pid "p00v1t6t" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v1qmy#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p0497zv5#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p011kspp#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v1t6t.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v1qph#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Inferno" ;
+                                                     ns0:position "4" ;
+                                                     ns0:pid "p00v1qph" ;
+                                                     ns0:short_synopsis "Inspired by the Doctor, Nero sets Rome ablaze. Ian must fight his way out of the arena…" ;
+                                                     ns0:medium_synopsis "Inspired by the Doctor, Nero sets Rome ablaze. Ian must fight his way out of the arena and rescue Barbara. The Doctor and Vicki hurry to flee the city and escape to the TARDIS." ;
+                                                     ns0:image_pid "p00v1t8m" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v1qpj#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p0498089#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p011ktth#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v1t8m.jpg> .

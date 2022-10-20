@@ -1,0 +1,65 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns0: <http://purl.org/ontology/po/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://www.bbc.co.uk/programmes/p00km1hk#programme> rdf:type ns0:Series ;
+                                                     dc:title "The Myth Makers" ;
+                                                     ns0:position "3" ;
+                                                     ns0:pid "p00km1hk" ;
+                                                     ns0:short_synopsis "The TARDIS materialises on the plains beyond the besieged city of Troy." ;
+                                                     ns0:medium_synopsis "The TARDIS materialises on the plains beyond the besieged city of Troy where the Doctor meets the Greek warrior, Achilles, who believes him to be the god Zeus." ;
+                                                     ns0:long_synopsis "The TARDIS materialises on the plains beyond the besieged city of Troy where the Doctor meets the Greek warrior, Achilles, who believes him to be the god Zeus." ;
+                                                     ns0:episode <http://www.bbc.co.uk/programmes/p00v24vg#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v24wt#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v24yg#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v24z4#programme> .
+
+<http://www.bbc.co.uk/programmes/p00v24vg#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Temple of Secrets" ;
+                                                     ns0:position "1" ;
+                                                     ns0:pid "p00v24vg" ;
+                                                     ns0:short_synopsis "The TARDIS lands on the plains of Troy. Mistaken for Zeus by Achilles, the Doctor is..." ;
+                                                     ns0:medium_synopsis "The TARDIS lands on the plains of Troy. Mistaken for Zeus by Achilles, the Doctor is taken to the Greek camp and meets Agamemnon and Odysseus who suspect him of being a Trojan spy." ;
+                                                     ns0:image_pid "p00v2chl" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v24vh#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p04yjq9m#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p04yyg78#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v2chl.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v24wt#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Small Prophet,Quick Return" ;
+                                                     ns0:position "2" ;
+                                                     ns0:pid "p00v24wt" ;
+                                                     ns0:short_synopsis "The TARDIS and Vicki are gone, taken by the Trojans to the city of Troy. " ;
+                                                     ns0:medium_synopsis "The TARDIS and Vicki are gone, taken by the Trojans to the city of Troy. Agamememnon gives the Doctor just two days to devise a plan to defeat the Trojans." ;
+                                                     ns0:image_pid "p00v2cjg" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v24wv#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p04yyg7j#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v2cjg.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v24yg#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Death of a Spy" ;
+                                                     ns0:position "3" ;
+                                                     ns0:pid "p00v24yg" ;
+                                                     ns0:short_synopsis "The Doctor suggests the Greeks construct a huge wooden horse in which they can enter Troy." ;
+                                                     ns0:medium_synopsis "At the Doctor's suggestion, the Greeks construct a giant wooden horse which they present to the Trojans as a peace offering. But inside the horse, the Greek soldiers are waiting..." ;
+                                                     ns0:image_pid "p00v2cml" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v24yh#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p04yyg7c#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v2cml.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v24z4#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Horse of Destruction" ;
+                                                     ns0:position "4" ;
+                                                     ns0:pid "p00v24z4" ;
+                                                     ns0:short_synopsis "As the Greeks spring their trap, the Doctor, Steven and Vicki are separated." ;
+                                                     ns0:medium_synopsis "As the Greeks spring their trap and battle commences, the Doctor, Steven and Vicki struggle to escape the carnage." ;
+                                                     ns0:image_pid "p00v2cpc" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v24z5#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p04yyg75#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v2cpc.jpg> .

@@ -1,0 +1,72 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns0: <http://purl.org/ontology/po/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://www.bbc.co.uk/programmes/p00t7jj1#programme> rdf:type ns0:Series ;
+                                                     dc:title "Battlefield" ;
+                                                     ns0:position "1" ;
+                                                     ns0:pid "p00t7jj1" ;
+                                                     ns0:short_synopsis "Warriors from another dimension have come to Earth for one final battle..." ;
+                                                     ns0:medium_synopsis "Warriors from another dimension have come to Earth. Arthur's spaceship is lying under Lake Vortigern and Morgaine will do anything to face him in battle one last time..." ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:episode <http://www.bbc.co.uk/programmes/p00vbhfq#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00vbhpx#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00vbhtn#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00vbhz0#programme> .
+
+<http://www.bbc.co.uk/programmes/p00vbhfq#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 1" ;
+                                                     ns0:position "1" ;
+                                                     ns0:pid "p00vbhfq" ;
+                                                     ns0:short_synopsis "In Carbury, knights in armour arrive waging a war that began thousands of years ago." ;
+                                                     ns0:medium_synopsis "As UNIT are transporting a nuclear warhead around Carbury, knights in armour arrive to continue waging a war that began thousands of years ago, but in a wholly different dimension." ;
+                                                     ns0:image_pid "p00vd2wx" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00vbhfr#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p030p7jp#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01zgx2x#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01zgxhb#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vd2wx.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00vbhpx#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 2" ;
+                                                     ns0:position "2" ;
+                                                     ns0:pid "p00vbhpx" ;
+                                                     ns0:short_synopsis "The Doctor and Ace explore King Arthur's spaceship deep under Lake Vortigern." ;
+                                                     ns0:medium_synopsis "The Doctor and Ace explore King Arthur's spaceship deep under Lake Vortigern, while Brigadier Lethbridge-Stewart arrives in Carbury where he encounters Morgaine..." ;
+                                                     ns0:image_pid "p00vd2xn" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00vbhpy#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p030p7k3#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01zgy93#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01zgxx5#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vd2xn.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00vbhtn#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 3" ;
+                                                     ns0:position "3" ;
+                                                     ns0:pid "p00vbhtn" ;
+                                                     ns0:short_synopsis "Morgaine threatens to unleash the Destroyer unless the Doctor gives her what she wants." ;
+                                                     ns0:medium_synopsis "Furious at her inability to find and engage Arthur in battle, Morgaine threatens to unleash the Destroyer upon the planet unless the Doctor gives her what she wants." ;
+                                                     ns0:image_pid "p00vd343" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00vbhtp#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p030pcdq#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01zgzmf#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01zgyy6#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vd343.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00vbhz0#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 4" ;
+                                                     ns0:position "4" ;
+                                                     ns0:pid "p00vbhz0" ;
+                                                     ns0:short_synopsis "Morgaine takes control of UNIT's nuclear warhead and prepares to start a countdown." ;
+                                                     ns0:medium_synopsis "The Brigadier slays the Destroyer while Morgaine takes control of UNIT's nuclear warhead and prepares to start a countdown that will destroy Earth forever." ;
+                                                     ns0:image_pid "p00vd37z" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00vbhz1#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p030pfb5#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01zh1sz#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01zh0jg#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vd37z.jpg> .

@@ -1,0 +1,102 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns0: <http://purl.org/ontology/po/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://www.bbc.co.uk/programmes/p00ksl0s#programme> rdf:type ns0:Series ;
+                                                     dc:title "The Seeds of Death" ;
+                                                     ns0:position "5" ;
+                                                     ns0:pid "p00ksl0s" ;
+                                                     ns0:short_synopsis "The TARDIS arrives on Earth where T-Mat has revolutionised travel." ;
+                                                     ns0:medium_synopsis "The TARDIS arrives on Earth where T-Mat has revolutionised travel. However, the Ice Warriors have seized control and use T-Mat to distribute Martian seed pods across the world." ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:episode <http://www.bbc.co.uk/programmes/p00v541m#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v542g#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v546n#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v547q#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v549w#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v54c4#programme> .
+
+<http://www.bbc.co.uk/programmes/p00v541m#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 1" ;
+                                                     ns0:position "1" ;
+                                                     ns0:pid "p00v541m" ;
+                                                     ns0:short_synopsis "The TARDIS arrives on 21st Century Earth where long distance journeys are made via T-Mat." ;
+                                                     ns0:medium_synopsis "The TARDIS arrives on 21st Century Earth where all long distance journeys are made instantaneously by T-Mat. But aliens have invaded the T-Mat relay station on the Moon..." ;
+                                                     ns0:long_synopsis "The TARDIS arrives on 21st Century Earth where all long distance journeys are made instantaneously by T-Mat. But aliens have invaded the T-Mat relay station on the Moon, and they're about to cause havoc..." ;
+                                                     ns0:image_pid "p00v3578" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v541n#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02xwfyk#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p014pr4c#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v3578.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v542g#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 2" ;
+                                                     ns0:position "2" ;
+                                                     ns0:pid "p00v542g" ;
+                                                     ns0:short_synopsis "As the world grinds to a halt, the Doctor realises the Moon is the source of the trouble." ;
+                                                     ns0:medium_synopsis "With the commerce of the world grinding to a halt, the Doctor, Jamie and Zoe agree to investigate and set off for the Moon in an old fashioned rocket." ;
+                                                     ns0:long_synopsis "With the commerce of the world grinding to a halt, the Doctor, Jamie and Zoe agree to investigate. They set off for the T-Mat Relay Station on the Moon in Professor Eldred's old fashioned rocket." ;
+                                                     ns0:image_pid "p00v358q" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v542h#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02xwg8r#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p014ps3p#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v358q.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v546n#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 3" ;
+                                                     ns0:position "3" ;
+                                                     ns0:pid "p00v546n" ;
+                                                     ns0:short_synopsis "On the Moon, the Doctor is captured by the Ice Warriors and learns their plans." ;
+                                                     ns0:medium_synopsis "On the Moon, the Doctor is captured by the Ice Warriors and learns that they intend to use T-Mat to spread a deadly fungus across the world." ;
+                                                     ns0:long_synopsis "On the Moon, the Doctor is captured by the Ice Warriors as he spacewalks to the T-Mat relay station. He learns that they intend to use T-Mat to spread a deadly fungus across the world." ;
+                                                     ns0:image_pid "p00v35ft" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v546p#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02xwgj1#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p014pslv#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v35ft.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v547q#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 4" ;
+                                                     ns0:position "4" ;
+                                                     ns0:pid "p00v547q" ;
+                                                     ns0:short_synopsis "As the Martian fungus begins to spread, Zoe, Jamie and Miss Kelly attempt to strike back." ;
+                                                     ns0:medium_synopsis "As the Martian fungus begins to spread, Zoe, Jamie and Gia Kelly attempt to strike back against Slaar and his occupying force of Ice Warriors." ;
+                                                     ns0:long_synopsis "As the Martian fungus begins to spread, Zoe, Jamie and Gia Kelly attempt to strike back against Slaar and his occupying force of Ice Warriors." ;
+                                                     ns0:image_pid "p00v35kg" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v547r#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02xwfys#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p014pt3d#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v35kg.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v549w#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 5" ;
+                                                     ns0:position "5" ;
+                                                     ns0:pid "p00v549w" ;
+                                                     ns0:short_synopsis "A Martian invasion fleet is on its way to the Moon. On Earth, the Doctor fights back." ;
+                                                     ns0:medium_synopsis "An Ice Warrior invasion fleet is on its way to the Moon. Back on Earth, the Doctor devises a plan to destroy the Martian fungus." ;
+                                                     ns0:long_synopsis "An Ice Warrior invasion fleet is on its way to the Moon. Meanwhile the Doctor, Zoe & Jamie return to Earth by T-Mat, where the Doctor discovers there is only one way to destroy the fungal pods." ;
+                                                     ns0:image_pid "p00v35nz" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v549x#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02xwgh6#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p014ptfw#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v35nz.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v54c4#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 6" ;
+                                                     ns0:position "6" ;
+                                                     ns0:pid "p00v54c4" ;
+                                                     ns0:short_synopsis "Returning to the Moonbase, the Doctor confronts Slaar and the remaining Ice Warriors..." ;
+                                                     ns0:medium_synopsis "Returning to the Moonbase, the Doctor confronts Slaar and the remaining Ice Warriors and must find a way of deflecting the invasion fleet that is heading towards them." ;
+                                                     ns0:long_synopsis "Returning to the Moonbase, the Doctor confronts Slaar and the remaining Ice Warriors and must find a way of deflecting the invasion fleet that is heading towards them." ;
+                                                     ns0:image_pid "p00v35rq" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v54c5#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02xwglp#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p014ptlz#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v35rq.jpg> .

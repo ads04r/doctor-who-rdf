@@ -1,0 +1,72 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns0: <http://purl.org/ontology/po/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://www.bbc.co.uk/programmes/p00lw2st#programme> rdf:type ns0:Series ;
+                                                     dc:title "Spearhead from Space" ;
+                                                     ns0:position "1" ;
+                                                     ns0:pid "p00lw2st" ;
+                                                     ns0:short_synopsis "Recovering from his regeneration, the Doctor begins his exile to Earth by battling Autons!" ;
+                                                     ns0:medium_synopsis "Recovering from his regeneration, the Doctor is taken to hospital where his alien physiology is a puzzle. Meanwhile, the Nestene consciousness intend to conquer Earth using Autons." ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:episode <http://www.bbc.co.uk/programmes/p00v77sz#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v77ty#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v77w8#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v77x3#programme> .
+
+<http://www.bbc.co.uk/programmes/p00v77sz#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 1" ;
+                                                     ns0:position "1" ;
+                                                     ns0:pid "p00v77sz" ;
+                                                     ns0:short_synopsis "The TARDIS takes the newly regenerated Doctor to Earth to begin his exile." ;
+                                                     ns0:medium_synopsis "The TARDIS takes the newly regenerated Doctor to Earth to begin his exile. Brigadier Lethbridge-Stewart leads a UNIT investigation into a mysterious meteorite shower." ;
+                                                     ns0:long_synopsis "The TARDIS takes the newly regenerated Doctor to Earth to begin his exile. Brigadier Lethbridge-Stewart leads a UNIT investigation into a mysterious meteorite shower." ;
+                                                     ns0:image_pid "p00v8q3g" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v77t0#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p030p15b#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p0198my9#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v8q3g.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v77ty#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 2" ;
+                                                     ns0:position "2" ;
+                                                     ns0:pid "p00v77ty" ;
+                                                     ns0:short_synopsis "Channing directs one of his Autons to recover a meteorite that has been found by UNIT." ;
+                                                     ns0:medium_synopsis "A recovered Doctor escapes the hospital and joins UNIT in their investigation. Meanwhile, Channing directs one of his Auton servants to recover a meteorite." ;
+                                                     ns0:long_synopsis "A recovered Doctor escapes the hospital and joins UNIT in their investigation. Meanwhile, Channing directs one of his Auton servants to recover a meteorite." ;
+                                                     ns0:image_pid "p00v8q9n" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v77tz#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p030p1rc#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p0198n17#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v8q9n.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v77w8#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 3" ;
+                                                     ns0:position "3" ;
+                                                     ns0:pid "p00v77w8" ;
+                                                     ns0:short_synopsis "Scobie visits Auto Plastics, unaware that he has played into the hands of Channing." ;
+                                                     ns0:medium_synopsis "Sam Seeley has found one of the meteorites but the Autons want it back and are closing in. General Scobie visits Auto Plastics,  playing into the hands of Channing." ;
+                                                     ns0:long_synopsis "Sam Seeley has found one of the meteorites but the Autons want it back and are closing in. General Scobie visits Auto Plastics,  playing into the hands of Channing." ;
+                                                     ns0:image_pid "p00v8qdq" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v77w9#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p030p22x#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p0198n60#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v8qdq.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v77x3#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 4" ;
+                                                     ns0:position "4" ;
+                                                     ns0:pid "p00v77x3" ;
+                                                     ns0:short_synopsis "The Auton invasion begins as shop dummies come to life and attack the public." ;
+                                                     ns0:medium_synopsis "The invasion begins as Auton shop dummies come to life and attack the public. The Doctor and UNIT infiltrate Auto Plastics where the Doctor faces the Nestene consciousness." ;
+                                                     ns0:long_synopsis "The invasion begins as Auton shop dummies come to life and attack the public. The Doctor and UNIT infiltrate Auto Plastics where the Doctor faces the Nestene consciousness." ;
+                                                     ns0:image_pid "p00v8qgk" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v77x4#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p030p31n#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p0198ndg#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v8qgk.jpg> .

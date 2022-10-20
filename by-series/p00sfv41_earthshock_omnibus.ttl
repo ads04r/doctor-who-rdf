@@ -1,0 +1,36 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns0: <http://purl.org/ontology/po/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://www.bbc.co.uk/programmes/p00sfv41#programme> rdf:type ns0:Series ;
+                                                     dc:title "Earthshock Omnibus" ;
+                                                     ns0:position "8" ;
+                                                     ns0:pid "p00sfv41" ;
+                                                     ns0:short_synopsis "On Earth the Doctor discovers a bomb powerful enough to destroy the whole planet." ;
+                                                     ns0:medium_synopsis "On 26th century Earth the Doctor discovers a bomb powerful enough to destroy the whole planet. After defusing it, he traces its signal back to a freighter of Cybermen in space..." ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:episode <http://www.bbc.co.uk/programmes/p00v7fqw#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v7frq#programme> .
+
+<http://www.bbc.co.uk/programmes/p00v7fqw#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 1" ;
+                                                     ns0:position "1" ;
+                                                     ns0:pid "p00v7fqw" ;
+                                                     ns0:short_synopsis "Silent but deadly androids are protecting a bomb buried beneath the Earth." ;
+                                                     ns0:medium_synopsis "Silent but deadly androids are protecting a bomb buried beneath the Earth from all investigation. However, the Doctor manages to disable it, alerting its owners – the Cybermen..." ;
+                                                     ns0:image_pid "p00vd568" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v7fqx#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vd568.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v7frq#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 2" ;
+                                                     ns0:position "2" ;
+                                                     ns0:pid "p00v7frq" ;
+                                                     ns0:short_synopsis "The Cybermen are released from their silos and on the march." ;
+                                                     ns0:medium_synopsis "The Cybermen are released from their silos and on the march, wiping out Briggs's crew and ensuring that the freighter remains on course for Earth. But why..." ;
+                                                     ns0:image_pid "p00vd58s" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v7frs#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vd58s.jpg> .

@@ -1,0 +1,67 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns0: <http://purl.org/ontology/po/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://www.bbc.co.uk/programmes/p00kl42q#programme> rdf:type ns0:Series ;
+                                                     dc:title "The Crusade" ;
+                                                     ns0:position "6" ;
+                                                     ns0:pid "p00kl42q" ;
+                                                     ns0:short_synopsis "The TARDIS lands in Palestine where King Richard the Lionheart wages war." ;
+                                                     ns0:medium_synopsis "The TARDIS lands in Palestine where King Richard the Lionheart wages war with Saracen ruler Saladin. At King Richard's court Ian is knighted and permitted to search for Barbara." ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:episode <http://www.bbc.co.uk/programmes/p00v1qz8#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v22lm#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v1r8y#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v1rdh#programme> .
+
+<http://www.bbc.co.uk/programmes/p00v1qz8#programme> rdf:type ns0:Episode ;
+                                                     dc:title "The Lion" ;
+                                                     ns0:position "1" ;
+                                                     ns0:pid "p00v1qz8" ;
+                                                     ns0:short_synopsis "When the TARDIS lands in 12th Century Palestine, Barbara is captured by the Saracen horde." ;
+                                                     ns0:medium_synopsis "When the TARDIS lands in 12th Century Palestine, Barbara is captured by the Saracens. The Doctor, Ian and Vicki assist in saving King Richard. Ian is eager to go after Barbara." ;
+                                                     ns0:image_pid "p00v1v5w" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v1qz9#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p04yjq1n#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p04yyfmn#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p011l2lz#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v1v5w.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v22lm#programme> rdf:type ns0:Episode ;
+                                                     dc:title "The Knight of Jaffa" ;
+                                                     ns0:position "2" ;
+                                                     ns0:pid "p00v22lm" ;
+                                                     ns0:short_synopsis "Ian, knighted by the King, goes to rescue Barbara. The Chamberlain betrays the Doctor." ;
+                                                     ns0:medium_synopsis "Ian is knighted by King Richard and sent to rescue Barbara. The  King's Chamberlain becomes suspicious of the Doctor and Vicki. Barbara makes a bid to escape from her kidnappers." ;
+                                                     ns0:image_pid "p00v1v6b" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v22ln#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p04yyfn0#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v1v6b.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v1r8y#programme> rdf:type ns0:Episode ;
+                                                     dc:title "The Wheel of Fortune" ;
+                                                     ns0:position "3" ;
+                                                     ns0:pid "p00v1r8y" ;
+                                                     ns0:short_synopsis "The King's sister befriends the Doctor and Vicki and solicits the Doctor's help." ;
+                                                     ns0:medium_synopsis "The King's sister befriends the Doctor and Vicki and solicits the Doctor's help in discovering what plans her brother has. Barbara  finds shelter, but El Akir's men are closing in." ;
+                                                     ns0:image_pid "p00v1v6s" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v1r8z#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p04yyfmw#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p011l31z#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v1v6s.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v1rdh#programme> rdf:type ns0:Episode ;
+                                                     dc:title "The Warlords" ;
+                                                     ns0:position "4" ;
+                                                     ns0:pid "p00v1rdh" ;
+                                                     ns0:short_synopsis "Barbara hides from El Akir in a harem. Ian has been captured by bandits…" ;
+                                                     ns0:medium_synopsis "Barbara hides from El Akir in a harem. Ian has been captured by bandits who resort to torture in order to extract money from him. The Doctor and Vicki attempt to escape the palace." ;
+                                                     ns0:image_pid "p00v1v7k" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v1rdj#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p04yyfms#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v1v7k.jpg> .

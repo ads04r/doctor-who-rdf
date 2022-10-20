@@ -1,0 +1,71 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns0: <http://purl.org/ontology/po/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://www.bbc.co.uk/programmes/p00sfv3z#programme> rdf:type ns0:Series ;
+                                                     dc:title "Earthshock" ;
+                                                     ns0:position "6" ;
+                                                     ns0:pid "p00sfv3z" ;
+                                                     ns0:short_synopsis "On Earth the Doctor discovers a bomb powerful enough to destroy the whole planet." ;
+                                                     ns0:medium_synopsis "On 26th century Earth the Doctor discovers a bomb powerful enough to destroy the whole planet. After defusing it, he traces its signal back to a freighter of Cybermen in space..." ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:episode <http://www.bbc.co.uk/programmes/p00v7f23#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v7f63#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v7f8w#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v7fbd#programme> .
+
+<http://www.bbc.co.uk/programmes/p00v7f23#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 1" ;
+                                                     ns0:position "1" ;
+                                                     ns0:pid "p00v7f23" ;
+                                                     ns0:short_synopsis "Deadly androids are protecting a bomb buried beneath the Earth." ;
+                                                     ns0:medium_synopsis "Deadly androids are protecting a bomb buried beneath the Earth from all investigation. However, the Doctor manages to disable it, alerting its owners – the Cybermen..." ;
+                                                     ns0:image_pid "p00vbb1l" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v7f24#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02xmkch#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01kgsz0#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vbb1l.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v7f63#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 2" ;
+                                                     ns0:position "2" ;
+                                                     ns0:pid "p00v7f63" ;
+                                                     ns0:short_synopsis "With her crew slowly vanishing, Briggs assumes the Doctor to be the guilty party." ;
+                                                     ns0:medium_synopsis "With her crew vanishing mysteriously, Captain Briggs assumes the Doctor is the guilty party, but the traitor is closer to home… as are the Cybermen." ;
+                                                     ns0:image_pid "p00vbb3h" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v7f64#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02xmkc5#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01kgt74#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01kgt3x#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vbb3h.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v7f8w#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 3" ;
+                                                     ns0:position "3" ;
+                                                     ns0:pid "p00v7f8w" ;
+                                                     ns0:short_synopsis "The Cybermen are released from their silos and are on the march." ;
+                                                     ns0:medium_synopsis "The Cybermen are released from their silos and are on the march, attacking Briggs's crew and ensuring that the freighter remains on course for Earth. But why?" ;
+                                                     ns0:image_pid "p00vbb52" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v7f8x#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02xmkd7#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01kgtxw#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01kgtdz#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vbb52.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v7fbd#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 4" ;
+                                                     ns0:position "4" ;
+                                                     ns0:pid "p00v7fbd" ;
+                                                     ns0:short_synopsis "The Doctor realises the freighter is now a huge bomb, with one passenger still aboard..." ;
+                                                     ns0:medium_synopsis "The Doctor realises the freighter is now a huge bomb and sends it back through time where it can explode millions of years ago... but Adric is still aboard..." ;
+                                                     ns0:image_pid "p00vbbcg" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v7fbf#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02xmkbg#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01kgvcw#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01kgv7s#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vbbcg.jpg> .

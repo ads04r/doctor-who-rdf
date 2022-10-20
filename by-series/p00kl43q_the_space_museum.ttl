@@ -1,0 +1,68 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns0: <http://purl.org/ontology/po/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://www.bbc.co.uk/programmes/p00kl43q#programme> rdf:type ns0:Series ;
+                                                     dc:title "The Space Museum" ;
+                                                     ns0:position "7" ;
+                                                     ns0:pid "p00kl43q" ;
+                                                     ns0:short_synopsis "The TARDIS jumps a time track and lands on Xeros where the travellers see their future." ;
+                                                     ns0:medium_synopsis "When the TARDIS jumps a time track and lands on the planet Xeros, the travellers are given a glimpse of their own future in which they are fated to become exhibits in a museum." ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:episode <http://www.bbc.co.uk/programmes/p00v1rqb#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v1s4c#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v1s8b#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v1s61#programme> .
+
+<http://www.bbc.co.uk/programmes/p00v1rqb#programme> rdf:type ns0:Episode ;
+                                                     dc:title "The Space Museum " ;
+                                                     ns0:position "1" ;
+                                                     ns0:pid "p00v1rqb" ;
+                                                     ns0:short_synopsis "Exploring a museum on the planet Xeros, the travellers discover they are invisible. " ;
+                                                     ns0:medium_synopsis "Exploring a museum on the planet Xeros, the travellers discover they are invisible. The Doctor deduces that the TARDIS has jumped a time track and can see their own future." ;
+                                                     ns0:image_pid "p00v1v90" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v1rqc#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02xzsyx#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p011l3tg#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v1v90.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v1s4c#programme> rdf:type ns0:Episode ;
+                                                     dc:title "The Dimensions of Time" ;
+                                                     ns0:position "2" ;
+                                                     ns0:pid "p00v1s4c" ;
+                                                     ns0:short_synopsis "Back on the proper time track, the travellers take steps to change the future." ;
+                                                     ns0:medium_synopsis "Back on the proper time track, the travellers take steps to change the future. A rebel force of native Xerons are plotting against the invading Moroks who have captured the Doctor." ;
+                                                     ns0:image_pid "p00v1v9b" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v1s4d#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02xzsp7#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p011l47q#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v1v9b.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v1s8b#programme> rdf:type ns0:Episode ;
+                                                     dc:title "The Search" ;
+                                                     ns0:position "3" ;
+                                                     ns0:pid "p00v1s8b" ;
+                                                     ns0:short_synopsis "As events escalate, the travellers fear that they will not be able to escape their fate." ;
+                                                     ns0:medium_synopsis "As events escalate, the travellers fear that they will not be able to escape their fate. Vicki helps orchestrate a raid on the Moroks' armoury. Ian attempts to rescue the Doctor." ;
+                                                     ns0:image_pid "p00v1v9s" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v1s8c#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02xzsyj#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p011l8qt#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v1v9s.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v1s61#programme> rdf:type ns0:Episode ;
+                                                     dc:title "The Final Phase" ;
+                                                     ns0:position "4" ;
+                                                     ns0:pid "p00v1s61" ;
+                                                     ns0:short_synopsis "After forcing Lobos to revive the Doctor, Ian is taken prisoner. The Xerons fight back…" ;
+                                                     ns0:medium_synopsis "After forcing Lobos to revive the Doctor, Ian is also taken prisoner. The Xeron rebellion is underway whilst the fate of the Doctor and his friends still hangs in the balance." ;
+                                                     ns0:image_pid "p00v1vbd" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v1s62#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02xzsyp#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p011l4jf#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v1vbd.jpg> .

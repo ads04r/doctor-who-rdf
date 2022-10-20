@@ -1,0 +1,69 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns0: <http://purl.org/ontology/po/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://www.bbc.co.uk/programmes/p00sftym#programme> rdf:type ns0:Series ;
+                                                     dc:title "Kinda" ;
+                                                     ns0:position "3" ;
+                                                     ns0:pid "p00sftym" ;
+                                                     ns0:short_synopsis "On the planet Deva Loka a seemingly primitive tribe - the Kinda - hides a dark secret." ;
+                                                     ns0:medium_synopsis "On the planet Deva Loka a seemingly primitive tribe - the Kinda - hides a dark secret: they are all that stands between this world and the next, and the Mara that lives there..." ;
+                                                     ns0:long_synopsis "On the planet Deva Loka a seemingly primitive tribe - the Kinda - hides a dark secret: they are all that stands between this world and the next, and the Mara that lives there..." ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:episode <http://www.bbc.co.uk/programmes/p00v7d8d#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v7dc6#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v7dg8#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v7dk3#programme> .
+
+<http://www.bbc.co.uk/programmes/p00v7d8d#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 1" ;
+                                                     ns0:position "1" ;
+                                                     ns0:pid "p00v7d8d" ;
+                                                     ns0:short_synopsis "On Deva Loka Tegan falls asleep in the forest watched by the Kinda." ;
+                                                     ns0:medium_synopsis "While Nyssa rests, Adric and the Doctor discover a military expedition on Deva Loka. Tegan falls asleep in the forest watched by the Kinda, but they cannot stop her dreams." ;
+                                                     ns0:image_pid "p00vb9gv" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v7d8f#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02nx616#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01k2wjr#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vb9gv.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v7dc6#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 2" ;
+                                                     ns0:position "2" ;
+                                                     ns0:pid "p00v7dc6" ;
+                                                     ns0:short_synopsis "When Hindle's breakdown begins, the Doctor and Todd are in danger." ;
+                                                     ns0:medium_synopsis "Sanders meets Panna and Karuna who leave a lasting impression on him, while the Dukkha does the same on Tegan.  When Hindle's breakdown begins, the Doctor and Todd are in danger." ;
+                                                     ns0:image_pid "p00vb9j3" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v7dc8#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02nx66k#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01k2xcf#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vb9j3.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v7dg8#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 3" ;
+                                                     ns0:position "3" ;
+                                                     ns0:pid "p00v7dg8" ;
+                                                     ns0:short_synopsis "Panna shows the Doctor what the past, present and future holds for Deva Loka." ;
+                                                     ns0:medium_synopsis "Aris now carries the mark of the Mara and has gained voice, so Panna shows the Doctor and Todd exactly what the past, present and future hold for Deva Loka." ;
+                                                     ns0:image_pid "p00vb9k3" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v7dg9#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02nx6v0#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01k2y37#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vb9k3.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v7dk3#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 4" ;
+                                                     ns0:position "4" ;
+                                                     ns0:pid "p00v7dk3" ;
+                                                     ns0:short_synopsis "The Mara finally breaks free of its dream dimension." ;
+                                                     ns0:medium_synopsis "As the Mara finally breaks free of its dream dimension, the Kinda must do everything they can to contain it. Hindle's need to destroy everything and everyone is unstoppable." ;
+                                                     ns0:image_pid "p00vb9kn" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v7dk4#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02nx6sb#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01k2yzy#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vb9kn.jpg> .

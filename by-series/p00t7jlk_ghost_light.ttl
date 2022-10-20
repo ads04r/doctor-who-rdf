@@ -1,0 +1,55 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns0: <http://purl.org/ontology/po/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://www.bbc.co.uk/programmes/p00t7jlk#programme> rdf:type ns0:Series ;
+                                                     dc:title "Ghost Light" ;
+                                                     ns0:position "2" ;
+                                                     ns0:pid "p00t7jlk" ;
+                                                     ns0:short_synopsis "Millennia ago, Light came to catalogue all life. But while he slept, Earth evolved..." ;
+                                                     ns0:medium_synopsis "Millennia ago, Light arrived on Earth to catalogue all life. In the millions of years he has slept, Earth has evolved, much to his chagrin. So he sets out to destroy everything..." ;
+                                                     ns0:long_synopsis "Millennia ago, Light arrived on Earth to catalogue all life. In the millions of years he has slept, Earth has evolved, much to his chagrin. So he sets out to destroy everything..." ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:episode <http://www.bbc.co.uk/programmes/p00vbj73#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00vbj8z#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00vbjbm#programme> .
+
+<http://www.bbc.co.uk/programmes/p00vbj73#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 1" ;
+                                                     ns0:position "1" ;
+                                                     ns0:pid "p00vbj73" ;
+                                                     ns0:short_synopsis "Gabriel Chase hides just as many secrets in its drawing room as it does in its cellar." ;
+                                                     ns0:medium_synopsis "The Doctor and Ace explore Victorian house Gabriel Chase and realise it hides just as many dark secrets in its drawing room as it does in its dark cellar." ;
+                                                     ns0:image_pid "p00vd3hy" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00vbj74#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02k7t4x#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01zh20w#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vd3hy.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00vbj8z#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 2" ;
+                                                     ns0:position "2" ;
+                                                     ns0:pid "p00vbj8z" ;
+                                                     ns0:short_synopsis "Both Light and Control emerge from their respective slumbers..." ;
+                                                     ns0:medium_synopsis "The Doctor and Scotland Yard's finest, Inspector Mackenzie, attempt to question Josiah Smith while both Light and Control emerge from their respective slumbers..." ;
+                                                     ns0:image_pid "p00vd3kx" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00vbj90#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02k7t9h#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01zh2l2#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vd3kx.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00vbjbm#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 3" ;
+                                                     ns0:position "3" ;
+                                                     ns0:pid "p00vbjbm" ;
+                                                     ns0:short_synopsis "Only Redvers seems able to withstand Light and communicate with Control." ;
+                                                     ns0:medium_synopsis "Only Redvers, still searching for the elusive Saxe-Coburg, seems able to withstand Light and communicate with Control. Ace realises her past actions need to be dealt with" ;
+                                                     ns0:image_pid "p00vd3m4" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00vbjbn#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02k7tgx#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01zh3nw#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vd3m4.jpg> .

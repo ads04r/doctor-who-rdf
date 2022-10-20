@@ -1,0 +1,103 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns0: <http://purl.org/ontology/po/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://www.bbc.co.uk/programmes/p00pkz8g#programme> rdf:type ns0:Series ;
+                                                     dc:title "Colony in Space" ;
+                                                     ns0:position "4" ;
+                                                     ns0:pid "p00pkz8g" ;
+                                                     ns0:short_synopsis "The Master has stolen the Time Lord files for a devastating Doomsday Weapon." ;
+                                                     ns0:medium_synopsis "Discovering that the Master has stolen their files on the devastating Doomsday Weapon, the Time Lords decide to use the Doctor to retrieve them." ;
+                                                     ns0:long_synopsis "Discovering that the Master has stolen their files on the devastating Doomsday Weapon, the Time Lords decide to use the Doctor to retrieve them." ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:episode <http://www.bbc.co.uk/programmes/p00v5dgz#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v5dhn#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v5dkf#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v5dmw#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v5dpw#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v5drj#programme> .
+
+<http://www.bbc.co.uk/programmes/p00v5dgz#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 1" ;
+                                                     ns0:position "1" ;
+                                                     ns0:pid "p00v5dgz" ;
+                                                     ns0:short_synopsis "The TARDIS takes the Doctor and Jo to the future where colonists are menaced by a monster." ;
+                                                     ns0:medium_synopsis "The TARDIS takes the Doctor and Jo to a barren world in the far future where human colonists are scratching a living. But at night, the colonists are menaced by a monster." ;
+                                                     ns0:long_synopsis "The TARDIS takes the Doctor and Jo to a barren world in the far future where human colonists are scratching a living. But at night, the colonists are menaced by a monster." ;
+                                                     ns0:image_pid "p00v3gwz" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v5dh0#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02kb3y8#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01b8sp7#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v3gwz.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v5dhn#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 2" ;
+                                                     ns0:position "2" ;
+                                                     ns0:pid "p00v5dhn" ;
+                                                     ns0:short_synopsis "The Interplanetary Mining Corporation, led by Captain Dent, arrives on the planet." ;
+                                                     ns0:medium_synopsis "The Interplanetary Mining Corporation, represented by Captain Dent, arrives on the planet claiming that the colonists have no right to be there." ;
+                                                     ns0:long_synopsis "The Interplanetary Mining Corporation, represented by Captain Dent, arrives on the planet claiming that the colonists have no right to be there." ;
+                                                     ns0:image_pid "p00v3gyz" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v5dhp#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02kb49q#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01b9gfr#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v3gyz.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v5dkf#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 3" ;
+                                                     ns0:position "3" ;
+                                                     ns0:pid "p00v5dkf" ;
+                                                     ns0:short_synopsis "When Jo attempts to break into the IMC ship she is captured and held hostage." ;
+                                                     ns0:medium_synopsis "When Jo attempts to break into the IMC ship to find incriminating information, she is captured and held hostage. If the Doctor doesn't cooperate, Captain Dent will have Jo killed." ;
+                                                     ns0:long_synopsis "When Jo attempts to break into the IMC ship to find incriminating information, she is captured and held hostage. If the Doctor doesn't cooperate, Captain Dent will have Jo killed." ;
+                                                     ns0:image_pid "p00v3h0b" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v5dkh#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02kb54w#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01b9gpy#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v3h0b.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v5dmw#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 4" ;
+                                                     ns0:position "4" ;
+                                                     ns0:pid "p00v5dmw" ;
+                                                     ns0:short_synopsis "The Master pretends to have come to settle the dispute between the colonists and IMC." ;
+                                                     ns0:medium_synopsis "The Master arrives, posing as an adjudicator from Earth who has come to settle the dispute between the colonists and the miners. However, he has an agenda of his own." ;
+                                                     ns0:long_synopsis "The Master arrives, posing as an adjudicator from Earth who has come to settle the dispute between the colonists and the miners. However, he has an agenda of his own." ;
+                                                     ns0:image_pid "p00v3h4f" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v5dmx#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02kb564#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01b9gsl#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v3h4f.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v5dpw#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 5" ;
+                                                     ns0:position "5" ;
+                                                     ns0:pid "p00v5dpw" ;
+                                                     ns0:short_synopsis "The Master forces the Doctor to take him to the underground city of the primitives." ;
+                                                     ns0:medium_synopsis "With Jo held prisoner in his TARDIS, the Master forces the Doctor to take him to the underground city of the primitives. Any sign of treachery from the Doctor and Jo will die." ;
+                                                     ns0:long_synopsis "With Jo held prisoner in his TARDIS, the Master forces the Doctor to take him to the underground city of the primitives. Any sign of treachery from the Doctor and Jo will die." ;
+                                                     ns0:image_pid "p00v3j39" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v5dpx#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02kb56s#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01b9gvs#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v3j39.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v5drj#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 6" ;
+                                                     ns0:position "6" ;
+                                                     ns0:pid "p00v5drj" ;
+                                                     ns0:short_synopsis "The Doctor and the Master confront the guardian of the Doomsday Weapon." ;
+                                                     ns0:medium_synopsis "In the underground city, the Doctor and the Master confront the guardian of the Doomsday Weapon. The miners make their last move to force the colonists to leave the planet." ;
+                                                     ns0:long_synopsis "In the underground city, the Doctor and the Master confront the guardian of the Doomsday Weapon. The miners make their last move to force the colonists to leave the planet." ;
+                                                     ns0:image_pid "p00v3j7k" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v5drk#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02kb59b#programme> ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01b9h1f#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v3j7k.jpg> .
