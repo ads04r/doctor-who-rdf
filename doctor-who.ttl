@@ -22460,7 +22460,8 @@ Returning to Gallifrey, the Doctor faces the Time Lords in a struggle that will 
                                                                 <http://www.bbc.co.uk/programmes/b0bsrh4l#programme> ,
                                                                 <http://www.bbc.co.uk/programmes/b0bthzjn#programme> ,
                                                                 <http://www.bbc.co.uk/programmes/b0bv1l0j#programme> ,
-                                                                <http://www.bbc.co.uk/programmes/b0bvgbqw#programme> .
+                                                                <http://www.bbc.co.uk/programmes/b0bvgbqw#programme> ;
+                                                     dc:title "Series 11" .
 
 <http://www.bbc.co.uk/programmes/b0bp1brh#programme> rdf:type po:Episode ;
                                                      dc:title "The Ghost Monument" ;
@@ -22756,7 +22757,8 @@ Who is the mysterious commander with no memory? What lies beyond the mists? Who 
                                                                 <http://www.bbc.co.uk/programmes/m000f9d4#programme> ,
                                                                 <http://www.bbc.co.uk/programmes/m000fjf1#programme> ,
                                                                 <http://www.bbc.co.uk/programmes/m000frjp#programme> ,
-                                                                <http://www.bbc.co.uk/programmes/m000g09m#programme> .
+                                                                <http://www.bbc.co.uk/programmes/m000g09m#programme> ;
+                                                     dc:title "Series 12" .
 
 <http://www.bbc.co.uk/programmes/m000d4tk#programme> rdf:type po:Episode ;
                                                      dc:title "Spyfall, Part 2" ;
@@ -23069,7 +23071,8 @@ Guest starring Julie Graham, Patrick O'Kane, Ian McElhinney and Steve Toussaint.
                                                                 <http://www.bbc.co.uk/programmes/m0011nfd#programme> ,
                                                                 <http://www.bbc.co.uk/programmes/m0011vnw#programme> ,
                                                                 <http://www.bbc.co.uk/programmes/m00123l4#programme> ,
-                                                                <http://www.bbc.co.uk/programmes/m00129lb#programme> .
+                                                                <http://www.bbc.co.uk/programmes/m00129lb#programme> ;
+                                                     dc:title "Series 13: Flux" .
 
 <http://www.bbc.co.uk/programmes/m0011g6k#programme> rdf:type po:Episode ;
                                                      dc:title "War of the Sontarans" ;
