@@ -23286,8 +23286,10 @@ Who is attacking a speeding bullet train on the edges of a distant galaxy? Why a
 
 The Doctor faces multiple threats - and a battle to the death.""" ;
                                                      po:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
-                                                     po:image_pid "p0b0n5gc" ;
-                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p0b0n5gc.jpg> ;
+                                                     po:image_pid "p0b0n5gc" ,
+                                                                  "p0d8fbpd" ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p0b0n5gc.jpg> ,
+                                                                    <https://ichef.bbci.co.uk/images/ic/640x360/p0d8fbpd.jpg> ;
                                                      po:version <http://www.bbc.co.uk/programmes/m001dhs9#programme> ,
                                                                 <http://www.bbc.co.uk/programmes/m001dkmw#programme> ;
                                                      po:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
