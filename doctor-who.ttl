@@ -23303,3 +23303,70 @@ The Doctor faces multiple threats - and a battle to the death.""" ;
 
 <http://www.bbc.co.uk/programmes/m001dhsb> foaf:primaryTopic <http://www.bbc.co.uk/programmes/m001dhsb#programme> ;
                                            rdfs:label 'BBC webpage about the episode "The Power of the Doctor"' .
+
+<http://www.bbc.co.uk/programmes/m001sx3h#programme> rdf:type po:Episode ;
+                                                     dc:title "The Star Beast" ;
+                                                     po:short_synopsis "The Doctor lands in London to find an old friend, a new enemy and aliens wreaking havoc." ;
+                                                     po:medium_synopsis "The Doctor is caught in a fight to the death as a spaceship crash-lands in London. But as the battle wreaks havoc, destiny is converging on the Doctor’s old friend, Donna." ;
+                                                     po:long_synopsis "" ;
+                                                     po:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     po:image_pid "p0gtzfm1" ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p0gtzfm1.jpg> ;
+                                                     po:version <http://www.bbc.co.uk/programmes/m001sx3f#programme> ,
+                                                                <http://www.bbc.co.uk/programmes/m001t1c7#programme> ,
+                                                                <http://www.bbc.co.uk/programmes/p0gvbqky#programme> ,
+                                                                <http://www.bbc.co.uk/programmes/p0gvbwx9#programme> ;
+                                                     po:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     po:position "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+                                                     po:pid "m001sx3h" .
+
+<http://www.bbc.co.uk/programmes/m001sx3h.rdf> foaf:primaryTopic <http://www.bbc.co.uk/programmes/m001sx3h#programme> ;
+                                               rdfs:label 'Description of the episode "The Star Beast"' .
+
+<http://www.bbc.co.uk/programmes/m001sx3h> foaf:primaryTopic <http://www.bbc.co.uk/programmes/m001sx3h#programme> ;
+                                           rdfs:label 'BBC webpage about the episode "The Star Beast"' .
+
+<http://www.bbc.co.uk/programmes/p0gglvqn#programme> rdf:type po:Brand ;
+                                                     po:episode <http://www.bbc.co.uk/programmes/m001sx3h#programme> ,
+                                                                <http://www.bbc.co.uk/programmes/m001t42d#programme> ,
+                                                                <http://www.bbc.co.uk/programmes/m001tc3r#programme> .
+
+<http://www.bbc.co.uk/programmes/m001t42d#programme> rdf:type po:Episode ;
+                                                     dc:title "Wild Blue Yonder" ;
+                                                     po:short_synopsis "An out-of-control Tardis takes the Doctor and Donna to the furthest edge of adventure." ;
+                                                     po:medium_synopsis "The Tardis takes the Doctor and Donna to the furthest edge of adventure. To escape, they must face the most desperate fight of their lives, with the fate of the universe at stake." ;
+                                                     po:long_synopsis "" ;
+                                                     po:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     po:image_pid "p0grxjfs" ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p0grxjfs.jpg> ;
+                                                     po:version <http://www.bbc.co.uk/programmes/m001t42c#programme> ,
+                                                                <http://www.bbc.co.uk/programmes/m001t5rt#programme> ;
+                                                     po:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     po:position "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+                                                     po:pid "m001t42d" .
+
+<http://www.bbc.co.uk/programmes/m001t42d.rdf> foaf:primaryTopic <http://www.bbc.co.uk/programmes/m001t42d#programme> ;
+                                               rdfs:label 'Description of the episode "Wild Blue Yonder"' .
+
+<http://www.bbc.co.uk/programmes/m001t42d> foaf:primaryTopic <http://www.bbc.co.uk/programmes/m001t42d#programme> ;
+                                           rdfs:label 'BBC webpage about the episode "Wild Blue Yonder"' .
+
+<http://www.bbc.co.uk/programmes/m001tc3r#programme> rdf:type po:Episode ;
+                                                     dc:title "The Giggle" ;
+                                                     po:short_synopsis "The Doctor is powerless as the terrifying Toymaker holds the human race in his grasp." ;
+                                                     po:medium_synopsis "The giggle of a mysterious puppet is driving the human race insane. When the Doctor discovers the return of the terrifying Toymaker, he faces a fight he can never win." ;
+                                                     po:long_synopsis "" ;
+                                                     po:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     po:image_pid "p0grxjfs" ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p0grxjfs.jpg> ;
+                                                     po:version <http://www.bbc.co.uk/programmes/m001tc3p#programme> ,
+                                                                <http://www.bbc.co.uk/programmes/m001td8w#programme> ;
+                                                     po:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     po:position "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+                                                     po:pid "m001tc3r" .
+
+<http://www.bbc.co.uk/programmes/m001tc3r.rdf> foaf:primaryTopic <http://www.bbc.co.uk/programmes/m001tc3r#programme> ;
+                                               rdfs:label 'Description of the episode "The Giggle"' .
+
+<http://www.bbc.co.uk/programmes/m001tc3r> foaf:primaryTopic <http://www.bbc.co.uk/programmes/m001tc3r#programme> ;
+                                           rdfs:label 'BBC webpage about the episode "The Giggle"' .
