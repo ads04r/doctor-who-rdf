@@ -23389,8 +23389,10 @@ The Doctor faces multiple threats - and a battle to the death.""" ;
                                                      po:medium_synopsis "Long ago, on Christmas Eve, a baby was abandoned in the snow. Today, Ruby Sunday meets the Doctor, goblins, stolen babies and, perhaps, the secret of her birth." ;
                                                      po:long_synopsis "" ;
                                                      po:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
-                                                     po:image_pid "p0grxjfs" ;
-                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p0grxjfs.jpg> ;
+                                                     po:image_pid "p0grxjfs" ,
+                                                                  "p0gz2jcy" ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p0grxjfs.jpg> ,
+                                                                    <https://ichef.bbci.co.uk/images/ic/640x360/p0gz2jcy.jpg> ;
                                                      po:version <http://www.bbc.co.uk/programmes/m001tfnk#programme> ,
                                                                 <http://www.bbc.co.uk/programmes/m001ty44#programme> ,
                                                                 <http://www.bbc.co.uk/programmes/m001v563#programme> ,
