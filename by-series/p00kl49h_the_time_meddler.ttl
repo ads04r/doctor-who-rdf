@@ -5,64 +5,64 @@
 
 <http://www.bbc.co.uk/programmes/p00kl49h#programme> rdf:type ns0:Series ;
                                                      dc:title "The Time Meddler" ;
-                                                     ns0:position "9" ;
-                                                     ns0:pid "p00kl49h" ;
-                                                     ns0:short_synopsis "The Doctor faces one of his own race - a maverick trying to alter earth's history!" ;
-                                                     ns0:medium_synopsis "The Doctor and Vicki are surprised to discover a stow-away aboard the TARDIS and welcome Steven Taylor, who survived the destruction of the Mechonoid city, aboard." ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/p00v23y0#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v2412#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v242f#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00v244w#programme> .
+                                                                 <http://www.bbc.co.uk/programmes/p00v244w#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:medium_synopsis "The Doctor and Vicki are surprised to discover a stow-away aboard the TARDIS and welcome Steven Taylor, who survived the destruction of the Mechonoid city, aboard." ;
+                                                     ns0:pid "p00kl49h" ;
+                                                     ns0:position "9" ;
+                                                     ns0:short_synopsis "The Doctor faces one of his own race - a maverick trying to alter earth's history!" .
 
 <http://www.bbc.co.uk/programmes/p00v23y0#programme> rdf:type ns0:Episode ;
                                                      dc:title "The Watcher" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00v23y0" ;
-                                                     ns0:short_synopsis "The TARDIS lands on the English coast in 1066, but are watched by a very curious monk." ;
-                                                     ns0:medium_synopsis "The TARDIS lands on the English coast in 1066, but the travellers are puzzled to find modern day artefacts. A monk observes the arrival of the TARDIS, but seems unsurprised." ;
-                                                     ns0:image_pid "p00v1vlb" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p011l981#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v1vlb" ;
+                                                     ns0:medium_synopsis "The TARDIS lands on the English coast in 1066, but the travellers are puzzled to find modern day artefacts. A monk observes the arrival of the TARDIS, but seems unsurprised." ;
+                                                     ns0:pid "p00v23y0" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "The TARDIS lands on the English coast in 1066, but are watched by a very curious monk." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v23y1#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p03rqb79#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p011l981#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v1vlb.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v2412#programme> rdf:type ns0:Episode ;
                                                      dc:title "The Meddling Monk" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00v2412" ;
-                                                     ns0:short_synopsis "The Doctor is the Monk's prisoner, in the monastery, and Vicki and Steven search for him." ;
-                                                     ns0:medium_synopsis "The Doctor is held prisoner by the Monk in the monastery whilst Vicki and Steven search for him. Meanwhile, a Viking war party arrives ahead of the main invasion fleet." ;
-                                                     ns0:image_pid "p00v1vm0" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p011l9pp#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v1vm0" ;
+                                                     ns0:medium_synopsis "The Doctor is held prisoner by the Monk in the monastery whilst Vicki and Steven search for him. Meanwhile, a Viking war party arrives ahead of the main invasion fleet." ;
+                                                     ns0:pid "p00v2412" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "The Doctor is the Monk's prisoner, in the monastery, and Vicki and Steven search for him." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v2413#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p03rqb68#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p011l9pp#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v1vm0.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v242f#programme> rdf:type ns0:Episode ;
                                                      dc:title "A Battle of Wits" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00v242f" ;
-                                                     ns0:short_synopsis "Steven and Vicki discover futuristic weapons. The Monk has plans for the Vikings…" ;
-                                                     ns0:medium_synopsis "Steven and Vicki discover an atomic bazooka. It seems that the Monk has plans for the Viking invaders. Returning to the Monastery, Steven and Vicki make an amazing discovery." ;
-                                                     ns0:image_pid "p00v1vn4" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p011lbf1#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v1vn4" ;
+                                                     ns0:medium_synopsis "Steven and Vicki discover an atomic bazooka. It seems that the Monk has plans for the Viking invaders. Returning to the Monastery, Steven and Vicki make an amazing discovery." ;
+                                                     ns0:pid "p00v242f" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "Steven and Vicki discover futuristic weapons. The Monk has plans for the Vikings…" ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v242g#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p03rqb7y#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p011lbf1#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v1vn4.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v244w#programme> rdf:type ns0:Episode ;
                                                      dc:title "Checkmate" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "p00v244w" ;
-                                                     ns0:short_synopsis "Discovering the Monk's plan, the Doctor is determined to stop him meddling with history..." ;
-                                                     ns0:medium_synopsis "Discovering the Monk's plan, the Doctor is determined to stop him meddling with history. As the Viking fleet approaches, time is running out for both the Monk and the Doctor." ;
-                                                     ns0:image_pid "p00v1vp6" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p011l9x3#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v1vp6" ;
+                                                     ns0:medium_synopsis "Discovering the Monk's plan, the Doctor is determined to stop him meddling with history. As the Viking fleet approaches, time is running out for both the Monk and the Doctor." ;
+                                                     ns0:pid "p00v244w" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "Discovering the Monk's plan, the Doctor is determined to stop him meddling with history..." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v244x#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p03rqb96#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p011l9x3#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v1vp6.jpg> .

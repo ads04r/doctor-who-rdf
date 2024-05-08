@@ -5,63 +5,63 @@
 
 <http://www.bbc.co.uk/programmes/p00r9wqv#programme> rdf:type ns0:Series ;
                                                      dc:title "The Ribos Operation" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00r9wqv" ;
-                                                     ns0:short_synopsis "To restore the balance of the cosmos, the White Guardian requires the Key to Time." ;
-                                                     ns0:medium_synopsis "To restore the balance of the cosmos, the White Guardian requires the Key to Time, but it has been broken into six disguised segments and scattered throughout time and space." ;
-                                                     ns0:long_synopsis "To restore the balance of the cosmos, the White Guardian requires the Key to Time, but it has been broken into six disguised segments and scattered throughout time and space." ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/p00vfknq#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00vfkrq#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00vfksw#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00vfkvz#programme> .
+                                                                 <http://www.bbc.co.uk/programmes/p00vfkvz#programme> ;
+                                                     ns0:long_synopsis "To restore the balance of the cosmos, the White Guardian requires the Key to Time, but it has been broken into six disguised segments and scattered throughout time and space." ;
+                                                     ns0:medium_synopsis "To restore the balance of the cosmos, the White Guardian requires the Key to Time, but it has been broken into six disguised segments and scattered throughout time and space." ;
+                                                     ns0:pid "p00r9wqv" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "To restore the balance of the cosmos, the White Guardian requires the Key to Time." .
 
 <http://www.bbc.co.uk/programmes/p00vfknq#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 1" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00vfknq" ;
-                                                     ns0:short_synopsis "On a mission to assemble the Key to Time, the Doctor and Romana travel to Ribos." ;
-                                                     ns0:medium_synopsis "On a mission to collect the six segments of the Key to Time, the Doctor and Romana travel to the planet Ribos where the first segment is protected by the monstrous Shrivenzale." ;
-                                                     ns0:long_synopsis "The Guardian of Time gives the Doctor a difficult task,and a new assistant. Together they must search for the six segments of the Key to Time, to prevent the Universe from being plunged into eternal chaos.On their mission, the Doctor and Romana travel to the planet Ribos where the first segment of the key is protected by the monstrous Shrivenzale." ;
-                                                     ns0:image_pid "p00vfptl" ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vfptl" ;
+                                                     ns0:long_synopsis "The Guardian of Time gives the Doctor a difficult task,and a new assistant. Together they must search for the six segments of the Key to Time, to prevent the Universe from being plunged into eternal chaos.On their mission, the Doctor and Romana travel to the planet Ribos where the first segment of the key is protected by the monstrous Shrivenzale." ;
+                                                     ns0:medium_synopsis "On a mission to collect the six segments of the Key to Time, the Doctor and Romana travel to the planet Ribos where the first segment is protected by the monstrous Shrivenzale." ;
+                                                     ns0:pid "p00vfknq" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "On a mission to assemble the Key to Time, the Doctor and Romana travel to Ribos." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vfknr#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p030p1cw#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vfptl.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00vfkrq#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 2" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00vfkrq" ;
-                                                     ns0:short_synopsis "On Ribos, a lump of jethrik is really the first segment of the Key to Time." ;
-                                                     ns0:medium_synopsis "Garron is attempting to trick the Graff Vynda-K into buying the planet Ribos, but the jethrik that is vital to his plan is really the first segment of the Key to Time." ;
-                                                     ns0:image_pid "p00vfpwg" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01g10dk#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vfpwg" ;
+                                                     ns0:medium_synopsis "Garron is attempting to trick the Graff Vynda-K into buying the planet Ribos, but the jethrik that is vital to his plan is really the first segment of the Key to Time." ;
+                                                     ns0:pid "p00vfkrq" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "On Ribos, a lump of jethrik is really the first segment of the Key to Time." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vfkrt#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p030p1vn#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01g10dk#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vfpwg.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00vfksw#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 3" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00vfksw" ;
-                                                     ns0:short_synopsis "The Doctor and Romana's search for the first segment is hampered by the Graff Vynda-K." ;
-                                                     ns0:medium_synopsis "The Doctor and Romana's search for the first segment of the Key to Time is hampered when the Graff Vynda-K takes them prisoner." ;
-                                                     ns0:image_pid "p00vfq01" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01g10kk#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vfq01" ;
+                                                     ns0:medium_synopsis "The Doctor and Romana's search for the first segment of the Key to Time is hampered when the Graff Vynda-K takes them prisoner." ;
+                                                     ns0:pid "p00vfksw" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "The Doctor and Romana's search for the first segment is hampered by the Graff Vynda-K." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vfksx#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p030p20q#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01g10kk#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vfq01.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00vfkvz#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 4" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "p00vfkvz" ;
-                                                     ns0:short_synopsis "The Doctor and Romana are pursued by the Graff and attacked by the ferocious Shrivenzale." ;
-                                                     ns0:medium_synopsis "Pursued into the catacombs by the Graff and attacked by the ferocious Shrivenzale, the Doctor and Romana struggle to stay alive and find the first segment of the Key to Time." ;
-                                                     ns0:image_pid "p00vfq48" ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vfq48" ;
+                                                     ns0:medium_synopsis "Pursued into the catacombs by the Graff and attacked by the ferocious Shrivenzale, the Doctor and Romana struggle to stay alive and find the first segment of the Key to Time." ;
+                                                     ns0:pid "p00vfkvz" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "The Doctor and Romana are pursued by the Graff and attacked by the ferocious Shrivenzale." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vfkw0#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p030p2sf#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vfq48.jpg> .

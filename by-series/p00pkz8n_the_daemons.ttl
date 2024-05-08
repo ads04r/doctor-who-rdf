@@ -5,78 +5,78 @@
 
 <http://www.bbc.co.uk/programmes/p00pkz8n#programme> rdf:type ns0:Series ;
                                                      dc:title "The Daemons" ;
-                                                     ns0:position "5" ;
-                                                     ns0:pid "p00pkz8n" ;
-                                                     ns0:short_synopsis "The Doctor is concerned as he watches a televised archaeological dig near Devil's End." ;
-                                                     ns0:medium_synopsis "The Doctor is extremely concerned as he watches a televised archaeological dig near the village of Devil's End in which a Professor Horner prepares to break into an ancient barrow." ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/p00v5dw1#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v5dx8#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v5dzw#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v5f1q#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00v5f45#programme> .
+                                                                 <http://www.bbc.co.uk/programmes/p00v5f45#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:medium_synopsis "The Doctor is extremely concerned as he watches a televised archaeological dig near the village of Devil's End in which a Professor Horner prepares to break into an ancient barrow." ;
+                                                     ns0:pid "p00pkz8n" ;
+                                                     ns0:position "5" ;
+                                                     ns0:short_synopsis "The Doctor is concerned as he watches a televised archaeological dig near Devil's End." .
 
 <http://www.bbc.co.uk/programmes/p00v5dw1#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 1" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00v5dw1" ;
-                                                     ns0:short_synopsis "The Doctor tries to stop Professor Horner from breaking into a barrow near Devil's End." ;
-                                                     ns0:medium_synopsis "The Doctor tries to prevent Professor Horner from breaking into an ancient barrow near the village of Devil's End. Posing as the village vicar, the Master summons dark forces." ;
-                                                     ns0:image_pid "p00vky8y" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01bb1zd#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vky8y" ;
+                                                     ns0:medium_synopsis "The Doctor tries to prevent Professor Horner from breaking into an ancient barrow near the village of Devil's End. Posing as the village vicar, the Master summons dark forces." ;
+                                                     ns0:pid "p00v5dw1" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "The Doctor tries to stop Professor Horner from breaking into a barrow near Devil's End." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v5dw2#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xzsjm#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01bb1zd#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vky8y.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v5dx8#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 2 " ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00v5dx8" ;
-                                                     ns0:short_synopsis "Devil's End is sealed off from the outside world by an invisible heat barrier. " ;
-                                                     ns0:medium_synopsis "Devil's End is sealed off from the outside world by a heat barrier. The Doctor and Jo return to the barrow where they are confronted by the gargoyle, Bok." ;
-                                                     ns0:image_pid "p00v3jrj" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01bb2c9#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v3jrj" ;
+                                                     ns0:medium_synopsis "Devil's End is sealed off from the outside world by a heat barrier. The Doctor and Jo return to the barrow where they are confronted by the gargoyle, Bok." ;
+                                                     ns0:pid "p00v5dx8" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "Devil's End is sealed off from the outside world by an invisible heat barrier. " ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v5dx9#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xzslz#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01bb2c9#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v3jrj.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v5dzw#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 3" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00v5dzw" ;
-                                                     ns0:short_synopsis "The Master prepares to summon the Daemon Azal." ;
-                                                     ns0:medium_synopsis "The Doctor attempts to help the Brigadier penetrate the heat barrier, but is attacked by the Master's servant in a helicopter. The Master prepares to summon the Daemon Azal." ;
-                                                     ns0:image_pid "p00v3jt1" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01bb2kh#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v3jt1" ;
+                                                     ns0:medium_synopsis "The Doctor attempts to help the Brigadier penetrate the heat barrier, but is attacked by the Master's servant in a helicopter. The Master prepares to summon the Daemon Azal." ;
+                                                     ns0:pid "p00v5dzw" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "The Master prepares to summon the Daemon Azal." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v5dzx#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xzslv#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01bb2kh#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v3jt1.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v5f1q#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 4" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "p00v5f1q" ;
-                                                     ns0:short_synopsis "Jo tries to stop the Master summoning the Daemon for the final time. But she is too late." ;
-                                                     ns0:medium_synopsis "The Doctor is captured by the villagers who are under the Master's control. Jo goes to the church to prevent the Master from summoning Azal for the final time, but is too late." ;
-                                                     ns0:image_pid "p00v3jv3" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01bb2n7#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v3jv3" ;
+                                                     ns0:medium_synopsis "The Doctor is captured by the villagers who are under the Master's control. Jo goes to the church to prevent the Master from summoning Azal for the final time, but is too late." ;
+                                                     ns0:pid "p00v5f1q" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "Jo tries to stop the Master summoning the Daemon for the final time. But she is too late." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v5f1r#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xzsz0#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01bb2n7#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v3jv3.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v5f45#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 5" ;
-                                                     ns0:position "5" ;
-                                                     ns0:pid "p00v5f45" ;
-                                                     ns0:short_synopsis "The Daemon Azal confronts the Doctor and the Master to decide the fate of mankind." ;
-                                                     ns0:medium_synopsis "UNIT have penetrated the heat barrier and launch an attack on the gargoyle, Bok. In the cavern, the Daemon Azal confronts the Doctor and the Master to decide the fate of mankind." ;
-                                                     ns0:image_pid "p00v3jvn" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01bb2vb#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v3jvn" ;
+                                                     ns0:medium_synopsis "UNIT have penetrated the heat barrier and launch an attack on the gargoyle, Bok. In the cavern, the Daemon Azal confronts the Doctor and the Master to decide the fate of mankind." ;
+                                                     ns0:pid "p00v5f45" ;
+                                                     ns0:position "5" ;
+                                                     ns0:short_synopsis "The Daemon Azal confronts the Doctor and the Master to decide the fate of mankind." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v5f46#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xzsyg#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01bb2vb#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v3jvn.jpg> .

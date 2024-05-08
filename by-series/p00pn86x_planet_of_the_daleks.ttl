@@ -5,99 +5,99 @@
 
 <http://www.bbc.co.uk/programmes/p00pn86x#programme> rdf:type ns0:Series ;
                                                      dc:title "Planet of the Daleks" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "p00pn86x" ;
-                                                     ns0:short_synopsis "On the jungle planet of Spiridon, the Doctor and Jo join forces with a group of Thals." ;
-                                                     ns0:medium_synopsis "On the jungle planet of Spiridon, the Doctor and Jo join forces with a group of Thals who have come to defeat a Dalek taskforce searching for the secret of invisibility." ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/p00v8vkg#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v8vrs#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v8vw0#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v8vzf#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v8w1n#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00v8wgf#programme> .
+                                                                 <http://www.bbc.co.uk/programmes/p00v8wgf#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:medium_synopsis "On the jungle planet of Spiridon, the Doctor and Jo join forces with a group of Thals who have come to defeat a Dalek taskforce searching for the secret of invisibility." ;
+                                                     ns0:pid "p00pn86x" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "On the jungle planet of Spiridon, the Doctor and Jo join forces with a group of Thals." .
 
 <http://www.bbc.co.uk/programmes/p00v8vkg#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 1" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00v8vkg" ;
-                                                     ns0:short_synopsis "The Doctor asks the Time Lords to send the TARDIS after the Daleks." ;
-                                                     ns0:medium_synopsis "Injured by the Orgrons, the Doctor asks the Time Lords to send the TARDIS after the Daleks. Leaving him to sleep and recuperate, Jo goes to explore the planet Spirodon." ;
-                                                     ns0:long_synopsis "Injured by the Orgrons, the Doctor asks the Time Lords to send the TARDIS after the Daleks. Leaving him to sleep and recuperate, Jo goes to explore the planet Spirodon." ;
-                                                     ns0:image_pid "p00v50w0" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p014fg4r#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v50w0" ;
+                                                     ns0:long_synopsis "Injured by the Orgrons, the Doctor asks the Time Lords to send the TARDIS after the Daleks. Leaving him to sleep and recuperate, Jo goes to explore the planet Spirodon." ;
+                                                     ns0:medium_synopsis "Injured by the Orgrons, the Doctor asks the Time Lords to send the TARDIS after the Daleks. Leaving him to sleep and recuperate, Jo goes to explore the planet Spirodon." ;
+                                                     ns0:pid "p00v8vkg" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "The Doctor asks the Time Lords to send the TARDIS after the Daleks." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v8vkh#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p046877v#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p04yjs20#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p014fg4r#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v50w0.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v8vrs#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 2" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00v8vrs" ;
-                                                     ns0:short_synopsis "The Doctor awakes from his coma, befriends some Thals but is captured by the Daleks." ;
-                                                     ns0:medium_synopsis "The Doctor recovers from his coma and befriends a Thal expedition but is captured by the Daleks and taken to their base. Then a second Thal expedition arrives with terrible news..." ;
-                                                     ns0:long_synopsis "The Doctor recovers from his coma and befriends a Thal expedition but is captured by the Daleks and taken to their base. Then a second Thal expedition arrives with terrible news..." ;
-                                                     ns0:image_pid "p00v51qr" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p014fgjp#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v51qr" ;
+                                                     ns0:long_synopsis "The Doctor recovers from his coma and befriends a Thal expedition but is captured by the Daleks and taken to their base. Then a second Thal expedition arrives with terrible news..." ;
+                                                     ns0:medium_synopsis "The Doctor recovers from his coma and befriends a Thal expedition but is captured by the Daleks and taken to their base. Then a second Thal expedition arrives with terrible news..." ;
+                                                     ns0:pid "p00v8vrs" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "The Doctor awakes from his coma, befriends some Thals but is captured by the Daleks." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v8vrt#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p046879v#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p014fgjp#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v51qr.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v8vw0#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 3" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00v8vw0" ;
-                                                     ns0:short_synopsis "In the Dalek city, the Doctor breaks out of his cell and joins forces with the Thals." ;
-                                                     ns0:medium_synopsis "In the Dalek city, the Doctor breaks out of his prison cell and joins forces with the Thals. With the Daleks in pursuit, he is forced to improvise a daring escape plan." ;
-                                                     ns0:long_synopsis "In the Dalek city, the Doctor breaks out of his prison cell and joins forces with the Thals. With the Daleks in pursuit, he is forced to improvise a daring escape plan." ;
-                                                     ns0:image_pid "p00v5fs6" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p014fgr1#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v5fs6" ;
+                                                     ns0:long_synopsis "In the Dalek city, the Doctor breaks out of his prison cell and joins forces with the Thals. With the Daleks in pursuit, he is forced to improvise a daring escape plan." ;
+                                                     ns0:medium_synopsis "In the Dalek city, the Doctor breaks out of his prison cell and joins forces with the Thals. With the Daleks in pursuit, he is forced to improvise a daring escape plan." ;
+                                                     ns0:pid "p00v8vw0" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "In the Dalek city, the Doctor breaks out of his cell and joins forces with the Thals." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v8vw2#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p04687bt#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p014fgr1#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v5fs6.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v8vzf#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 4" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "p00v8vzf" ;
-                                                     ns0:short_synopsis "The Daleks are preparing a deadly bacteria to kill all life on the planet." ;
-                                                     ns0:medium_synopsis "The Doctor and the Thals escape from the Dalek city and the Doctor is delighted to find Jo is alive. But the Daleks are preparing deadly bacteria to kill all life on the planet." ;
-                                                     ns0:long_synopsis "The Doctor and the Thals escape from the Dalek city and the Doctor is delighted to find Jo is alive. But the Daleks are preparing deadly bacteria to kill all life on the planet." ;
-                                                     ns0:image_pid "p00v5ftq" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p014fgw4#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v5ftq" ;
+                                                     ns0:long_synopsis "The Doctor and the Thals escape from the Dalek city and the Doctor is delighted to find Jo is alive. But the Daleks are preparing deadly bacteria to kill all life on the planet." ;
+                                                     ns0:medium_synopsis "The Doctor and the Thals escape from the Dalek city and the Doctor is delighted to find Jo is alive. But the Daleks are preparing deadly bacteria to kill all life on the planet." ;
+                                                     ns0:pid "p00v8vzf" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "The Daleks are preparing a deadly bacteria to kill all life on the planet." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v8vzh#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p04687cp#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p014fgw4#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v5ftq.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v8w1n#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 5" ;
-                                                     ns0:position "5" ;
-                                                     ns0:pid "p00v8w1n" ;
-                                                     ns0:short_synopsis "To prevent the Daleks from releasing their plague, the Doctor infiltrates their base." ;
-                                                     ns0:medium_synopsis "Desperate to prevent the Daleks from releasing their plague, the Doctor, Jo and the Thals infiltrate their base. But the Daleks detect the intruders!" ;
-                                                     ns0:long_synopsis "Desperate to prevent the Daleks from releasing their plague, the Doctor, Jo and the Thals infiltrate their base. But the Daleks detect the intruders!" ;
-                                                     ns0:image_pid "p00v5fw9" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p014fhvh#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v5fw9" ;
+                                                     ns0:long_synopsis "Desperate to prevent the Daleks from releasing their plague, the Doctor, Jo and the Thals infiltrate their base. But the Daleks detect the intruders!" ;
+                                                     ns0:medium_synopsis "Desperate to prevent the Daleks from releasing their plague, the Doctor, Jo and the Thals infiltrate their base. But the Daleks detect the intruders!" ;
+                                                     ns0:pid "p00v8w1n" ;
+                                                     ns0:position "5" ;
+                                                     ns0:short_synopsis "To prevent the Daleks from releasing their plague, the Doctor infiltrates their base." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v8w1p#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p04687gv#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p014fhvh#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v5fw9.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v8wgf#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 6" ;
-                                                     ns0:position "6" ;
-                                                     ns0:pid "p00v8wgf" ;
-                                                     ns0:short_synopsis "A force of ten thousand Daleks is coming to life below the surface of Spiridon." ;
-                                                     ns0:medium_synopsis "A force of ten thousand Daleks is coming to life below the surface of Spiridon. The Doctor and the Thals must find a way to defeat the Daleks before they invade the galaxy." ;
-                                                     ns0:long_synopsis "A force of ten thousand Daleks is coming to life below the surface of Spiridon. The Doctor and the Thals must find a way to defeat the Daleks before they invade the galaxy." ;
-                                                     ns0:image_pid "p00v5fzl" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p014fh2b#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v5fzl" ;
+                                                     ns0:long_synopsis "A force of ten thousand Daleks is coming to life below the surface of Spiridon. The Doctor and the Thals must find a way to defeat the Daleks before they invade the galaxy." ;
+                                                     ns0:medium_synopsis "A force of ten thousand Daleks is coming to life below the surface of Spiridon. The Doctor and the Thals must find a way to defeat the Daleks before they invade the galaxy." ;
+                                                     ns0:pid "p00v8wgf" ;
+                                                     ns0:position "6" ;
+                                                     ns0:short_synopsis "A force of ten thousand Daleks is coming to life below the surface of Spiridon." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v8wgg#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p04687jm#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p014fh2b#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v5fzl.jpg> .

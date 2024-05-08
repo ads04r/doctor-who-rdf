@@ -5,54 +5,54 @@
 
 <http://www.bbc.co.uk/programmes/p00t1kvk#programme> rdf:type ns0:Series ;
                                                      dc:title "Delta and the Bannermen" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00t1kvk" ;
-                                                     ns0:short_synopsis "Evading the mercenary Bannermen, the Chimeron queen has fled to Earth." ;
-                                                     ns0:medium_synopsis "Evading the mercenary Bannermen, the Chimeron queen has fled to Earth. But they follow her there, determined to kill her and her baby and so destroy the Chimeron species..." ;
-                                                     ns0:long_synopsis "Evading the mercenary Bannermen, the Chimeron queen has fled to Earth. But they follow her there, determined to kill her and her baby and so destroy the Chimeron species..." ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/p00vbfz1#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00vbg5h#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00vbgbs#programme> .
+                                                                 <http://www.bbc.co.uk/programmes/p00vbgbs#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:long_synopsis "Evading the mercenary Bannermen, the Chimeron queen has fled to Earth. But they follow her there, determined to kill her and her baby and so destroy the Chimeron species..." ;
+                                                     ns0:medium_synopsis "Evading the mercenary Bannermen, the Chimeron queen has fled to Earth. But they follow her there, determined to kill her and her baby and so destroy the Chimeron species..." ;
+                                                     ns0:pid "p00t1kvk" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "Evading the mercenary Bannermen, the Chimeron queen has fled to Earth." .
 
 <http://www.bbc.co.uk/programmes/p00vbfz1#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 1" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00vbfz1" ;
-                                                     ns0:short_synopsis "The Doctor and Mel end up in South Wales along with an assassin and his intended victim..." ;
-                                                     ns0:medium_synopsis "The Doctor and Mel win a trip to Disneyland in 1959 but after an accident in space, they end up in South Wales instead, along with an assassin and his intended victim..." ;
-                                                     ns0:image_pid "p00vcs9v" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01zkh0w#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01zkjc5#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vcs9v" ;
+                                                     ns0:medium_synopsis "The Doctor and Mel win a trip to Disneyland in 1959 but after an accident in space, they end up in South Wales instead, along with an assassin and his intended victim..." ;
+                                                     ns0:pid "p00vbfz1" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "The Doctor and Mel end up in South Wales along with an assassin and his intended victim..." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vbfz2#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02krn78#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01zkjc5#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p01zkh0w#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vcs9v.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00vbg5h#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 2" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00vbg5h" ;
-                                                     ns0:short_synopsis "Gavrok and the Bannermen have arrived on Earth, searching for Delta." ;
-                                                     ns0:medium_synopsis "Gavrok and the Bannermen have arrived on Earth, searching for Delta. They slaughter the holidaymakers without compunction to draw her out." ;
-                                                     ns0:image_pid "p00vcsdb" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01zkk9f#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01zkl4h#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vcsdb" ;
+                                                     ns0:medium_synopsis "Gavrok and the Bannermen have arrived on Earth, searching for Delta. They slaughter the holidaymakers without compunction to draw her out." ;
+                                                     ns0:pid "p00vbg5h" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "Gavrok and the Bannermen have arrived on Earth, searching for Delta." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vbg5k#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02krn83#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01zkl4h#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p01zkk9f#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vcsdb.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00vbgbs#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 3" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00vbgbs" ;
-                                                     ns0:short_synopsis "Billy and Ray do what they can to help save Delta and the baby." ;
-                                                     ns0:medium_synopsis "As Billy and Ray do what they can to help save Delta and the baby, the Doctor and Goronwy the beekeeper face Gavrok and his Bannermen one last time..." ;
-                                                     ns0:image_pid "p00vcsf8" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01zklwn#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01zkn08#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vcsf8" ;
+                                                     ns0:medium_synopsis "As Billy and Ray do what they can to help save Delta and the baby, the Doctor and Goronwy the beekeeper face Gavrok and his Bannermen one last time..." ;
+                                                     ns0:pid "p00vbgbs" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "Billy and Ray do what they can to help save Delta and the baby." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vbgbt#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02krn8k#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01zkn08#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p01zklwn#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vcsf8.jpg> .

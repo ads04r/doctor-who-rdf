@@ -5,65 +5,65 @@
 
 <http://www.bbc.co.uk/programmes/p00pq2dv#programme> rdf:type ns0:Series ;
                                                      dc:title "Robot" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00pq2dv" ;
-                                                     ns0:short_synopsis "Recovering from his regeneration, the Doctor investigates the robbery of top secret plans." ;
-                                                     ns0:medium_synopsis "Recovering from his regeneration, the Doctor speculates the robbery of top secret plans and equipment from high security establishments was carried out by something not human." ;
-                                                     ns0:long_synopsis "Recovering from his regeneration, the Doctor speculates the robbery of top secret plans and equipment from high security establishments was carried out by something not human." ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/p00vd4t5#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00vd4w1#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00vd4yp#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00vd503#programme> .
+                                                                 <http://www.bbc.co.uk/programmes/p00vd503#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:long_synopsis "Recovering from his regeneration, the Doctor speculates the robbery of top secret plans and equipment from high security establishments was carried out by something not human." ;
+                                                     ns0:medium_synopsis "Recovering from his regeneration, the Doctor speculates the robbery of top secret plans and equipment from high security establishments was carried out by something not human." ;
+                                                     ns0:pid "p00pq2dv" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "Recovering from his regeneration, the Doctor investigates the robbery of top secret plans." .
 
 <http://www.bbc.co.uk/programmes/p00vd4t5#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 1" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00vd4t5" ;
-                                                     ns0:short_synopsis "UNIT are called in when top secret plans are stolen from high security establishments." ;
-                                                     ns0:medium_synopsis "UNIT are called in when top secret plans and valuable equipment is stolen from high security establishments. The newly regenerated Doctor suggests that the thief may not be human." ;
-                                                     ns0:image_pid "p00vd716" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01clk42#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vd716" ;
+                                                     ns0:medium_synopsis "UNIT are called in when top secret plans and valuable equipment is stolen from high security establishments. The newly regenerated Doctor suggests that the thief may not be human." ;
+                                                     ns0:pid "p00vd4t5" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "UNIT are called in when top secret plans are stolen from high security establishments." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vd4t6#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xwgxr#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01clk42#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vd716.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00vd4w1#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 2" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00vd4w1" ;
-                                                     ns0:short_synopsis "Harry Sullivan is sent to infiltrate Think Tank to discover the truth." ;
-                                                     ns0:medium_synopsis "Using the deadly disintegrator weapon, the robot steals the destructor codes. Harry Sullivan is sent to infiltrate Think Tank to discover the truth." ;
-                                                     ns0:image_pid "p00vd71b" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01clkbp#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vd71b" ;
+                                                     ns0:medium_synopsis "Using the deadly disintegrator weapon, the robot steals the destructor codes. Harry Sullivan is sent to infiltrate Think Tank to discover the truth." ;
+                                                     ns0:pid "p00vd4w1" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "Harry Sullivan is sent to infiltrate Think Tank to discover the truth." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vd4w2#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xwh4z#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01clkbp#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vd71b.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00vd4yp#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 3" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00vd4yp" ;
-                                                     ns0:short_synopsis "Sealed inside an underground bunker, Miss Winters issues her demands to the world." ;
-                                                     ns0:medium_synopsis "Sealed inside an underground bunker, Miss Winters issues her demands to the world's leaders, threatening a devastating nuclear strike if her demands are not met." ;
-                                                     ns0:image_pid "p00vd72b" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01clkh9#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vd72b" ;
+                                                     ns0:medium_synopsis "Sealed inside an underground bunker, Miss Winters issues her demands to the world's leaders, threatening a devastating nuclear strike if her demands are not met." ;
+                                                     ns0:pid "p00vd4yp" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "Sealed inside an underground bunker, Miss Winters issues her demands to the world." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vd4yq#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xwhgd#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01clkh9#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vd72b.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00vd503#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 4" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "p00vd503" ;
-                                                     ns0:short_synopsis "The Doctor races to avert a nuclear holocaust and the robot takes Sarah hostage." ;
-                                                     ns0:medium_synopsis "The Doctor races to avert a nuclear holocaust. The robot, distraught over killing its creator, takes Sarah hostage and goes on a rampage." ;
-                                                     ns0:image_pid "p00vd735" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01clkkz#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vd735" ;
+                                                     ns0:medium_synopsis "The Doctor races to avert a nuclear holocaust. The robot, distraught over killing its creator, takes Sarah hostage and goes on a rampage." ;
+                                                     ns0:pid "p00vd503" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "The Doctor races to avert a nuclear holocaust and the robot takes Sarah hostage." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vd504#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xwhrq#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01clkkz#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vd735.jpg> .

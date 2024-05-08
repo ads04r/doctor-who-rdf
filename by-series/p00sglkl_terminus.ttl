@@ -5,66 +5,66 @@
 
 <http://www.bbc.co.uk/programmes/p00sglkl#programme> rdf:type ns0:Series ;
                                                      dc:title "Terminus" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "p00sglkl" ;
-                                                     ns0:short_synopsis "Terminus is the refuge of plague victims, dumped there by an uncaring Company." ;
-                                                     ns0:medium_synopsis "Terminus is the refuge of plague victims, dumped there by an uncaring Company which employs drug-dependent guards to keep them in check. Then there is the savage Garm…" ;
-                                                     ns0:long_synopsis "Terminus is the refuge of plague victims, dumped there by an uncaring Company which employs drug-dependent guards to keep them in check. Then there is the savage Garm…" ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/p00v9h4w#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v9h8x#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v9hhc#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00v9hph#programme> .
+                                                                 <http://www.bbc.co.uk/programmes/p00v9hph#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:long_synopsis "Terminus is the refuge of plague victims, dumped there by an uncaring Company which employs drug-dependent guards to keep them in check. Then there is the savage Garm…" ;
+                                                     ns0:medium_synopsis "Terminus is the refuge of plague victims, dumped there by an uncaring Company which employs drug-dependent guards to keep them in check. Then there is the savage Garm…" ;
+                                                     ns0:pid "p00sglkl" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "Terminus is the refuge of plague victims, dumped there by an uncaring Company." .
 
 <http://www.bbc.co.uk/programmes/p00v9h4w#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 1" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00v9h4w" ;
-                                                     ns0:short_synopsis "Turlough sabotages the TARDIS causing it to fuse with the space station Terminus." ;
-                                                     ns0:medium_synopsis "Turlough sabotages the TARDIS causing it to fuse with the space station Terminus. Trying to separate the two, the Doctor encounters a couple of space pirates." ;
-                                                     ns0:image_pid "p00vb8fr" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01l15lc#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01l16rb#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vb8fr" ;
+                                                     ns0:medium_synopsis "Turlough sabotages the TARDIS causing it to fuse with the space station Terminus. Trying to separate the two, the Doctor encounters a couple of space pirates." ;
+                                                     ns0:pid "p00v9h4w" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "Turlough sabotages the TARDIS causing it to fuse with the space station Terminus." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v9h4x#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02nx66p#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01l16rb#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p01l15lc#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vb8fr.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v9h8x#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 2" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00v9h8x" ;
-                                                     ns0:short_synopsis "Bor solves the mystery at the heart of Terminus itself." ;
-                                                     ns0:medium_synopsis "While the other Vanir dealt with their hydromel, the curious Bor took a journey to try and solve the mystery at the heart of Terminus itself. And now he knows the secrets…" ;
-                                                     ns0:image_pid "p00vb8ft" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01l17n3#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vb8ft" ;
+                                                     ns0:medium_synopsis "While the other Vanir dealt with their hydromel, the curious Bor took a journey to try and solve the mystery at the heart of Terminus itself. And now he knows the secrets…" ;
+                                                     ns0:pid "p00v9h8x" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "Bor solves the mystery at the heart of Terminus itself." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v9h8y#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02nx62t#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01l17n3#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vb8ft.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v9hhc#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 3" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00v9hhc" ;
-                                                     ns0:short_synopsis "The Doctor finds the pilot of Terminus and realises a mistake is about to be made." ;
-                                                     ns0:medium_synopsis "Trapped with the Lazars, Nyssa tries to find a way to help them while the Doctor and Kari find the original pilot of Terminus and realise his mistake is about to be repeated..." ;
-                                                     ns0:image_pid "p00vb8fx" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01l185b#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vb8fx" ;
+                                                     ns0:medium_synopsis "Trapped with the Lazars, Nyssa tries to find a way to help them while the Doctor and Kari find the original pilot of Terminus and realise his mistake is about to be repeated..." ;
+                                                     ns0:pid "p00v9hhc" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "The Doctor finds the pilot of Terminus and realises a mistake is about to be made." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v9hhd#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02nx6s6#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01l185b#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vb8fx.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v9hph#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 4" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "p00v9hph" ;
-                                                     ns0:short_synopsis "The Garm and the pirates stop Terminus from setting off a second Big Bang." ;
-                                                     ns0:medium_synopsis "The Garm and the pirates stop Terminus setting off a second Big Bang, while the Vanir fight between themselves for their future. Meanwhile Nyssa makes a monumental decision..." ;
-                                                     ns0:image_pid "p00vb8hj" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01l18jg#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vb8hj" ;
+                                                     ns0:medium_synopsis "The Garm and the pirates stop Terminus setting off a second Big Bang, while the Vanir fight between themselves for their future. Meanwhile Nyssa makes a monumental decision..." ;
+                                                     ns0:pid "p00v9hph" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "The Garm and the pirates stop Terminus from setting off a second Big Bang." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v9hpj#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02nx6tt#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01l18jg#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vb8hj.jpg> .

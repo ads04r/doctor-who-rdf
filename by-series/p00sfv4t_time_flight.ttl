@@ -5,66 +5,66 @@
 
 <http://www.bbc.co.uk/programmes/p00sfv4t#programme> rdf:type ns0:Series ;
                                                      dc:title "Time-Flight" ;
-                                                     ns0:position "7" ;
-                                                     ns0:pid "p00sfv4t" ;
-                                                     ns0:short_synopsis "The Doctor discovers that aeroplanes have been drawn back through time by the Master..." ;
-                                                     ns0:medium_synopsis "Tegan wants to go home, so the Doctor takes her to Heathrow Airport. He discovers that aeroplanes have mysteriously vanished - drawn back through time by the Master..." ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/p00v7fdj#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v7fgw#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v7fj7#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00v7fnh#programme> .
+                                                                 <http://www.bbc.co.uk/programmes/p00v7fnh#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:medium_synopsis "Tegan wants to go home, so the Doctor takes her to Heathrow Airport. He discovers that aeroplanes have mysteriously vanished - drawn back through time by the Master..." ;
+                                                     ns0:pid "p00sfv4t" ;
+                                                     ns0:position "7" ;
+                                                     ns0:short_synopsis "The Doctor discovers that aeroplanes have been drawn back through time by the Master..." .
 
 <http://www.bbc.co.uk/programmes/p00v7fdj#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 1" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00v7fdj" ;
-                                                     ns0:short_synopsis "Concorde disappears back through a crack in time, so the Doctor follows its trail." ;
-                                                     ns0:medium_synopsis "When a Speedbird Concorde disappears back through a crack in time, the Doctor takes another Concorde to follow its trail, unaware that a mysterious conjuror, Kalid, waits for him." ;
-                                                     ns0:image_pid "p00vbbpg" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01khr6g#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01khrd4#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vbbpg" ;
+                                                     ns0:medium_synopsis "When a Speedbird Concorde disappears back through a crack in time, the Doctor takes another Concorde to follow its trail, unaware that a mysterious conjuror, Kalid, waits for him." ;
+                                                     ns0:pid "p00v7fdj" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "Concorde disappears back through a crack in time, so the Doctor follows its trail." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v7fdk#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02zf7x4#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01khrd4#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p01khr6g#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vbbpg.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v7fgw#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 2" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00v7fgw" ;
-                                                     ns0:short_synopsis "After an encounter with the Plasmatons, Nyssa is possessed by strange aliens." ;
-                                                     ns0:medium_synopsis "After an encounter with the Plasmatons, Nyssa is possessed by strange aliens while the Doctor, joined by Professor Hayter, investigates Kalid's inner sanctum." ;
-                                                     ns0:image_pid "p00vbbqs" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01khrkz#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vbbqs" ;
+                                                     ns0:medium_synopsis "After an encounter with the Plasmatons, Nyssa is possessed by strange aliens while the Doctor, joined by Professor Hayter, investigates Kalid's inner sanctum." ;
+                                                     ns0:pid "p00v7fgw" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "After an encounter with the Plasmatons, Nyssa is possessed by strange aliens." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v7fgx#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02zf83g#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01khrkz#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vbbqs.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v7fj7#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 3" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00v7fj7" ;
-                                                     ns0:short_synopsis "From within their sarcophagus, the gestalt Xeraphin are communicating through Nyssa." ;
-                                                     ns0:medium_synopsis "From within their sarcophagus, the gestalt Xeraphin are communicating through Nyssa. But their psychic energy is so powerful it may destroy her body completely." ;
-                                                     ns0:image_pid "p00vbbs5" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01khs3z#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vbbs5" ;
+                                                     ns0:medium_synopsis "From within their sarcophagus, the gestalt Xeraphin are communicating through Nyssa. But their psychic energy is so powerful it may destroy her body completely." ;
+                                                     ns0:pid "p00v7fj7" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "From within their sarcophagus, the gestalt Xeraphin are communicating through Nyssa." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v7fj8#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02zf8b6#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01khs3z#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vbbs5.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v7fnh#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 4" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "p00v7fnh" ;
-                                                     ns0:short_synopsis "The Doctor must follow the Master back to 20th century Heathrow." ;
-                                                     ns0:medium_synopsis "The Master's TARDIS is repaired and the Doctor must follow him back to 20th century Heathrow, once he has rescued all the passengers and crew from both Concordes." ;
-                                                     ns0:image_pid "p00vbbvc" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01khvdh#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01khwpy#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vbbvc" ;
+                                                     ns0:medium_synopsis "The Master's TARDIS is repaired and the Doctor must follow him back to 20th century Heathrow, once he has rescued all the passengers and crew from both Concordes." ;
+                                                     ns0:pid "p00v7fnh" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "The Doctor must follow the Master back to 20th century Heathrow." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v7fnj#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02zf8z2#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01khwpy#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p01khvdh#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vbbvc.jpg> .

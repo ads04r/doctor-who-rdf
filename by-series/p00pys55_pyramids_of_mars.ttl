@@ -5,65 +5,65 @@
 
 <http://www.bbc.co.uk/programmes/p00pys55#programme> rdf:type ns0:Series ;
                                                      dc:title "Pyramids of Mars" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00pys55" ;
-                                                     ns0:short_synopsis "In England, 1911, the Doctor and Sarah encounter Sutekh, last of the Osirans." ;
-                                                     ns0:medium_synopsis "The TARDIS takes the Doctor and Sarah to England in 1911 where they discover that Egyptologist Marcus Scarman has been taken over by Sutekh, last of the powerful Osirans." ;
-                                                     ns0:long_synopsis "The TARDIS takes the Doctor and Sarah to England in 1911 where they discover that Egyptologist Marcus Scarman has been taken over by Sutekh, last of the powerful Osirans." ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/p00vf241#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00vf27s#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00vf2bj#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00vf2ff#programme> .
+                                                                 <http://www.bbc.co.uk/programmes/p00vf2ff#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:long_synopsis "The TARDIS takes the Doctor and Sarah to England in 1911 where they discover that Egyptologist Marcus Scarman has been taken over by Sutekh, last of the powerful Osirans." ;
+                                                     ns0:medium_synopsis "The TARDIS takes the Doctor and Sarah to England in 1911 where they discover that Egyptologist Marcus Scarman has been taken over by Sutekh, last of the powerful Osirans." ;
+                                                     ns0:pid "p00pys55" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "In England, 1911, the Doctor and Sarah encounter Sutekh, last of the Osirans." .
 
 <http://www.bbc.co.uk/programmes/p00vf241#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 1" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00vf241" ;
-                                                     ns0:short_synopsis "The Doctor and Sarah discover that an ancient and powerful evil is menacing mankind." ;
-                                                     ns0:medium_synopsis "The TARDIS lands in 1911. In the grounds of the Old Priory, Egyptian mummies are walking and the Doctor and Sarah find that an ancient and powerful evil is menacing mankind." ;
-                                                     ns0:image_pid "p00vg1lz" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01d9rq2#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vg1lz" ;
+                                                     ns0:medium_synopsis "The TARDIS lands in 1911. In the grounds of the Old Priory, Egyptian mummies are walking and the Doctor and Sarah find that an ancient and powerful evil is menacing mankind." ;
+                                                     ns0:pid "p00vf241" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "The Doctor and Sarah discover that an ancient and powerful evil is menacing mankind." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vf242#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p030p0zv#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01d9rq2#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vg1lz.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00vf27s#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 2" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00vf27s" ;
-                                                     ns0:short_synopsis "The Doctor, Sarah and Laurence Scarman are being hunted by Sutekh's robot mummies." ;
-                                                     ns0:medium_synopsis "The Doctor, Sarah and Laurence Scarman are being hunted by Sutekh's robot mummies. The Doctor has a plan to disrupt Sutekh's control signal, but will it work?" ;
-                                                     ns0:image_pid "p00vg1p4" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01d9s0m#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vg1p4" ;
+                                                     ns0:medium_synopsis "The Doctor, Sarah and Laurence Scarman are being hunted by Sutekh's robot mummies. The Doctor has a plan to disrupt Sutekh's control signal, but will it work?" ;
+                                                     ns0:pid "p00vf27s" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "The Doctor, Sarah and Laurence Scarman are being hunted by Sutekh's robot mummies." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vf27t#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p030p20f#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01d9s0m#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vg1p4.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00vf2bj#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 3" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00vf2bj" ;
-                                                     ns0:short_synopsis "The mummies are building a rocket to fire at the pyramid on Mars..." ;
-                                                     ns0:medium_synopsis "As part of a plan to release Sutekh, the mummies are building a rocket to fire at the pyramid on Mars. The Doctor is resolved to destroy the rocket but is Sutekh's will too strong?" ;
-                                                     ns0:image_pid "p00vg1sj" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01d9s7d#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vg1sj" ;
+                                                     ns0:medium_synopsis "As part of a plan to release Sutekh, the mummies are building a rocket to fire at the pyramid on Mars. The Doctor is resolved to destroy the rocket but is Sutekh's will too strong?" ;
+                                                     ns0:pid "p00vf2bj" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "The mummies are building a rocket to fire at the pyramid on Mars..." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vf2bk#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p030p2wf#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01d9s7d#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vg1sj.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00vf2ff#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 4" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "p00vf2ff" ;
-                                                     ns0:short_synopsis "Inside the pyramid on Mars, the Doctor and Sarah must prevent Sutekh's release." ;
-                                                     ns0:medium_synopsis "Inside the pyramid on Mars, the Doctor and Sarah must solve puzzles and escape traps to prevent Sutekh's release from his imprisonment – but are they too late?" ;
-                                                     ns0:image_pid "p00vh1df" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01d9s9q#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vh1df" ;
+                                                     ns0:medium_synopsis "Inside the pyramid on Mars, the Doctor and Sarah must solve puzzles and escape traps to prevent Sutekh's release from his imprisonment – but are they too late?" ;
+                                                     ns0:pid "p00vf2ff" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "Inside the pyramid on Mars, the Doctor and Sarah must prevent Sutekh's release." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vf2fg#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p030p36x#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01d9s9q#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vh1df.jpg> .

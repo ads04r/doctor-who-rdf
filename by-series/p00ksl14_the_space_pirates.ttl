@@ -5,27 +5,27 @@
 
 <http://www.bbc.co.uk/programmes/p00ksl14#programme> rdf:type ns0:Series ;
                                                      dc:title "The Space Pirates" ;
-                                                     ns0:position "6" ;
-                                                     ns0:pid "p00ksl14" ;
-                                                     ns0:short_synopsis "The Doctor, Jamie and Zoe find themselves inside a space beacon." ;
-                                                     ns0:medium_synopsis "The Doctor, Jamie and Zoe find themselves inside a space beacon being attacked by space pirates. The travellers are separated from the TARDIS and flung into the depths of space." ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/p00v54dc#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v54f2#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v54fq#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v54h8#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v54hz#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00v54lb#programme> .
+                                                                 <http://www.bbc.co.uk/programmes/p00v54lb#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:medium_synopsis "The Doctor, Jamie and Zoe find themselves inside a space beacon being attacked by space pirates. The travellers are separated from the TARDIS and flung into the depths of space." ;
+                                                     ns0:pid "p00ksl14" ;
+                                                     ns0:position "6" ;
+                                                     ns0:short_synopsis "The Doctor, Jamie and Zoe find themselves inside a space beacon." .
 
 <http://www.bbc.co.uk/programmes/p00v54dc#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 1" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00v54dc" ;
-                                                     ns0:short_synopsis "The TARDIS crew arrive on a space beacon in the far future and are mistaken for pirates." ;
-                                                     ns0:medium_synopsis "The TARDIS arrives on a space beacon in the far future. Mistaken for pirates, the travellers are attacked by Space Corps soldiers. Then the real space pirates arrive." ;
-                                                     ns0:long_synopsis "The TARDIS arrives on a space beacon in the far future. Mistaken for pirates, the travellers are attacked by Space Corps soldiers. Then the real space pirates arrive." ;
-                                                     ns0:image_pid "p00v35xr" ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v35xr" ;
+                                                     ns0:long_synopsis "The TARDIS arrives on a space beacon in the far future. Mistaken for pirates, the travellers are attacked by Space Corps soldiers. Then the real space pirates arrive." ;
+                                                     ns0:medium_synopsis "The TARDIS arrives on a space beacon in the far future. Mistaken for pirates, the travellers are attacked by Space Corps soldiers. Then the real space pirates arrive." ;
+                                                     ns0:pid "p00v54dc" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "The TARDIS crew arrive on a space beacon in the far future and are mistaken for pirates." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v54dd#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p04yjs1h#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p04yyg1r#programme> ;
@@ -33,66 +33,66 @@
 
 <http://www.bbc.co.uk/programmes/p00v54f2#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 2" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00v54f2" ;
-                                                     ns0:short_synopsis "General Hermack suspects Milo Clancey of being in league with the pirates." ;
-                                                     ns0:medium_synopsis "General Hermack suspects Milo Clancey of being in league with the pirates. Trapped inside a segment of the beacon, the air supply is running out for the Doctor, Jamie and Zoe." ;
-                                                     ns0:long_synopsis "General Hermack suspects Milo Clancey of being in league with the pirates. Trapped inside a segment of the beacon, the air supply is running out for the Doctor, Jamie and Zoe." ;
-                                                     ns0:image_pid "p00v35yt" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p014y8w1#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v35yt" ;
+                                                     ns0:long_synopsis "General Hermack suspects Milo Clancey of being in league with the pirates. Trapped inside a segment of the beacon, the air supply is running out for the Doctor, Jamie and Zoe." ;
+                                                     ns0:medium_synopsis "General Hermack suspects Milo Clancey of being in league with the pirates. Trapped inside a segment of the beacon, the air supply is running out for the Doctor, Jamie and Zoe." ;
+                                                     ns0:pid "p00v54f2" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "General Hermack suspects Milo Clancey of being in league with the pirates." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v54f3#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p04yyg1v#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p014y8w1#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v35yt.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v54fq#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 3" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00v54fq" ;
-                                                     ns0:short_synopsis "The Doctor, Jamie and Zoe join Clancey aboard his ship and head for the planet Ta." ;
-                                                     ns0:medium_synopsis "The Doctor, Jamie and Zoe join Clancey aboard his ship which is being pursued. Clancey takes them to the planet Ta which they discover is the base of operations for the pirates." ;
-                                                     ns0:long_synopsis "The Doctor, Jamie and Zoe join Clancey aboard his ship which is being pursued. Clancey takes them to the planet Ta which they discover is the base of operations for the pirates." ;
-                                                     ns0:image_pid "p00v35zm" ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v35zm" ;
+                                                     ns0:long_synopsis "The Doctor, Jamie and Zoe join Clancey aboard his ship which is being pursued. Clancey takes them to the planet Ta which they discover is the base of operations for the pirates." ;
+                                                     ns0:medium_synopsis "The Doctor, Jamie and Zoe join Clancey aboard his ship which is being pursued. Clancey takes them to the planet Ta which they discover is the base of operations for the pirates." ;
+                                                     ns0:pid "p00v54fq" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "The Doctor, Jamie and Zoe join Clancey aboard his ship and head for the planet Ta." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v54fr#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p04yyg1y#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v35zm.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v54h8#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 4" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "p00v54h8" ;
-                                                     ns0:short_synopsis "In the tunnels beneath Ta, the Doctor, Jamie and Zoe are rescued by Milo Clancey." ;
-                                                     ns0:medium_synopsis "In the tunnels beneath Ta, the Doctor, Jamie and Zoe are rescued from their cell by Milo Clancey. They head to the surface with the pirates in hot pursuit." ;
-                                                     ns0:long_synopsis "In the tunnels beneath Ta, the Doctor, Jamie and Zoe are rescued from their cell by Milo Clancey. They head to the surface with the pirates in hot pursuit." ;
-                                                     ns0:image_pid "p00v360c" ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v360c" ;
+                                                     ns0:long_synopsis "In the tunnels beneath Ta, the Doctor, Jamie and Zoe are rescued from their cell by Milo Clancey. They head to the surface with the pirates in hot pursuit." ;
+                                                     ns0:medium_synopsis "In the tunnels beneath Ta, the Doctor, Jamie and Zoe are rescued from their cell by Milo Clancey. They head to the surface with the pirates in hot pursuit." ;
+                                                     ns0:pid "p00v54h8" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "In the tunnels beneath Ta, the Doctor, Jamie and Zoe are rescued by Milo Clancey." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v54h9#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p04yyg21#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v360c.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v54hz#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 5" ;
-                                                     ns0:position "5" ;
-                                                     ns0:pid "p00v54hz" ;
-                                                     ns0:short_synopsis "The space pirate leader, Caven, has taken the Doctor, Jamie, Zoe and Clancey captive." ;
-                                                     ns0:medium_synopsis "The space pirate leader, Caven, has taken the Doctor, Jamie, Zoe and Clancey captive and plans to use them as scapegoats for the Space Corps." ;
-                                                     ns0:long_synopsis "The space pirate leader, Caven, has taken the Doctor, Jamie, Zoe and Clancey captive and plans to use them as scapegoats for the Space Corps." ;
-                                                     ns0:image_pid "p00v360w" ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v360w" ;
+                                                     ns0:long_synopsis "The space pirate leader, Caven, has taken the Doctor, Jamie, Zoe and Clancey captive and plans to use them as scapegoats for the Space Corps." ;
+                                                     ns0:medium_synopsis "The space pirate leader, Caven, has taken the Doctor, Jamie, Zoe and Clancey captive and plans to use them as scapegoats for the Space Corps." ;
+                                                     ns0:pid "p00v54hz" ;
+                                                     ns0:position "5" ;
+                                                     ns0:short_synopsis "The space pirate leader, Caven, has taken the Doctor, Jamie, Zoe and Clancey captive." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v54j0#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p04yyg2b#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v360w.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v54lb#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 6" ;
-                                                     ns0:position "6" ;
-                                                     ns0:pid "p00v54lb" ;
-                                                     ns0:short_synopsis "Onboard the LIZ 79, Clancey and Dom fall unconscious when Caven switches off the oxygen." ;
-                                                     ns0:medium_synopsis "Onboard the LIZ 79, Milo Clancey and Dom Issigri fall unconscious when Caven switches off the oxygen supply. Caven makes his getaway as the Doctor races to defuse a bomb." ;
-                                                     ns0:long_synopsis "Onboard the rickety LIZ 79, Milo Clancey and Dom Issigri fall unconscious when Caven switches off the oxygen supply. Caven makes his getaway as the Doctor races to defuse a bomb." ;
-                                                     ns0:image_pid "p00v361f" ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v361f" ;
+                                                     ns0:long_synopsis "Onboard the rickety LIZ 79, Milo Clancey and Dom Issigri fall unconscious when Caven switches off the oxygen supply. Caven makes his getaway as the Doctor races to defuse a bomb." ;
+                                                     ns0:medium_synopsis "Onboard the LIZ 79, Milo Clancey and Dom Issigri fall unconscious when Caven switches off the oxygen supply. Caven makes his getaway as the Doctor races to defuse a bomb." ;
+                                                     ns0:pid "p00v54lb" ;
+                                                     ns0:position "6" ;
+                                                     ns0:short_synopsis "Onboard the LIZ 79, Clancey and Dom fall unconscious when Caven switches off the oxygen." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v54lc#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p04yyg2t#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v361f.jpg> .

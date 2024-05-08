@@ -5,65 +5,65 @@
 
 <http://www.bbc.co.uk/programmes/p00sx3wq#programme> rdf:type ns0:Series ;
                                                      dc:title "The Caves of Androzani" ;
-                                                     ns0:position "6" ;
-                                                     ns0:pid "p00sx3wq" ;
-                                                     ns0:short_synopsis "With the help of a corrupt industrialist, Sharaz Jek plots to return himself to power." ;
-                                                     ns0:medium_synopsis "On Androzani Minor, the insane Sharaz Jek plots to regain the power he was cheated out of, enlisting the help of a corrupt industrialist on Androzani Major." ;
-                                                     ns0:long_synopsis "On Androzani Minor, the insane Sharaz Jek plots to regain the power he was cheated out of, enlisting the help of a corrupt industrialist on Androzani Major." ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/p00v8z3z#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v8z51#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v8z6c#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00v8z7d#programme> .
+                                                                 <http://www.bbc.co.uk/programmes/p00v8z7d#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:long_synopsis "On Androzani Minor, the insane Sharaz Jek plots to regain the power he was cheated out of, enlisting the help of a corrupt industrialist on Androzani Major." ;
+                                                     ns0:medium_synopsis "On Androzani Minor, the insane Sharaz Jek plots to regain the power he was cheated out of, enlisting the help of a corrupt industrialist on Androzani Major." ;
+                                                     ns0:pid "p00sx3wq" ;
+                                                     ns0:position "6" ;
+                                                     ns0:short_synopsis "With the help of a corrupt industrialist, Sharaz Jek plots to return himself to power." .
 
 <http://www.bbc.co.uk/programmes/p00v8z3z#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 1" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00v8z3z" ;
-                                                     ns0:short_synopsis "Gunrunners on Androzani Minor are supplying the unhinged android-builder, Sharez Jek." ;
-                                                     ns0:medium_synopsis "Gunrunners on Androzani Minor are supplying the unhinged android-builder, Sharez Jek, with munitions to help his plot to return to power. But not everyone is happy about that…" ;
-                                                     ns0:image_pid "p00vbxjz" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01lr27f#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vbxjz" ;
+                                                     ns0:medium_synopsis "Gunrunners on Androzani Minor are supplying the unhinged android-builder, Sharez Jek, with munitions to help his plot to return to power. But not everyone is happy about that…" ;
+                                                     ns0:pid "p00v8z3z" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "Gunrunners on Androzani Minor are supplying the unhinged android-builder, Sharez Jek." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v8z40#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02l5wgs#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01lr27f#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vbxjz.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v8z51#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 2" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00v8z51" ;
-                                                     ns0:short_synopsis "Salateen tells Peri and the Doctor they are dying from spectrox toxaemia." ;
-                                                     ns0:medium_synopsis "Military captive Salateen tells Peri and the Doctor they are dying from spectrox toxaemia. The only cure is the milk of the queen bat who sleeps deep below the caverns." ;
-                                                     ns0:image_pid "p00vbxlj" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01lr2bx#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vbxlj" ;
+                                                     ns0:medium_synopsis "Military captive Salateen tells Peri and the Doctor they are dying from spectrox toxaemia. The only cure is the milk of the queen bat who sleeps deep below the caverns." ;
+                                                     ns0:pid "p00v8z51" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "Salateen tells Peri and the Doctor they are dying from spectrox toxaemia." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v8z52#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02l5wmm#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01lr2bx#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vbxlj.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v8z6c#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 3" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00v8z6c" ;
-                                                     ns0:short_synopsis "Jek believes Peri will fall in love with him and the Doctor is caught by the gunrunners." ;
-                                                     ns0:medium_synopsis "As Morgus continues to plot his political future on Androzani Major, Sharez Jek insanely believes Peri will fall in love with him. The Doctor is caught by the gunrunners..." ;
-                                                     ns0:image_pid "p00vbxnv" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01lr2kg#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vbxnv" ;
+                                                     ns0:medium_synopsis "As Morgus continues to plot his political future on Androzani Major, Sharez Jek insanely believes Peri will fall in love with him. The Doctor is caught by the gunrunners..." ;
+                                                     ns0:pid "p00v8z6c" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "Jek believes Peri will fall in love with him and the Doctor is caught by the gunrunners." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v8z6d#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02l5wph#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01lr2kg#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vbxnv.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v8z7d#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 4" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "p00v8z7d" ;
-                                                     ns0:short_synopsis "Morgus is ruined and Jek goes on a murderous rampage." ;
-                                                     ns0:medium_synopsis "Morgus is ruined and Jek goes on a murderous rampage. Back in the TARDIS, the 'dying' Doctor manages to cure Peri's spectrox toxaemia and then regenerates..." ;
-                                                     ns0:image_pid "p00vbxqr" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01kljv0#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vbxqr" ;
+                                                     ns0:medium_synopsis "Morgus is ruined and Jek goes on a murderous rampage. Back in the TARDIS, the 'dying' Doctor manages to cure Peri's spectrox toxaemia and then regenerates..." ;
+                                                     ns0:pid "p00v8z7d" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "Morgus is ruined and Jek goes on a murderous rampage." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v8z7f#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02l5xp2#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01kljv0#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vbxqr.jpg> .

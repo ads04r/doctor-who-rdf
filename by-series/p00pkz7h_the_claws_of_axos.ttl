@@ -5,69 +5,69 @@
 
 <http://www.bbc.co.uk/programmes/p00pkz7h#programme> rdf:type ns0:Series ;
                                                      dc:title "The Claws of Axos" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00pkz7h" ;
-                                                     ns0:short_synopsis "An alien craft lands on Earth. In exchange for fuel, its crew offer a miraculous gift." ;
-                                                     ns0:medium_synopsis "An alien spaceship lands on Earth and in exchange for fuel, the crew offer a miraculous gift that could end global food shortages forever. But the Doctor has his suspicions." ;
-                                                     ns0:long_synopsis "An alien spaceship lands on Earth and in exchange for fuel, the crew offer a miraculous gift that could end global food shortages forever. But the Doctor has his suspicions." ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/p00v5cvh#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v5d9m#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v5dcb#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00v5df3#programme> .
+                                                                 <http://www.bbc.co.uk/programmes/p00v5df3#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:long_synopsis "An alien spaceship lands on Earth and in exchange for fuel, the crew offer a miraculous gift that could end global food shortages forever. But the Doctor has his suspicions." ;
+                                                     ns0:medium_synopsis "An alien spaceship lands on Earth and in exchange for fuel, the crew offer a miraculous gift that could end global food shortages forever. But the Doctor has his suspicions." ;
+                                                     ns0:pid "p00pkz7h" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "An alien craft lands on Earth. In exchange for fuel, its crew offer a miraculous gift." .
 
 <http://www.bbc.co.uk/programmes/p00v5cvh#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 1" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00v5cvh" ;
-                                                     ns0:short_synopsis "Axos lands on Earth and the Axons offer the gift of the miraculous Axonite." ;
-                                                     ns0:medium_synopsis "Axos lands on Earth. The Axons ask only to be allowed to repair their damaged ship and offer the gift of the miraculous Axonite in return. But the Axons aren't all that they seem." ;
-                                                     ns0:long_synopsis "Axos lands on Earth. The Axons ask only to be allowed to repair their damaged ship and offer the gift of the miraculous Axonite in return. But the Axons aren't all that they seem." ;
-                                                     ns0:image_pid "p00v3g8g" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01b8p3m#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v3g8g" ;
+                                                     ns0:long_synopsis "Axos lands on Earth. The Axons ask only to be allowed to repair their damaged ship and offer the gift of the miraculous Axonite in return. But the Axons aren't all that they seem." ;
+                                                     ns0:medium_synopsis "Axos lands on Earth. The Axons ask only to be allowed to repair their damaged ship and offer the gift of the miraculous Axonite in return. But the Axons aren't all that they seem." ;
+                                                     ns0:pid "p00v5cvh" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "Axos lands on Earth and the Axons offer the gift of the miraculous Axonite." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v5cvj#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xwh15#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01b8p3m#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v3g8g.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v5d9m#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 2" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00v5d9m" ;
-                                                     ns0:short_synopsis "The Master is in league with the Axons who intend to consume Earth." ;
-                                                     ns0:medium_synopsis "The Master is in league with the Axons who intend to consume Earth. The Doctor subjects Axonite to tests and discovers the terrible truth." ;
-                                                     ns0:long_synopsis "The Master is in league with the Axons who intend to consume Earth. The Doctor subjects Axonite to tests and discovers the terrible truth." ;
-                                                     ns0:image_pid "p00v3gj1" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01b8p8p#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v3gj1" ;
+                                                     ns0:long_synopsis "The Master is in league with the Axons who intend to consume Earth. The Doctor subjects Axonite to tests and discovers the terrible truth." ;
+                                                     ns0:medium_synopsis "The Master is in league with the Axons who intend to consume Earth. The Doctor subjects Axonite to tests and discovers the terrible truth." ;
+                                                     ns0:pid "p00v5d9m" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "The Master is in league with the Axons who intend to consume Earth." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v5d9n#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xwh97#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01b8p8p#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v3gj1.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v5dcb#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 3" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00v5dcb" ;
-                                                     ns0:short_synopsis "The Axons attempt to force the Doctor to give them the secret of time travel." ;
-                                                     ns0:medium_synopsis "The Axons reveal their true nature and attempt to obtain the secret of time travel. Meanwhile, the Master, forced to work for UNIT, concocts a plan to strike back at Axos." ;
-                                                     ns0:long_synopsis "The Axons reveal their true nature and attempt to obtain the secret of time travel. Meanwhile, the Master, forced to work for UNIT, concocts a plan to strike back at Axos." ;
-                                                     ns0:image_pid "p00v3gk7" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01b8phr#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v3gk7" ;
+                                                     ns0:long_synopsis "The Axons reveal their true nature and attempt to obtain the secret of time travel. Meanwhile, the Master, forced to work for UNIT, concocts a plan to strike back at Axos." ;
+                                                     ns0:medium_synopsis "The Axons reveal their true nature and attempt to obtain the secret of time travel. Meanwhile, the Master, forced to work for UNIT, concocts a plan to strike back at Axos." ;
+                                                     ns0:pid "p00v5dcb" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "The Axons attempt to force the Doctor to give them the secret of time travel." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v5dcc#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xwhby#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01b8phr#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v3gk7.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v5df3#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 4" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "p00v5df3" ;
-                                                     ns0:short_synopsis "The Doctor and the Master plan to escape Earth, leaving it to Axos and its fate." ;
-                                                     ns0:medium_synopsis "With Axos poised to destroy the world, the Doctor appears to switch sides and allies himself with the Master. Together they plan to escape Earth, leaving it to Axos..." ;
-                                                     ns0:long_synopsis "With Axos poised to destroy the world, the Doctor appears to switch sides and allies himself with the Master. Together they plan to escape Earth, leaving it to Axos..." ;
-                                                     ns0:image_pid "p00v3gm6" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01b8ps0#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v3gm6" ;
+                                                     ns0:long_synopsis "With Axos poised to destroy the world, the Doctor appears to switch sides and allies himself with the Master. Together they plan to escape Earth, leaving it to Axos..." ;
+                                                     ns0:medium_synopsis "With Axos poised to destroy the world, the Doctor appears to switch sides and allies himself with the Master. Together they plan to escape Earth, leaving it to Axos..." ;
+                                                     ns0:pid "p00v5df3" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "The Doctor and the Master plan to escape Earth, leaving it to Axos and its fate." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v5df4#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xwhrx#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01b8ps0#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v3gm6.jpg> .

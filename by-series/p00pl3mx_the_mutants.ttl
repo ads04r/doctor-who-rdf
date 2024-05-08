@@ -5,98 +5,98 @@
 
 <http://www.bbc.co.uk/programmes/p00pl3mx#programme> rdf:type ns0:Series ;
                                                      dc:title "The Mutants" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "p00pl3mx" ;
-                                                     ns0:short_synopsis "The TARDIS takes the Doctor and Jo to the Skybase station orbiting planet Solos." ;
-                                                     ns0:medium_synopsis "The TARDIS takes the Doctor and Jo to the Skybase station orbiting planet Solos - they have been sent by the Time Lords to deliver a sealed message to an unidentified person." ;
-                                                     ns0:long_synopsis "The TARDIS takes the Doctor and Jo to the Skybase station orbiting planet Solos - they have been sent by the Time Lords to deliver a sealed message to an unidentified person." ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/p00v79jl#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v79ks#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v79lv#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v79nk#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v79pk#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00v79qk#programme> .
+                                                                 <http://www.bbc.co.uk/programmes/p00v79qk#programme> ;
+                                                     ns0:long_synopsis "The TARDIS takes the Doctor and Jo to the Skybase station orbiting planet Solos - they have been sent by the Time Lords to deliver a sealed message to an unidentified person." ;
+                                                     ns0:medium_synopsis "The TARDIS takes the Doctor and Jo to the Skybase station orbiting planet Solos - they have been sent by the Time Lords to deliver a sealed message to an unidentified person." ;
+                                                     ns0:pid "p00pl3mx" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "The TARDIS takes the Doctor and Jo to the Skybase station orbiting planet Solos." .
 
 <http://www.bbc.co.uk/programmes/p00v79jl#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 1" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00v79jl" ;
-                                                     ns0:short_synopsis "On the Skybase above Solos the Marshal wants to stop the planet achieving independence." ;
-                                                     ns0:medium_synopsis "The Time Lords send the Doctor to a Skybase above the planet Solos in the 30th Century. The Marshal of the Skybase is determined to prevent Solos achieving independence from Earth." ;
-                                                     ns0:long_synopsis "The Time Lords send the Doctor to a Skybase above the planet Solos in the 30th Century. The Marshal of the Skybase is determined to prevent Solos achieving independence from Earth." ;
-                                                     ns0:image_pid "p00v9hvv" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01bkvkp#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v9hvv" ;
+                                                     ns0:long_synopsis "The Time Lords send the Doctor to a Skybase above the planet Solos in the 30th Century. The Marshal of the Skybase is determined to prevent Solos achieving independence from Earth." ;
+                                                     ns0:medium_synopsis "The Time Lords send the Doctor to a Skybase above the planet Solos in the 30th Century. The Marshal of the Skybase is determined to prevent Solos achieving independence from Earth." ;
+                                                     ns0:pid "p00v79jl" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "On the Skybase above Solos the Marshal wants to stop the planet achieving independence." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v79jm#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xwfyx#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01bkvkp#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v9hvv.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v79ks#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 2" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00v79ks" ;
-                                                     ns0:short_synopsis "Fearing Jo has died on Solos, the Doctor is forced to make its atmosphere breathable." ;
-                                                     ns0:medium_synopsis "Fearing Jo has died in Solos's hostile environment, the Doctor is forced to work with the scientist, Jaeger, to make the planet's atmosphere breathable for humans." ;
-                                                     ns0:long_synopsis "Fearing Jo has died in Solos's hostile environment, the Doctor is forced to work with the scientist, Jaeger, to make the planet's atmosphere breathable for humans." ;
-                                                     ns0:image_pid "p00v9j0r" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01bkvtx#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v9j0r" ;
+                                                     ns0:long_synopsis "Fearing Jo has died in Solos's hostile environment, the Doctor is forced to work with the scientist, Jaeger, to make the planet's atmosphere breathable for humans." ;
+                                                     ns0:medium_synopsis "Fearing Jo has died in Solos's hostile environment, the Doctor is forced to work with the scientist, Jaeger, to make the planet's atmosphere breathable for humans." ;
+                                                     ns0:pid "p00v79ks" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "Fearing Jo has died on Solos, the Doctor is forced to make its atmosphere breathable." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v79kt#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xwg86#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01bkvtx#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v9j0r.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v79lv#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 3" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00v79lv" ;
-                                                     ns0:short_synopsis "Ky opens the message box but is unable to understand the ancient carved tablets inside." ;
-                                                     ns0:medium_synopsis "Ky opens the message box but cannot understand the ancient carved tablets inside. The Marshal seals the Doctor and his friends in the caves and prepares to gas them to death." ;
-                                                     ns0:long_synopsis "Ky opens the message box but cannot understand the ancient carved tablets inside. The Marshal seals the Doctor and his friends in the caves and prepares to gas them to death." ;
-                                                     ns0:image_pid "p00v9j8n" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01bkvyr#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v9j8n" ;
+                                                     ns0:long_synopsis "Ky opens the message box but cannot understand the ancient carved tablets inside. The Marshal seals the Doctor and his friends in the caves and prepares to gas them to death." ;
+                                                     ns0:medium_synopsis "Ky opens the message box but cannot understand the ancient carved tablets inside. The Marshal seals the Doctor and his friends in the caves and prepares to gas them to death." ;
+                                                     ns0:pid "p00v79lv" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "Ky opens the message box but is unable to understand the ancient carved tablets inside." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v79lw#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xwggz#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01bkvyr#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v9j8n.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v79nk#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 4" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "p00v79nk" ;
-                                                     ns0:short_synopsis "The Marshal prepares to bombard Solos with ionisation rockets." ;
-                                                     ns0:medium_synopsis "The Doctor deduces the true meaning of the ancient carvings and must brave the intense radiation of the thaesium caves to retrieve a crystal." ;
-                                                     ns0:long_synopsis "The Doctor deduces the true meaning of the ancient carvings and must brave the intense radiation of the thaesium caves to retrieve a crystal." ;
-                                                     ns0:image_pid "p00v9jh9" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01bkwps#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v9jh9" ;
+                                                     ns0:long_synopsis "The Doctor deduces the true meaning of the ancient carvings and must brave the intense radiation of the thaesium caves to retrieve a crystal." ;
+                                                     ns0:medium_synopsis "The Doctor deduces the true meaning of the ancient carvings and must brave the intense radiation of the thaesium caves to retrieve a crystal." ;
+                                                     ns0:pid "p00v79nk" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "The Marshal prepares to bombard Solos with ionisation rockets." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v79nm#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xwg46#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01bkwps#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v9jh9.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v79pk#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 5" ;
-                                                     ns0:position "5" ;
-                                                     ns0:pid "p00v79pk" ;
-                                                     ns0:short_synopsis "With Jo held prisoner, the Doctor is forced to work for the Marshal." ;
-                                                     ns0:medium_synopsis "With Jo held prisoner, the Doctor is forced to work for the Marshal. The Earth Investigator's ship prepares to dock at Skybase." ;
-                                                     ns0:long_synopsis "With Jo held prisoner, the Doctor is forced to work for the Marshal. The Earth Investigator's ship prepares to dock at Skybase." ;
-                                                     ns0:image_pid "p00v9jpv" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01bkwwg#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v9jpv" ;
+                                                     ns0:long_synopsis "With Jo held prisoner, the Doctor is forced to work for the Marshal. The Earth Investigator's ship prepares to dock at Skybase." ;
+                                                     ns0:medium_synopsis "With Jo held prisoner, the Doctor is forced to work for the Marshal. The Earth Investigator's ship prepares to dock at Skybase." ;
+                                                     ns0:pid "p00v79pk" ;
+                                                     ns0:position "5" ;
+                                                     ns0:short_synopsis "With Jo held prisoner, the Doctor is forced to work for the Marshal." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v79pl#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xwgm9#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01bkwwg#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v9jpv.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v79qk#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 6" ;
-                                                     ns0:position "6" ;
-                                                     ns0:pid "p00v79qk" ;
-                                                     ns0:short_synopsis "Bombarded by thaesium radiation, Ky begins an incredible transformation." ;
-                                                     ns0:medium_synopsis "Despite the Doctor's arguments, the Earth Investigator reinstates the Marshal as commander of Skybase. Bombarded by thaesium radiation, Ky begins an incredible transformation." ;
-                                                     ns0:long_synopsis "Despite the Doctor's arguments, the Earth Investigator reinstates the Marshal as commander of Skybase. Bombarded by thaesium radiation, Ky begins an incredible transformation." ;
-                                                     ns0:image_pid "p00v9jz5" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01bkx82#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v9jz5" ;
+                                                     ns0:long_synopsis "Despite the Doctor's arguments, the Earth Investigator reinstates the Marshal as commander of Skybase. Bombarded by thaesium radiation, Ky begins an incredible transformation." ;
+                                                     ns0:medium_synopsis "Despite the Doctor's arguments, the Earth Investigator reinstates the Marshal as commander of Skybase. Bombarded by thaesium radiation, Ky begins an incredible transformation." ;
+                                                     ns0:pid "p00v79qk" ;
+                                                     ns0:position "6" ;
+                                                     ns0:short_synopsis "Bombarded by thaesium radiation, Ky begins an incredible transformation." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v79ql#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xwgs0#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01bkx82#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v9jz5.jpg> .

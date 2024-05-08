@@ -5,35 +5,35 @@
 
 <http://www.bbc.co.uk/programmes/p00kl40p#programme> rdf:type ns0:Series ;
                                                      dc:title "The Rescue" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00kl40p" ;
-                                                     ns0:short_synopsis "The TARDIS takes the travellers to the planet Dido." ;
-                                                     ns0:medium_synopsis "The TARDIS takes the travellers to the planet Dido where they discover a crashed Earth spaceship with only two survivors, a young girl, Vicki and a man, Bennett, who is paralysed." ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/p00v1qk9#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00v1qky#programme> .
+                                                                 <http://www.bbc.co.uk/programmes/p00v1qky#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:medium_synopsis "The TARDIS takes the travellers to the planet Dido where they discover a crashed Earth spaceship with only two survivors, a young girl, Vicki and a man, Bennett, who is paralysed." ;
+                                                     ns0:pid "p00kl40p" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "The TARDIS takes the travellers to the planet Dido." .
 
 <http://www.bbc.co.uk/programmes/p00v1qk9#programme> rdf:type ns0:Episode ;
                                                      dc:title "The Powerful Enemy" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00v1qk9" ;
-                                                     ns0:short_synopsis "Arriving on the planet Dido, the Doctor, Barbara and Ian discover a crashed spaceship." ;
-                                                     ns0:medium_synopsis "Arriving on the planet Dido, the Doctor, Barbara and Ian discover a crashed spaceship from Earth and survivors. They are terrorised by the monstrous Koquillion who attacks Barbara." ;
-                                                     ns0:image_pid "p00v1swg" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p011kmw2#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v1swg" ;
+                                                     ns0:medium_synopsis "Arriving on the planet Dido, the Doctor, Barbara and Ian discover a crashed spaceship from Earth and survivors. They are terrorised by the monstrous Koquillion who attacks Barbara." ;
+                                                     ns0:pid "p00v1qk9" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "Arriving on the planet Dido, the Doctor, Barbara and Ian discover a crashed spaceship." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v1qkb#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p030p1vq#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p011kmw2#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v1swg.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v1qky#programme> rdf:type ns0:Episode ;
                                                      dc:title "Desperate Measures" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00v1qky" ;
-                                                     ns0:short_synopsis "Ian and Barbara discover that the paralysed Bennett has gone missing from his cabin." ;
-                                                     ns0:medium_synopsis "Ian and Barbara discover that the paralysed Bennett  has gone missing from his cabin. The Doctor discovers the truth about Koquillion, but endangers his own life in doing so." ;
-                                                     ns0:image_pid "p00v1swm" ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v1swm" ;
+                                                     ns0:medium_synopsis "Ian and Barbara discover that the paralysed Bennett  has gone missing from his cabin. The Doctor discovers the truth about Koquillion, but endangers his own life in doing so." ;
+                                                     ns0:pid "p00v1qky" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "Ian and Barbara discover that the paralysed Bennett has gone missing from his cabin." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v1qkz#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p030p1n5#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v1swm.jpg> .

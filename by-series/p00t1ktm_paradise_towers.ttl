@@ -5,68 +5,68 @@
 
 <http://www.bbc.co.uk/programmes/p00t1ktm#programme> rdf:type ns0:Series ;
                                                      dc:title "Paradise Towers" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00t1ktm" ;
-                                                     ns0:short_synopsis "Paradise Towers is a tower block, with something terrible living in the basement..." ;
-                                                     ns0:medium_synopsis "Paradise Towers is a huge tower block, housing those unable to fight a war. Along with the caretakers, the society verges on feral – and something worse is in the basement..." ;
-                                                     ns0:long_synopsis "Paradise Towers is a huge tower block, housing those unable to fight a war. Along with the caretakers, the society verges on feral – and something worse is in the basement..." ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/p00vbfd6#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00vbfkx#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00vbfq7#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00vbfw6#programme> .
+                                                                 <http://www.bbc.co.uk/programmes/p00vbfw6#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:long_synopsis "Paradise Towers is a huge tower block, housing those unable to fight a war. Along with the caretakers, the society verges on feral – and something worse is in the basement..." ;
+                                                     ns0:medium_synopsis "Paradise Towers is a huge tower block, housing those unable to fight a war. Along with the caretakers, the society verges on feral – and something worse is in the basement..." ;
+                                                     ns0:pid "p00t1ktm" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "Paradise Towers is a tower block, with something terrible living in the basement..." .
 
 <http://www.bbc.co.uk/programmes/p00vbfd6#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 1" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00vbfd6" ;
-                                                     ns0:short_synopsis "The legendary Paradise Towers is supposed to be the height of luxury. It isn't…" ;
-                                                     ns0:medium_synopsis "The legendary Paradise Towers is supposed to be the height of luxury but when the Doctor and Mel arrive, they find it is as far from paradise as possible..." ;
-                                                     ns0:image_pid "p00vcs4n" ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
-                                                     ns0:version <http://www.bbc.co.uk/programmes/p00vbfd7#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p04686m3#programme> ;
                                                      ns0:clip <http://www.bbc.co.uk/programmes/p01xs1xl#programme> ,
                                                               <http://www.bbc.co.uk/programmes/p01xs27n#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vcs4n" ;
+                                                     ns0:medium_synopsis "The legendary Paradise Towers is supposed to be the height of luxury but when the Doctor and Mel arrive, they find it is as far from paradise as possible..." ;
+                                                     ns0:pid "p00vbfd6" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "The legendary Paradise Towers is supposed to be the height of luxury. It isn't…" ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00vbfd7#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p04686m3#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vcs4n.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00vbfkx#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 2" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00vbfkx" ;
-                                                     ns0:short_synopsis "Is Pex going to be the true hero of Paradise Towers?" ;
-                                                     ns0:medium_synopsis "With the Doctor condemned to death by the caretakers and their bizarre rulebook, Mel faces cannibalistic OAPS. Is Pex going to be the true hero of Paradise Towers?" ;
-                                                     ns0:image_pid "p00vcs5l" ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
-                                                     ns0:version <http://www.bbc.co.uk/programmes/p00vbfky#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p04btj2p#programme> ;
                                                      ns0:clip <http://www.bbc.co.uk/programmes/p01xs2kd#programme> ,
                                                               <http://www.bbc.co.uk/programmes/p01xs2pf#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vcs5l" ;
+                                                     ns0:medium_synopsis "With the Doctor condemned to death by the caretakers and their bizarre rulebook, Mel faces cannibalistic OAPS. Is Pex going to be the true hero of Paradise Towers?" ;
+                                                     ns0:pid "p00vbfkx" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "Is Pex going to be the true hero of Paradise Towers?" ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00vbfky#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p04btj2p#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vcs5l.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00vbfq7#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 3" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00vbfq7" ;
-                                                     ns0:short_synopsis "The Doctor and the surviving Kangs learn all about Kroagnon the Great Architect." ;
-                                                     ns0:medium_synopsis "Mel and Pex play cat and mouse with the lethal cleaner robots while the Doctor and the surviving Kangs learn all about Kroagnon the Great Architect." ;
-                                                     ns0:image_pid "p00vcs68" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01xs2t7#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vcs68" ;
+                                                     ns0:medium_synopsis "Mel and Pex play cat and mouse with the lethal cleaner robots while the Doctor and the surviving Kangs learn all about Kroagnon the Great Architect." ;
+                                                     ns0:pid "p00vbfq7" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "The Doctor and the surviving Kangs learn all about Kroagnon the Great Architect." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vbfq8#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p04686rs#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01xs2t7#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vcs68.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00vbfw6#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 4" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "p00vbfw6" ;
-                                                     ns0:short_synopsis "Kroagnon has been reborn, and is moving around Paradise Towers." ;
-                                                     ns0:medium_synopsis "Kroagnon has been reborn and is using the Chief Caretaker's reanimated corpse to move around Paradise Towers. To stop him the Doctor must teach the residents teamwork." ;
-                                                     ns0:image_pid "p00vcs7c" ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
-                                                     ns0:version <http://www.bbc.co.uk/programmes/p00vbfw7#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p04686vw#programme> ;
                                                      ns0:clip <http://www.bbc.co.uk/programmes/p01xs2zy#programme> ,
                                                               <http://www.bbc.co.uk/programmes/p01xs374#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vcs7c" ;
+                                                     ns0:medium_synopsis "Kroagnon has been reborn and is using the Chief Caretaker's reanimated corpse to move around Paradise Towers. To stop him the Doctor must teach the residents teamwork." ;
+                                                     ns0:pid "p00vbfw6" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "Kroagnon has been reborn, and is moving around Paradise Towers." ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00vbfw7#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p04686vw#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vcs7c.jpg> .

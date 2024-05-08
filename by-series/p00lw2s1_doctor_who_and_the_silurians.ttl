@@ -5,113 +5,113 @@
 
 <http://www.bbc.co.uk/programmes/p00lw2s1#programme> rdf:type ns0:Series ;
                                                      dc:title "Doctor Who and the Silurians" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00lw2s1" ;
-                                                     ns0:short_synopsis "The Doctor and UNIT are called in when a research centre experiences problems." ;
-                                                     ns0:medium_synopsis "The Doctor and UNIT are called in when an underground research centre experiences problems. Nearby the Doctor discovers a group of intelligent reptiles, known as the Silurians." ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/p00v77z7#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v7806#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v7815#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v7829#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v783b#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v784b#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00v785k#programme> .
+                                                                 <http://www.bbc.co.uk/programmes/p00v785k#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:medium_synopsis "The Doctor and UNIT are called in when an underground research centre experiences problems. Nearby the Doctor discovers a group of intelligent reptiles, known as the Silurians." ;
+                                                     ns0:pid "p00lw2s1" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "The Doctor and UNIT are called in when a research centre experiences problems." .
 
 <http://www.bbc.co.uk/programmes/p00v77z7#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 1" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00v77z7" ;
-                                                     ns0:short_synopsis "UNIT is summoned to Wenley Moor research station which is experiencing power losses." ;
-                                                     ns0:medium_synopsis "UNIT are summoned to Wenley Moor research station which is experiencing mysterious power losses. In the nearby caves, one of the staff has been killed and another sent insane." ;
-                                                     ns0:long_synopsis "UNIT are summoned to Wenley Moor research station which is experiencing mysterious power losses. In the nearby caves, one of the staff has been killed and another sent insane." ;
-                                                     ns0:image_pid "p00v8qr1" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p019b51m#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v8qr1" ;
+                                                     ns0:long_synopsis "UNIT are summoned to Wenley Moor research station which is experiencing mysterious power losses. In the nearby caves, one of the staff has been killed and another sent insane." ;
+                                                     ns0:medium_synopsis "UNIT are summoned to Wenley Moor research station which is experiencing mysterious power losses. In the nearby caves, one of the staff has been killed and another sent insane." ;
+                                                     ns0:pid "p00v77z7" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "UNIT is summoned to Wenley Moor research station which is experiencing power losses." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v77z8#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xwgxw#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p019b51m#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v8qr1.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v7806#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 2" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00v7806" ;
-                                                     ns0:short_synopsis "Investigating the caves, the Doctor is attacked by a dinosaur-like creature." ;
-                                                     ns0:medium_synopsis "Investigating the caves, the Doctor is attacked by a dinosaur-like creature. Dr Quinn is hiding a secret that could endanger the lives of everyone." ;
-                                                     ns0:long_synopsis "Investigating the caves, the Doctor is attacked by a dinosaur-like creature. Dr Quinn is hiding a secret that could endanger the lives of everyone." ;
-                                                     ns0:image_pid "p00v8qzq" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p019b5d7#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v8qzq" ;
+                                                     ns0:long_synopsis "Investigating the caves, the Doctor is attacked by a dinosaur-like creature. Dr Quinn is hiding a secret that could endanger the lives of everyone." ;
+                                                     ns0:medium_synopsis "Investigating the caves, the Doctor is attacked by a dinosaur-like creature. Dr Quinn is hiding a secret that could endanger the lives of everyone." ;
+                                                     ns0:pid "p00v7806" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "Investigating the caves, the Doctor is attacked by a dinosaur-like creature." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v7807#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xwh8j#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p019b5d7#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v8qzq.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v7815#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 3" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00v7815" ;
-                                                     ns0:short_synopsis "The creature from the caves, wounded and dangerous, is on the loose on Wenley Moor." ;
-                                                     ns0:medium_synopsis "The creature from the caves, wounded and dangerous, is on the loose on Wenley Moor. Dr Quinn attempts to recover it and is unwilling to listen to the Doctor's warnings." ;
-                                                     ns0:long_synopsis "The creature from the caves, wounded and dangerous, is on the loose on Wenley Moor. Dr Quinn attempts to recover it and is unwilling to listen to the Doctor's warnings." ;
-                                                     ns0:image_pid "p00v8r3r" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p019b5lg#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v8r3r" ;
+                                                     ns0:long_synopsis "The creature from the caves, wounded and dangerous, is on the loose on Wenley Moor. Dr Quinn attempts to recover it and is unwilling to listen to the Doctor's warnings." ;
+                                                     ns0:medium_synopsis "The creature from the caves, wounded and dangerous, is on the loose on Wenley Moor. Dr Quinn attempts to recover it and is unwilling to listen to the Doctor's warnings." ;
+                                                     ns0:pid "p00v7815" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "The creature from the caves, wounded and dangerous, is on the loose on Wenley Moor." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v7816#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xwhj4#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p019b5lg#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v8r3r.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v7829#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 4" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "p00v7829" ;
-                                                     ns0:short_synopsis "The Doctor attempts to make peace between the humans and Silurians." ;
-                                                     ns0:medium_synopsis "Fearful of a war breaking out between the Silurians and mankind, the Doctor attempts to make peace between the races. But there are those on both sides unwilling to listen." ;
-                                                     ns0:long_synopsis "Fearful of a war breaking out between the Silurians and mankind, the Doctor attempts to make peace between the races. But there are those on both sides unwilling to listen." ;
-                                                     ns0:image_pid "p00v8r8w" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p019b5wt#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v8r8w" ;
+                                                     ns0:long_synopsis "Fearful of a war breaking out between the Silurians and mankind, the Doctor attempts to make peace between the races. But there are those on both sides unwilling to listen." ;
+                                                     ns0:medium_synopsis "Fearful of a war breaking out between the Silurians and mankind, the Doctor attempts to make peace between the races. But there are those on both sides unwilling to listen." ;
+                                                     ns0:pid "p00v7829" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "The Doctor attempts to make peace between the humans and Silurians." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v782b#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xwhs4#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p019b5wt#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v8r8w.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v783b#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 5" ;
-                                                     ns0:position "5" ;
-                                                     ns0:pid "p00v783b" ;
-                                                     ns0:short_synopsis "The Silurians infect Major Baker with a virus and release him to spread the infection." ;
-                                                     ns0:medium_synopsis "When the Silurian leader is killed, all hopes of peace are lost. The Silurians infect Major Baker with a virus deadly to humans and release him to spread the infection." ;
-                                                     ns0:long_synopsis "When the Silurian leader is killed, all hopes of peace are lost. The Silurians infect Major Baker with a virus deadly to humans and release him to spread the infection." ;
-                                                     ns0:image_pid "p00v8rlr" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p019b61c#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v8rlr" ;
+                                                     ns0:long_synopsis "When the Silurian leader is killed, all hopes of peace are lost. The Silurians infect Major Baker with a virus deadly to humans and release him to spread the infection." ;
+                                                     ns0:medium_synopsis "When the Silurian leader is killed, all hopes of peace are lost. The Silurians infect Major Baker with a virus deadly to humans and release him to spread the infection." ;
+                                                     ns0:pid "p00v783b" ;
+                                                     ns0:position "5" ;
+                                                     ns0:short_synopsis "The Silurians infect Major Baker with a virus and release him to spread the infection." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v783c#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xwhyl#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p019b61c#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v8rlr.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v784b#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 6" ;
-                                                     ns0:position "6" ;
-                                                     ns0:pid "p00v784b" ;
-                                                     ns0:short_synopsis "As the Silurian plague quickly spreads, the Doctor desperately searches for a cure." ;
-                                                     ns0:medium_synopsis "As the Silurian plague quickly spreads, the Doctor desperately searches for a cure. But the Silurians are aware of the Doctor's efforts and intend to stop him." ;
-                                                     ns0:long_synopsis "As the Silurian plague quickly spreads, the Doctor desperately searches for a cure. But the Silurians are aware of the Doctor's efforts and intend to stop him." ;
-                                                     ns0:image_pid "p00v8rpr" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p019b66c#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v8rpr" ;
+                                                     ns0:long_synopsis "As the Silurian plague quickly spreads, the Doctor desperately searches for a cure. But the Silurians are aware of the Doctor's efforts and intend to stop him." ;
+                                                     ns0:medium_synopsis "As the Silurian plague quickly spreads, the Doctor desperately searches for a cure. But the Silurians are aware of the Doctor's efforts and intend to stop him." ;
+                                                     ns0:pid "p00v784b" ;
+                                                     ns0:position "6" ;
+                                                     ns0:short_synopsis "As the Silurian plague quickly spreads, the Doctor desperately searches for a cure." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v784c#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xwj10#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p019b66c#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v8rpr.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v785k#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 7" ;
-                                                     ns0:position "7" ;
-                                                     ns0:pid "p00v785k" ;
-                                                     ns0:short_synopsis "The Silurians intend to destroy Earth's protective Van Allen Belt, destroying mankind." ;
-                                                     ns0:medium_synopsis "With the antidote to the plague found, the Silurians retaliate and take over the research centre. They now intend to destroy the Van Allen Belt, resulting in death for all mankind." ;
-                                                     ns0:long_synopsis "With the antidote to the plague found, the Silurians retaliate and take over the research centre. They now intend to destroy the Van Allen Belt, resulting in death for all mankind." ;
-                                                     ns0:image_pid "p00v8rvk" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p019b6qj#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v8rvk" ;
+                                                     ns0:long_synopsis "With the antidote to the plague found, the Silurians retaliate and take over the research centre. They now intend to destroy the Van Allen Belt, resulting in death for all mankind." ;
+                                                     ns0:medium_synopsis "With the antidote to the plague found, the Silurians retaliate and take over the research centre. They now intend to destroy the Van Allen Belt, resulting in death for all mankind." ;
+                                                     ns0:pid "p00v785k" ;
+                                                     ns0:position "7" ;
+                                                     ns0:short_synopsis "The Silurians intend to destroy Earth's protective Van Allen Belt, destroying mankind." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v785l#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xwj0n#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p019b6qj#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v8rvk.jpg> .

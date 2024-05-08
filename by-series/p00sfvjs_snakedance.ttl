@@ -5,65 +5,65 @@
 
 <http://www.bbc.co.uk/programmes/p00sfvjs#programme> rdf:type ns0:Series ;
                                                      dc:title "Snakedance" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00sfvjs" ;
-                                                     ns0:short_synopsis "The Mara, still hiding within Tegan's subconscious, wants to be reborn..." ;
-                                                     ns0:medium_synopsis "Tegan has programmed the TARDIS to go to the Federated world of Manussa, but is unaware of this. The Mara, still hiding within her subconscious, wants to be reborn..." ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/p00v9fnp#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v9fq5#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v9fs8#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00v9ftk#programme> .
+                                                                 <http://www.bbc.co.uk/programmes/p00v9ftk#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:medium_synopsis "Tegan has programmed the TARDIS to go to the Federated world of Manussa, but is unaware of this. The Mara, still hiding within her subconscious, wants to be reborn..." ;
+                                                     ns0:pid "p00sfvjs" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "The Mara, still hiding within Tegan's subconscious, wants to be reborn..." .
 
 <http://www.bbc.co.uk/programmes/p00v9fnp#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 1" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00v9fnp" ;
-                                                     ns0:short_synopsis "The Mara is returning home to the planet Manussa, five hundred years after being exiled." ;
-                                                     ns0:medium_synopsis "Five hundred years after being exiled, the Mara is returning home to the planet Manussa. And it is using Tegan's subconscious to get there in the TARDIS..." ;
-                                                     ns0:image_pid "p00v9mkn" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01klp3h#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v9mkn" ;
+                                                     ns0:medium_synopsis "Five hundred years after being exiled, the Mara is returning home to the planet Manussa. And it is using Tegan's subconscious to get there in the TARDIS..." ;
+                                                     ns0:pid "p00v9fnp" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "The Mara is returning home to the planet Manussa, five hundred years after being exiled." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v9fnq#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02pqkz5#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01klp3h#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v9mkn.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v9fq5#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 2" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00v9fq5" ;
-                                                     ns0:short_synopsis "Tegan tries to rid her mind of the Mara forever." ;
-                                                     ns0:medium_synopsis "As Tegan tries to rid her mind of the Mara forever, the Doctor learns about the Little Mind's Eye crystal, while coping with the local politics of the Federator..." ;
-                                                     ns0:image_pid "p00v9mlj" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01klpsg#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v9mlj" ;
+                                                     ns0:medium_synopsis "As Tegan tries to rid her mind of the Mara forever, the Doctor learns about the Little Mind's Eye crystal, while coping with the local politics of the Federator..." ;
+                                                     ns0:pid "p00v9fq5" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "Tegan tries to rid her mind of the Mara forever." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v9fq6#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02pqkzt#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01klpsg#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v9mlj.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v9fs8#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 3" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00v9fs8" ;
-                                                     ns0:short_synopsis "The Doctor locates the Great Mind's Eye crystal but it is instrumental in the Mara's plan." ;
-                                                     ns0:medium_synopsis "As Tegan and Lon combine to give the Mara access back to reality, the Doctor locates the Great Mind's Eye crystal but realises it is instrumental in the Mara's plan..." ;
-                                                     ns0:image_pid "p00v9mmq" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01klr98#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01klrv6#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v9mmq" ;
+                                                     ns0:medium_synopsis "As Tegan and Lon combine to give the Mara access back to reality, the Doctor locates the Great Mind's Eye crystal but realises it is instrumental in the Mara's plan..." ;
+                                                     ns0:pid "p00v9fs8" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "The Doctor locates the Great Mind's Eye crystal but it is instrumental in the Mara's plan." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v9fs9#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02pqmcz#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01klrv6#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p01klr98#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v9mmq.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v9ftk#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 4" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "p00v9ftk" ;
-                                                     ns0:short_synopsis "The Doctor and the original snakedancer Dojeen work to rid the planet of the Mara." ;
-                                                     ns0:medium_synopsis "The Doctor and the original snakedancer Dojeen work to rid the planet of the malign Mara once and for all, but it has the whole of Manussa in its psychic grip now…" ;
-                                                     ns0:image_pid "p00v9mqv" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01kls7j#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v9mqv" ;
+                                                     ns0:medium_synopsis "The Doctor and the original snakedancer Dojeen work to rid the planet of the malign Mara once and for all, but it has the whole of Manussa in its psychic grip now…" ;
+                                                     ns0:pid "p00v9ftk" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "The Doctor and the original snakedancer Dojeen work to rid the planet of the Mara." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v9ftl#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02pqmdw#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01kls7j#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v9mqv.jpg> .

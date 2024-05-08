@@ -5,77 +5,77 @@
 
 <http://www.bbc.co.uk/programmes/p00q054z#programme> rdf:type ns0:Series ;
                                                      dc:title "The Face of Evil" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "p00q054z" ;
-                                                     ns0:short_synopsis "The TARDIS lands in an alien jungle where the Doctor meets a savage tribe: the Sevateem." ;
-                                                     ns0:medium_synopsis "The TARDIS lands in an alien jungle where the Doctor meets a savage tribe that worships the 'god'Xoanon. A girl called Leela identifies the Doctor as ‘the evil one’." ;
-                                                     ns0:long_synopsis "The TARDIS lands in an alien jungle where the Doctor meets the Sevateem, a savage tribe that worships the ‘god’ Xoanon. A girl called Leela, identifies the Doctor as ‘the evil one’." ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/p00vf80v#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00vf82k#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00vf83x#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00vf896#programme> .
+                                                                 <http://www.bbc.co.uk/programmes/p00vf896#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:long_synopsis "The TARDIS lands in an alien jungle where the Doctor meets the Sevateem, a savage tribe that worships the ‘god’ Xoanon. A girl called Leela, identifies the Doctor as ‘the evil one’." ;
+                                                     ns0:medium_synopsis "The TARDIS lands in an alien jungle where the Doctor meets a savage tribe that worships the 'god'Xoanon. A girl called Leela identifies the Doctor as ‘the evil one’." ;
+                                                     ns0:pid "p00q054z" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "The TARDIS lands in an alien jungle where the Doctor meets a savage tribe: the Sevateem." .
 
 <http://www.bbc.co.uk/programmes/p00vf80v#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 1" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00vf80v" ;
-                                                     ns0:short_synopsis "The Doctor arrives on an alien world and is accused of being 'the evil one'." ;
-                                                     ns0:medium_synopsis "Classic sci-fi series. The Doctor arrives on an alien world and is taken captive by the savage Sevateem tribe, who believe he is 'the evil one'." ;
-                                                     ns0:long_synopsis "The Doctor arrives on an alien world and is taken captive by the savage Sevateem tribe. Accused of being 'the evil one', the Doctor begins to suspect that he has been here before." ;
-                                                     ns0:image_pid "p03c4v0z" ;
-                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
-                                                     ns0:version <http://www.bbc.co.uk/programmes/p00vf80w#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p02kdg7f#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/b000784c#programme> ;
                                                      ns0:clip <http://www.bbc.co.uk/programmes/p01fl5lc#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p03c4v0z" ;
+                                                     ns0:long_synopsis "The Doctor arrives on an alien world and is taken captive by the savage Sevateem tribe. Accused of being 'the evil one', the Doctor begins to suspect that he has been here before." ;
+                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     ns0:medium_synopsis "Classic sci-fi series. The Doctor arrives on an alien world and is taken captive by the savage Sevateem tribe, who believe he is 'the evil one'." ;
+                                                     ns0:pid "p00vf80v" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "The Doctor arrives on an alien world and is accused of being 'the evil one'." ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/b000784c#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00vf80w#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02kdg7f#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p03c4v0z.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00vf82k#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 2" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00vf82k" ;
-                                                     ns0:short_synopsis "The Sevateem prepare to launch an attack to free their god, Xoanon." ;
-                                                     ns0:medium_synopsis "Classic sci-fi series. With the Sevateem against him, the Doctor attempts to win their trust by facing the trial of the Horta." ;
-                                                     ns0:long_synopsis "With the Sevateem against him, the Doctor attempts to win their trust by facing the trial of the Horta. The tribe prepare to launch an attack to free their god, Xoanon." ;
-                                                     ns0:image_pid "p03c4v1v" ;
-                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
-                                                     ns0:version <http://www.bbc.co.uk/programmes/p00vf82l#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p02kdgln#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/b0007c3n#programme> ;
                                                      ns0:clip <http://www.bbc.co.uk/programmes/p01fl5th#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p03c4v1v" ;
+                                                     ns0:long_synopsis "With the Sevateem against him, the Doctor attempts to win their trust by facing the trial of the Horta. The tribe prepare to launch an attack to free their god, Xoanon." ;
+                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     ns0:medium_synopsis "Classic sci-fi series. With the Sevateem against him, the Doctor attempts to win their trust by facing the trial of the Horta." ;
+                                                     ns0:pid "p00vf82k" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "The Sevateem prepare to launch an attack to free their god, Xoanon." ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/b0007c3n#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00vf82l#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02kdgln#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p03c4v1v.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00vf83x#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 3" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00vf83x" ;
-                                                     ns0:short_synopsis "The Doctor discovers the terrible truth about Xoanon and realises that he is to blame." ;
-                                                     ns0:medium_synopsis "Classic sci-fi series. Penetrating the barrier with Leela, the Doctor enters the spaceship and discovers the truth about Xoanon." ;
-                                                     ns0:long_synopsis "Penetrating the barrier with Leela, the Doctor enters the spaceship, which is controlled by the Tesh. There he discovers the truth about Xoanon and realises that he is to blame." ;
-                                                     ns0:image_pid "p03c4v2h" ;
-                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
-                                                     ns0:version <http://www.bbc.co.uk/programmes/p00vf83y#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p02kdgfc#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/b0007c3s#programme> ;
                                                      ns0:clip <http://www.bbc.co.uk/programmes/p01fl5xh#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p03c4v2h" ;
+                                                     ns0:long_synopsis "Penetrating the barrier with Leela, the Doctor enters the spaceship, which is controlled by the Tesh. There he discovers the truth about Xoanon and realises that he is to blame." ;
+                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     ns0:medium_synopsis "Classic sci-fi series. Penetrating the barrier with Leela, the Doctor enters the spaceship and discovers the truth about Xoanon." ;
+                                                     ns0:pid "p00vf83x" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "The Doctor discovers the terrible truth about Xoanon and realises that he is to blame." ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/b0007c3s#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00vf83y#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02kdgfc#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p03c4v2h.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00vf896#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 4" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "p00vf896" ;
-                                                     ns0:short_synopsis "The insane computer Xoanon refuses the Doctor's help and prepares to destroy the planet." ;
-                                                     ns0:medium_synopsis "Classic sci-fi series. Determined to rectify his earlier mistake, the Doctor tries to repair Xoanon. But the computer refuses his help." ;
-                                                     ns0:long_synopsis "Determined to rectify his earlier mistake, the Doctor tries to repair Xoanon. But the insane computer refuses to accept his help and prepares to destroy the entire planet." ;
-                                                     ns0:image_pid "p03c4v2n" ;
-                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
-                                                     ns0:version <http://www.bbc.co.uk/programmes/p00vf897#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p02kdgmc#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/b0007c3v#programme> ;
                                                      ns0:clip <http://www.bbc.co.uk/programmes/p01fl645#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p03c4v2n" ;
+                                                     ns0:long_synopsis "Determined to rectify his earlier mistake, the Doctor tries to repair Xoanon. But the insane computer refuses to accept his help and prepares to destroy the entire planet." ;
+                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     ns0:medium_synopsis "Classic sci-fi series. Determined to rectify his earlier mistake, the Doctor tries to repair Xoanon. But the computer refuses his help." ;
+                                                     ns0:pid "p00vf896" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "The insane computer Xoanon refuses the Doctor's help and prepares to destroy the planet." ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/b0007c3v#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00vf897#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02kdgmc#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p03c4v2n.jpg> .

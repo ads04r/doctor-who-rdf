@@ -4,8 +4,8 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
 <http://www.bbc.co.uk/programmes/p06jcmy9#programme> rdf:type ns0:Series ;
-                                                     ns0:episode <http://www.bbc.co.uk/programmes/p06jcn8k#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/b0bp1brh#programme> ,
+                                                     dc:title "Series 11" ;
+                                                     ns0:episode <http://www.bbc.co.uk/programmes/b0bp1brh#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/b0bpwm2m#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/b0bqn236#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/b0brghc8#programme> ,
@@ -13,195 +13,195 @@
                                                                  <http://www.bbc.co.uk/programmes/b0bsrh4l#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/b0bthzjn#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/b0bv1l0j#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/b0bvgbqw#programme> ;
-                                                     dc:title "Series 11" .
-
-<http://www.bbc.co.uk/programmes/p06jcn8k#programme> rdf:type ns0:Episode ;
-                                                     dc:title "The Woman Who Fell to Earth" ;
-                                                     ns0:short_synopsis "A mysterious woman, unable to remember her own name, falls from the Sheffield night sky." ;
-                                                     ns0:medium_synopsis "On one night in Sheffield, lives are changed for ever as a mysterious woman, unable to remember her own name, falls from the night sky." ;
-                                                     ns0:long_synopsis "'We don't get aliens in Sheffield.' In a South Yorkshire city, Ryan Sinclair, Yasmin Khan and Graham O'Brien are about to have their lives changed for ever, as a mysterious woman, unable to remember her own name, falls from the night sky. Can they believe a word she says? And can she help solve the strange events taking place across the city?" ;
-                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
-                                                     ns0:image_pid "p06jcnb7" ,
-                                                                   "p06mny1v" ;
-                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p06jcnb7.jpg> ,
-                                                                    <https://ichef.bbci.co.uk/images/ic/640x360/p06mny1v.jpg> ;
-                                                     ns0:version <http://www.bbc.co.uk/programmes/b0bn9jf8#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/b0bnb5bc#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p06n7746#programme> ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p06jcn8k" .
+                                                                 <http://www.bbc.co.uk/programmes/b0bvgbqw#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p06jcn8k#programme> .
 
 <http://www.bbc.co.uk/programmes/b0bp1brh#programme> rdf:type ns0:Episode ;
                                                      dc:title "The Ghost Monument" ;
-                                                     ns0:short_synopsis "Can the Doctor and her friends stay alive long enough to solve the mystery of Desolation?" ;
-                                                     ns0:medium_synopsis "Still reeling from their first encounter, can the Doctor and her new friends stay alive long enough in a hostile environment to solve the mystery of Desolation?" ;
-                                                     ns0:long_synopsis "Still reeling from their first encounter, can the Doctor and her new friends stay alive long enough in a hostile alien environment to solve the mystery of Desolation? And just who are Angstrom and Epzo?" ;
-                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:image_pid "p06jcnb7" ,
                                                                    "p06ndb68" ;
-                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p06jcnb7.jpg> ,
-                                                                    <https://ichef.bbci.co.uk/images/ic/640x360/p06ndb68.jpg> ;
+                                                     ns0:long_synopsis "Still reeling from their first encounter, can the Doctor and her new friends stay alive long enough in a hostile alien environment to solve the mystery of Desolation? And just who are Angstrom and Epzo?" ;
+                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     ns0:medium_synopsis "Still reeling from their first encounter, can the Doctor and her new friends stay alive long enough in a hostile environment to solve the mystery of Desolation?" ;
+                                                     ns0:pid "b0bp1brh" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "Can the Doctor and her friends stay alive long enough to solve the mystery of Desolation?" ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/b0bp1bqv#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/b0bp1k4m#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/b0bpvw9q#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p06nvwp8#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p06nvwpb#programme> ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "b0bp1brh" .
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p06jcnb7.jpg> ,
+                                                                    <https://ichef.bbci.co.uk/images/ic/640x360/p06ndb68.jpg> .
 
 <http://www.bbc.co.uk/programmes/b0bpwm2m#programme> rdf:type ns0:Episode ;
                                                      dc:title "Rosa" ;
-                                                     ns0:short_synopsis "The Doctor and her friends encounter a seamstress by the name of Rosa Parks." ,
-                                                                        "In Montgomery, Alabama, 1955, the Doctor and her friends encounter Rosa Parks." ;
-                                                     ns0:medium_synopsis "Montgomery, Alabama. 1955. The Doctor and her friends encounter a seamstress by the name of Rosa Parks but begin to wonder whether someone is attempting to change history." ;
-                                                     ns0:long_synopsis "Montgomery, Alabama. 1955. The Doctor and her friends find themselves in the Deep South of America. As they encounter a seamstress by the name of Rosa Parks, they begin to wonder whether someone is attempting to change history." ;
-                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:image_pid "p06jcnb7" ,
                                                                    "p06pbhc3" ;
-                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p06jcnb7.jpg> ,
-                                                                    <https://ichef.bbci.co.uk/images/ic/640x360/p06pbhc3.jpg> ;
+                                                     ns0:long_synopsis "Montgomery, Alabama. 1955. The Doctor and her friends find themselves in the Deep South of America. As they encounter a seamstress by the name of Rosa Parks, they begin to wonder whether someone is attempting to change history." ;
+                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     ns0:medium_synopsis "Montgomery, Alabama. 1955. The Doctor and her friends encounter a seamstress by the name of Rosa Parks but begin to wonder whether someone is attempting to change history." ;
+                                                     ns0:pid "b0bpwm2m" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "In Montgomery, Alabama, 1955, the Doctor and her friends encounter Rosa Parks." ,
+                                                                        "The Doctor and her friends encounter a seamstress by the name of Rosa Parks." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/b0bpwhxl#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/b0bpz5v7#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p06ph9fp#programme> ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "b0bpwm2m" .
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p06jcnb7.jpg> ,
+                                                                    <https://ichef.bbci.co.uk/images/ic/640x360/p06pbhc3.jpg> .
 
 <http://www.bbc.co.uk/programmes/b0bqn236#programme> rdf:type ns0:Episode ;
                                                      dc:title "Arachnids in the UK" ;
-                                                     ns0:short_synopsis "Something is very wrong with the spiders of Sheffield. The Doctor and friends investigate." ;
-                                                     ns0:medium_synopsis "In Yorkshire, the Doctor and friends meet Yaz's family - and uncover a creepy mystery at the heart of the city. What is happening to the spiders of Sheffield?" ;
-                                                     ns0:long_synopsis "'Something's happening with the spiders in this city.' The Doctor, Yaz, Graham and Ryan find their way back to Yorkshire - and Yaz's family - only to find something is stirring amidst the eight-legged arachnid population of Sheffield." ;
-                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:image_pid "p06jcnb7" ,
                                                                    "p06pn6pj" ,
                                                                    "p06pvlym" ;
-                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p06jcnb7.jpg> ,
-                                                                    <https://ichef.bbci.co.uk/images/ic/640x360/p06pn6pj.jpg> ,
-                                                                    <https://ichef.bbci.co.uk/images/ic/640x360/p06pvlym.jpg> ;
+                                                     ns0:long_synopsis "'Something's happening with the spiders in this city.' The Doctor, Yaz, Graham and Ryan find their way back to Yorkshire - and Yaz's family - only to find something is stirring amidst the eight-legged arachnid population of Sheffield." ;
+                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     ns0:medium_synopsis "In Yorkshire, the Doctor and friends meet Yaz's family - and uncover a creepy mystery at the heart of the city. What is happening to the spiders of Sheffield?" ;
+                                                     ns0:pid "b0bqn236" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "Something is very wrong with the spiders of Sheffield. The Doctor and friends investigate." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/b0bqn22h#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/b0bqn5pl#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/b0br9np4#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p06q45kl#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p06qb7cr#programme> ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "b0bqn236" .
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p06jcnb7.jpg> ,
+                                                                    <https://ichef.bbci.co.uk/images/ic/640x360/p06pn6pj.jpg> ,
+                                                                    <https://ichef.bbci.co.uk/images/ic/640x360/p06pvlym.jpg> .
 
 <http://www.bbc.co.uk/programmes/b0brghc8#programme> rdf:type ns0:Episode ;
                                                      dc:title "The Tsuranga Conundrum" ;
-                                                     ns0:short_synopsis "The Doctor and her friends must band together with a group of strangers to survive." ;
-                                                     ns0:medium_synopsis "Injured and stranded in the wilds of a far-flung galaxy, the Doctor, Yaz, Graham and Ryan must band together with a group of strangers to survive." ;
-                                                     ns0:long_synopsis "Injured and stranded in the wilds of a far-flung galaxy, the Doctor, Yaz, Graham and Ryan must band together with a group of strangers to survive against one of the universe's most deadly - and unusual - creatures." ;
-                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:image_pid "p06pn6pj" ,
                                                                    "p06q8j87" ;
-                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p06pn6pj.jpg> ,
-                                                                    <https://ichef.bbci.co.uk/images/ic/640x360/p06q8j87.jpg> ;
+                                                     ns0:long_synopsis "Injured and stranded in the wilds of a far-flung galaxy, the Doctor, Yaz, Graham and Ryan must band together with a group of strangers to survive against one of the universe's most deadly - and unusual - creatures." ;
+                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     ns0:medium_synopsis "Injured and stranded in the wilds of a far-flung galaxy, the Doctor, Yaz, Graham and Ryan must band together with a group of strangers to survive." ;
+                                                     ns0:pid "b0brghc8" ;
+                                                     ns0:position "5" ;
+                                                     ns0:short_synopsis "The Doctor and her friends must band together with a group of strangers to survive." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/b0brghbp#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/b0brjvg4#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p06qf5b3#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p06r0knk#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p06r0knm#programme> ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
-                                                     ns0:position "5" ;
-                                                     ns0:pid "b0brghc8" .
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p06pn6pj.jpg> ,
+                                                                    <https://ichef.bbci.co.uk/images/ic/640x360/p06q8j87.jpg> .
 
 <http://www.bbc.co.uk/programmes/b0bs748h#programme> rdf:type ns0:Episode ;
                                                      dc:title "Demons of the Punjab" ;
-                                                     ns0:short_synopsis "The Doctor and friends arrive in the Punjab, India, in 1947, as a country is split apart." ,
-                                                                        "Doctor and her friends arrive in the Punjab, India, in 1947, as a country is split apart." ;
-                                                     ns0:medium_synopsis "India 1947. The Doctor and her friends arrive in the Punjab. As demons haunt the land, can Yaz discover the hidden story of her grandmother's life?" ;
-                                                     ns0:long_synopsis "India, 1947. The Doctor and her friends arrive in the Punjab, as India is being torn apart. While Yaz attempts to discover her grandmother's hidden history, the Doctor discovers demons haunting the land. Who are they, and what do they want?" ;
-                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:image_pid "p06pn6pj" ,
                                                                    "p06qv4fd" ;
-                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p06pn6pj.jpg> ,
-                                                                    <https://ichef.bbci.co.uk/images/ic/640x360/p06qv4fd.jpg> ;
+                                                     ns0:long_synopsis "India, 1947. The Doctor and her friends arrive in the Punjab, as India is being torn apart. While Yaz attempts to discover her grandmother's hidden history, the Doctor discovers demons haunting the land. Who are they, and what do they want?" ;
+                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     ns0:medium_synopsis "India 1947. The Doctor and her friends arrive in the Punjab. As demons haunt the land, can Yaz discover the hidden story of her grandmother's life?" ;
+                                                     ns0:pid "b0bs748h" ;
+                                                     ns0:position "6" ;
+                                                     ns0:short_synopsis "Doctor and her friends arrive in the Punjab, India, in 1947, as a country is split apart." ,
+                                                                        "The Doctor and friends arrive in the Punjab, India, in 1947, as a country is split apart." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/b0bs747b#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/b0bs74m1#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p06rg5lg#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p06rvf12#programme> ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
-                                                     ns0:position "6" ;
-                                                     ns0:pid "b0bs748h" .
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p06pn6pj.jpg> ,
+                                                                    <https://ichef.bbci.co.uk/images/ic/640x360/p06qv4fd.jpg> .
 
 <http://www.bbc.co.uk/programmes/b0bsrh4l#programme> rdf:type ns0:Episode ;
                                                      dc:title "Kerblam!" ;
-                                                     ns0:short_synopsis "The Doctor and friends go undercover at the galaxy's biggest retailer, Kerblam." ;
-                                                     ns0:medium_synopsis "A message arrives for the Doctor, leading her, Graham, Yaz and Ryan to investigate the warehouse moon orbiting Kandoka, and the home of the galaxy's largest retailer." ;
-                                                     ns0:long_synopsis "A mysterious message arrives in a package addressed to the Doctor, leading her, Graham, Yaz and Ryan to investigate the warehouse moon orbiting Kandoka, and the home of the galaxy's largest retailer, Kerblam." ;
-                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:image_pid "p06pn6pj" ,
                                                                    "p06rs3ml" ;
-                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p06pn6pj.jpg> ,
-                                                                    <https://ichef.bbci.co.uk/images/ic/640x360/p06rs3ml.jpg> ;
+                                                     ns0:long_synopsis "A mysterious message arrives in a package addressed to the Doctor, leading her, Graham, Yaz and Ryan to investigate the warehouse moon orbiting Kandoka, and the home of the galaxy's largest retailer, Kerblam." ;
+                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     ns0:medium_synopsis "A message arrives for the Doctor, leading her, Graham, Yaz and Ryan to investigate the warehouse moon orbiting Kandoka, and the home of the galaxy's largest retailer." ;
+                                                     ns0:pid "b0bsrh4l" ;
+                                                     ns0:position "7" ;
+                                                     ns0:short_synopsis "The Doctor and friends go undercover at the galaxy's biggest retailer, Kerblam." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/b0bsrh3l#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/b0bsvf39#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p06rx6ql#programme> ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
-                                                     ns0:position "7" ;
-                                                     ns0:pid "b0bsrh4l" .
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p06pn6pj.jpg> ,
+                                                                    <https://ichef.bbci.co.uk/images/ic/640x360/p06rs3ml.jpg> .
 
 <http://www.bbc.co.uk/programmes/b0bthzjn#programme> rdf:type ns0:Episode ;
                                                      dc:title "The Witchfinders" ;
-                                                     ns0:short_synopsis "The Doctor and friends encounter a witch trial and King James I in the 17th century." ;
-                                                     ns0:medium_synopsis "In 17th-century Lancashire, the Doctor, Yaz, Ryan and Graham become embroiled in a witch trial and the arrival of King James I." ,
-                                                                         "In 17th century Lancashire, the Doctor, Yaz, Ryan and Graham become embroiled in a witch trial and the arrival of King James I." ;
-                                                     ns0:long_synopsis "The Doctor, Ryan, Graham and Yaz arrive in 17th-century Lancashire and become embroiled in a witch trial, run by the local landowner. As fear stalks the land, the arrival of King James I only serves to intensify the witch hunt. But is there something even more dangerous at work? Can the Doctor and friends keep the people of Bilehurst Cragg safe from all the forces that are massing in the land?" ,
-                                                                       "The Doctor, Ryan, Graham and Yaz arrive in 17th century Lancashire and become embroiled in a witch trial, run by the local landowner. As fear stalks the land, the arrival of King James I only serves to intensify the witch hunt. But is there something even more dangerous at work? Can the Doctor and friends keep the people of Bilehurst Cragg safe from all the forces that are massing in the land?" ,
-                                                                       "The Doctor, Ryan, Graham and Yaz arrive in 17th-century Lancashire and become embroiled in a witch tria run by the local landowner. As fear stalks the land, the arrival of King James I only serves to intensify the witch hunt. But is there something even more dangerous at work? Can the Doctor and friends keep the people of Bilehurst Cragg safe from all the forces that are massing in the land?" ;
-                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:image_pid "p06pn6pj" ,
                                                                    "p06sby6v" ;
-                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p06pn6pj.jpg> ,
-                                                                    <https://ichef.bbci.co.uk/images/ic/640x360/p06sby6v.jpg> ;
+                                                     ns0:long_synopsis "The Doctor, Ryan, Graham and Yaz arrive in 17th century Lancashire and become embroiled in a witch trial, run by the local landowner. As fear stalks the land, the arrival of King James I only serves to intensify the witch hunt. But is there something even more dangerous at work? Can the Doctor and friends keep the people of Bilehurst Cragg safe from all the forces that are massing in the land?" ,
+                                                                       "The Doctor, Ryan, Graham and Yaz arrive in 17th-century Lancashire and become embroiled in a witch tria run by the local landowner. As fear stalks the land, the arrival of King James I only serves to intensify the witch hunt. But is there something even more dangerous at work? Can the Doctor and friends keep the people of Bilehurst Cragg safe from all the forces that are massing in the land?" ,
+                                                                       "The Doctor, Ryan, Graham and Yaz arrive in 17th-century Lancashire and become embroiled in a witch trial, run by the local landowner. As fear stalks the land, the arrival of King James I only serves to intensify the witch hunt. But is there something even more dangerous at work? Can the Doctor and friends keep the people of Bilehurst Cragg safe from all the forces that are massing in the land?" ;
+                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     ns0:medium_synopsis "In 17th century Lancashire, the Doctor, Yaz, Ryan and Graham become embroiled in a witch trial and the arrival of King James I." ,
+                                                                         "In 17th-century Lancashire, the Doctor, Yaz, Ryan and Graham become embroiled in a witch trial and the arrival of King James I." ;
+                                                     ns0:pid "b0bthzjn" ;
+                                                     ns0:position "8" ;
+                                                     ns0:short_synopsis "The Doctor and friends encounter a witch trial and King James I in the 17th century." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/b0bthzhn#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/b0btj2wf#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p06stnx9#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p06t73m9#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p06t73mc#programme> ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
-                                                     ns0:position "8" ;
-                                                     ns0:pid "b0bthzjn" .
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p06pn6pj.jpg> ,
+                                                                    <https://ichef.bbci.co.uk/images/ic/640x360/p06sby6v.jpg> .
 
 <http://www.bbc.co.uk/programmes/b0bv1l0j#programme> rdf:type ns0:Episode ;
                                                      dc:title "It Takes You Away" ;
-                                                     ns0:short_synopsis "In a deserted cottage by a Norwegian fjord, someone is in need of the Doctor's help." ;
-                                                     ns0:medium_synopsis "On the edge of a Norwegian fjord in the present day, the Doctor, Ryan, Graham and Yaz discover a boarded-up cottage and a girl named Hanne in need of their help." ;
-                                                     ns0:long_synopsis "On the edge of a Norwegian fjord in the present day, the Doctor, Ryan, Graham and Yaz discover a boarded-up cottage and a girl named Hanne in need of their help. What has happened here? What monster lurks in the woods around the cottage - and beyond?" ;
-                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:image_pid "p06pn6pj" ,
                                                                    "p06szz58" ;
-                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p06pn6pj.jpg> ,
-                                                                    <https://ichef.bbci.co.uk/images/ic/640x360/p06szz58.jpg> ;
+                                                     ns0:long_synopsis "On the edge of a Norwegian fjord in the present day, the Doctor, Ryan, Graham and Yaz discover a boarded-up cottage and a girl named Hanne in need of their help. What has happened here? What monster lurks in the woods around the cottage - and beyond?" ;
+                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     ns0:medium_synopsis "On the edge of a Norwegian fjord in the present day, the Doctor, Ryan, Graham and Yaz discover a boarded-up cottage and a girl named Hanne in need of their help." ;
+                                                     ns0:pid "b0bv1l0j" ;
+                                                     ns0:position "9" ;
+                                                     ns0:short_synopsis "In a deserted cottage by a Norwegian fjord, someone is in need of the Doctor's help." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/b0bv1kzw#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/b0bv1ly2#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p06tgrhl#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p06twln6#programme> ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
-                                                     ns0:position "9" ;
-                                                     ns0:pid "b0bv1l0j" .
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p06pn6pj.jpg> ,
+                                                                    <https://ichef.bbci.co.uk/images/ic/640x360/p06szz58.jpg> .
 
 <http://www.bbc.co.uk/programmes/b0bvgbqw#programme> rdf:type ns0:Episode ;
                                                      dc:title "The Battle of Ranskoor Av Kolos" ;
-                                                     ns0:short_synopsis "On the planet of Ranskoor Av Kolos, a deadly reckoning awaits the Doctor and her friends." ;
-                                                     ns0:medium_synopsis "On the planet of Ranskoor Av Kolos, a battlefield, a conflict-scarred survivor, and a deadly reckoning await the Doctor, Ryan, Yaz and Graham." ,
-                                                                         "On the planet of Ranskoor Av Kolos, a battlefield, a conflict-scarred survivor and a deadly reckoning await the Doctor, Ryan, Yaz and Graham." ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p06pn6pj" ,
+                                                                   "p06tjlrg" ;
                                                      ns0:long_synopsis """On the planet of Ranskoor Av Kolos lie the remains of a brutal battlefield. But as the Doctor, Graham, Yaz and Ryan answer nine separate distress calls, they discover the planet holds far more secrets. 
 
 Who is the mysterious commander with no memory? What lies beyond the mists? Who or what are the Ux? The answers will lead the Doctor and her friends towards a deadly reckoning.""" ;
                                                      ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
-                                                     ns0:image_pid "p06pn6pj" ,
-                                                                   "p06tjlrg" ;
-                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p06pn6pj.jpg> ,
-                                                                    <https://ichef.bbci.co.uk/images/ic/640x360/p06tjlrg.jpg> ;
+                                                     ns0:medium_synopsis "On the planet of Ranskoor Av Kolos, a battlefield, a conflict-scarred survivor and a deadly reckoning await the Doctor, Ryan, Yaz and Graham." ,
+                                                                         "On the planet of Ranskoor Av Kolos, a battlefield, a conflict-scarred survivor, and a deadly reckoning await the Doctor, Ryan, Yaz and Graham." ;
+                                                     ns0:pid "b0bvgbqw" ;
+                                                     ns0:position "10" ;
+                                                     ns0:short_synopsis "On the planet of Ranskoor Av Kolos, a deadly reckoning awaits the Doctor and her friends." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/b0bvgbq7#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/b0bvk9y3#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p06v2w97#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p06pn6pj.jpg> ,
+                                                                    <https://ichef.bbci.co.uk/images/ic/640x360/p06tjlrg.jpg> .
+
+<http://www.bbc.co.uk/programmes/p06jcn8k#programme> rdf:type ns0:Episode ;
+                                                     dc:title "The Woman Who Fell to Earth" ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
-                                                     ns0:position "10" ;
-                                                     ns0:pid "b0bvgbqw" .
+                                                     ns0:image_pid "p06jcnb7" ,
+                                                                   "p06mny1v" ;
+                                                     ns0:long_synopsis "'We don't get aliens in Sheffield.' In a South Yorkshire city, Ryan Sinclair, Yasmin Khan and Graham O'Brien are about to have their lives changed for ever, as a mysterious woman, unable to remember her own name, falls from the night sky. Can they believe a word she says? And can she help solve the strange events taking place across the city?" ;
+                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     ns0:medium_synopsis "On one night in Sheffield, lives are changed for ever as a mysterious woman, unable to remember her own name, falls from the night sky." ;
+                                                     ns0:pid "p06jcn8k" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "A mysterious woman, unable to remember her own name, falls from the Sheffield night sky." ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/b0bn9jf8#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/b0bnb5bc#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p06n7746#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p06jcnb7.jpg> ,
+                                                                    <https://ichef.bbci.co.uk/images/ic/640x360/p06mny1v.jpg> .

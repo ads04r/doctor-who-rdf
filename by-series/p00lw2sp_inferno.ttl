@@ -5,113 +5,113 @@
 
 <http://www.bbc.co.uk/programmes/p00lw2sp#programme> rdf:type ns0:Series ;
                                                      dc:title "Inferno" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "p00lw2sp" ;
-                                                     ns0:short_synopsis "UNIT have been assigned to provide security for an experimental operation." ;
-                                                     ns0:medium_synopsis "UNIT have been assigned to provide security for an experimental operation, nicknamed the Inferno. The Doctor is also present as a UNIT observer but is secretly siphoning off power." ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/p00v78k6#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v78nt#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v78px#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v78qt#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v78rv#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v78sp#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00v78th#programme> .
+                                                                 <http://www.bbc.co.uk/programmes/p00v78th#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:medium_synopsis "UNIT have been assigned to provide security for an experimental operation, nicknamed the Inferno. The Doctor is also present as a UNIT observer but is secretly siphoning off power." ;
+                                                     ns0:pid "p00lw2sp" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "UNIT have been assigned to provide security for an experimental operation." .
 
 <http://www.bbc.co.uk/programmes/p00v78k6#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 1" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00v78k6" ;
-                                                     ns0:short_synopsis "The Doctor and UNIT are at a drilling project intending to penetrate Earth's crust." ;
-                                                     ns0:medium_synopsis "UNIT are at a project run by Professor Stahlman who plans to penetrate Earth's crust. But the drilling has already released something deadly from beneath the planet's surface." ;
-                                                     ns0:long_synopsis "UNIT are at a project run by Professor Stahlman who plans to penetrate Earth's crust. But the drilling has already released something deadly from beneath the planet's surface." ;
-                                                     ns0:image_pid "p00v8tkp" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p019bgz0#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v8tkp" ;
+                                                     ns0:long_synopsis "UNIT are at a project run by Professor Stahlman who plans to penetrate Earth's crust. But the drilling has already released something deadly from beneath the planet's surface." ;
+                                                     ns0:medium_synopsis "UNIT are at a project run by Professor Stahlman who plans to penetrate Earth's crust. But the drilling has already released something deadly from beneath the planet's surface." ;
+                                                     ns0:pid "p00v78k6" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "The Doctor and UNIT are at a drilling project intending to penetrate Earth's crust." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v78k7#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xzsxd#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p019bgz0#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v8tkp.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v78nt#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 2" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00v78nt" ;
-                                                     ns0:short_synopsis "The green slime oozing from the drill head is transforming men into monsters." ;
-                                                     ns0:medium_synopsis "The green slime oozing from the drill head is transforming men into monsters. Stahlman refuses to listen to the warnings and resorts to sabotage so that his project may continue." ;
-                                                     ns0:long_synopsis "The green slime oozing from the drill head is transforming men into monsters. Stahlman refuses to listen to the warnings and resorts to sabotage so that his project may continue." ;
-                                                     ns0:image_pid "p00v8tsv" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p019bhd6#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v8tsv" ;
+                                                     ns0:long_synopsis "The green slime oozing from the drill head is transforming men into monsters. Stahlman refuses to listen to the warnings and resorts to sabotage so that his project may continue." ;
+                                                     ns0:medium_synopsis "The green slime oozing from the drill head is transforming men into monsters. Stahlman refuses to listen to the warnings and resorts to sabotage so that his project may continue." ;
+                                                     ns0:pid "p00v78nt" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "The green slime oozing from the drill head is transforming men into monsters." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v78nv#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xzsjs#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p019bhd6#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v8tsv.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v78px#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 3" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00v78px" ;
-                                                     ns0:short_synopsis "The Doctor is transported to a parallel world where drilling is at a more advanced stage." ;
-                                                     ns0:medium_synopsis "Transported to a parallel world, the Doctor discovers that England is under military rule and the drilling project is at a more advanced stage." ;
-                                                     ns0:long_synopsis "Transported to a parallel world, the Doctor discovers that England is under military rule and the drilling project is at a more advanced stage." ;
-                                                     ns0:image_pid "p00v8ty2" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p019bhv5#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v8ty2" ;
+                                                     ns0:long_synopsis "Transported to a parallel world, the Doctor discovers that England is under military rule and the drilling project is at a more advanced stage." ;
+                                                     ns0:medium_synopsis "Transported to a parallel world, the Doctor discovers that England is under military rule and the drilling project is at a more advanced stage." ;
+                                                     ns0:pid "p00v78px" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "The Doctor is transported to a parallel world where drilling is at a more advanced stage." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v78py#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xzsk0#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p019bhv5#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v8ty2.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v78qt#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 4" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "p00v78qt" ;
-                                                     ns0:short_synopsis "Arrested as a spy the Doctor is unable to convince anyone of the danger facing them." ;
-                                                     ns0:medium_synopsis "In the parallel world, the drilling project is about to penetrate Earth's crust. The Doctor, arrested as a spy, is unable to convince his captors of the danger that faces them." ;
-                                                     ns0:long_synopsis "In the parallel world, the drilling project is about to penetrate Earth's crust. The Doctor, arrested as a spy, is unable to convince his captors of the danger that faces them." ;
-                                                     ns0:image_pid "p00v8v4q" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p019bj5l#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v8v4q" ;
+                                                     ns0:long_synopsis "In the parallel world, the drilling project is about to penetrate Earth's crust. The Doctor, arrested as a spy, is unable to convince his captors of the danger that faces them." ;
+                                                     ns0:medium_synopsis "In the parallel world, the drilling project is about to penetrate Earth's crust. The Doctor, arrested as a spy, is unable to convince his captors of the danger that faces them." ;
+                                                     ns0:pid "p00v78qt" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "Arrested as a spy the Doctor is unable to convince anyone of the danger facing them." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v78qv#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xzsq4#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p019bj5l#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v8v4q.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v78rv#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 5" ;
-                                                     ns0:position "5" ;
-                                                     ns0:pid "p00v78rv" ;
-                                                     ns0:short_synopsis "The Earth's crust has been penetrated, releasing terrible forces from within." ;
-                                                     ns0:medium_synopsis "In the parallel world, Earth's crust has been penetrated, releasing terrible forces from within the Earth. The Doctor must escape back to his world to prevent the same catastrophe." ;
-                                                     ns0:long_synopsis "In the parallel world, Earth's crust has been penetrated, releasing terrible forces from within the Earth. The Doctor must escape back to his world to prevent the same catastrophe." ;
-                                                     ns0:image_pid "p00v8vgr" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p019bj8n#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v8vgr" ;
+                                                     ns0:long_synopsis "In the parallel world, Earth's crust has been penetrated, releasing terrible forces from within the Earth. The Doctor must escape back to his world to prevent the same catastrophe." ;
+                                                     ns0:medium_synopsis "In the parallel world, Earth's crust has been penetrated, releasing terrible forces from within the Earth. The Doctor must escape back to his world to prevent the same catastrophe." ;
+                                                     ns0:pid "p00v78rv" ;
+                                                     ns0:position "5" ;
+                                                     ns0:short_synopsis "The Earth's crust has been penetrated, releasing terrible forces from within." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v78rw#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xzsss#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p019bj8n#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v8vgr.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v78sp#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 6" ;
-                                                     ns0:position "6" ;
-                                                     ns0:pid "p00v78sp" ;
-                                                     ns0:short_synopsis "The Doctor must return to his world to warn it of the danger. But time is running out." ;
-                                                     ns0:medium_synopsis "As Earth in the parallel world faces destruction, the Doctor is desperate to return to his world to warn it of the danger. But time is running out." ;
-                                                     ns0:long_synopsis "As Earth in the parallel world faces destruction, the Doctor is desperate to return to his world to warn it of the danger. But time is running out." ;
-                                                     ns0:image_pid "p00v8vnx" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p019bjfl#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v8vnx" ;
+                                                     ns0:long_synopsis "As Earth in the parallel world faces destruction, the Doctor is desperate to return to his world to warn it of the danger. But time is running out." ;
+                                                     ns0:medium_synopsis "As Earth in the parallel world faces destruction, the Doctor is desperate to return to his world to warn it of the danger. But time is running out." ;
+                                                     ns0:pid "p00v78sp" ;
+                                                     ns0:position "6" ;
+                                                     ns0:short_synopsis "The Doctor must return to his world to warn it of the danger. But time is running out." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v78sq#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xzslq#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p019bjfl#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v8vnx.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v78th#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 7" ;
-                                                     ns0:position "7" ;
-                                                     ns0:pid "p00v78th" ;
-                                                     ns0:short_synopsis "The Doctor attempts to put a halt to the drilling project." ;
-                                                     ns0:medium_synopsis "The Doctor has escaped the doomed, parallel Earth and has returned to his own world where he attempts to put a halt to the drilling project." ;
-                                                     ns0:long_synopsis "The Doctor has escaped the doomed, parallel Earth and has returned to his own world where he attempts to put a halt to the drilling project." ;
-                                                     ns0:image_pid "p00v8vv9" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p019bjpg#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v8vv9" ;
+                                                     ns0:long_synopsis "The Doctor has escaped the doomed, parallel Earth and has returned to his own world where he attempts to put a halt to the drilling project." ;
+                                                     ns0:medium_synopsis "The Doctor has escaped the doomed, parallel Earth and has returned to his own world where he attempts to put a halt to the drilling project." ;
+                                                     ns0:pid "p00v78th" ;
+                                                     ns0:position "7" ;
+                                                     ns0:short_synopsis "The Doctor attempts to put a halt to the drilling project." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v78tj#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xzsw3#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p019bjpg#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v8vv9.jpg> .

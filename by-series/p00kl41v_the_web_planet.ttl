@@ -5,92 +5,92 @@
 
 <http://www.bbc.co.uk/programmes/p00kl41v#programme> rdf:type ns0:Series ;
                                                      dc:title "The Web Planet" ;
-                                                     ns0:position "5" ;
-                                                     ns0:pid "p00kl41v" ;
-                                                     ns0:short_synopsis "The TARDIS is dragged to the planet Vortis where the Doctor meets the deadly Zarbi!" ;
-                                                     ns0:medium_synopsis "The TARDIS is dragged down to the planet Vortis where the travellers discover an alien being known as the Animus has taken over the planet, enslaving the antlike Zarbi as soldiers." ;
-                                                     ns0:long_synopsis "The TARDIS is dragged down to the planet Vortis where the travellers discover an alien being known as the Animus has taken over the planet, enslaving the antlike Zarbi as soldiers." ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/p00v1qq5#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v1qqv#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v1qrh#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v1qs7#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v1qsz#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00v1qtp#programme> .
+                                                                 <http://www.bbc.co.uk/programmes/p00v1qtp#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:long_synopsis "The TARDIS is dragged down to the planet Vortis where the travellers discover an alien being known as the Animus has taken over the planet, enslaving the antlike Zarbi as soldiers." ;
+                                                     ns0:medium_synopsis "The TARDIS is dragged down to the planet Vortis where the travellers discover an alien being known as the Animus has taken over the planet, enslaving the antlike Zarbi as soldiers." ;
+                                                     ns0:pid "p00kl41v" ;
+                                                     ns0:position "5" ;
+                                                     ns0:short_synopsis "The TARDIS is dragged to the planet Vortis where the Doctor meets the deadly Zarbi!" .
 
 <http://www.bbc.co.uk/programmes/p00v1qq5#programme> rdf:type ns0:Episode ;
                                                      dc:title "The Web Planet " ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00v1qq5" ;
-                                                     ns0:short_synopsis "The TARDIS is drawn to the barren world of Vortis. The Doctor and Ian find an acid pool." ;
-                                                     ns0:medium_synopsis "The TARDIS is pulled down to the barren world of Vortis. The Doctor and Ian explore. Barbara falls under an hypnotic influence and is compelled to leave the safety of the TARDIS." ;
-                                                     ns0:image_pid "p00v1tj1" ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v1tj1" ;
+                                                     ns0:medium_synopsis "The TARDIS is pulled down to the barren world of Vortis. The Doctor and Ian explore. Barbara falls under an hypnotic influence and is compelled to leave the safety of the TARDIS." ;
+                                                     ns0:pid "p00v1qq5" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "The TARDIS is drawn to the barren world of Vortis. The Doctor and Ian find an acid pool." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v1qq6#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xzssn#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v1tj1.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v1qqv#programme> rdf:type ns0:Episode ;
                                                      dc:title "The Zarbi" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00v1qqv" ;
-                                                     ns0:short_synopsis "Rescued by the Menoptra, Barbara is then captured by the ant-like Zarbi. " ;
-                                                     ns0:medium_synopsis "Rescued by the Menoptra, Barbara is then captured by the ant-like Zarbi. The Doctor and Ian trace the missing TARDIS to a giant web city and encounter a mysterious intelligence." ;
-                                                     ns0:image_pid "p00v1tj8" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p011kxbx#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v1tj8" ;
+                                                     ns0:medium_synopsis "Rescued by the Menoptra, Barbara is then captured by the ant-like Zarbi. The Doctor and Ian trace the missing TARDIS to a giant web city and encounter a mysterious intelligence." ;
+                                                     ns0:pid "p00v1qqv" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "Rescued by the Menoptra, Barbara is then captured by the ant-like Zarbi. " ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v1qqw#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xzss3#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p011kxbx#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v1tj8.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v1qrh#programme> rdf:type ns0:Episode ;
                                                      dc:title "Escape to Danger" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00v1qrh" ;
-                                                     ns0:short_synopsis "The alien intelligence, the Animus, coerces the Doctor into tracking down the Menoptra." ;
-                                                     ns0:medium_synopsis "The alien intelligence, the Animus, coerces the Doctor into tracking down the  Menoptra. Ian escapes the Carsinome and joins forces with Vrestin, but the Zarbi are in pursuit." ;
-                                                     ns0:image_pid "p032j0hl" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p011ky7n#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p032j0hl" ;
+                                                     ns0:medium_synopsis "The alien intelligence, the Animus, coerces the Doctor into tracking down the  Menoptra. Ian escapes the Carsinome and joins forces with Vrestin, but the Zarbi are in pursuit." ;
+                                                     ns0:pid "p00v1qrh" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "The alien intelligence, the Animus, coerces the Doctor into tracking down the Menoptra." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v1qrj#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xzsln#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p011ky7n#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p032j0hl.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v1qs7#programme> rdf:type ns0:Episode ;
                                                      dc:title "Crater of Needles" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "p00v1qs7" ;
-                                                     ns0:short_synopsis "Ian and Vrestin fall into caverns beneath the surface of Vortis and encounter the Optera." ;
-                                                     ns0:medium_synopsis "Ian and Vrestin fall into caverns beneath the surface of Vortis and encounter the Optera. The Doctor finds the landing site of the Menoptra, and the Zarbi prepare to ambush them." ;
-                                                     ns0:image_pid "p00v1ttz" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p011kz2p#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v1ttz" ;
+                                                     ns0:medium_synopsis "Ian and Vrestin fall into caverns beneath the surface of Vortis and encounter the Optera. The Doctor finds the landing site of the Menoptra, and the Zarbi prepare to ambush them." ;
+                                                     ns0:pid "p00v1qs7" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "Ian and Vrestin fall into caverns beneath the surface of Vortis and encounter the Optera." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v1qs8#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xzsgq#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p011kz2p#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v1ttz.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v1qsz#programme> rdf:type ns0:Episode ;
                                                      dc:title "Invasion" ;
-                                                     ns0:position "5" ;
-                                                     ns0:pid "p00v1qsz" ;
-                                                     ns0:short_synopsis "Barbara and the Menoptra hide in temple. The Doctor and Vicki flee the Carsinome." ;
-                                                     ns0:medium_synopsis "Barbara and a few of the Menoptra hide in an ancient temple. The Doctor and Vicki escape the Carsinome and join forces with Barbara's group who are preparing to attack the Animus." ;
-                                                     ns0:image_pid "p00v1v0t" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p011l06h#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v1v0t" ;
+                                                     ns0:medium_synopsis "Barbara and a few of the Menoptra hide in an ancient temple. The Doctor and Vicki escape the Carsinome and join forces with Barbara's group who are preparing to attack the Animus." ;
+                                                     ns0:pid "p00v1qsz" ;
+                                                     ns0:position "5" ;
+                                                     ns0:short_synopsis "Barbara and the Menoptra hide in temple. The Doctor and Vicki flee the Carsinome." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v1qt0#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xzslx#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p011l06h#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v1v0t.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v1qtp#programme> rdf:type ns0:Episode ;
                                                      dc:title "The Centre" ;
-                                                     ns0:position "6" ;
-                                                     ns0:pid "p00v1qtp" ;
-                                                     ns0:short_synopsis "The Menoptra attack the Carsinome and the Doctor comes face-to-face with the Animus." ;
-                                                     ns0:medium_synopsis "The Menoptra attack the Carsinome and the Doctor and his friends come face-to-face with the Animus. The Isop-Top device is their only hope of destroying the alien creature. " ;
-                                                     ns0:image_pid "p00v1v1s" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p011l0s5#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v1v1s" ;
+                                                     ns0:medium_synopsis "The Menoptra attack the Carsinome and the Doctor and his friends come face-to-face with the Animus. The Isop-Top device is their only hope of destroying the alien creature. " ;
+                                                     ns0:pid "p00v1qtp" ;
+                                                     ns0:position "6" ;
+                                                     ns0:short_synopsis "The Menoptra attack the Carsinome and the Doctor comes face-to-face with the Animus." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v1qtq#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xzspg#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p011l0s5#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v1v1s.jpg> .

@@ -5,64 +5,64 @@
 
 <http://www.bbc.co.uk/programmes/p00sftwz#programme> rdf:type ns0:Series ;
                                                      dc:title "Castrovalva" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00sftwz" ;
-                                                     ns0:short_synopsis "The newly regenerated Doctor tries to avoid destruction within Event One." ;
-                                                     ns0:medium_synopsis "The newly regenerated Doctor falls into the Master's trap while trying to avoid destruction within Event One. To escape, the TARDIS heads to the world of Castrovalava." ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/p00v7crf#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v7cvp#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v7cy0#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00v7d0l#programme> .
+                                                                 <http://www.bbc.co.uk/programmes/p00v7d0l#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:medium_synopsis "The newly regenerated Doctor falls into the Master's trap while trying to avoid destruction within Event One. To escape, the TARDIS heads to the world of Castrovalava." ;
+                                                     ns0:pid "p00sftwz" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "The newly regenerated Doctor tries to avoid destruction within Event One." .
 
 <http://www.bbc.co.uk/programmes/p00v7crf#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 1" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00v7crf" ;
-                                                     ns0:short_synopsis "The Doctor tries to recuperate within the Zero Room." ;
-                                                     ns0:medium_synopsis "The Doctor tries to recuperate within the Zero Room, leaving Nyssa, Adric and Tegan to face the Master. Then Adric is taken and the TARDIS plunges towards Event One..." ;
-                                                     ns0:image_pid "p00vb920" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01kgcrt#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vb920" ;
+                                                     ns0:medium_synopsis "The Doctor tries to recuperate within the Zero Room, leaving Nyssa, Adric and Tegan to face the Master. Then Adric is taken and the TARDIS plunges towards Event One..." ;
+                                                     ns0:pid "p00v7crf" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "The Doctor tries to recuperate within the Zero Room." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v7crg#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02kx1jb#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01kgcrt#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vb920.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v7cvp#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 2" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00v7cvp" ;
-                                                     ns0:short_synopsis "The Zero Room is gone and the Doctor's regeneration is unstable." ;
-                                                     ns0:medium_synopsis "The Zero Room is gone and the Doctor's regeneration is dangerously unstable. To help him, Tegan locates the tranquil world of Castrovalva and the TARDIS heads there." ;
-                                                     ns0:image_pid "p00vb930" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01kgcwm#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vb930" ;
+                                                     ns0:medium_synopsis "The Zero Room is gone and the Doctor's regeneration is dangerously unstable. To help him, Tegan locates the tranquil world of Castrovalva and the TARDIS heads there." ;
+                                                     ns0:pid "p00v7cvp" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "The Zero Room is gone and the Doctor's regeneration is unstable." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v7cvq#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02kx33s#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01kgcwm#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vb930.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v7cy0#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 3" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00v7cy0" ;
-                                                     ns0:short_synopsis "Something is wrong with Castrovalva, but the Portreeve cannot help identify the problem." ;
-                                                     ns0:medium_synopsis "Something is wrong with Castrovalva, but the Portreeve cannot help the Doctor identify the problem. And the Master is taunting Adric, caught in his web of power…" ;
-                                                     ns0:image_pid "p00vb960" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01kgd17#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vb960" ;
+                                                     ns0:medium_synopsis "Something is wrong with Castrovalva, but the Portreeve cannot help the Doctor identify the problem. And the Master is taunting Adric, caught in his web of power…" ;
+                                                     ns0:pid "p00v7cy0" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "Something is wrong with Castrovalva, but the Portreeve cannot help identify the problem." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v7cy2#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02kx345#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01kgd17#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vb960.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v7d0l#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 4" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "p00v7d0l" ;
-                                                     ns0:short_synopsis "The Master's space/time trap is revealed, with Adric at its heart..." ;
-                                                     ns0:medium_synopsis "As recursive occlusion threatens to destroy everything and everyone in Castrovalva, the Master's space/time trap is revealed, with Adric at its heart..." ;
-                                                     ns0:image_pid "p00vb978" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01kggb2#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vb978" ;
+                                                     ns0:medium_synopsis "As recursive occlusion threatens to destroy everything and everyone in Castrovalva, the Master's space/time trap is revealed, with Adric at its heart..." ;
+                                                     ns0:pid "p00v7d0l" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "The Master's space/time trap is revealed, with Adric at its heart..." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v7d0m#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02kx3vh#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01kggb2#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vb978.jpg> .

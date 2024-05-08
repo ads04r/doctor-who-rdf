@@ -5,92 +5,92 @@
 
 <http://www.bbc.co.uk/programmes/p00r9wr6#programme> rdf:type ns0:Series ;
                                                      dc:title "The Armageddon Factor" ;
-                                                     ns0:position "6" ;
-                                                     ns0:pid "p00r9wr6" ;
-                                                     ns0:short_synopsis "In search of the final segment of the Key to Time, the TARDIS lands on planet Atrios." ;
-                                                     ns0:medium_synopsis "In search of the final segment of the Key to Time, the TARDIS takes the Doctor, Romana and K-9 to the planet Atrios which is engaged in a war with its neighbouring planet, Zeos." ;
-                                                     ns0:long_synopsis "In search of the final segment of the Key to Time, the TARDIS takes the Doctor, Romana and K-9 to the planet Atrios which is engaged in a war with its neighbouring planet, Zeos." ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/p00vfnyv#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00vfp0d#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00vfp1k#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00vfp3x#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00vfp5v#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00vfp6q#programme> .
+                                                                 <http://www.bbc.co.uk/programmes/p00vfp6q#programme> ;
+                                                     ns0:long_synopsis "In search of the final segment of the Key to Time, the TARDIS takes the Doctor, Romana and K-9 to the planet Atrios which is engaged in a war with its neighbouring planet, Zeos." ;
+                                                     ns0:medium_synopsis "In search of the final segment of the Key to Time, the TARDIS takes the Doctor, Romana and K-9 to the planet Atrios which is engaged in a war with its neighbouring planet, Zeos." ;
+                                                     ns0:pid "p00r9wr6" ;
+                                                     ns0:position "6" ;
+                                                     ns0:short_synopsis "In search of the final segment of the Key to Time, the TARDIS lands on planet Atrios." .
 
 <http://www.bbc.co.uk/programmes/p00vfnyv#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 1" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00vfnyv" ;
-                                                     ns0:short_synopsis "The quest continues as the TARDIS arrives on Atrios – a planet at war with Zeos." ;
-                                                     ns0:medium_synopsis "Looking for the final segment of the Key to Time, the Doctor and Romana arrive on the planet Atrios which is in a major nuclear war with the neighbouring world of Zeos." ;
-                                                     ns0:image_pid "p00vfvgq" ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vfvgq" ;
+                                                     ns0:medium_synopsis "Looking for the final segment of the Key to Time, the Doctor and Romana arrive on the planet Atrios which is in a major nuclear war with the neighbouring world of Zeos." ;
+                                                     ns0:pid "p00vfnyv" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "The quest continues as the TARDIS arrives on Atrios – a planet at war with Zeos." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vfnyx#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02zf871#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vfvgq.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00vfp0d#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 2" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00vfp0d" ;
-                                                     ns0:short_synopsis "The Marshal demands that the Doctor devise the ultimate deterrent against the Zeons." ;
-                                                     ns0:medium_synopsis "The Marshal demands that the Doctor devise the ultimate deterrent against the attacking Zeons. But the Doctor and Romana begin to suspect that the Marshal is being manipulated." ;
-                                                     ns0:long_synopsis "The Marshal demands that the Doctor devise the ultimate deterrent against the attacking Zeons. But who are theZeons? The Doctor and Romana begin to suspect that the Marshal is being manipulated." ;
-                                                     ns0:image_pid "p00vfvk3" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01gsxrk#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vfvk3" ;
+                                                     ns0:long_synopsis "The Marshal demands that the Doctor devise the ultimate deterrent against the attacking Zeons. But who are theZeons? The Doctor and Romana begin to suspect that the Marshal is being manipulated." ;
+                                                     ns0:medium_synopsis "The Marshal demands that the Doctor devise the ultimate deterrent against the attacking Zeons. But the Doctor and Romana begin to suspect that the Marshal is being manipulated." ;
+                                                     ns0:pid "p00vfp0d" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "The Marshal demands that the Doctor devise the ultimate deterrent against the Zeons." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vfp0f#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02zf8j2#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01gsxrk#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vfvk3.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00vfp1k#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 3" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00vfp1k" ;
-                                                     ns0:short_synopsis "As the Marshal prepares to launch his attack, the Doctor meets the commander of Zeos." ;
-                                                     ns0:medium_synopsis "Journeying to Zeos by transmat, the Doctor finds that it is an empty world. As the Marshal prepares to launch his final attack, the Doctor meets the commander of Zeos's forces." ;
-                                                     ns0:image_pid "p00vfvqh" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01gsyn5#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vfvqh" ;
+                                                     ns0:medium_synopsis "Journeying to Zeos by transmat, the Doctor finds that it is an empty world. As the Marshal prepares to launch his final attack, the Doctor meets the commander of Zeos's forces." ;
+                                                     ns0:pid "p00vfp1k" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "As the Marshal prepares to launch his attack, the Doctor meets the commander of Zeos." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vfp1l#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02zf99p#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01gsyn5#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vfvqh.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00vfp3x#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 4" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "p00vfp3x" ;
-                                                     ns0:short_synopsis "With Mentalis on a countdown to destruction, the Doctor takes desperate measures." ;
-                                                     ns0:medium_synopsis "With the Marshal poised to fire upon Zeos and the Mentalis computer on a countdown to destruction, the Doctor resorts to desperate measures to prevent a cataclysm." ;
-                                                     ns0:image_pid "p00vfvxg" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01gsytz#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vfvxg" ;
+                                                     ns0:medium_synopsis "With the Marshal poised to fire upon Zeos and the Mentalis computer on a countdown to destruction, the Doctor resorts to desperate measures to prevent a cataclysm." ;
+                                                     ns0:pid "p00vfp3x" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "With Mentalis on a countdown to destruction, the Doctor takes desperate measures." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vfp3y#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02zf9nl#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01gsytz#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vfvxg.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00vfp5v#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 5" ;
-                                                     ns0:position "5" ;
-                                                     ns0:pid "p00vfp5v" ;
-                                                     ns0:short_synopsis "The Doctor and Romana arrive in the lair of the Shadow, who also seeks the Key to Time." ;
-                                                     ns0:medium_synopsis "The Doctor and Romana arrive in the lair of the Shadow, servant of the Black Guardian, who also seeks the Key to Time.	" ;
-                                                     ns0:image_pid "p00vfw6b" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01gsz8c#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vfw6b" ;
+                                                     ns0:medium_synopsis "The Doctor and Romana arrive in the lair of the Shadow, servant of the Black Guardian, who also seeks the Key to Time.	" ;
+                                                     ns0:pid "p00vfp5v" ;
+                                                     ns0:position "5" ;
+                                                     ns0:short_synopsis "The Doctor and Romana arrive in the lair of the Shadow, who also seeks the Key to Time." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vfp5w#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02zf9s6#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01gsz8c#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vfw6b.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00vfp6q#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 6" ;
-                                                     ns0:position "6" ;
-                                                     ns0:pid "p00vfp6q" ;
-                                                     ns0:short_synopsis "The tragic truth of the sixth segment of the Key to Time is revealed." ;
-                                                     ns0:medium_synopsis "The tragic truth of the sixth segment of the Key to Time is revealed and if the Black Guardian can control the Key, the whole of time and space will be plunged into eternal chaos." ;
-                                                     ns0:image_pid "p00vfwb7" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01gszfn#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vfwb7" ;
+                                                     ns0:medium_synopsis "The tragic truth of the sixth segment of the Key to Time is revealed and if the Black Guardian can control the Key, the whole of time and space will be plunged into eternal chaos." ;
+                                                     ns0:pid "p00vfp6q" ;
+                                                     ns0:position "6" ;
+                                                     ns0:short_synopsis "The tragic truth of the sixth segment of the Key to Time is revealed." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vfp6r#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02zf9yq#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01gszfn#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vfwb7.jpg> .

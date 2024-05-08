@@ -5,68 +5,68 @@
 
 <http://www.bbc.co.uk/programmes/p00sfvdk#programme> rdf:type ns0:Series ;
                                                      dc:title "Arc of Infinity" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00sfvdk" ;
-                                                     ns0:short_synopsis "Omega has returned and sworn revenge on Gallifrey." ;
-                                                     ns0:medium_synopsis "Omega has returned and sworn revenge on Gallifrey. Linking his bio signature to that of the Doctor, Omega begins to transfer his physical body into our universe..." ;
-                                                     ns0:long_synopsis "Omega has returned and sworn revenge on Gallifrey. Linking his bio signature to that of the Doctor, Omega begins to transfer his physical body into our universe..." ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/p00v9dcz#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v9dyh#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v9f1f#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00v9fbz#programme> .
+                                                                 <http://www.bbc.co.uk/programmes/p00v9fbz#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:long_synopsis "Omega has returned and sworn revenge on Gallifrey. Linking his bio signature to that of the Doctor, Omega begins to transfer his physical body into our universe..." ;
+                                                     ns0:medium_synopsis "Omega has returned and sworn revenge on Gallifrey. Linking his bio signature to that of the Doctor, Omega begins to transfer his physical body into our universe..." ;
+                                                     ns0:pid "p00sfvdk" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "Omega has returned and sworn revenge on Gallifrey." .
 
 <http://www.bbc.co.uk/programmes/p00v9dcz#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 1" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00v9dcz" ;
-                                                     ns0:short_synopsis "The Doctor and Nyssa trace something odd to Amsterdam…" ;
-                                                     ns0:medium_synopsis "During a clandestine meeting on Gallifrey, the Doctor has been chosen to be a part of a terrible act. Unaware, the Doctor and Nyssa trace something odd to Amsterdam…" ;
-                                                     ns0:image_pid "p00v9kkf" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01kqtb7#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01kqtgm#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v9kkf" ;
+                                                     ns0:medium_synopsis "During a clandestine meeting on Gallifrey, the Doctor has been chosen to be a part of a terrible act. Unaware, the Doctor and Nyssa trace something odd to Amsterdam…" ;
+                                                     ns0:pid "p00v9dcz" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "The Doctor and Nyssa trace something odd to Amsterdam…" ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v9dd0#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02nx62y#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01kqtgm#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p01kqtb7#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v9kkf.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v9dyh#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 2" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00v9dyh" ;
-                                                     ns0:short_synopsis "Commander Maxil doesn't believe the Doctor is innocent." ;
-                                                     ns0:medium_synopsis "Commander Maxil doesn't believe the Doctor is innocent and reckons the easiest way to stop the evil being reborn on Gallifrey would be to kill him before the bonding can occur..." ;
-                                                     ns0:image_pid "p00v9km1" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01kqvgc#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01kqwmx#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v9km1" ;
+                                                     ns0:medium_synopsis "Commander Maxil doesn't believe the Doctor is innocent and reckons the easiest way to stop the evil being reborn on Gallifrey would be to kill him before the bonding can occur..." ;
+                                                     ns0:pid "p00v9dyh" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "Commander Maxil doesn't believe the Doctor is innocent." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v9dyj#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02nx6y7#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01kqwmx#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p01kqvgc#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v9km1.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v9f1f#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 3" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00v9f1f" ;
-                                                     ns0:short_synopsis "Within the Matrix, the Doctor unmasks Omega and realises the threat is far from over..." ;
-                                                     ns0:medium_synopsis "President Borusa thinks the creature has been defeated but within the Matrix, the Doctor unmasks Omega and realises the threat to the matter universe is far from over..." ;
-                                                     ns0:image_pid "p00v9kw1" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01kqx44#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v9kw1" ;
+                                                     ns0:medium_synopsis "President Borusa thinks the creature has been defeated but within the Matrix, the Doctor unmasks Omega and realises the threat to the matter universe is far from over..." ;
+                                                     ns0:pid "p00v9f1f" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "Within the Matrix, the Doctor unmasks Omega and realises the threat is far from over..." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v9f1g#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02nx6wt#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01kqx44#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v9kw1.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v9fbz#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 4" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "p00v9fbz" ;
-                                                     ns0:short_synopsis "Omega has been reborn but as a walking anti-matter bomb." ;
-                                                     ns0:medium_synopsis "Omega has been reborn in Amsterdam in the Doctor's form, but the transference hasn't worked. The Doctor pursues him through the city, aware Omega is now a walking anti-matter bomb." ;
-                                                     ns0:image_pid "p00v9ljd" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01kqxj5#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01kqxp1#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v9ljd" ;
+                                                     ns0:medium_synopsis "Omega has been reborn in Amsterdam in the Doctor's form, but the transference hasn't worked. The Doctor pursues him through the city, aware Omega is now a walking anti-matter bomb." ;
+                                                     ns0:pid "p00v9fbz" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "Omega has been reborn but as a walking anti-matter bomb." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v9fc0#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02nx7m1#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01kqxp1#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p01kqxj5#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v9ljd.jpg> .

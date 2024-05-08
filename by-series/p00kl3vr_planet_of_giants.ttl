@@ -5,49 +5,49 @@
 
 <http://www.bbc.co.uk/programmes/p00kl3vr#programme> rdf:type ns0:Series ;
                                                      dc:title "Planet of Giants" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00kl3vr" ;
-                                                     ns0:short_synopsis "The TARDIS doors open before it has materialised causing it and everyone inside to shrink." ;
-                                                     ns0:medium_synopsis "The TARDIS doors open before it has materialised causing it, and everyone inside, to shrink. Landing in an English garden, the travellers discover that they are only an inch tall." ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/p00v1q48#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v1q54#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00v1q88#programme> .
+                                                                 <http://www.bbc.co.uk/programmes/p00v1q88#programme> ;
+                                                     ns0:medium_synopsis "The TARDIS doors open before it has materialised causing it, and everyone inside, to shrink. Landing in an English garden, the travellers discover that they are only an inch tall." ;
+                                                     ns0:pid "p00kl3vr" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "The TARDIS doors open before it has materialised causing it and everyone inside to shrink." .
 
 <http://www.bbc.co.uk/programmes/p00v1q48#programme> rdf:type ns0:Episode ;
                                                      dc:title "Planet of Giants " ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00v1q48" ;
-                                                     ns0:short_synopsis "An accident in flight leads to the TARDIS and the travellers being miniaturised." ;
-                                                     ns0:medium_synopsis "An accident in flight leads to the TARDIS and the travellers being miniaturised. Now only an inch high, the Doctor, Barbara, Ian and Susan explore an English country garden." ;
-                                                     ns0:image_pid "p00v0xsr" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p011klrp#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v0xsr" ;
+                                                     ns0:medium_synopsis "An accident in flight leads to the TARDIS and the travellers being miniaturised. Now only an inch high, the Doctor, Barbara, Ian and Susan explore an English country garden." ;
+                                                     ns0:pid "p00v1q48" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "An accident in flight leads to the TARDIS and the travellers being miniaturised." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v1q49#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p030p9x7#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p011klrp#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v0xsr.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v1q54#programme> rdf:type ns0:Episode ;
                                                      dc:title "Dangerous Journey" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00v1q54" ;
-                                                     ns0:short_synopsis "After witnessing Forrester murder Farrow, the Doctor and Susan are trapped in a plughole." ;
-                                                     ns0:medium_synopsis "The Doctor and his friends witness Forrester murder Arnold Farrow. Ian and Barbara watch as one of the 'giants' empties the sink in which the Doctor and Susan are hiding." ;
-                                                     ns0:image_pid "p00v0xvf" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p011klw0#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v0xvf" ;
+                                                     ns0:medium_synopsis "The Doctor and his friends witness Forrester murder Arnold Farrow. Ian and Barbara watch as one of the 'giants' empties the sink in which the Doctor and Susan are hiding." ;
+                                                     ns0:pid "p00v1q54" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "After witnessing Forrester murder Farrow, the Doctor and Susan are trapped in a plughole." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v1q55#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p030p9p0#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p011klw0#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v0xvf.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v1q88#programme> rdf:type ns0:Episode ;
                                                      dc:title "Crisis" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00v1q88" ;
-                                                     ns0:short_synopsis "Barbara has been infected by the deadly insecticide but keeps her condition secret." ;
-                                                     ns0:medium_synopsis "Barbara has been infected by the deadly insecticide but keeps her condition secret. Despite their small size, the travellers attempt to alert the authorities to Farrow's murder." ;
-                                                     ns0:image_pid "p00v0xxq" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p011km0q#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v0xxq" ;
+                                                     ns0:medium_synopsis "Barbara has been infected by the deadly insecticide but keeps her condition secret. Despite their small size, the travellers attempt to alert the authorities to Farrow's murder." ;
+                                                     ns0:pid "p00v1q88" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "Barbara has been infected by the deadly insecticide but keeps her condition secret." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v1q8c#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p030p7b5#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p011km0q#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v0xxq.jpg> .

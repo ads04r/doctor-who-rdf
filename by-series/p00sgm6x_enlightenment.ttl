@@ -5,66 +5,66 @@
 
 <http://www.bbc.co.uk/programmes/p00sgm6x#programme> rdf:type ns0:Series ;
                                                      dc:title "Enlightenment" ;
-                                                     ns0:position "5" ;
-                                                     ns0:pid "p00sgm6x" ;
-                                                     ns0:short_synopsis "The Eternals are having a space race, but one works for the Black Guardian..." ;
-                                                     ns0:medium_synopsis "The Eternals, bored of their existence, have challenged each other to a space race in ships crewed by ephemerals. But one of the Eternals is working for the Black Guardian..." ;
-                                                     ns0:long_synopsis "The Eternals, bored of their existence, have challenged each other to a space race in ships crewed by ephemerals. But one of the Eternals is working for the Black Guardian..." ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/p00v9hwl#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v9hxs#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v9j0y#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00v9j26#programme> .
+                                                                 <http://www.bbc.co.uk/programmes/p00v9j26#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:long_synopsis "The Eternals, bored of their existence, have challenged each other to a space race in ships crewed by ephemerals. But one of the Eternals is working for the Black Guardian..." ;
+                                                     ns0:medium_synopsis "The Eternals, bored of their existence, have challenged each other to a space race in ships crewed by ephemerals. But one of the Eternals is working for the Black Guardian..." ;
+                                                     ns0:pid "p00sgm6x" ;
+                                                     ns0:position "5" ;
+                                                     ns0:short_synopsis "The Eternals are having a space race, but one works for the Black Guardian..." .
 
 <http://www.bbc.co.uk/programmes/p00v9hwl#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 1" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00v9hwl" ;
-                                                     ns0:short_synopsis "The Doctor receives a dire warning from the White Guardian." ;
-                                                     ns0:medium_synopsis "The TARDIS's power is drained away just as the Doctor receives a dire warning from the White Guardian. He soon finds himself drawn into a strange race through the stars..." ;
-                                                     ns0:image_pid "p00vb8nn" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01l4dzb#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vb8nn" ;
+                                                     ns0:medium_synopsis "The TARDIS's power is drained away just as the Doctor receives a dire warning from the White Guardian. He soon finds himself drawn into a strange race through the stars..." ;
+                                                     ns0:pid "p00v9hwl" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "The Doctor receives a dire warning from the White Guardian." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v9hwm#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p0498bnq#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01l4dzb#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vb8nn.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v9hxs#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 2" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00v9hxs" ;
-                                                     ns0:short_synopsis "The Doctor realises that Striker is an Eternal and that the crew mean nothing to him." ;
-                                                     ns0:medium_synopsis "While Tegan has to cope with the unwelcome attention of Marriner, the Doctor realises that Striker and his officers are Eternals and that the human crew mean nothing to them..." ;
-                                                     ns0:image_pid "p00vb8tq" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01l4fcy#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vb8tq" ;
+                                                     ns0:medium_synopsis "While Tegan has to cope with the unwelcome attention of Marriner, the Doctor realises that Striker and his officers are Eternals and that the human crew mean nothing to them..." ;
+                                                     ns0:pid "p00v9hxs" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "The Doctor realises that Striker is an Eternal and that the crew mean nothing to him." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v9hxv#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p0498bpl#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01l4fcy#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vb8tq.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v9j0y#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 3" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00v9j0y" ;
-                                                     ns0:short_synopsis "During an Eternals party Captain Wrack places a bomb aboard Striker's ship." ;
-                                                     ns0:medium_synopsis "Captain Wrack manipulates Turlough, because she is also working for the Black Guardian. During an Eternals party she places a bomb aboard Striker's ship." ;
-                                                     ns0:image_pid "p00vb8w4" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01l4g05#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01l4gj3#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vb8w4" ;
+                                                     ns0:medium_synopsis "Captain Wrack manipulates Turlough, because she is also working for the Black Guardian. During an Eternals party she places a bomb aboard Striker's ship." ;
+                                                     ns0:pid "p00v9j0y" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "During an Eternals party Captain Wrack places a bomb aboard Striker's ship." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v9j0z#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p0498bsn#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01l4gj3#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p01l4g05#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vb8w4.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v9j26#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 4" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "p00v9j26" ;
-                                                     ns0:short_synopsis "Turlough must make a decision and it's one the Doctor and Tegan cannot help with." ;
-                                                     ns0:medium_synopsis "The race for the Enlightenment is over and a winner has been crowned. But Turlough must make a decision and it's one the Doctor and Tegan cannot help him with..." ;
-                                                     ns0:image_pid "p00vb91s" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01l6xdm#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vb91s" ;
+                                                     ns0:medium_synopsis "The race for the Enlightenment is over and a winner has been crowned. But Turlough must make a decision and it's one the Doctor and Tegan cannot help him with..." ;
+                                                     ns0:pid "p00v9j26" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "Turlough must make a decision and it's one the Doctor and Tegan cannot help with." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v9j29#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p0498bwg#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01l6xdm#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vb91s.jpg> .

@@ -5,51 +5,51 @@
 
 <http://www.bbc.co.uk/programmes/p00t7h6c#programme> rdf:type ns0:Series ;
                                                      dc:title "Silver Nemesis" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00t7h6c" ;
-                                                     ns0:short_synopsis "Cybermen, neo-Nazis and time travellers all want to control the Nemesis Statue." ;
-                                                     ns0:medium_synopsis "The Nemesis Statue was built from the living metal, Validium. Cybermen, neo-Nazis and time travellers all want to control it.  And Nemesis knows all the Doctor's secrets..." ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/p00v922n#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v923v#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00v9265#programme> .
+                                                                 <http://www.bbc.co.uk/programmes/p00v9265#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:medium_synopsis "The Nemesis Statue was built from the living metal, Validium. Cybermen, neo-Nazis and time travellers all want to control it.  And Nemesis knows all the Doctor's secrets..." ;
+                                                     ns0:pid "p00t7h6c" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "Cybermen, neo-Nazis and time travellers all want to control the Nemesis Statue." .
 
 <http://www.bbc.co.uk/programmes/p00v922n#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 1" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00v922n" ;
-                                                     ns0:short_synopsis "Neo-Nazis are seeking the Nemesis Statue – as are Cybermen and Lady Peinforte." ;
-                                                     ns0:medium_synopsis "A group of neo-Nazis in South America are seeking the Nemesis Statue – as is a shuttle full of Cybermen and the mysterious Lady Peinforte from the 17th century." ;
-                                                     ns0:image_pid "p00v9hbh" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01zf87z#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01zf8mx#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v9hbh" ;
+                                                     ns0:medium_synopsis "A group of neo-Nazis in South America are seeking the Nemesis Statue – as is a shuttle full of Cybermen and the mysterious Lady Peinforte from the 17th century." ;
+                                                     ns0:pid "p00v922n" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "Neo-Nazis are seeking the Nemesis Statue – as are Cybermen and Lady Peinforte." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v922p#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xmkbm#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01zf8mx#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p01zf87z#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v9hbh.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v923v#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 2" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00v923v" ;
-                                                     ns0:short_synopsis "The Cybermen have the Nemesis Statue but Lady Peinforte and Richard fight back." ;
-                                                     ns0:medium_synopsis "The Cybermen have the Nemesis Statue but Lady Peinforte and Richard fight back using gold-tipped arrows. Meanwhile, De Flores still has a plan to set in motion." ;
-                                                     ns0:image_pid "p00v9hj6" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01zf92d#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v9hj6" ;
+                                                     ns0:medium_synopsis "The Cybermen have the Nemesis Statue but Lady Peinforte and Richard fight back using gold-tipped arrows. Meanwhile, De Flores still has a plan to set in motion." ;
+                                                     ns0:pid "p00v923v" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "The Cybermen have the Nemesis Statue but Lady Peinforte and Richard fight back." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v923w#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xmkbk#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01zf92d#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v9hj6.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v9265#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 3" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00v9265" ;
-                                                     ns0:short_synopsis "The Nemesis Statue is alive and claims it has secrets to reveal..." ;
-                                                     ns0:medium_synopsis "The Nemesis Statue is alive, thanks to Lady Peinforte's insanity, and with De Flores's Nazis wiped out by the Cybermen, Nemesis claims it has secrets to reveal..." ;
-                                                     ns0:image_pid "p00v9hn4" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01zf9gz#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v9hn4" ;
+                                                     ns0:medium_synopsis "The Nemesis Statue is alive, thanks to Lady Peinforte's insanity, and with De Flores's Nazis wiped out by the Cybermen, Nemesis claims it has secrets to reveal..." ;
+                                                     ns0:pid "p00v9265" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "The Nemesis Statue is alive and claims it has secrets to reveal..." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v9266#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xmkd8#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01zf9gz#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v9hn4.jpg> .

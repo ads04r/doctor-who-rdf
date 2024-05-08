@@ -5,64 +5,64 @@
 
 <http://www.bbc.co.uk/programmes/p00pyrsk#programme> rdf:type ns0:Series ;
                                                      dc:title "Terror of the Zygons" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00pyrsk" ;
-                                                     ns0:short_synopsis "Oil rigs off Scotland are being attacked by a huge creature... the Loch Ness Monster?" ;
-                                                     ns0:medium_synopsis "Oil rigs off the coast of Scotland are being attacked by a huge creature… The Doctor returns to Earth, responding to a summons from the Brigadier who asks him to investigate." ;
-                                                     ns0:long_synopsis "Oil rigs off the coast of Scotland are being attacked by a huge creature… The Doctor returns to Earth, responding to a summons from the Brigadier who asks him to investigate." ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/p00vf189#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00vf1d9#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00vf1fg#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00vf1hj#programme> .
+                                                                 <http://www.bbc.co.uk/programmes/p00vf1hj#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:long_synopsis "Oil rigs off the coast of Scotland are being attacked by a huge creature… The Doctor returns to Earth, responding to a summons from the Brigadier who asks him to investigate." ;
+                                                     ns0:medium_synopsis "Oil rigs off the coast of Scotland are being attacked by a huge creature… The Doctor returns to Earth, responding to a summons from the Brigadier who asks him to investigate." ;
+                                                     ns0:pid "p00pyrsk" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "Oil rigs off Scotland are being attacked by a huge creature... the Loch Ness Monster?" .
 
 <http://www.bbc.co.uk/programmes/p00vf189#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 1" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00vf189" ;
-                                                     ns0:short_synopsis "Something is destroying oil rigs off the coast of Scotland. UNIT investigates!" ;
-                                                     ns0:medium_synopsis "The Doctor, Sarah and Harry return to Earth to help the Brigadier discover what is causing the destruction of oil rigs off the coast of Scotland. " ;
-                                                     ns0:image_pid "p00vg0j6" ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
-                                                     ns0:version <http://www.bbc.co.uk/programmes/p00vf18b#programme> ;
                                                      ns0:clip <http://www.bbc.co.uk/programmes/p01crqtd#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vg0j6" ;
+                                                     ns0:medium_synopsis "The Doctor, Sarah and Harry return to Earth to help the Brigadier discover what is causing the destruction of oil rigs off the coast of Scotland. " ;
+                                                     ns0:pid "p00vf189" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "Something is destroying oil rigs off the coast of Scotland. UNIT investigates!" ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00vf18b#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vg0j6.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00vf1d9#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 2" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00vf1d9" ;
-                                                     ns0:short_synopsis "Sarah is attacked by a Zygon disguised as Harry.	" ;
-                                                     ns0:medium_synopsis "Sarah is attacked by a Zygon disguised as Harry whilst the Doctor falls into a trap and is hunted by the giant Skarasen. Meanwhile Harry is held prisoner on the Zygon spaceship." ;
-                                                     ns0:image_pid "p00vg0sp" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01crr35#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vg0sp" ;
+                                                     ns0:medium_synopsis "Sarah is attacked by a Zygon disguised as Harry whilst the Doctor falls into a trap and is hunted by the giant Skarasen. Meanwhile Harry is held prisoner on the Zygon spaceship." ;
+                                                     ns0:pid "p00vf1d9" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "Sarah is attacked by a Zygon disguised as Harry.	" ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vf1db#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p0497y4t#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01crr35#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vg0sp.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00vf1fg#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 3" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00vf1fg" ;
-                                                     ns0:short_synopsis "The Doctor and Sarah find their way into the Zygon spaceship at the bottom of Loch Ness." ;
-                                                     ns0:medium_synopsis "The Doctor and Sarah find their way into the Zygon spaceship at the bottom of Loch Ness while the Brigadier prepares to force it to the surface with depth charges." ;
-                                                     ns0:image_pid "p00vg0xy" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01crr61#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vg0xy" ;
+                                                     ns0:medium_synopsis "The Doctor and Sarah find their way into the Zygon spaceship at the bottom of Loch Ness while the Brigadier prepares to force it to the surface with depth charges." ;
+                                                     ns0:pid "p00vf1fg" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "The Doctor and Sarah find their way into the Zygon spaceship at the bottom of Loch Ness." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vf1fh#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p0497z5n#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01crr61#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vg0xy.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00vf1hj#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 4" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "p00vf1hj" ;
-                                                     ns0:short_synopsis "Broton the Zygon warlord intends to use the Skarasen to attack London." ;
-                                                     ns0:medium_synopsis "Broton the Zygon warlord, disguised as the Duke of Forgill, intends to use the Skarasen to attack the World Energy Conference in London." ;
-                                                     ns0:image_pid "p00vh3z0" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01crrpx#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vh3z0" ;
+                                                     ns0:medium_synopsis "Broton the Zygon warlord, disguised as the Duke of Forgill, intends to use the Skarasen to attack the World Energy Conference in London." ;
+                                                     ns0:pid "p00vf1hj" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "Broton the Zygon warlord intends to use the Skarasen to attack London." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vf1hk#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p0497z7b#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01crrpx#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vh3z0.jpg> .

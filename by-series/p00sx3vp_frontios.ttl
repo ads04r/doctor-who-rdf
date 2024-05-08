@@ -5,64 +5,64 @@
 
 <http://www.bbc.co.uk/programmes/p00sx3vp#programme> rdf:type ns0:Series ;
                                                      dc:title "Frontios" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00sx3vp" ;
-                                                     ns0:short_synopsis "Something from Turlough's past is returning to destroy all life on Frontios." ;
-                                                     ns0:medium_synopsis "Has the TARDIS been destroyed on Frontios? The truth lies below the surface as Turlough senses something from his people's past is returning to destroy all life on the surface." ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/p00v8y62#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v8y78#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v8y82#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00v8ytz#programme> .
+                                                                 <http://www.bbc.co.uk/programmes/p00v8ytz#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:medium_synopsis "Has the TARDIS been destroyed on Frontios? The truth lies below the surface as Turlough senses something from his people's past is returning to destroy all life on the surface." ;
+                                                     ns0:pid "p00sx3vp" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "Something from Turlough's past is returning to destroy all life on Frontios." .
 
 <http://www.bbc.co.uk/programmes/p00v8y62#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 1" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00v8y62" ;
-                                                     ns0:short_synopsis "It appears the TARDIS has been destroyed on Frontios!" ;
-                                                     ns0:medium_synopsis "Captain Revere is the latest victim to be sucked beneath the surface of Frontios, leaving the young Plantagenet to run the colony. The TARDIS has also been 'destroyed'..." ;
-                                                     ns0:image_pid "p00vbwbx" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01ldgkz#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vbwbx" ;
+                                                     ns0:medium_synopsis "Captain Revere is the latest victim to be sucked beneath the surface of Frontios, leaving the young Plantagenet to run the colony. The TARDIS has also been 'destroyed'..." ;
+                                                     ns0:pid "p00v8y62" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "It appears the TARDIS has been destroyed on Frontios!" ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v8y63#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02p5rpc#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01ldgkz#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vbwbx.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v8y78#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 2" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00v8y78" ;
-                                                     ns0:short_synopsis "The Doctor faces the malevolent Tractators while revolution brews in the colony." ;
-                                                     ns0:medium_synopsis "Trying to discover why Frontios is being attacked from both above and below, the Doctor faces the malevolent Tractators while revolution brews in the colony..." ;
-                                                     ns0:image_pid "p00vbwjl" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01ldhhk#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vbwjl" ;
+                                                     ns0:medium_synopsis "Trying to discover why Frontios is being attacked from both above and below, the Doctor faces the malevolent Tractators while revolution brews in the colony..." ;
+                                                     ns0:pid "p00v8y78" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "The Doctor faces the malevolent Tractators while revolution brews in the colony." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v8y79#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02p5rtq#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01ldhhk#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vbwjl.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v8y82#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 3" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00v8y82" ;
-                                                     ns0:short_synopsis "Turlough's race memories of the Frontios threaten to overwhelm him." ;
-                                                     ns0:medium_synopsis "Turlough's race memories of the Frontios threaten to overwhelm him as the Doctor finally convinces Brazen that the threat from underground is very real..." ;
-                                                     ns0:image_pid "p00vbwmn" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01ldj15#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vbwmn" ;
+                                                     ns0:medium_synopsis "Turlough's race memories of the Frontios threaten to overwhelm him as the Doctor finally convinces Brazen that the threat from underground is very real..." ;
+                                                     ns0:pid "p00v8y82" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "Turlough's race memories of the Frontios threaten to overwhelm him." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v8y83#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02p5t8t#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01ldj15#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vbwmn.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v8ytz#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part:4" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "p00v8ytz" ;
-                                                     ns0:short_synopsis "The Doctor has to find a way to break the Tractators' hold over Frontios." ;
-                                                     ns0:medium_synopsis "The Doctor manipulates the Gravis into restoring the TARDIS. But he must find a way to break the Tractators' hold over Frontios before they wipe out all life on the surface." ;
-                                                     ns0:image_pid "p00vbwtx" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01ldj7b#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vbwtx" ;
+                                                     ns0:medium_synopsis "The Doctor manipulates the Gravis into restoring the TARDIS. But he must find a way to break the Tractators' hold over Frontios before they wipe out all life on the surface." ;
+                                                     ns0:pid "p00v8ytz" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "The Doctor has to find a way to break the Tractators' hold over Frontios." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v8yv0#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02p5t85#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01ldj7b#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vbwtx.jpg> .

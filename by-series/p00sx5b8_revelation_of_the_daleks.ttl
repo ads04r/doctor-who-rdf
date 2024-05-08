@@ -5,35 +5,35 @@
 
 <http://www.bbc.co.uk/programmes/p00sx5b8#programme> rdf:type ns0:Series ;
                                                      dc:title "Revelation of the Daleks" ;
-                                                     ns0:position "6" ;
-                                                     ns0:pid "p00sx5b8" ;
-                                                     ns0:short_synopsis "Davros now calls himself the Great Healer but is really turning humans into Daleks." ;
-                                                     ns0:medium_synopsis "On the planet Necros, Davros is turning humans into Daleks. The Doctor must deal with assassins, morticians and two factions of Daleks to stop Davros's latest insane scheme." ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/p00vbc69#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00vbc8h#programme> .
+                                                                 <http://www.bbc.co.uk/programmes/p00vbc8h#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:medium_synopsis "On the planet Necros, Davros is turning humans into Daleks. The Doctor must deal with assassins, morticians and two factions of Daleks to stop Davros's latest insane scheme." ;
+                                                     ns0:pid "p00sx5b8" ;
+                                                     ns0:position "6" ;
+                                                     ns0:short_synopsis "Davros now calls himself the Great Healer but is really turning humans into Daleks." .
 
 <http://www.bbc.co.uk/programmes/p00vbc69#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 1" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00vbc69" ;
-                                                     ns0:short_synopsis "Tranquil Repose isn't the simple funeral home it appears to be - it is run by Davros." ;
-                                                     ns0:medium_synopsis "Tranquil Repose isn't the simple funeral home it appears to be - it is run by the Great Healer or, as the Doctor knows him, Davros, who is using the bodies for his own ends..." ;
-                                                     ns0:image_pid "p00vbsp9" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01lwt53#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vbsp9" ;
+                                                     ns0:medium_synopsis "Tranquil Repose isn't the simple funeral home it appears to be - it is run by the Great Healer or, as the Doctor knows him, Davros, who is using the bodies for his own ends..." ;
+                                                     ns0:pid "p00vbc69" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "Tranquil Repose isn't the simple funeral home it appears to be - it is run by Davros." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vbc6b#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p04yjs1c#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01lwt53#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vbsp9.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00vbc8h#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 2" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00vbc8h" ;
-                                                     ns0:short_synopsis "Davros plans to create an army of Daleks loyal to him but the Daleks have other plans." ;
-                                                     ns0:medium_synopsis "Davros plans to create an army of Daleks loyal only to him but on Skaro, the Daleks have other plans and head to Necros. Caught in the middle of this, the Doctor must save Peri..." ;
-                                                     ns0:image_pid "p00vbssc" ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
-                                                     ns0:version <http://www.bbc.co.uk/programmes/p00vbc8j#programme> ;
                                                      ns0:clip <http://www.bbc.co.uk/programmes/p01lwtj9#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vbssc" ;
+                                                     ns0:medium_synopsis "Davros plans to create an army of Daleks loyal only to him but on Skaro, the Daleks have other plans and head to Necros. Caught in the middle of this, the Doctor must save Peri..." ;
+                                                     ns0:pid "p00vbc8h" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "Davros plans to create an army of Daleks loyal to him but the Daleks have other plans." ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00vbc8j#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vbssc.jpg> .

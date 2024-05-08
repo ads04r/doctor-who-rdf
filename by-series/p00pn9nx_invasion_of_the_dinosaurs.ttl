@@ -5,92 +5,92 @@
 
 <http://www.bbc.co.uk/programmes/p00pn9nx#programme> rdf:type ns0:Series ;
                                                      dc:title "Invasion of the Dinosaurs" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00pn9nx" ;
-                                                     ns0:short_synopsis "Landing in London the Doctor and Sarah are puzzled to find the city deserted." ;
-                                                     ns0:medium_synopsis "Landing in London the Doctor and Sarah are puzzled to find the city deserted. Arrested as looters, they are eventually found by the Brigadier and brought to UNIT HQ." ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/p00v7b6q#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v7b8f#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v7b9p#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v7bbk#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v7bct#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00v7bg8#programme> .
+                                                                 <http://www.bbc.co.uk/programmes/p00v7bg8#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:medium_synopsis "Landing in London the Doctor and Sarah are puzzled to find the city deserted. Arrested as looters, they are eventually found by the Brigadier and brought to UNIT HQ." ;
+                                                     ns0:pid "p00pn9nx" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "Landing in London the Doctor and Sarah are puzzled to find the city deserted." .
 
 <http://www.bbc.co.uk/programmes/p00v7b6q#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 1" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00v7b6q" ;
-                                                     ns0:short_synopsis "The Doctor and Sarah return to London but find the city deserted." ;
-                                                     ns0:medium_synopsis "The Doctor and Sarah return in the TARDIS to present day London but are mystified when they find the city deserted." ;
-                                                     ns0:image_pid "p00vfpqc" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01c6xk4#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vfpqc" ;
+                                                     ns0:medium_synopsis "The Doctor and Sarah return in the TARDIS to present day London but are mystified when they find the city deserted." ;
+                                                     ns0:pid "p00v7b6q" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "The Doctor and Sarah return to London but find the city deserted." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v7b6r#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02zf9fp#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01c6xk4#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vfpqc.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v7b8f#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 2" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00v7b8f" ;
-                                                     ns0:short_synopsis "The Doctor plans to capture a dinosaur and discover who is bringing them through time. " ;
-                                                     ns0:medium_synopsis "The Doctor plans to capture a dinosaur so he can discover who is transporting them through time. But Mike Yates is in league with the enemy and is ordered to stop the Doctor." ;
-                                                     ns0:image_pid "p00vfpvz" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01c6xpx#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vfpvz" ;
+                                                     ns0:medium_synopsis "The Doctor plans to capture a dinosaur so he can discover who is transporting them through time. But Mike Yates is in league with the enemy and is ordered to stop the Doctor." ;
+                                                     ns0:pid "p00v7b8f" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "The Doctor plans to capture a dinosaur and discover who is bringing them through time. " ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v7b8g#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02zf874#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01c6xpx#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vfpvz.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v7b9p#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 3" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00v7b9p" ;
-                                                     ns0:short_synopsis "The Doctor captures a Tyrannosaurus Rex as Sarah falls into enemy hands." ;
-                                                     ns0:medium_synopsis "The Doctor has captured a Tyrannosaurus Rex but the conspirators don't want it to remain captive for long. Sarah follows a lead but finds herself in the hands of the enemy." ;
-                                                     ns0:image_pid "p00vfq08" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01c6ymf#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vfq08" ;
+                                                     ns0:medium_synopsis "The Doctor has captured a Tyrannosaurus Rex but the conspirators don't want it to remain captive for long. Sarah follows a lead but finds herself in the hands of the enemy." ;
+                                                     ns0:pid "p00v7b9p" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "The Doctor captures a Tyrannosaurus Rex as Sarah falls into enemy hands." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v7b9q#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02zf8j0#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01c6ymf#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vfq08.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v7bbk#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 4" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "p00v7bbk" ;
-                                                     ns0:short_synopsis "The Doctor is framed for causing the appearance of the dinosaurs." ;
-                                                     ns0:medium_synopsis "Sarah awakens to discover that she is on a spaceship that left Earth months ago and is heading for a new world. The Doctor is framed for causing the return of the dinosaurs." ;
-                                                     ns0:image_pid "p00vfq5g" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01c6zfk#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vfq5g" ;
+                                                     ns0:medium_synopsis "Sarah awakens to discover that she is on a spaceship that left Earth months ago and is heading for a new world. The Doctor is framed for causing the return of the dinosaurs." ;
+                                                     ns0:pid "p00v7bbk" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "The Doctor is framed for causing the appearance of the dinosaurs." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v7bbl#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02zf8b9#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01c6zfk#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vfq5g.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v7bct#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 5" ;
-                                                     ns0:position "5" ;
-                                                     ns0:pid "p00v7bct" ;
-                                                     ns0:short_synopsis "Sarah discovers that the spaceship passengers are all victims of a deception." ;
-                                                     ns0:medium_synopsis "Sarah discovers that the spaceship passengers are all victims of a deception, but not all are willing to believe her story." ;
-                                                     ns0:image_pid "p00vfql4" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01c6znj#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vfql4" ;
+                                                     ns0:medium_synopsis "Sarah discovers that the spaceship passengers are all victims of a deception, but not all are willing to believe her story." ;
+                                                     ns0:pid "p00v7bct" ;
+                                                     ns0:position "5" ;
+                                                     ns0:short_synopsis "Sarah discovers that the spaceship passengers are all victims of a deception." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v7bcv#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02zf91l#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01c6znj#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vfql4.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v7bg8#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 6" ;
-                                                     ns0:position "6" ;
-                                                     ns0:pid "p00v7bg8" ;
-                                                     ns0:short_synopsis "Dinosaurs are all over London as Professor Whitaker initiates 'Operation Golden Age'." ;
-                                                     ns0:medium_synopsis "Dinosaurs are appearing all over London in a last effort to frighten people away as Professor Whitaker prepares to initiate 'Operation Golden Age'." ;
-                                                     ns0:image_pid "p00vfqr7" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01c6zzc#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vfqr7" ;
+                                                     ns0:medium_synopsis "Dinosaurs are appearing all over London in a last effort to frighten people away as Professor Whitaker prepares to initiate 'Operation Golden Age'." ;
+                                                     ns0:pid "p00v7bg8" ;
+                                                     ns0:position "6" ;
+                                                     ns0:short_synopsis "Dinosaurs are all over London as Professor Whitaker initiates 'Operation Golden Age'." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v7bg9#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02zf9lc#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01c6zzc#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vfqr7.jpg> .

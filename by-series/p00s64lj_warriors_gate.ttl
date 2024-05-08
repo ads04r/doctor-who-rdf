@@ -5,63 +5,63 @@
 
 <http://www.bbc.co.uk/programmes/p00s64lj#programme> rdf:type ns0:Series ;
                                                      dc:title "Warriors' Gate" ;
-                                                     ns0:position "5" ;
-                                                     ns0:pid "p00s64lj" ;
-                                                     ns0:short_synopsis "The TARDIS is drawn to an empty void by Biroc, a time sensitive Tharil." ;
-                                                     ns0:medium_synopsis "The TARDIS is drawn to an empty void by Biroc, a time sensitive Tharil who resembles a humanoid lion. Biroc, with many of his people, are held captive on a privateer starship." ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/p00vhslh#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00vhsnb#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00vhsp2#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00vhsrn#programme> .
+                                                                 <http://www.bbc.co.uk/programmes/p00vhsrn#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:medium_synopsis "The TARDIS is drawn to an empty void by Biroc, a time sensitive Tharil who resembles a humanoid lion. Biroc, with many of his people, are held captive on a privateer starship." ;
+                                                     ns0:pid "p00s64lj" ;
+                                                     ns0:position "5" ;
+                                                     ns0:short_synopsis "The TARDIS is drawn to an empty void by Biroc, a time sensitive Tharil." .
 
 <http://www.bbc.co.uk/programmes/p00vhslh#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 1" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00vhslh" ;
-                                                     ns0:short_synopsis "The TARDIS is drawn into an empty void but they are not the only ones trapped there." ;
-                                                     ns0:medium_synopsis "The TARDIS is drawn into an empty white void, somewhere between universes. But they are not the only ones trapped there." ;
-                                                     ns0:image_pid "p00vhvvh" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01jmlrz#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vhvvh" ;
+                                                     ns0:medium_synopsis "The TARDIS is drawn into an empty white void, somewhere between universes. But they are not the only ones trapped there." ;
+                                                     ns0:pid "p00vhslh" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "The TARDIS is drawn into an empty void but they are not the only ones trapped there." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vhslj#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p030p1v2#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01jmlrz#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vhvvh.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00vhsnb#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 2" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00vhsnb" ;
-                                                     ns0:short_synopsis "When Rorvik learns that Romana is a time sensitive, he takes her prisoner." ;
-                                                     ns0:medium_synopsis "When Rorvik learns that Romana is a time sensitive, he takes her prisoner, forcing her to find a way out of the void. The Doctor attempts to discover what lies beyond the mirror." ;
-                                                     ns0:image_pid "p00vhvw3" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01jmm6q#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vhvw3" ;
+                                                     ns0:medium_synopsis "When Rorvik learns that Romana is a time sensitive, he takes her prisoner, forcing her to find a way out of the void. The Doctor attempts to discover what lies beyond the mirror." ;
+                                                     ns0:pid "p00vhsnb" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "When Rorvik learns that Romana is a time sensitive, he takes her prisoner." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vhsnc#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p030p29m#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01jmm6q#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vhvw3.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00vhsp2#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 3" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00vhsp2" ;
-                                                     ns0:short_synopsis "As the void shrinks, Rorvik plans to take desperate measures to escape via the mirror." ;
-                                                     ns0:medium_synopsis "As the void begins to shrink around them, Rorvik plans to take desperate measures to escape through the mirror. The Doctor discovers the dark secret of the Tharils' past." ;
-                                                     ns0:image_pid "p00vhvwl" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01jmnbr#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vhvwl" ;
+                                                     ns0:medium_synopsis "As the void begins to shrink around them, Rorvik plans to take desperate measures to escape through the mirror. The Doctor discovers the dark secret of the Tharils' past." ;
+                                                     ns0:pid "p00vhsp2" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "As the void shrinks, Rorvik plans to take desperate measures to escape via the mirror." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vhsp3#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p030p3qm#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01jmnbr#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vhvwl.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00vhsrn#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 4" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "p00vhsrn" ;
-                                                     ns0:short_synopsis "Rorvik ignores the Doctor's warnings and takes a gamble which may have fatal consequences." ;
-                                                     ns0:medium_synopsis "With the void collapsing around them, time is running out. Rorvik ignores the Doctor's warnings and takes a desperate gamble which could have fatal consequences." ;
-                                                     ns0:image_pid "p00vhvxj" ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vhvxj" ;
+                                                     ns0:medium_synopsis "With the void collapsing around them, time is running out. Rorvik ignores the Doctor's warnings and takes a desperate gamble which could have fatal consequences." ;
+                                                     ns0:pid "p00vhsrn" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "Rorvik ignores the Doctor's warnings and takes a gamble which may have fatal consequences." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vhsrp#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p030p3y4#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vhvxj.jpg> .

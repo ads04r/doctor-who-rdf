@@ -5,95 +5,95 @@
 
 <http://www.bbc.co.uk/programmes/p00krdfd#programme> rdf:type ns0:Series ;
                                                      dc:title "The Faceless Ones" ;
-                                                     ns0:position "8" ;
-                                                     ns0:pid "p00krdfd" ;
-                                                     ns0:short_synopsis "The TARDIS arrives in the landing path of a plane at Gatwick airport." ;
-                                                     ns0:medium_synopsis "The TARDIS arrives in the landing path of a plane at Gatwick airport, where the travellers discover that Chameleon Tours is a front for an alien operation to kidnap holidaymakers." ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/p00v2znq#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00v30hp#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v30cs#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v30dq#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v30fv#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00v30jc#programme> .
+                                                                 <http://www.bbc.co.uk/programmes/p00v30hp#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v30jc#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:medium_synopsis "The TARDIS arrives in the landing path of a plane at Gatwick airport, where the travellers discover that Chameleon Tours is a front for an alien operation to kidnap holidaymakers." ;
+                                                     ns0:pid "p00krdfd" ;
+                                                     ns0:position "8" ;
+                                                     ns0:short_synopsis "The TARDIS arrives in the landing path of a plane at Gatwick airport." .
 
 <http://www.bbc.co.uk/programmes/p00v2znq#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 1" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00v2znq" ;
-                                                     ns0:short_synopsis "The TARDIS arrives at Gatwick airport in 1966 and Polly witnesses a murder." ;
-                                                     ns0:medium_synopsis "The TARDIS arrives at Gatwick airport in 1966 where Polly witnesses a murder. When the Doctor alerts the authorities they find the body has vanished and Polly has been kidnapped." ;
-                                                     ns0:long_synopsis "The TARDIS arrives at Gatwick airport in 1966 where Polly witnesses a murder. When the Doctor alerts the authorities they find the body has vanished and Polly has been kidnapped." ;
-                                                     ns0:image_pid "p00v1zfw" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p014d8pd#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v1zfw" ;
+                                                     ns0:long_synopsis "The TARDIS arrives at Gatwick airport in 1966 where Polly witnesses a murder. When the Doctor alerts the authorities they find the body has vanished and Polly has been kidnapped." ;
+                                                     ns0:medium_synopsis "The TARDIS arrives at Gatwick airport in 1966 where Polly witnesses a murder. When the Doctor alerts the authorities they find the body has vanished and Polly has been kidnapped." ;
+                                                     ns0:pid "p00v2znq" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "The TARDIS arrives at Gatwick airport in 1966 and Polly witnesses a murder." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v2znr#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p04yjqqq#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p04yyfz7#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p014d8pd#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v1zfw.jpg> .
-
-<http://www.bbc.co.uk/programmes/p00v30hp#programme> rdf:type ns0:Episode ;
-                                                     dc:title "Episode 2" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00v30hp" ;
-                                                     ns0:short_synopsis "Polly returns but claims not to know the Doctor or Jamie, then Ben vanishes too..." ;
-                                                     ns0:medium_synopsis "The missing Polly appears but claims not to know the Doctor or Jamie, then Ben disappears. All clues point to Chameleon Tours, but nobody believes the Doctor's story." ;
-                                                     ns0:long_synopsis "The missing Polly appears but claims not to know the Doctor or Jamie, then Ben disappears. All clues point to Chameleon Tours, but nobody believes the Doctor's story." ;
-                                                     ns0:image_pid "p00v1zgl" ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
-                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v30hq#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p04yyfzj#programme> ;
-                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v1zgl.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v30cs#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 3" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00v30cs" ;
-                                                     ns0:short_synopsis "With the support of Inspector Crossland, the Doctor pursues his investigations." ;
-                                                     ns0:medium_synopsis "With the support of Inspector Crossland, the Doctor pursues his investigations. But the Chameleons have already taken steps to prevent the Doctor from uncovering the truth." ;
-                                                     ns0:long_synopsis "With the support of Inspector Crossland, the Doctor pursues his investigations. But the Chameleons have already taken steps to prevent the Doctor from uncovering the truth." ;
-                                                     ns0:image_pid "p00v1zqg" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p014d8xd#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v1zqg" ;
+                                                     ns0:long_synopsis "With the support of Inspector Crossland, the Doctor pursues his investigations. But the Chameleons have already taken steps to prevent the Doctor from uncovering the truth." ;
+                                                     ns0:medium_synopsis "With the support of Inspector Crossland, the Doctor pursues his investigations. But the Chameleons have already taken steps to prevent the Doctor from uncovering the truth." ;
+                                                     ns0:pid "p00v30cs" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "With the support of Inspector Crossland, the Doctor pursues his investigations." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v30ct#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p04yyfzg#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p014d8xd#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v1zqg.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v30dq#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 4" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "p00v30dq" ;
-                                                     ns0:short_synopsis "To stop Samantha from boarding the Chameleon Tours flight, Jamie takes her place." ;
-                                                     ns0:medium_synopsis "To stop Samantha from boarding the Chameleon Tours flight, Jamie takes her place. An RAF fighter follows the Chameleon plane but it is shot down whilst the plane heads into space!" ;
-                                                     ns0:long_synopsis "To stop Samantha from boarding the Chameleon Tours flight, Jamie takes her place. An RAF fighter follows the Chameleon plane but it is shot down whilst the plane heads into space!" ;
-                                                     ns0:image_pid "p00v1zrc" ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v1zrc" ;
+                                                     ns0:long_synopsis "To stop Samantha from boarding the Chameleon Tours flight, Jamie takes her place. An RAF fighter follows the Chameleon plane but it is shot down whilst the plane heads into space!" ;
+                                                     ns0:medium_synopsis "To stop Samantha from boarding the Chameleon Tours flight, Jamie takes her place. An RAF fighter follows the Chameleon plane but it is shot down whilst the plane heads into space!" ;
+                                                     ns0:pid "p00v30dq" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "To stop Samantha from boarding the Chameleon Tours flight, Jamie takes her place." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v30dr#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p04yyfzw#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v1zrc.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v30fv#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 5" ;
-                                                     ns0:position "5" ;
-                                                     ns0:pid "p00v30fv" ;
-                                                     ns0:short_synopsis "The Doctor worries about Jamie who is a prisoner of the Chameleons." ;
-                                                     ns0:medium_synopsis "The Doctor fears for the safety of Jamie who is a prisoner of the Chameleons in their space station. The Doctor smuggles himself aboard the next Chameleon Tours flight." ;
-                                                     ns0:long_synopsis "The Doctor fears for the safety of Jamie who is a prisoner of the Chameleons in their space station. The Doctor smuggles himself aboard the next Chameleon Tours flight." ;
-                                                     ns0:image_pid "p00v1zs6" ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v1zs6" ;
+                                                     ns0:long_synopsis "The Doctor fears for the safety of Jamie who is a prisoner of the Chameleons in their space station. The Doctor smuggles himself aboard the next Chameleon Tours flight." ;
+                                                     ns0:medium_synopsis "The Doctor fears for the safety of Jamie who is a prisoner of the Chameleons in their space station. The Doctor smuggles himself aboard the next Chameleon Tours flight." ;
+                                                     ns0:pid "p00v30fv" ;
+                                                     ns0:position "5" ;
+                                                     ns0:short_synopsis "The Doctor worries about Jamie who is a prisoner of the Chameleons." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v30fw#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p04yyg05#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v1zs6.jpg> .
 
+<http://www.bbc.co.uk/programmes/p00v30hp#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Episode 2" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v1zgl" ;
+                                                     ns0:long_synopsis "The missing Polly appears but claims not to know the Doctor or Jamie, then Ben disappears. All clues point to Chameleon Tours, but nobody believes the Doctor's story." ;
+                                                     ns0:medium_synopsis "The missing Polly appears but claims not to know the Doctor or Jamie, then Ben disappears. All clues point to Chameleon Tours, but nobody believes the Doctor's story." ;
+                                                     ns0:pid "p00v30hp" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "Polly returns but claims not to know the Doctor or Jamie, then Ben vanishes too..." ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v30hq#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p04yyfzj#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v1zgl.jpg> .
+
 <http://www.bbc.co.uk/programmes/p00v30jc#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 6" ;
-                                                     ns0:position "6" ;
-                                                     ns0:pid "p00v30jc" ;
-                                                     ns0:short_synopsis "The Doctor faces the Chameleon's Director who reveals his plan to abduct 50,000 humans." ;
-                                                     ns0:medium_synopsis "On the Chameleon space station, the Doctor faces the Chameleon's Director who announces his plans to abduct 50,000 humans." ;
-                                                     ns0:long_synopsis "On the Chameleon space station, the Doctor faces the Chameleon's Director who announces his plans to abduct 50,000 humans." ;
-                                                     ns0:image_pid "p00v1ztl" ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v1ztl" ;
+                                                     ns0:long_synopsis "On the Chameleon space station, the Doctor faces the Chameleon's Director who announces his plans to abduct 50,000 humans." ;
+                                                     ns0:medium_synopsis "On the Chameleon space station, the Doctor faces the Chameleon's Director who announces his plans to abduct 50,000 humans." ;
+                                                     ns0:pid "p00v30jc" ;
+                                                     ns0:position "6" ;
+                                                     ns0:short_synopsis "The Doctor faces the Chameleon's Director who reveals his plan to abduct 50,000 humans." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v30jd#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p04yyfzq#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v1ztl.jpg> .

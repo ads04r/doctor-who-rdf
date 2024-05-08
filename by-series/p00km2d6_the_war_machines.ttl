@@ -5,69 +5,69 @@
 
 <http://www.bbc.co.uk/programmes/p00km2d6#programme> rdf:type ns0:Series ;
                                                      dc:title "The War Machines" ;
-                                                     ns0:position "10" ;
-                                                     ns0:pid "p00km2d6" ;
-                                                     ns0:short_synopsis "The Doctor and Dodo arrive in London where the Post Office Tower has just been completed." ;
-                                                     ns0:medium_synopsis "The Doctor and Dodo arrive in 1966 London where the Post Office Tower has just been completed and is home to WOTAN, a super computer capable of independent thought." ;
-                                                     ns0:long_synopsis "The Doctor and Dodo arrive in 1966 London where the Post Office Tower has just been completed and is home to WOTAN, a super computer capable of independent thought." ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/p00v26vk#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v26wc#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v26x2#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00v26xy#programme> .
+                                                                 <http://www.bbc.co.uk/programmes/p00v26xy#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:long_synopsis "The Doctor and Dodo arrive in 1966 London where the Post Office Tower has just been completed and is home to WOTAN, a super computer capable of independent thought." ;
+                                                     ns0:medium_synopsis "The Doctor and Dodo arrive in 1966 London where the Post Office Tower has just been completed and is home to WOTAN, a super computer capable of independent thought." ;
+                                                     ns0:pid "p00km2d6" ;
+                                                     ns0:position "10" ;
+                                                     ns0:short_synopsis "The Doctor and Dodo arrive in London where the Post Office Tower has just been completed." .
 
 <http://www.bbc.co.uk/programmes/p00v26vk#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 1" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00v26vk" ;
-                                                     ns0:short_synopsis "In London in 1966, the Doctor and Dodo visit the Post Office Tower and encounter WOTAN." ;
-                                                     ns0:medium_synopsis "In London in 1966, the Doctor and Dodo visit the new Post Office Tower and are introduced to the super computer, WOTAN." ;
-                                                     ns0:long_synopsis "In London in 1966, the Doctor and Dodo visit the new Post Office Tower and are introduced to the super computer, WOTAN." ;
-                                                     ns0:image_pid "p00v2x4v" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p011nnhb#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v2x4v" ;
+                                                     ns0:long_synopsis "In London in 1966, the Doctor and Dodo visit the new Post Office Tower and are introduced to the super computer, WOTAN." ;
+                                                     ns0:medium_synopsis "In London in 1966, the Doctor and Dodo visit the new Post Office Tower and are introduced to the super computer, WOTAN." ;
+                                                     ns0:pid "p00v26vk" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "In London in 1966, the Doctor and Dodo visit the Post Office Tower and encounter WOTAN." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v26vl#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02mq9f0#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p011nnhb#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v2x4v.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v26wc#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 2" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00v26wc" ;
-                                                     ns0:short_synopsis "WOTAN plans to dominate the world and has ordered the construction of the War Machines." ;
-                                                     ns0:medium_synopsis "WOTAN has put in motion its plan to dominate the world and has ordered its human subjects to construct deadly war machines in secret locations." ;
-                                                     ns0:long_synopsis "WOTAN has put in motion its plan to dominate the world and has ordered its human subjects to construct deadly war machines in secret locations." ;
-                                                     ns0:image_pid "p00v2x55" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p011nn59#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v2x55" ;
+                                                     ns0:long_synopsis "WOTAN has put in motion its plan to dominate the world and has ordered its human subjects to construct deadly war machines in secret locations." ;
+                                                     ns0:medium_synopsis "WOTAN has put in motion its plan to dominate the world and has ordered its human subjects to construct deadly war machines in secret locations." ;
+                                                     ns0:pid "p00v26wc" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "WOTAN plans to dominate the world and has ordered the construction of the War Machines." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v26wd#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02mq9gb#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p011nn59#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v2x55.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v26x2#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 3" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00v26x2" ;
-                                                     ns0:short_synopsis "As WOTAN's plans for world conquest nearing fruition, the Doctor faces the War Machines." ;
-                                                     ns0:medium_synopsis "With WOTAN's plans for world conquest about to reach fruition, the Doctor comes face-to-face with the unstoppable might of the War Machines." ;
-                                                     ns0:long_synopsis "With WOTAN's plans for world conquest about to reach fruition, the Doctor comes face-to-face with the unstoppable might of the War Machines." ;
-                                                     ns0:image_pid "p00v2x60" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p011nnnc#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v2x60" ;
+                                                     ns0:long_synopsis "With WOTAN's plans for world conquest about to reach fruition, the Doctor comes face-to-face with the unstoppable might of the War Machines." ;
+                                                     ns0:medium_synopsis "With WOTAN's plans for world conquest about to reach fruition, the Doctor comes face-to-face with the unstoppable might of the War Machines." ;
+                                                     ns0:pid "p00v26x2" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "As WOTAN's plans for world conquest nearing fruition, the Doctor faces the War Machines." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v26x4#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02mqb7n#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p011nnnc#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v2x60.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v26xy#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 4" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "p00v26xy" ;
-                                                     ns0:short_synopsis "The Doctor hatches a dangerous plan to capture a War Machine and stop WOTAN." ;
-                                                     ns0:medium_synopsis "The Doctor hatches a dangerous plan to capture a War Machine and turn WOTAN's creations against it." ;
-                                                     ns0:long_synopsis "The Doctor hatches a dangerous plan to capture a War Machine and turn WOTAN's creations against it." ;
-                                                     ns0:image_pid "p00v2x6x" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p011nnrg#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v2x6x" ;
+                                                     ns0:long_synopsis "The Doctor hatches a dangerous plan to capture a War Machine and turn WOTAN's creations against it." ;
+                                                     ns0:medium_synopsis "The Doctor hatches a dangerous plan to capture a War Machine and turn WOTAN's creations against it." ;
+                                                     ns0:pid "p00v26xy" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "The Doctor hatches a dangerous plan to capture a War Machine and stop WOTAN." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v26xz#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02mqb7z#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p011nnrg#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v2x6x.jpg> .

@@ -5,68 +5,68 @@
 
 <http://www.bbc.co.uk/programmes/p00pn85c#programme> rdf:type ns0:Series ;
                                                      dc:title "Carnival of Monsters" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00pn85c" ;
-                                                     ns0:short_synopsis "The TARDIS lands on a cargo ship but the Doctor realises that not all is as it seems." ;
-                                                     ns0:medium_synopsis "The TARDIS lands on a cargo ship in 1926 but when a dinosaur appears and the crew and passengers begin repeating their actions, the Doctor realises that not all is as it seems." ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/p00v8s8p#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v8scs#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v8sjb#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00v8st5#programme> .
+                                                                 <http://www.bbc.co.uk/programmes/p00v8st5#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:medium_synopsis "The TARDIS lands on a cargo ship in 1926 but when a dinosaur appears and the crew and passengers begin repeating their actions, the Doctor realises that not all is as it seems." ;
+                                                     ns0:pid "p00pn85c" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "The TARDIS lands on a cargo ship but the Doctor realises that not all is as it seems." .
 
 <http://www.bbc.co.uk/programmes/p00v8s8p#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 1" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00v8s8p" ;
-                                                     ns0:short_synopsis "On the SS Bernice the TARDIS is stolen by a giant hand and a dinosaur attacks..." ;
-                                                     ns0:medium_synopsis "The Doctor and Jo arrive in 1926 on the cargo ship SS Bernice. But when the TARDIS is taken by a huge hand and a dinosaur appears, the Doctor suspects that all is not as it seems." ;
-                                                     ns0:long_synopsis "The Doctor and Jo arrive in 1926 on the cargo ship SS Bernice. But when the TARDIS is taken by a huge hand and a dinosaur appears, the Doctor suspects that all is not as it seems." ;
-                                                     ns0:image_pid "p00v5115" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01bv4j3#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v5115" ;
+                                                     ns0:long_synopsis "The Doctor and Jo arrive in 1926 on the cargo ship SS Bernice. But when the TARDIS is taken by a huge hand and a dinosaur appears, the Doctor suspects that all is not as it seems." ;
+                                                     ns0:medium_synopsis "The Doctor and Jo arrive in 1926 on the cargo ship SS Bernice. But when the TARDIS is taken by a huge hand and a dinosaur appears, the Doctor suspects that all is not as it seems." ;
+                                                     ns0:pid "p00v8s8p" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "On the SS Bernice the TARDIS is stolen by a giant hand and a dinosaur attacks..." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v8s8q#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p033bc3g#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01bv4j3#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v5115.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v8scs#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 2" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00v8scs" ;
-                                                     ns0:short_synopsis "The Doctor and Jo have been miniaturised and are trapped inside a Miniscope peepshow." ;
-                                                     ns0:medium_synopsis "The Doctor and Jo have been miniaturised and  trapped inside a Miniscope, the property of showman Vorg. The Scope has been impounded on the planet Inter Minor and may be destroyed." ;
-                                                     ns0:long_synopsis "The Doctor and Jo have been miniaturised and  trapped inside a Miniscope, the property of showman Vorg. The Scope has been impounded on the planet Inter Minor and may be destroyed." ;
-                                                     ns0:image_pid "p00v5132" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01bv4sx#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v5132" ;
+                                                     ns0:long_synopsis "The Doctor and Jo have been miniaturised and  trapped inside a Miniscope, the property of showman Vorg. The Scope has been impounded on the planet Inter Minor and may be destroyed." ;
+                                                     ns0:medium_synopsis "The Doctor and Jo have been miniaturised and  trapped inside a Miniscope, the property of showman Vorg. The Scope has been impounded on the planet Inter Minor and may be destroyed." ;
+                                                     ns0:pid "p00v8scs" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "The Doctor and Jo have been miniaturised and are trapped inside a Miniscope peepshow." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v8sct#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p033bc05#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01bv4sx#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v5132.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v8sjb#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 3" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00v8sjb" ;
-                                                     ns0:short_synopsis "The Drashigs are rampaging through the Miniscope in pursuit of Jo and the Doctor." ;
-                                                     ns0:medium_synopsis "The Drashigs are pursuing Jo and the Doctor through the Miniscope. On Inter Minor, scheming bureaucrats intend to release the Drashigs in a plan to topple their leader." ;
-                                                     ns0:long_synopsis "The Drashigs are pursuing Jo and the Doctor through the Miniscope. On Inter Minor, scheming bureaucrats intend to release the Drashigs in a plan to topple their leader." ;
-                                                     ns0:image_pid "p00v5142" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01bv504#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v5142" ;
+                                                     ns0:long_synopsis "The Drashigs are pursuing Jo and the Doctor through the Miniscope. On Inter Minor, scheming bureaucrats intend to release the Drashigs in a plan to topple their leader." ;
+                                                     ns0:medium_synopsis "The Drashigs are pursuing Jo and the Doctor through the Miniscope. On Inter Minor, scheming bureaucrats intend to release the Drashigs in a plan to topple their leader." ;
+                                                     ns0:pid "p00v8sjb" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "The Drashigs are rampaging through the Miniscope in pursuit of Jo and the Doctor." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v8sjc#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p033bc02#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01bv504#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v5142.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v8st5#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 4" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "p00v8st5" ;
-                                                     ns0:short_synopsis "The Doctor is desperate to save the lives of Jo and everyone trapped inside the Miniscope." ;
-                                                     ns0:medium_synopsis "The Doctor is desperate to save the lives of Jo and everyone trapped inside the Miniscope, but is hindered by the Inter Minorans who have their own agenda." ;
-                                                     ns0:long_synopsis "The Doctor is desperate to save the lives of Jo and everyone trapped inside the Miniscope, but is hindered by the Inter Minorans who have their own agenda." ;
-                                                     ns0:image_pid "p00v514x" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01bv5dn#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v514x" ;
+                                                     ns0:long_synopsis "The Doctor is desperate to save the lives of Jo and everyone trapped inside the Miniscope, but is hindered by the Inter Minorans who have their own agenda." ;
+                                                     ns0:medium_synopsis "The Doctor is desperate to save the lives of Jo and everyone trapped inside the Miniscope, but is hindered by the Inter Minorans who have their own agenda." ;
+                                                     ns0:pid "p00v8st5" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "The Doctor is desperate to save the lives of Jo and everyone trapped inside the Miniscope." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v8st6#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02zf94c#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01bv5dn#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v514x.jpg> .

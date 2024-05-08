@@ -5,64 +5,64 @@
 
 <http://www.bbc.co.uk/programmes/p00sx3x3#programme> rdf:type ns0:Series ;
                                                      dc:title "The Twin Dilemma" ;
-                                                     ns0:position "7" ;
-                                                     ns0:pid "p00sx3x3" ;
-                                                     ns0:short_synopsis "Mestor plans to use an explosion in space to spread his eggs throughout the universe." ;
-                                                     ns0:medium_synopsis "The Gastropods plan to use an explosion in space to spread their eggs throughout the universe and so kidnap two human child geniuses to work out the necessary equations." ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/p00v8z9h#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v8zbf#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v8zcc#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00v8zls#programme> .
+                                                                 <http://www.bbc.co.uk/programmes/p00v8zls#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:medium_synopsis "The Gastropods plan to use an explosion in space to spread their eggs throughout the universe and so kidnap two human child geniuses to work out the necessary equations." ;
+                                                     ns0:pid "p00sx3x3" ;
+                                                     ns0:position "7" ;
+                                                     ns0:short_synopsis "Mestor plans to use an explosion in space to spread his eggs throughout the universe." .
 
 <http://www.bbc.co.uk/programmes/p00v8z9h#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 1" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00v8z9h" ;
-                                                     ns0:short_synopsis "Professor Edgeworth has kidnapped twin human child genii, Romulus and Remus." ;
-                                                     ns0:medium_synopsis "The mysterious Professor Edgeworth has kidnapped twin human child genii, Romulus and Remus, and Hugo Lang holds the new Doctor responsible for the destruction of his spaceship." ;
-                                                     ns0:image_pid "p00vbxvs" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01lkgjm#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vbxvs" ;
+                                                     ns0:medium_synopsis "The mysterious Professor Edgeworth has kidnapped twin human child genii, Romulus and Remus, and Hugo Lang holds the new Doctor responsible for the destruction of his spaceship." ;
+                                                     ns0:pid "p00v8z9h" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "Professor Edgeworth has kidnapped twin human child genii, Romulus and Remus." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v8z9j#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xmkc4#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01lkgjm#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vbxvs.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v8zbf#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 2" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00v8zbf" ;
-                                                     ns0:short_synopsis "On Jaconda, Mestor's cruel domination over the planet's population continues." ;
-                                                     ns0:medium_synopsis "On Jaconda, Mestor's cruel domination over the planet's population continues while on Titan Three, the Doctor seems to have been blown up in a booby-trapped building..." ;
-                                                     ns0:image_pid "p00vbxxg" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01lkgrk#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vbxxg" ;
+                                                     ns0:medium_synopsis "On Jaconda, Mestor's cruel domination over the planet's population continues while on Titan Three, the Doctor seems to have been blown up in a booby-trapped building..." ;
+                                                     ns0:pid "p00v8zbf" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "On Jaconda, Mestor's cruel domination over the planet's population continues." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v8zbg#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xmkc8#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01lkgrk#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vbxxg.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v8zcc#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 3" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00v8zcc" ;
-                                                     ns0:short_synopsis "Mestor says all he wants is for the Sylvest twins to help him repopulate his home planet." ;
-                                                     ns0:medium_synopsis "Mestor claims that all he wants is the Sylvest twins to help him repopulate his home planet. But the Doctor knows there's more to this than meets the eye..." ;
-                                                     ns0:image_pid "p00vbxyh" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01lkgwz#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vbxyh" ;
+                                                     ns0:medium_synopsis "Mestor claims that all he wants is the Sylvest twins to help him repopulate his home planet. But the Doctor knows there's more to this than meets the eye..." ;
+                                                     ns0:pid "p00v8zcc" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "Mestor says all he wants is for the Sylvest twins to help him repopulate his home planet." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v8zcd#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xmkdp#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01lkgwz#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vbxyh.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v8zls#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 4" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "p00v8zls" ;
-                                                     ns0:short_synopsis "The Doctor's old friend Azmael comes to the realisation that he has been corrupted." ;
-                                                     ns0:medium_synopsis "Mestor's true plan is revealed and the Doctor's old Gallifreyan friend Azmael comes to the realisation that he has been corrupted long enough by the Gastropod leader..." ;
-                                                     ns0:image_pid "p00vby3j" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01lkh0g#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vby3j" ;
+                                                     ns0:medium_synopsis "Mestor's true plan is revealed and the Doctor's old Gallifreyan friend Azmael comes to the realisation that he has been corrupted long enough by the Gastropod leader..." ;
+                                                     ns0:pid "p00v8zls" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "The Doctor's old friend Azmael comes to the realisation that he has been corrupted." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v8zlt#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xmkcf#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01lkh0g#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vby3j.jpg> .

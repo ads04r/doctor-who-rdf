@@ -5,99 +5,99 @@
 
 <http://www.bbc.co.uk/programmes/p00pn86f#programme> rdf:type ns0:Series ;
                                                      dc:title "Frontier in Space" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00pn86f" ;
-                                                     ns0:short_synopsis "The TARDIS lands in the far future where Earth and Draconia teeter on the brink of war." ;
-                                                     ns0:medium_synopsis "The TARDIS lands inside an Earth spaceship in the far future where the dominant space powers, Earth and Draconia, are on the brink of war." ;
-                                                     ns0:long_synopsis "The TARDIS lands inside an Earth spaceship in the far future where the dominant space powers, Earth and Draconia, are on the brink of war." ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/p00v8syk#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v8trt#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v8tvh#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v8tyt#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v8v7g#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00v8vby#programme> .
+                                                                 <http://www.bbc.co.uk/programmes/p00v8vby#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:long_synopsis "The TARDIS lands inside an Earth spaceship in the far future where the dominant space powers, Earth and Draconia, are on the brink of war." ;
+                                                     ns0:medium_synopsis "The TARDIS lands inside an Earth spaceship in the far future where the dominant space powers, Earth and Draconia, are on the brink of war." ;
+                                                     ns0:pid "p00pn86f" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "The TARDIS lands in the far future where Earth and Draconia teeter on the brink of war." .
 
 <http://www.bbc.co.uk/programmes/p00v8syk#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 1" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00v8syk" ;
-                                                     ns0:short_synopsis "The TARDIS lands inside an Earth spaceship in the far future which is attacked by Ogrons." ;
-                                                     ns0:medium_synopsis "The Doctor and Jo land on a spaceship in the far future as it is attacked by Ogrons, which the human crew see as Draconians. The Doctor and Jo are taken to Earth as spies." ;
-                                                     ns0:long_synopsis "The Doctor and Jo land on a spaceship in the far future as it is attacked by Ogrons, which the human crew see as Draconians. The Doctor and Jo are taken to Earth as spies." ;
-                                                     ns0:image_pid "p00v51ct" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01btb63#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v51ct" ;
+                                                     ns0:long_synopsis "The Doctor and Jo land on a spaceship in the far future as it is attacked by Ogrons, which the human crew see as Draconians. The Doctor and Jo are taken to Earth as spies." ;
+                                                     ns0:medium_synopsis "The Doctor and Jo land on a spaceship in the far future as it is attacked by Ogrons, which the human crew see as Draconians. The Doctor and Jo are taken to Earth as spies." ;
+                                                     ns0:pid "p00v8syk" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "The TARDIS lands inside an Earth spaceship in the far future which is attacked by Ogrons." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v8sym#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02kb3wz#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01btb63#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v51ct.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v8trt#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 2" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00v8trt" ;
-                                                     ns0:short_synopsis "The Doctor realises someone is provoking a war between Earth and Draconia." ;
-                                                     ns0:medium_synopsis "Neither the humans or the Draconians are willing to believe the Doctor and Jo's story that someone is deliberately attempting to provoke a war between Earth and Draconia." ;
-                                                     ns0:long_synopsis "Neither the humans or the Draconians are willing to believe the Doctor and Jo's story that someone is deliberately attempting to provoke a war between Earth and Draconia." ;
-                                                     ns0:image_pid "p00v51dq" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01btbbc#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v51dq" ;
+                                                     ns0:long_synopsis "Neither the humans or the Draconians are willing to believe the Doctor and Jo's story that someone is deliberately attempting to provoke a war between Earth and Draconia." ;
+                                                     ns0:medium_synopsis "Neither the humans or the Draconians are willing to believe the Doctor and Jo's story that someone is deliberately attempting to provoke a war between Earth and Draconia." ;
+                                                     ns0:pid "p00v8trt" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "The Doctor realises someone is provoking a war between Earth and Draconia." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v8trv#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02kb3th#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01btbbc#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v51dq.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v8tvh#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 3" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00v8tvh" ;
-                                                     ns0:short_synopsis "Accused of being a spy, the Doctor is sentenced to imprisonment on the Moon." ;
-                                                     ns0:medium_synopsis "Accused of being a spy, the Doctor is sentenced to imprisonment on the Moon while Jo is taken into the custody of an old enemy." ;
-                                                     ns0:long_synopsis "Accused of being a spy, the Doctor is sentenced to imprisonment on the Moon while Jo is taken into the custody of an old enemy." ;
-                                                     ns0:image_pid "p00v51f4" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01btbh9#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v51f4" ;
+                                                     ns0:long_synopsis "Accused of being a spy, the Doctor is sentenced to imprisonment on the Moon while Jo is taken into the custody of an old enemy." ;
+                                                     ns0:medium_synopsis "Accused of being a spy, the Doctor is sentenced to imprisonment on the Moon while Jo is taken into the custody of an old enemy." ;
+                                                     ns0:pid "p00v8tvh" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "Accused of being a spy, the Doctor is sentenced to imprisonment on the Moon." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v8tvj#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02kb6qv#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01btbh9#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v51f4.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v8tyt#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 4" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "p00v8tyt" ;
-                                                     ns0:short_synopsis "The Doctor and Jo are the Master's prisoners." ;
-                                                     ns0:medium_synopsis "The Doctor and Jo are the Master's prisoners. In a bid to escape, the Doctor makes a dangerous spacewalk." ;
-                                                     ns0:long_synopsis "The Doctor and Jo are the Master's prisoners. In a bid to escape, the Doctor makes a dangerous spacewalk." ;
-                                                     ns0:image_pid "p00v51jy" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01btblc#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v51jy" ;
+                                                     ns0:long_synopsis "The Doctor and Jo are the Master's prisoners. In a bid to escape, the Doctor makes a dangerous spacewalk." ;
+                                                     ns0:medium_synopsis "The Doctor and Jo are the Master's prisoners. In a bid to escape, the Doctor makes a dangerous spacewalk." ;
+                                                     ns0:pid "p00v8tyt" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "The Doctor and Jo are the Master's prisoners." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v8tyv#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02kb6rb#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01btblc#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v51jy.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v8v7g#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 5" ;
-                                                     ns0:position "5" ;
-                                                     ns0:pid "p00v8v7g" ;
-                                                     ns0:short_synopsis "The Doctor reveals the plan to provoke war to the Draconians but the Master escapes." ;
-                                                     ns0:medium_synopsis "On Draconia, the Doctor reveals the Master's plan to provoke war to the Draconian Emperor. But the Master escapes, taking Jo as a hostage." ;
-                                                     ns0:long_synopsis "On Draconia, the Doctor reveals the Master's plan to provoke war to the Draconian Emperor. But the Master escapes, taking Jo as a hostage." ;
-                                                     ns0:image_pid "p00v51lg" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01btbyr#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v51lg" ;
+                                                     ns0:long_synopsis "On Draconia, the Doctor reveals the Master's plan to provoke war to the Draconian Emperor. But the Master escapes, taking Jo as a hostage." ;
+                                                     ns0:medium_synopsis "On Draconia, the Doctor reveals the Master's plan to provoke war to the Draconian Emperor. But the Master escapes, taking Jo as a hostage." ;
+                                                     ns0:pid "p00v8v7g" ;
+                                                     ns0:position "5" ;
+                                                     ns0:short_synopsis "The Doctor reveals the plan to provoke war to the Draconians but the Master escapes." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v8v7h#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02kb6rq#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01btbyr#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v51lg.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v8vby#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 6" ;
-                                                     ns0:position "6" ;
-                                                     ns0:pid "p00v8vby" ;
-                                                     ns0:short_synopsis "The Doctor leads a mission to the Ogron home world to apprehend the Master and rescue Jo." ;
-                                                     ns0:medium_synopsis "The Doctor leads a mission to the Ogron home world to apprehend the Master and rescue Jo. But the Master is in league with some old enemies of the Doctor." ;
-                                                     ns0:long_synopsis "The Doctor leads a mission to the Ogron home world to apprehend the Master and rescue Jo. But the Master is in league with some old enemies of the Doctor." ;
-                                                     ns0:image_pid "p00v51m5" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01btcwz#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v51m5" ;
+                                                     ns0:long_synopsis "The Doctor leads a mission to the Ogron home world to apprehend the Master and rescue Jo. But the Master is in league with some old enemies of the Doctor." ;
+                                                     ns0:medium_synopsis "The Doctor leads a mission to the Ogron home world to apprehend the Master and rescue Jo. But the Master is in league with some old enemies of the Doctor." ;
+                                                     ns0:pid "p00v8vby" ;
+                                                     ns0:position "6" ;
+                                                     ns0:short_synopsis "The Doctor leads a mission to the Ogron home world to apprehend the Master and rescue Jo." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v8vbz#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02kb6vj#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01btcwz#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v51m5.jpg> .

@@ -4,6 +4,7 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
 <http://www.bbc.co.uk/programmes/m000cs1z#programme> rdf:type ns0:Series ;
+                                                     dc:title "Series 12" ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/m000cs1y#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/m000d4tk#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/m000dbp4#programme> ,
@@ -13,225 +14,224 @@
                                                                  <http://www.bbc.co.uk/programmes/m000f9d4#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/m000fjf1#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/m000frjp#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/m000g09m#programme> ;
-                                                     dc:title "Series 12" .
+                                                                 <http://www.bbc.co.uk/programmes/m000g09m#programme> .
 
 <http://www.bbc.co.uk/programmes/m000cs1y#programme> rdf:type ns0:Episode ;
                                                      dc:title "Doctor Who" ,
                                                               "Spyfall, Part 1" ;
-                                                     ns0:short_synopsis "(To be announced)" ,
-                                                                        "Intelligence agents around the world are under attack from alien forces." ;
-                                                     ns0:medium_synopsis "" ,
-                                                                         "Intelligence agents around the world are under attack from alien forces, so MI6 turn to the only one who can help: the Doctor." ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p06ls33z" ,
+                                                                   "p07y8j46" ;
                                                      ns0:long_synopsis "" ,
                                                                        "Intelligence agents around the world are under attack from alien forces, so MI6 turn to the only people who can help: the Doctor and friends. As they travel the globe looking for answers, attacks come from all sides. Earth’s security rests on the team's shoulders, but where will this planet-threatening conspiracy lead them?" ;
                                                      ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
-                                                     ns0:image_pid "p06ls33z" ,
-                                                                   "p07y8j46" ;
-                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p06ls33z.jpg> ,
-                                                                    <https://ichef.bbci.co.uk/images/ic/640x360/p07y8j46.jpg> ;
+                                                     ns0:medium_synopsis "" ,
+                                                                         "Intelligence agents around the world are under attack from alien forces, so MI6 turn to the only one who can help: the Doctor." ;
+                                                     ns0:pid "m000cs1y" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "(To be announced)" ,
+                                                                        "Intelligence agents around the world are under attack from alien forces." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/m000cs1x#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/m000ctbw#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p07z04mx#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p07zdnby#programme> ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "m000cs1y" .
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p06ls33z.jpg> ,
+                                                                    <https://ichef.bbci.co.uk/images/ic/640x360/p07y8j46.jpg> .
 
 <http://www.bbc.co.uk/programmes/m000d4tk#programme> rdf:type ns0:Episode ;
                                                      dc:title "Spyfall, Part 2" ;
-                                                     ns0:short_synopsis "The story continues." ,
-                                                                        "A terrifying plan to destroy humanity is about to reach fruition." ;
-                                                     ns0:medium_synopsis "" ,
-                                                                         "A terrifying plan to destroy humanity is about to reach fruition. Can the Doctor and her friends escape multiple traps and defeat a deadly alliance?" ;
-                                                     ns0:long_synopsis "" ,
-                                                                       "In part two of this epic spy thriller, a terrifying plan to destroy humanity is about to reach fruition. Can the Doctor and her friends escape multiple traps and defeat a deadly alliance?" ;
-                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:image_pid "p06ls33z" ,
                                                                    "p07y8jkn" ,
                                                                    "p07z69n2" ;
-                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p06ls33z.jpg> ,
-                                                                    <https://ichef.bbci.co.uk/images/ic/640x360/p07y8jkn.jpg> ,
-                                                                    <https://ichef.bbci.co.uk/images/ic/640x360/p07z69n2.jpg> ;
+                                                     ns0:long_synopsis "" ,
+                                                                       "In part two of this epic spy thriller, a terrifying plan to destroy humanity is about to reach fruition. Can the Doctor and her friends escape multiple traps and defeat a deadly alliance?" ;
+                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     ns0:medium_synopsis "" ,
+                                                                         "A terrifying plan to destroy humanity is about to reach fruition. Can the Doctor and her friends escape multiple traps and defeat a deadly alliance?" ;
+                                                     ns0:pid "m000d4tk" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "A terrifying plan to destroy humanity is about to reach fruition." ,
+                                                                        "The story continues." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/m000d4tj#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/m000d502#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p07z6v5m#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p07zrx0q#programme> ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "m000d4tk" .
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p06ls33z.jpg> ,
+                                                                    <https://ichef.bbci.co.uk/images/ic/640x360/p07y8jkn.jpg> ,
+                                                                    <https://ichef.bbci.co.uk/images/ic/640x360/p07z69n2.jpg> .
 
 <http://www.bbc.co.uk/programmes/m000dbp4#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 3" ,
                                                               "Orphan 55" ;
-                                                     ns0:short_synopsis "Adventures across time and space with the time-travelling hero." ,
-                                                                        "The Doctor holidays at a luxury resort that hides a number of deadly secrets." ,
-                                                                        "The Doctor and friends go on an all-inclusive holiday — into terror." ;
-                                                     ns0:medium_synopsis "" ,
-                                                                         "The Doctor and her friends discover that the luxury resort where they are holidaying is hiding a number of deadly secrets." ,
-                                                                         "A luxury holiday on an alien planet beckons for the Doctorand her friends. But their stay at Tranquillity Spa becomes a fight for survival against terrifying monsters." ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p07y8jkn" ,
+                                                                   "p07zqk1y" ;
                                                      ns0:long_synopsis "" ,
                                                                        "The Doctor and her friends discover that the luxury resort where they are holidaying is hiding a number of deadly secrets. What are the ferocious monsters attacking Tranquillity Spa?" ;
                                                      ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
-                                                     ns0:image_pid "p07y8jkn" ,
-                                                                   "p07zqk1y" ;
-                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p07y8jkn.jpg> ,
-                                                                    <https://ichef.bbci.co.uk/images/ic/640x360/p07zqk1y.jpg> ;
+                                                     ns0:medium_synopsis "" ,
+                                                                         "A luxury holiday on an alien planet beckons for the Doctorand her friends. But their stay at Tranquillity Spa becomes a fight for survival against terrifying monsters." ,
+                                                                         "The Doctor and her friends discover that the luxury resort where they are holidaying is hiding a number of deadly secrets." ;
+                                                     ns0:pid "m000dbp4" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "Adventures across time and space with the time-travelling hero." ,
+                                                                        "The Doctor and friends go on an all-inclusive holiday — into terror." ,
+                                                                        "The Doctor holidays at a luxury resort that hides a number of deadly secrets." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/m000dbp2#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/m000dc5d#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p07zt8lg#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p080k51l#programme> ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "m000dbp4" .
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p07y8jkn.jpg> ,
+                                                                    <https://ichef.bbci.co.uk/images/ic/640x360/p07zqk1y.jpg> .
 
 <http://www.bbc.co.uk/programmes/m000dlc3#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 4" ,
                                                               "Nikola Tesla’s Night of Terror" ;
-                                                     ns0:short_synopsis "Adventures across time and space with the Time Lord." ,
-                                                                        "1903. Who or what is sabotaging Nikola Tesla's generator plant at Niagara Falls?" ;
-                                                     ns0:medium_synopsis "" ,
-                                                                         "1903. Who or what is sabotaging Nikola Tesla's generator plant at Niagara Falls? And has this maverick inventor really received a message from Mars?" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p07y8jkn" ,
+                                                                   "p080bcgh" ;
                                                      ns0:long_synopsis "" ,
                                                                        "1903. On the edge of Niagara Falls, something is wrong at Nikola Tesla’s generator plant. Who or what is sabotaging the maverick inventor’s work? Has he really received a message from Mars? And where does his great rival Thomas Edison fit into these events? The Doctor, Yaz, Ryan and Graham must join forces with one of history’s great minds to save both him and planet Earth." ;
                                                      ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
-                                                     ns0:image_pid "p07y8jkn" ,
-                                                                   "p080bcgh" ;
-                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p07y8jkn.jpg> ,
-                                                                    <https://ichef.bbci.co.uk/images/ic/640x360/p080bcgh.jpg> ;
+                                                     ns0:medium_synopsis "" ,
+                                                                         "1903. Who or what is sabotaging Nikola Tesla's generator plant at Niagara Falls? And has this maverick inventor really received a message from Mars?" ;
+                                                     ns0:pid "m000dlc3" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "1903. Who or what is sabotaging Nikola Tesla's generator plant at Niagara Falls?" ,
+                                                                        "Adventures across time and space with the Time Lord." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/m000dlc2#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/m000dm36#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p080rjgh#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p0810gsp#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p0810gsr#programme> ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "m000dlc3" .
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p07y8jkn.jpg> ,
+                                                                    <https://ichef.bbci.co.uk/images/ic/640x360/p080bcgh.jpg> .
 
 <http://www.bbc.co.uk/programmes/m000dtqx#programme> rdf:type ns0:Episode ;
                                                      dc:title "Fugitive of the Judoon" ;
-                                                     ns0:short_synopsis "Why have the Judoon targeted 21st-century Gloucester? Can the Doctor protect the city?" ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p07y8jkn" ,
+                                                                   "p080z25v" ;
+                                                     ns0:long_synopsis "Ko Sho Blo! Trigger-happy space police the Judoon are targeting 21st-century Gloucester. The Doctor, Yaz, Ryan and Graham race back to Earth in order to prevent them doing too much damage to the cathedral city. But who are they looking for, and what did they do to incur the wrath of the Judoon?" ;
+                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
                                                      ns0:medium_synopsis """The Doctor and friends race to 21st-century Gloucester to stand in the way of trigger-happy space police the Judoon. But who or what are the
 Judoon investigating?""" ,
                                                                          "The Doctor and friends race to 21st-century Gloucester to stand in the way of trigger-happy space police the Judoon. But who or what are the Judoon investigating?" ;
-                                                     ns0:long_synopsis "Ko Sho Blo! Trigger-happy space police the Judoon are targeting 21st-century Gloucester. The Doctor, Yaz, Ryan and Graham race back to Earth in order to prevent them doing too much damage to the cathedral city. But who are they looking for, and what did they do to incur the wrath of the Judoon?" ;
-                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
-                                                     ns0:image_pid "p07y8jkn" ,
-                                                                   "p080z25v" ;
-                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p07y8jkn.jpg> ,
-                                                                    <https://ichef.bbci.co.uk/images/ic/640x360/p080z25v.jpg> ;
+                                                     ns0:pid "m000dtqx" ;
+                                                     ns0:position "5" ;
+                                                     ns0:short_synopsis "Why have the Judoon targeted 21st-century Gloucester? Can the Doctor protect the city?" ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/m000dtqw#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/m000dv1h#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p08195cr#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p08195ct#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p081zxyr#programme> ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
-                                                     ns0:position "5" ;
-                                                     ns0:pid "m000dtqx" .
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p07y8jkn.jpg> ,
+                                                                    <https://ichef.bbci.co.uk/images/ic/640x360/p080z25v.jpg> .
 
 <http://www.bbc.co.uk/programmes/m000f1wx#programme> rdf:type ns0:Episode ;
                                                      dc:title "Praxeus" ;
-                                                     ns0:short_synopsis "Across Peru, Madagascar and Hong Kong, the Doctor and friends face a deadly global threat." ;
-                                                     ns0:medium_synopsis "What connects a missing astronaut in the Indian Ocean, birds behaving strangely in Peru and a US naval officer who washes up on a Madagascan beach?" ;
-                                                     ns0:long_synopsis "What connects a missing astronaut in the Indian Ocean, birds behaving strangely in Peru and a US naval officer who washes up on a Madagascan beach? Team Tardis investigate." ;
-                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:image_pid "p080yq5v" ,
                                                                    "p081mgq1" ;
-                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p080yq5v.jpg> ,
-                                                                    <https://ichef.bbci.co.uk/images/ic/640x360/p081mgq1.jpg> ;
+                                                     ns0:long_synopsis "What connects a missing astronaut in the Indian Ocean, birds behaving strangely in Peru and a US naval officer who washes up on a Madagascan beach? Team Tardis investigate." ;
+                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     ns0:medium_synopsis "What connects a missing astronaut in the Indian Ocean, birds behaving strangely in Peru and a US naval officer who washes up on a Madagascan beach?" ;
+                                                     ns0:pid "m000f1wx" ;
+                                                     ns0:position "6" ;
+                                                     ns0:short_synopsis "Across Peru, Madagascar and Hong Kong, the Doctor and friends face a deadly global threat." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/m000f1wt#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/m000f2cl#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p081tsbb#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p082n5jl#programme> ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
-                                                     ns0:position "6" ;
-                                                     ns0:pid "m000f1wx" .
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p080yq5v.jpg> ,
+                                                                    <https://ichef.bbci.co.uk/images/ic/640x360/p081mgq1.jpg> .
 
 <http://www.bbc.co.uk/programmes/m000f9d4#programme> rdf:type ns0:Episode ;
                                                      dc:title "Can You Hear Me?" ;
-                                                     ns0:short_synopsis "The Doctor answers cries for help from deep space, ancient Syria - and Sheffield." ;
-                                                     ns0:medium_synopsis "From ancient Syria to present day Sheffield, and out into the wilds of space, something is stalking the Doctor and infecting people’s nightmares." ;
-                                                     ns0:long_synopsis "From ancient Syria to present day Sheffield, and out into the wilds of space, something is stalking the Doctor and her friends. As Graham, Yaz and Ryan return home to see friends and family, they find themselves haunted by very different experiences. Who is the figure calling from beyond the stars for help, and why? And what are the fearsome Chagaskas terrorising Aleppo in 1380? To find the answers, Team Tardis embark on a mission that forces them to face their darkest fears." ;
-                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:image_pid "p081mgv4" ,
                                                                    "p0827t3j" ;
-                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p081mgv4.jpg> ,
-                                                                    <https://ichef.bbci.co.uk/images/ic/640x360/p0827t3j.jpg> ;
+                                                     ns0:long_synopsis "From ancient Syria to present day Sheffield, and out into the wilds of space, something is stalking the Doctor and her friends. As Graham, Yaz and Ryan return home to see friends and family, they find themselves haunted by very different experiences. Who is the figure calling from beyond the stars for help, and why? And what are the fearsome Chagaskas terrorising Aleppo in 1380? To find the answers, Team Tardis embark on a mission that forces them to face their darkest fears." ;
+                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     ns0:medium_synopsis "From ancient Syria to present day Sheffield, and out into the wilds of space, something is stalking the Doctor and infecting people’s nightmares." ;
+                                                     ns0:pid "m000f9d4" ;
+                                                     ns0:position "7" ;
+                                                     ns0:short_synopsis "The Doctor answers cries for help from deep space, ancient Syria - and Sheffield." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/m000f9d3#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/m000f9xd#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p082qs72#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p0833bb1#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p0833bb3#programme> ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
-                                                     ns0:position "7" ;
-                                                     ns0:pid "m000f9d4" .
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p081mgv4.jpg> ,
+                                                                    <https://ichef.bbci.co.uk/images/ic/640x360/p0827t3j.jpg> .
 
 <http://www.bbc.co.uk/programmes/m000fjf1#programme> rdf:type ns0:Episode ;
                                                      dc:title "The Haunting of Villa Diodati" ;
-                                                     ns0:short_synopsis "In 1816, Lord Byron and the Shelleys prepare for a night of ghost stories." ;
-                                                     ns0:medium_synopsis "Lake Geneva, 1816. Lord Byron and the Shelleys prepare for a night telling ghost stories, but their villa proves to have ghostly presences all its own." ,
-                                                                         "Lake Geneva, 1816. Lord Byron and the Shelleys prepare for a night telling ghost stories, but their villa proves to have ghostly presences all of its own." ;
-                                                     ns0:long_synopsis """‘Nobody mention Frankenstein. Nobody interfere. Nobody snog Byron.’ Should be easy, right? 
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p081mgv4" ,
+                                                                   "p082znr4" ;
+                                                     ns0:long_synopsis """‘Nobody mention Frankenstein. Nobody interfere. Nobody snog Byron.’ Should be easy, right?
 
 The Doctor and her gang arrive at the Villa Diodati at Lake Geneva in 1816 on the night that inspired Mary Shelley’s Frankenstein. The plan is to spend the evening soaking up the atmos in the presence of some literary greats, but the ghosts are all too real, and the Doctor is forced into a decision of earth-shattering proportions.""" ,
-                                                                       """‘Nobody mention Frankenstein. Nobody interfere. Nobody snog Byron.’ Should be easy, right?
+                                                                       """‘Nobody mention Frankenstein. Nobody interfere. Nobody snog Byron.’ Should be easy, right? 
 
 The Doctor and her gang arrive at the Villa Diodati at Lake Geneva in 1816 on the night that inspired Mary Shelley’s Frankenstein. The plan is to spend the evening soaking up the atmos in the presence of some literary greats, but the ghosts are all too real, and the Doctor is forced into a decision of earth-shattering proportions.""" ;
                                                      ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
-                                                     ns0:image_pid "p081mgv4" ,
-                                                                   "p082znr4" ;
-                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p081mgv4.jpg> ,
-                                                                    <https://ichef.bbci.co.uk/images/ic/640x360/p082znr4.jpg> ;
+                                                     ns0:medium_synopsis "Lake Geneva, 1816. Lord Byron and the Shelleys prepare for a night telling ghost stories, but their villa proves to have ghostly presences all its own." ,
+                                                                         "Lake Geneva, 1816. Lord Byron and the Shelleys prepare for a night telling ghost stories, but their villa proves to have ghostly presences all of its own." ;
+                                                     ns0:pid "m000fjf1" ;
+                                                     ns0:position "8" ;
+                                                     ns0:short_synopsis "In 1816, Lord Byron and the Shelleys prepare for a night of ghost stories." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/m000fjf0#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/m000fk20#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p083bypp#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p0845yj7#programme> ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
-                                                     ns0:position "8" ;
-                                                     ns0:pid "m000fjf1" .
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p081mgv4.jpg> ,
+                                                                    <https://ichef.bbci.co.uk/images/ic/640x360/p082znr4.jpg> .
 
 <http://www.bbc.co.uk/programmes/m000frjp#programme> rdf:type ns0:Episode ;
                                                      dc:title "Ascension of the Cybermen" ;
-                                                     ns0:short_synopsis "The Doctor and her friends must protect the last of the human race against the Cybermen." ;
-                                                     ns0:medium_synopsis "In the far future, the Doctor and her friends face a brutal battle across the farthest reaches of space to protect the last of the human race against the deadly Cybermen." ;
-                                                     ns0:long_synopsis """The aftermath of the Great CyberWar. The Doctor arrives in the far future, intent on protecting the last of the human race from the deadly Cybermen. But in the face of such a relentless enemy, has she put her best friends at risk? What terrors lie hiding in the depths of space, and what is Ko Sharmus?
-Written by Chris Chibnall
-Directed by Jamie Magnus Stone
-Guest starring Julie Graham, Patrick O'Kane, Ian McElhinney and Steve Toussaint.""" ,
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p081mgv4" ,
+                                                                   "p083s8hz" ;
+                                                     ns0:long_synopsis "The aftermath of the Great CyberWar. The Doctor arrives in the far future, intent on protecting the last of the human race from the deadly Cybermen. But in the face of such a relentless enemy, has she put her best friends at risk? What terrors lie hiding in the depths of space, and what is Ko Sharmus?" ,
                                                                        """The aftermath of the Great CyberWar. The Doctor arrives in the far future, intent on protecting the last of the human race from the deadly Cybermen. But in the face of such a relentless enemy, has she put her best friends at risk? What terrors lie hiding in the depths of space, and what is Ko Sharmus?
 
 Written by Chris Chibnall
 Directed by Jamie Magnus Stone
 Guest starring Julie Graham, Patrick O'Kane, Ian McElhinney and Steve Toussaint.""" ,
-                                                                       "The aftermath of the Great CyberWar. The Doctor arrives in the far future, intent on protecting the last of the human race from the deadly Cybermen. But in the face of such a relentless enemy, has she put her best friends at risk? What terrors lie hiding in the depths of space, and what is Ko Sharmus?" ;
+                                                                       """The aftermath of the Great CyberWar. The Doctor arrives in the far future, intent on protecting the last of the human race from the deadly Cybermen. But in the face of such a relentless enemy, has she put her best friends at risk? What terrors lie hiding in the depths of space, and what is Ko Sharmus?
+Written by Chris Chibnall
+Directed by Jamie Magnus Stone
+Guest starring Julie Graham, Patrick O'Kane, Ian McElhinney and Steve Toussaint.""" ;
                                                      ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
-                                                     ns0:image_pid "p081mgv4" ,
-                                                                   "p083s8hz" ;
-                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p081mgv4.jpg> ,
-                                                                    <https://ichef.bbci.co.uk/images/ic/640x360/p083s8hz.jpg> ;
+                                                     ns0:medium_synopsis "In the far future, the Doctor and her friends face a brutal battle across the farthest reaches of space to protect the last of the human race against the deadly Cybermen." ;
+                                                     ns0:pid "m000frjp" ;
+                                                     ns0:position "8" ,
+                                                                  "9" ;
+                                                     ns0:short_synopsis "The Doctor and her friends must protect the last of the human race against the Cybermen." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/m000frjn#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/m000fs1s#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p084cwcy#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p084tz2r#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p084tz2t#programme> ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
-                                                     ns0:position "8" ,
-                                                                  "9" ;
-                                                     ns0:pid "m000frjp" .
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p081mgv4.jpg> ,
+                                                                    <https://ichef.bbci.co.uk/images/ic/640x360/p083s8hz.jpg> .
 
 <http://www.bbc.co.uk/programmes/m000g09m#programme> rdf:type ns0:Episode ;
                                                      dc:title "The Timeless Children" ;
-                                                     ns0:short_synopsis "The Cybermen attack, and for the Doctor nothing will ever be the same." ;
-                                                     ns0:medium_synopsis "The Cybermen are on the march. The last remaining humans are hunted down. Lies are exposed, truths are revealed, and for the Doctor nothing will ever be the same." ;
-                                                     ns0:long_synopsis "In the epic and emotional series finale, the Cybermen are on the march. As the last remaining humans are ruthlessly hunted down, Graham, Ryan and Yaz face a terrifying fight to survive. Civilisations fall. Others rise anew. Lies are exposed, truths are revealed, battles are fought, and for the Doctor — trapped and alone  —  nothing will ever be the same again." ;
-                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:image_pid "p081mgv4" ,
                                                                    "p084y6vg" ;
-                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p081mgv4.jpg> ,
-                                                                    <https://ichef.bbci.co.uk/images/ic/640x360/p084y6vg.jpg> ;
+                                                     ns0:long_synopsis "In the epic and emotional series finale, the Cybermen are on the march. As the last remaining humans are ruthlessly hunted down, Graham, Ryan and Yaz face a terrifying fight to survive. Civilisations fall. Others rise anew. Lies are exposed, truths are revealed, battles are fought, and for the Doctor — trapped and alone  —  nothing will ever be the same again." ;
+                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     ns0:medium_synopsis "The Cybermen are on the march. The last remaining humans are hunted down. Lies are exposed, truths are revealed, and for the Doctor nothing will ever be the same." ;
+                                                     ns0:pid "m000g09m" ;
+                                                     ns0:position "10" ;
+                                                     ns0:short_synopsis "The Cybermen attack, and for the Doctor nothing will ever be the same." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/m000g09k#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/m000g1kz#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p0857j63#programme> ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
-                                                     ns0:position "10" ;
-                                                     ns0:pid "m000g09m" .
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p081mgv4.jpg> ,
+                                                                    <https://ichef.bbci.co.uk/images/ic/640x360/p084y6vg.jpg> .

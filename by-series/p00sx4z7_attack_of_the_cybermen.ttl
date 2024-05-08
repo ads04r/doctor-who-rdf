@@ -5,38 +5,38 @@
 
 <http://www.bbc.co.uk/programmes/p00sx4z7#programme> rdf:type ns0:Series ;
                                                      dc:title "Attack of the Cybermen" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00sx4z7" ;
-                                                     ns0:short_synopsis "The Cybermen plan to destroy Earth before their original planet, Mondas, is destroyed." ;
-                                                     ns0:medium_synopsis "The Cybermen plan to destroy Earth before their original planet, Mondas, is destroyed. On Telos, the Cryons have found a human to help them stop the Cybermen forever." ;
-                                                     ns0:long_synopsis "The Cybermen plan to destroy Earth before their original planet, Mondas, is destroyed. On Telos, the Cryons have found a human to help them stop the Cybermen forever." ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/p00vbb0s#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00vbb2q#programme> .
+                                                                 <http://www.bbc.co.uk/programmes/p00vbb2q#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:long_synopsis "The Cybermen plan to destroy Earth before their original planet, Mondas, is destroyed. On Telos, the Cryons have found a human to help them stop the Cybermen forever." ;
+                                                     ns0:medium_synopsis "The Cybermen plan to destroy Earth before their original planet, Mondas, is destroyed. On Telos, the Cryons have found a human to help them stop the Cybermen forever." ;
+                                                     ns0:pid "p00sx4z7" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "The Cybermen plan to destroy Earth before their original planet, Mondas, is destroyed." .
 
 <http://www.bbc.co.uk/programmes/p00vbb0s#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 1" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00vbb0s" ;
-                                                     ns0:short_synopsis "The Cybermen are in the London sewers and turning humans into cybernetic slaves." ;
-                                                     ns0:medium_synopsis "The Cybermen are hiding in the London sewers and turning humans into cybernetic slaves. On Telos, two slaves make a bid of freedom and find a way to escape the planet for good." ;
-                                                     ns0:image_pid "p00vbp2z" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01lr483#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vbp2z" ;
+                                                     ns0:medium_synopsis "The Cybermen are hiding in the London sewers and turning humans into cybernetic slaves. On Telos, two slaves make a bid of freedom and find a way to escape the planet for good." ;
+                                                     ns0:pid "p00vbb0s" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "The Cybermen are in the London sewers and turning humans into cybernetic slaves." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vbb0t#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p04989kv#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01lr483#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vbp2z.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00vbb2q#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 2" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00vbb2q" ;
-                                                     ns0:short_synopsis "On Telos, the Doctor meets the Cryons, the planet's original inhabitants." ;
-                                                     ns0:medium_synopsis "On Telos, the Doctor is reintroduced to the Cyber Leader and meets the Cryons, the planet's original inhabitants who will go to any lengths to get their world back!" ;
-                                                     ns0:image_pid "p00vbp5b" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01lr4sg#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01lr549#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vbp5b" ;
+                                                     ns0:medium_synopsis "On Telos, the Doctor is reintroduced to the Cyber Leader and meets the Cryons, the planet's original inhabitants who will go to any lengths to get their world back!" ;
+                                                     ns0:pid "p00vbb2q" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "On Telos, the Doctor meets the Cryons, the planet's original inhabitants." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vbb2r#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p04988x7#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01lr549#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p01lr4sg#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vbp5b.jpg> .

@@ -5,63 +5,63 @@
 
 <http://www.bbc.co.uk/programmes/p00krdcv#programme> rdf:type ns0:Series ;
                                                      dc:title "The Moonbase" ;
-                                                     ns0:position "6" ;
-                                                     ns0:pid "p00krdcv" ;
-                                                     ns0:short_synopsis "The Doctor and his companions arrive on Earth's moon in 2070 but the Cybermen are waiting!" ;
-                                                     ns0:medium_synopsis "When the Doctor and his companions arrive in 2070, they discover Earth's weather is controlled by the Gravitron and the Cybermen are responsible for a mysterious epidemic." ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/p00v2zdr#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v2zfd#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v2zg3#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00v2zgs#programme> .
+                                                                 <http://www.bbc.co.uk/programmes/p00v2zgs#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:medium_synopsis "When the Doctor and his companions arrive in 2070, they discover Earth's weather is controlled by the Gravitron and the Cybermen are responsible for a mysterious epidemic." ;
+                                                     ns0:pid "p00krdcv" ;
+                                                     ns0:position "6" ;
+                                                     ns0:short_synopsis "The Doctor and his companions arrive on Earth's moon in 2070 but the Cybermen are waiting!" .
 
 <http://www.bbc.co.uk/programmes/p00v2zdr#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 1" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00v2zdr" ;
-                                                     ns0:short_synopsis "The TARDIS lands on the Moon in 2070 and Jamie is injured during a spacewalk." ;
-                                                     ns0:medium_synopsis "The TARDIS lands on the Moon in 2070 and Jamie is injured during a spacewalk. The travellers are treated with suspicion at the weather control moonbase where a plague has struck." ;
-                                                     ns0:long_synopsis "The TARDIS lands on the Moon in 2070 and Jamie is injured during a spacewalk. The travellers are treated with suspicion at the weather control moonbase where a plague has struck." ;
-                                                     ns0:image_pid "p00v1z35" ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v1z35" ;
+                                                     ns0:long_synopsis "The TARDIS lands on the Moon in 2070 and Jamie is injured during a spacewalk. The travellers are treated with suspicion at the weather control moonbase where a plague has struck." ;
+                                                     ns0:medium_synopsis "The TARDIS lands on the Moon in 2070 and Jamie is injured during a spacewalk. The travellers are treated with suspicion at the weather control moonbase where a plague has struck." ;
+                                                     ns0:pid "p00v2zdr" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "The TARDIS lands on the Moon in 2070 and Jamie is injured during a spacewalk." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v2zds#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p04yjqqm#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v1z35.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v2zfd#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 2" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00v2zfd" ;
-                                                     ns0:short_synopsis "Polly learns that the Cyberman are abducting the plague victims, but nobody believes her." ;
-                                                     ns0:medium_synopsis "Polly discovers that the Cyberman are abducting the plague victims, but nobody believes her until it is too late." ;
-                                                     ns0:long_synopsis "Polly discovers that the Cyberman are abducting the plague victims, but nobody believes her until it is too late." ;
-                                                     ns0:image_pid "p00v1z3y" ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
-                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v2zff#programme> ;
                                                      ns0:clip <http://www.bbc.co.uk/programmes/p014d81x#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v1z3y" ;
+                                                     ns0:long_synopsis "Polly discovers that the Cyberman are abducting the plague victims, but nobody believes her until it is too late." ;
+                                                     ns0:medium_synopsis "Polly discovers that the Cyberman are abducting the plague victims, but nobody believes her until it is too late." ;
+                                                     ns0:pid "p00v2zfd" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "Polly learns that the Cyberman are abducting the plague victims, but nobody believes her." ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v2zff#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v1z3y.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v2zg3#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 3" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00v2zg3" ;
-                                                     ns0:short_synopsis "The Cybermen have taken over the moonbase and are preparing to control Earth's weather..." ;
-                                                     ns0:medium_synopsis "The Cybermen have taken control of the moonbase and are preparing to use the weather control systems to wreak havoc on Earth." ;
-                                                     ns0:long_synopsis "The Cybermen have taken control of the moonbase and are preparing to use the weather control systems to wreak havoc on Earth." ;
-                                                     ns0:image_pid "p00v1z4d" ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v1z4d" ;
+                                                     ns0:long_synopsis "The Cybermen have taken control of the moonbase and are preparing to use the weather control systems to wreak havoc on Earth." ;
+                                                     ns0:medium_synopsis "The Cybermen have taken control of the moonbase and are preparing to use the weather control systems to wreak havoc on Earth." ;
+                                                     ns0:pid "p00v2zg3" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "The Cybermen have taken over the moonbase and are preparing to control Earth's weather..." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v2zg4#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v1z4d.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v2zgs#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 4" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "p00v2zgs" ;
-                                                     ns0:short_synopsis "The Moonbase is cut off from Earth and under siege by the Cybermen..." ;
-                                                     ns0:medium_synopsis "The moonbase is cut off from Earth and under siege. The Cybermen launch an all-out attack and the Doctor formulates a dangerous plan to repel the invaders." ;
-                                                     ns0:long_synopsis "The moonbase is cut off from Earth and under siege. The Cybermen launch an all-out attack and the Doctor formulates a dangerous plan to repel the invaders." ;
-                                                     ns0:image_pid "p00v1z4v" ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
-                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v2zgt#programme> ;
                                                      ns0:clip <http://www.bbc.co.uk/programmes/p014d85d#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v1z4v" ;
+                                                     ns0:long_synopsis "The moonbase is cut off from Earth and under siege. The Cybermen launch an all-out attack and the Doctor formulates a dangerous plan to repel the invaders." ;
+                                                     ns0:medium_synopsis "The moonbase is cut off from Earth and under siege. The Cybermen launch an all-out attack and the Doctor formulates a dangerous plan to repel the invaders." ;
+                                                     ns0:pid "p00v2zgs" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "The Moonbase is cut off from Earth and under siege by the Cybermen..." ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v2zgt#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v1z4v.jpg> .

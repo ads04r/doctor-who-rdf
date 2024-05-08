@@ -5,86 +5,86 @@
 
 <http://www.bbc.co.uk/programmes/p00kjv91#programme> rdf:type ns0:Series ;
                                                      dc:title "The Reign of Terror" ;
-                                                     ns0:position "8" ;
-                                                     ns0:pid "p00kjv91" ;
-                                                     ns0:short_synopsis "The Doctor and his companions become embroiled in the French Revolution." ;
-                                                     ns0:medium_synopsis "Attempting to rescue Ian during the French Revolution, the Doctor disguises himself as a prominent Citizen, but his plan is rumbled by Robespierre's right-hand-man, Lemaitre." ;
-                                                     ns0:long_synopsis "Attempting to rescue Ian during the French Revolution, the Doctor disguises himself as a prominent Citizen, but his plan is rumbled by Robespierre's right-hand-man, Lemaitre." ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/p00v1pv9#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v1pvy#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v1pwr#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v1pxm#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v1pym#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00v1q20#programme> .
+                                                                 <http://www.bbc.co.uk/programmes/p00v1q20#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:long_synopsis "Attempting to rescue Ian during the French Revolution, the Doctor disguises himself as a prominent Citizen, but his plan is rumbled by Robespierre's right-hand-man, Lemaitre." ;
+                                                     ns0:medium_synopsis "Attempting to rescue Ian during the French Revolution, the Doctor disguises himself as a prominent Citizen, but his plan is rumbled by Robespierre's right-hand-man, Lemaitre." ;
+                                                     ns0:pid "p00kjv91" ;
+                                                     ns0:position "8" ;
+                                                     ns0:short_synopsis "The Doctor and his companions become embroiled in the French Revolution." .
 
 <http://www.bbc.co.uk/programmes/p00v1pv9#programme> rdf:type ns0:Episode ;
                                                      dc:title "A Land of Fear" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00v1pv9" ;
-                                                     ns0:short_synopsis "Attempting to return Ian and Barbara home, the TARDIS lands in 18th century France." ;
-                                                     ns0:medium_synopsis "When the Doctor attempts to return Ian and Barbara to their own time, the TARDIS actually lands in 18th Century France during the French Revolution. " ;
-                                                     ns0:image_pid "p00v2bm4" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01145xb#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v2bm4" ;
+                                                     ns0:medium_synopsis "When the Doctor attempts to return Ian and Barbara to their own time, the TARDIS actually lands in 18th Century France during the French Revolution. " ;
+                                                     ns0:pid "p00v1pv9" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "Attempting to return Ian and Barbara home, the TARDIS lands in 18th century France." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v1pvb#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p04yjpw1#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01145xb#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v2bm4.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v1pvy#programme> rdf:type ns0:Episode ;
                                                      dc:title "Guests of Madame Guillotine" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00v1pvy" ;
-                                                     ns0:short_synopsis "In Paris, Ian, Barbara and Susan are sentenced to death by guillotine." ;
-                                                     ns0:medium_synopsis "In Paris, Ian, Barbara and Susan are sentenced to death under the blade of the guillotine. Having escaped the burning farmhouse, the Doctor is on his way to rescue his friends." ;
-                                                     ns0:image_pid "p00v2bn8" ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
-                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v1pvz#programme> ;
                                                      ns0:clip <http://www.bbc.co.uk/programmes/p01146jg#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v2bn8" ;
+                                                     ns0:medium_synopsis "In Paris, Ian, Barbara and Susan are sentenced to death under the blade of the guillotine. Having escaped the burning farmhouse, the Doctor is on his way to rescue his friends." ;
+                                                     ns0:pid "p00v1pvy" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "In Paris, Ian, Barbara and Susan are sentenced to death by guillotine." ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v1pvz#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v2bn8.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v1pwr#programme> rdf:type ns0:Episode ;
                                                      dc:title "A Change of Identity" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00v1pwr" ;
-                                                     ns0:short_synopsis "Barbara and Susan are saved from the guillotine by two royalists, Jules and Jean, but why?" ;
-                                                     ns0:medium_synopsis "Barbara and Susan are saved from the guillotine by two royalists, Jules and Jean, but Susan has fallen ill. At the prison, a stroke of luck provides Ian with a chance to escape. " ;
-                                                     ns0:image_pid "p00vcxyq" ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
-                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v1pws#programme> ;
                                                      ns0:clip <http://www.bbc.co.uk/programmes/p01148vb#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vcxyq" ;
+                                                     ns0:medium_synopsis "Barbara and Susan are saved from the guillotine by two royalists, Jules and Jean, but Susan has fallen ill. At the prison, a stroke of luck provides Ian with a chance to escape. " ;
+                                                     ns0:pid "p00v1pwr" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "Barbara and Susan are saved from the guillotine by two royalists, Jules and Jean, but why?" ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v1pws#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vcxyq.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v1pxm#programme> rdf:type ns0:Episode ;
                                                      dc:title "The Tyrant of France" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "p00v1pxm" ;
-                                                     ns0:short_synopsis "Susan is now very ill and in desperate need of medical help. Leon finds a doctor." ;
-                                                     ns0:medium_synopsis "Susan is now very ill and in desperate need of medical help. The royalist, Leon, arranges for Barbara to take Susan to a physician, but the physician betrays them." ;
-                                                     ns0:image_pid "p00v2bq7" ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v2bq7" ;
+                                                     ns0:medium_synopsis "Susan is now very ill and in desperate need of medical help. The royalist, Leon, arranges for Barbara to take Susan to a physician, but the physician betrays them." ;
+                                                     ns0:pid "p00v1pxm" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "Susan is now very ill and in desperate need of medical help. Leon finds a doctor." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v1pxn#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v2bq7.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v1pym#programme> rdf:type ns0:Episode ;
                                                      dc:title "A Bargain of Necessity" ;
-                                                     ns0:position "5" ;
-                                                     ns0:pid "p00v1pym" ;
-                                                     ns0:short_synopsis "The Doctor is reunited with Barbara at the prison and arranges for her to escape." ;
-                                                     ns0:medium_synopsis "The Doctor is reunited with Barbara at the prison and arranges for her to escape, but Susan remains behind bars.  Jules rescues Ian, killing Leon in the process. " ;
-                                                     ns0:image_pid "p00v2brg" ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v2brg" ;
+                                                     ns0:medium_synopsis "The Doctor is reunited with Barbara at the prison and arranges for her to escape, but Susan remains behind bars.  Jules rescues Ian, killing Leon in the process. " ;
+                                                     ns0:pid "p00v1pym" ;
+                                                     ns0:position "5" ;
+                                                     ns0:short_synopsis "The Doctor is reunited with Barbara at the prison and arranges for her to escape." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v1pyn#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v2brg.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v1q20#programme> rdf:type ns0:Episode ;
                                                      dc:title "Prisoners of Conciergerie" ;
-                                                     ns0:position "6" ;
-                                                     ns0:pid "p00v1q20" ;
-                                                     ns0:short_synopsis "The Doctor leads Lemaitre to the royalist house where Lemaitre reveals that he is Stirling" ;
-                                                     ns0:medium_synopsis "The Doctor leads Lemaitre to the royalist house where Lemaitre reveals that he is in fact the English spy, James Sterling." ;
-                                                     ns0:image_pid "p00v2brx" ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
-                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v1q22#programme> ;
                                                      ns0:clip <http://www.bbc.co.uk/programmes/p01165xc#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v2brx" ;
+                                                     ns0:medium_synopsis "The Doctor leads Lemaitre to the royalist house where Lemaitre reveals that he is in fact the English spy, James Sterling." ;
+                                                     ns0:pid "p00v1q20" ;
+                                                     ns0:position "6" ;
+                                                     ns0:short_synopsis "The Doctor leads Lemaitre to the royalist house where Lemaitre reveals that he is Stirling" ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v1q22#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v2brx.jpg> .

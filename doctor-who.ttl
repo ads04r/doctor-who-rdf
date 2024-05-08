@@ -5434,7 +5434,10 @@
     po:episode <http://www.bbc.co.uk/programmes/m001sx3h#programme>,
         <http://www.bbc.co.uk/programmes/m001t42d#programme>,
         <http://www.bbc.co.uk/programmes/m001tc3r#programme>,
-        <http://www.bbc.co.uk/programmes/m001tfnl#programme> .
+        <http://www.bbc.co.uk/programmes/m001tfnl#programme>,
+        <http://www.bbc.co.uk/programmes/m001z8bz#programme>,
+        <http://www.bbc.co.uk/programmes/m001z8c7#programme> ;
+    po:series <http://www.bbc.co.uk/programmes/m001z8c2#programme> .
 
 <http://www.bbc.co.uk/programmes/b006q2x0#programme> a po:Brand ;
     dc:title "Doctor Who" ;
@@ -6696,6 +6699,10 @@
         <http://www.bbc.co.uk/programmes/m00123l4#programme>,
         <http://www.bbc.co.uk/programmes/m00129lb#programme> .
 
+<http://www.bbc.co.uk/programmes/m001z8c2#programme> a po:Series ;
+    po:episode <http://www.bbc.co.uk/programmes/m001z8bz#programme>,
+        <http://www.bbc.co.uk/programmes/m001z8c7#programme> .
+
 <http://www.bbc.co.uk/programmes/p06jcmy9#programme> a po:Series ;
     dc:title "Series 11" ;
     po:episode <http://www.bbc.co.uk/programmes/b0bp1brh#programme>,
@@ -7192,6 +7199,36 @@
     po:medium_synopsis "Adventures across time and space with the time-travelling hero." ;
     po:pid "b08n5s4l" ;
     po:short_synopsis "Adventures across time and space with the time-travelling hero." .
+
+<http://www.bbc.co.uk/programmes/m001z8bz#programme> a po:Episode ;
+    dc:title "",
+        "Space Babies" ;
+    po:genre <http://www.bbc.co.uk/programmes/genres/drama#genre>,
+        <http://www.bbc.co.uk/programmes/genres/scifiandfantasy#genre> ;
+    po:image_pid "p0gz2jcy" ;
+    po:long_synopsis "None" ;
+    po:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+    po:medium_synopsis "Ruby learns the Doctor’s amazing secrets when he takes her to the far future. There, they find a baby farm run by babies. But can they be saved from the terrifying bogeyman?" ;
+    po:position "1"^^xsd:nonNegativeInteger ;
+    po:short_synopsis "Ruby learns the Doctor's secrets when he takes her to a future with babies and a bogeyman." ;
+    po:version <http://www.bbc.co.uk/programmes/m001z8bw#programme>,
+        <http://www.bbc.co.uk/programmes/m001z9v3#programme> ;
+    foaf:depiction <https://ichef.bbci.co.uk/images/ic/1920x1080/p0gz2jcy.jpg> .
+
+<http://www.bbc.co.uk/programmes/m001z8c7#programme> a po:Episode ;
+    dc:title "",
+        "The Devil's Chord" ;
+    po:genre <http://www.bbc.co.uk/programmes/genres/drama#genre>,
+        <http://www.bbc.co.uk/programmes/genres/scifiandfantasy#genre> ;
+    po:image_pid "p0gz2jcy" ;
+    po:long_synopsis "None" ;
+    po:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+    po:medium_synopsis "The Doctor and Ruby meet The Beatles but discover that the all-powerful Maestro is changing history. London becomes a battleground with the future of humanity at stake." ;
+    po:position "2"^^xsd:nonNegativeInteger ;
+    po:short_synopsis "The Doctor and Ruby go to meet The Beatles but end up battling the all-powerful Maestro." ;
+    po:version <http://www.bbc.co.uk/programmes/m001z8c4#programme>,
+        <http://www.bbc.co.uk/programmes/m001z9v4#programme> ;
+    foaf:depiction <https://ichef.bbci.co.uk/images/ic/1920x1080/p0gz2jcy.jpg> .
 
 <http://www.bbc.co.uk/programmes/p0056cjg#programme> a po:Series ;
     dc:title "Dreamland" ;

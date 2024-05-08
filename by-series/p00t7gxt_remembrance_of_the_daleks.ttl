@@ -5,64 +5,64 @@
 
 <http://www.bbc.co.uk/programmes/p00t7gxt#programme> rdf:type ns0:Series ;
                                                      dc:title "Remembrance of the Daleks" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00t7gxt" ;
-                                                     ns0:short_synopsis "The Doctor and Ace are caught up in a battle between two factions of Daleks." ;
-                                                     ns0:medium_synopsis "The Doctor and Ace are caught up in a fierce battle on Earth between two violently opposing factions of Daleks, who will stop at nothing to destroy one another." ;
-                                                     ns0:long_synopsis "The Doctor and Ace are caught up in a fierce battle on Earth between two violently opposing factions of Daleks, who will stop at nothing to destroy one another." ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:clip <http://www.bbc.co.uk/programmes/p01nmvpf#programme> ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/p00v91lj#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v91nb#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v91pg#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00v91t1#programme> .
+                                                                 <http://www.bbc.co.uk/programmes/p00v91t1#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:long_synopsis "The Doctor and Ace are caught up in a fierce battle on Earth between two violently opposing factions of Daleks, who will stop at nothing to destroy one another." ;
+                                                     ns0:medium_synopsis "The Doctor and Ace are caught up in a fierce battle on Earth between two violently opposing factions of Daleks, who will stop at nothing to destroy one another." ;
+                                                     ns0:pid "p00t7gxt" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "The Doctor and Ace are caught up in a battle between two factions of Daleks." .
 
 <http://www.bbc.co.uk/programmes/p00v91lj#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 1" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00v91lj" ;
-                                                     ns0:short_synopsis "The Doctor's past begins to catch up with him at the Totter's Lane junkyard." ;
-                                                     ns0:medium_synopsis "In Shoreditch, 1963, the Doctor's past begins to catch up with him… At the Totter's Lane junkyard where his adventures began, an old terror is returning..." ;
-                                                     ns0:image_pid "p00v9fq0" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p00zwrs0#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v9fq0" ;
+                                                     ns0:medium_synopsis "In Shoreditch, 1963, the Doctor's past begins to catch up with him… At the Totter's Lane junkyard where his adventures began, an old terror is returning..." ;
+                                                     ns0:pid "p00v91lj" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "The Doctor's past begins to catch up with him at the Totter's Lane junkyard." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v91lk#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p04yjs15#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p00zwrs0#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v9fq0.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v91nb#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 2" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00v91nb" ;
-                                                     ns0:short_synopsis "Renegade Daleks battle Imperial Daleks for control of the Hand of Omega." ;
-                                                     ns0:medium_synopsis "Renegade Daleks battle Imperial Daleks for control of the Hand of Omega. Ace takes them on single-handedly at Coal Hill School, while Ratcliffe makes his move." ;
-                                                     ns0:image_pid "p00v9g15" ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
-                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v91nc#programme> ;
                                                      ns0:clip <http://www.bbc.co.uk/programmes/p00zxgwl#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v9g15" ;
+                                                     ns0:medium_synopsis "Renegade Daleks battle Imperial Daleks for control of the Hand of Omega. Ace takes them on single-handedly at Coal Hill School, while Ratcliffe makes his move." ;
+                                                     ns0:pid "p00v91nb" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "Renegade Daleks battle Imperial Daleks for control of the Hand of Omega." ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v91nc#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v9g15.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v91pg#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 3" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00v91pg" ;
-                                                     ns0:short_synopsis "The Doctor discovers why the Daleks want a stellar manipulator." ;
-                                                     ns0:medium_synopsis "The Doctor discovers the difference between the two Dalek factions and why they want a stellar manipulator. He hopes Captain Gilmore's people are up to the task ahead…" ;
-                                                     ns0:image_pid "p00v9gb0" ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
-                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v91ph#programme> ;
                                                      ns0:clip <http://www.bbc.co.uk/programmes/p00zxh1d#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v9gb0" ;
+                                                     ns0:medium_synopsis "The Doctor discovers the difference between the two Dalek factions and why they want a stellar manipulator. He hopes Captain Gilmore's people are up to the task ahead…" ;
+                                                     ns0:pid "p00v91pg" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "The Doctor discovers why the Daleks want a stellar manipulator." ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v91ph#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v9gb0.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v91t1#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 4" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "p00v91t1" ;
-                                                     ns0:short_synopsis "The streets of East London shake under a civil war being fought between the Daleks." ;
-                                                     ns0:medium_synopsis "The streets of East London shake under a civil war being fought between the Daleks and the Doctor forces the Dalek Emperor to reveal himself to be Davros, waging one more battle." ;
-                                                     ns0:image_pid "p00v9gcv" ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
-                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v91t2#programme> ;
                                                      ns0:clip <http://www.bbc.co.uk/programmes/p00zwqsb#programme> ,
                                                               <http://www.bbc.co.uk/programmes/p01klk76#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v9gcv" ;
+                                                     ns0:medium_synopsis "The streets of East London shake under a civil war being fought between the Daleks and the Doctor forces the Dalek Emperor to reveal himself to be Davros, waging one more battle." ;
+                                                     ns0:pid "p00v91t1" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "The streets of East London shake under a civil war being fought between the Daleks." ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v91t2#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v9gcv.jpg> .

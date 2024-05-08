@@ -5,54 +5,54 @@
 
 <http://www.bbc.co.uk/programmes/p00t1kwt#programme> rdf:type ns0:Series ;
                                                      dc:title "Dragonfire" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "p00t1kwt" ;
-                                                     ns0:short_synopsis "Beneath the shops and cafes of Iceworld lives Kane, seeking the secret of the dragonfire." ;
-                                                     ns0:medium_synopsis "The trading post, Iceworld, is a planet with one side permanently facing the cold, dark of space.  Beneath the shops and cafes lives Kane, seeking the secret of the dragonfire..." ;
-                                                     ns0:long_synopsis "The trading post, Iceworld, is a planet with one side permanently facing the cold, dark of space.  Beneath the shops and cafes lives Kane, seeking the secret of the dragonfire..." ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/p00vbglj#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00vbgvr#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00vbgwq#programme> .
+                                                                 <http://www.bbc.co.uk/programmes/p00vbgwq#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:long_synopsis "The trading post, Iceworld, is a planet with one side permanently facing the cold, dark of space.  Beneath the shops and cafes lives Kane, seeking the secret of the dragonfire..." ;
+                                                     ns0:medium_synopsis "The trading post, Iceworld, is a planet with one side permanently facing the cold, dark of space.  Beneath the shops and cafes lives Kane, seeking the secret of the dragonfire..." ;
+                                                     ns0:pid "p00t1kwt" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "Beneath the shops and cafes of Iceworld lives Kane, seeking the secret of the dragonfire." .
 
 <http://www.bbc.co.uk/programmes/p00vbglj#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 1" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00vbglj" ;
-                                                     ns0:short_synopsis "On Iceworld, the Doctor and Mel meet Ace, who has found herself there after a timestorm." ;
-                                                     ns0:medium_synopsis "On Iceworld, the Doctor and Mel meet Ace, who has found herself there after a timestorm. While Ace nearly joins Kane's mercenaries, the Doctor and Glitz explore the ice caverns." ;
-                                                     ns0:image_pid "p00vd1p3" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01zknff#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01zkp7y#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vd1p3" ;
+                                                     ns0:medium_synopsis "On Iceworld, the Doctor and Mel meet Ace, who has found herself there after a timestorm. While Ace nearly joins Kane's mercenaries, the Doctor and Glitz explore the ice caverns." ;
+                                                     ns0:pid "p00vbglj" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "On Iceworld, the Doctor and Mel meet Ace, who has found herself there after a timestorm." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vbglk#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xzsfl#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01zkp7y#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p01zknff#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vd1p3.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00vbgvr#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 2" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00vbgvr" ;
-                                                     ns0:short_synopsis "Kane turns on his allies, as he cannot trust anyone in his search for the dragonfire…" ;
-                                                     ns0:medium_synopsis "The Doctor and Glitz meet the infamous dragon, which is really a biomechanoid. Meanwhile Kane turns on his allies, as he cannot trust anyone in his search for the dragonfire..." ;
-                                                     ns0:image_pid "p00vd1ts" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01zkq2d#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01zkqz9#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vd1ts" ;
+                                                     ns0:medium_synopsis "The Doctor and Glitz meet the infamous dragon, which is really a biomechanoid. Meanwhile Kane turns on his allies, as he cannot trust anyone in his search for the dragonfire..." ;
+                                                     ns0:pid "p00vbgvr" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "Kane turns on his allies, as he cannot trust anyone in his search for the dragonfire…" ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vbgvs#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xzsjx#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01zkqz9#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p01zkq2d#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vd1ts.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00vbgwq#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 3" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00vbgwq" ;
-                                                     ns0:short_synopsis "In the archive, the Doctor discovers that Kane is from the dead world of Proamon." ;
-                                                     ns0:medium_synopsis "Shown the archive by the biomechanoid, the Doctor discovers that Kane is from the dead world of Proamon. Mel witnesess the destruction of the Nosferatu and Ace faces temptation." ;
-                                                     ns0:image_pid "p00vd1zl" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01zkr71#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01zkrcv#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vd1zl" ;
+                                                     ns0:medium_synopsis "Shown the archive by the biomechanoid, the Doctor discovers that Kane is from the dead world of Proamon. Mel witnesess the destruction of the Nosferatu and Ace faces temptation." ;
+                                                     ns0:pid "p00vbgwq" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "In the archive, the Doctor discovers that Kane is from the dead world of Proamon." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vbgwr#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xzspt#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01zkrcv#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p01zkr71#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vd1zl.jpg> .

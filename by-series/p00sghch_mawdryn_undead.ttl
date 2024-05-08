@@ -5,68 +5,68 @@
 
 <http://www.bbc.co.uk/programmes/p00sghch#programme> rdf:type ns0:Series ;
                                                      dc:title "Mawdryn Undead" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00sghch" ;
-                                                     ns0:short_synopsis "The Black Guardian employs Turlough to kill the Doctor." ;
-                                                     ns0:medium_synopsis "The Black Guardian employs Turlough to kill the Doctor.  On a spaceship, Mawdryn seeks rebirth after a failed attempt to steal the secrets of Time Lords’ power of regeneration." ;
-                                                     ns0:long_synopsis "The Black Guardian employs Turlough to kill the Doctor.  On a spaceship, Mawdryn seeks rebirth after a failed attempt to steal the secrets of Time Lords’ power of regeneration." ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/p00v9fx1#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v9g49#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v9gld#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00v9gpd#programme> .
+                                                                 <http://www.bbc.co.uk/programmes/p00v9gpd#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:long_synopsis "The Black Guardian employs Turlough to kill the Doctor.  On a spaceship, Mawdryn seeks rebirth after a failed attempt to steal the secrets of Time Lords’ power of regeneration." ;
+                                                     ns0:medium_synopsis "The Black Guardian employs Turlough to kill the Doctor.  On a spaceship, Mawdryn seeks rebirth after a failed attempt to steal the secrets of Time Lords’ power of regeneration." ;
+                                                     ns0:pid "p00sghch" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "The Black Guardian employs Turlough to kill the Doctor." .
 
 <http://www.bbc.co.uk/programmes/p00v9fx1#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 1" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00v9fx1" ;
-                                                     ns0:short_synopsis "Caught in a warp ellipse, the TARDIS is drawn to a huge spacecraft orbiting Earth." ;
-                                                     ns0:medium_synopsis "Caught in a warp ellipse, the TARDIS is drawn to a huge spacecraft orbiting Earth whereupon the Doctor is separated in space and time from Nyssa and Tegan." ;
-                                                     ns0:image_pid "p00vb86y" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01l0x9g#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01l0z24#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vb86y" ;
+                                                     ns0:medium_synopsis "Caught in a warp ellipse, the TARDIS is drawn to a huge spacecraft orbiting Earth whereupon the Doctor is separated in space and time from Nyssa and Tegan." ;
+                                                     ns0:pid "p00v9fx1" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "Caught in a warp ellipse, the TARDIS is drawn to a huge spacecraft orbiting Earth." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v9fx2#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xzsjr#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01l0z24#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p01l0x9g#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vb86y.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v9g49#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 2" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00v9g49" ;
-                                                     ns0:short_synopsis "Both Tegan and the Doctor meet the Brigadier but in different time periods." ;
-                                                     ns0:medium_synopsis "At Brendon School, the Doctor enlists the help of the Brigadier.  At Brendon School, Tegan enlists the help of the Brigadier. Same man, but different time periods..." ;
-                                                     ns0:image_pid "p01hsd4f" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01l101b#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01l10nj#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p01hsd4f" ;
+                                                     ns0:medium_synopsis "At Brendon School, the Doctor enlists the help of the Brigadier.  At Brendon School, Tegan enlists the help of the Brigadier. Same man, but different time periods..." ;
+                                                     ns0:pid "p00v9g49" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "Both Tegan and the Doctor meet the Brigadier but in different time periods." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v9g4b#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xzss9#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01l10nj#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p01l101b#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p01hsd4f.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v9gld#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 3" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00v9gld" ;
-                                                     ns0:short_synopsis "Mawdryn and his eternal mutants are awake and reveal the truth." ;
-                                                     ns0:medium_synopsis "Mawdryn and his eternal mutants reveal the truth: they are exiles, they are in pain and need the Doctor's his future 'lives', as afforded by each of his remaining regenerations." ;
-                                                     ns0:image_pid "p01hsd68" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01l111f#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p01hsd68" ;
+                                                     ns0:medium_synopsis "Mawdryn and his eternal mutants reveal the truth: they are exiles, they are in pain and need the Doctor's his future 'lives', as afforded by each of his remaining regenerations." ;
+                                                     ns0:pid "p00v9gld" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "Mawdryn and his eternal mutants are awake and reveal the truth." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v9glf#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xzsls#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01l111f#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p01hsd68.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v9gpd#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 4" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "p00v9gpd" ;
-                                                     ns0:short_synopsis "Turlough plots with the Black Guardian to bring the Doctor down once and for all." ;
-                                                     ns0:medium_synopsis "As the Doctor's ethics are challenged and the two Brigadiers finally meet, Turlough plots with the Black Guardian to bring the Time Lord down once and for all..." ;
-                                                     ns0:image_pid "p00vb8c8" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01l127z#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01l12sq#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vb8c8" ;
+                                                     ns0:medium_synopsis "As the Doctor's ethics are challenged and the two Brigadiers finally meet, Turlough plots with the Black Guardian to bring the Time Lord down once and for all..." ;
+                                                     ns0:pid "p00v9gpd" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "Turlough plots with the Black Guardian to bring the Doctor down once and for all." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v9gpf#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xzsw4#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01l12sq#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p01l127z#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vb8c8.jpg> .

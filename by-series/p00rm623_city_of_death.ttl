@@ -5,65 +5,65 @@
 
 <http://www.bbc.co.uk/programmes/p00rm623#programme> rdf:type ns0:Series ;
                                                      dc:title "City of Death" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00rm623" ;
-                                                     ns0:short_synopsis "As the Doctor shows Romana around Paris they become aware of a time distortion." ;
-                                                     ns0:medium_synopsis "As the Doctor shows Romana around Paris they become aware of a time distortion and a mysterious woman, the Countess Scarlioni, who is showing interest in the Mona Lisa..." ;
-                                                     ns0:long_synopsis "As the Doctor shows Romana around Paris they become aware of a time distortion and a mysterious woman, the Countess Scarlioni, who is showing a great deal of interest in the Mona Lisa..." ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/p00vh9yb#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00vhb7v#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00vhb9x#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00vhbgm#programme> .
+                                                                 <http://www.bbc.co.uk/programmes/p00vhbgm#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:long_synopsis "As the Doctor shows Romana around Paris they become aware of a time distortion and a mysterious woman, the Countess Scarlioni, who is showing a great deal of interest in the Mona Lisa..." ;
+                                                     ns0:medium_synopsis "As the Doctor shows Romana around Paris they become aware of a time distortion and a mysterious woman, the Countess Scarlioni, who is showing interest in the Mona Lisa..." ;
+                                                     ns0:pid "p00rm623" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "As the Doctor shows Romana around Paris they become aware of a time distortion." .
 
 <http://www.bbc.co.uk/programmes/p00vh9yb#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 1" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00vh9yb" ;
-                                                     ns0:short_synopsis "While on holiday in Paris, the Doctor and Romana experience a time distortion. " ;
-                                                     ns0:medium_synopsis "While on holiday in Paris, the Doctor and Romana experience a time distortion. At the Louvre, someone is taking an unusual amount of interest in the Mona Lisa." ;
-                                                     ns0:image_pid "p00vhppd" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01h98qq#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vhppd" ;
+                                                     ns0:medium_synopsis "While on holiday in Paris, the Doctor and Romana experience a time distortion. At the Louvre, someone is taking an unusual amount of interest in the Mona Lisa." ;
+                                                     ns0:pid "p00vh9yb" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "While on holiday in Paris, the Doctor and Romana experience a time distortion. " ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vh9yc#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p04989d8#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01h98qq#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vhppd.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00vhb7v#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 2" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00vhb7v" ;
-                                                     ns0:short_synopsis "Scarlioni is planning to steal the Mona Lisa. Yet he has six in his cellar –all genuine." ;
-                                                     ns0:medium_synopsis "The Doctor and Romana become the reluctant guests of Scarlioni who is planning to steal the Mona Lisa despite having six of them  hidden in his cellar – all of them genuine." ;
-                                                     ns0:image_pid "p00vhpll" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01h98xj#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vhpll" ;
+                                                     ns0:medium_synopsis "The Doctor and Romana become the reluctant guests of Scarlioni who is planning to steal the Mona Lisa despite having six of them  hidden in his cellar – all of them genuine." ;
+                                                     ns0:pid "p00vhb7v" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "Scarlioni is planning to steal the Mona Lisa. Yet he has six in his cellar –all genuine." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vhb7w#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p04989sz#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01h98xj#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vhpll.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00vhb9x#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 3" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00vhb9x" ;
-                                                     ns0:short_synopsis "Count Scarlioni is really Scaroth, last of the Jagaroth." ;
-                                                     ns0:medium_synopsis "Count Scarlioni is revealed to really be Scaroth, last of the Jagaroth and he is funding the construction of a time machine – but for what purpose?" ;
-                                                     ns0:image_pid "p00vhps9" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01h9931#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vhps9" ;
+                                                     ns0:medium_synopsis "Count Scarlioni is revealed to really be Scaroth, last of the Jagaroth and he is funding the construction of a time machine – but for what purpose?" ;
+                                                     ns0:pid "p00vhb9x" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "Count Scarlioni is really Scaroth, last of the Jagaroth." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vhb9y#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p04z5yxb#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01h9931#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vhps9.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00vhbgm#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 4" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "p00vhbgm" ;
-                                                     ns0:short_synopsis "Scaroth intends to travel back in time to save his own people from destruction." ;
-                                                     ns0:medium_synopsis "Scaroth intends to travel back in time to save his own people from destruction. But the Doctor can't allow him to succeed as it would mean the destruction of all life on Earth." ;
-                                                     ns0:image_pid "p00vhpt8" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01h99bk#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vhpt8" ;
+                                                     ns0:medium_synopsis "Scaroth intends to travel back in time to save his own people from destruction. But the Doctor can't allow him to succeed as it would mean the destruction of all life on Earth." ;
+                                                     ns0:pid "p00vhbgm" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "Scaroth intends to travel back in time to save his own people from destruction." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vhbgn#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p04989wy#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01h99bk#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vhpt8.jpg> .

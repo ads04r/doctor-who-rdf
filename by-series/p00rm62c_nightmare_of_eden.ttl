@@ -5,62 +5,62 @@
 
 <http://www.bbc.co.uk/programmes/p00rm62c#programme> rdf:type ns0:Series ;
                                                      dc:title "Nightmare of Eden" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "p00rm62c" ;
-                                                     ns0:short_synopsis "The Doctor, Romana and K-9 arrive on the Empress where they meet a scientist called Tryst." ;
-                                                     ns0:medium_synopsis "The Doctor, Romana and K-9 arrive on the Empress where they meet the scientist Tryst who is transporting a device known as Continuous Event Transmuter (CET)." ;
-                                                     ns0:long_synopsis "The Doctor, Romana and K-9 arrive on the Empress where they meet the scientist Tryst who is transporting a device known as Continuous Event Transmuter (CET)." ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/p00vhc26#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00vhc5k#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00vhc74#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00vhcbv#programme> .
+                                                                 <http://www.bbc.co.uk/programmes/p00vhcbv#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:long_synopsis "The Doctor, Romana and K-9 arrive on the Empress where they meet the scientist Tryst who is transporting a device known as Continuous Event Transmuter (CET)." ;
+                                                     ns0:medium_synopsis "The Doctor, Romana and K-9 arrive on the Empress where they meet the scientist Tryst who is transporting a device known as Continuous Event Transmuter (CET)." ;
+                                                     ns0:pid "p00rm62c" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "The Doctor, Romana and K-9 arrive on the Empress where they meet a scientist called Tryst." .
 
 <http://www.bbc.co.uk/programmes/p00vhc26#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 1" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00vhc26" ;
-                                                     ns0:short_synopsis "A hyperspace accident results in two ships fusing together and releasing a deadly menace." ;
-                                                     ns0:medium_synopsis "A terrible hyperspace accident results in two starships becoming locked together. The Doctor arrives and discovers that the incident may have also released a deadly menace." ;
-                                                     ns0:image_pid "p00vhqq0" ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vhqq0" ;
+                                                     ns0:medium_synopsis "A terrible hyperspace accident results in two starships becoming locked together. The Doctor arrives and discovers that the incident may have also released a deadly menace." ;
+                                                     ns0:pid "p00vhc26" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "A hyperspace accident results in two ships fusing together and releasing a deadly menace." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vhc27#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xmkcl#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vhqq0.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00vhc5k#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 2" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00vhc5k" ;
-                                                     ns0:short_synopsis "The Doctor and Romana discover that someone is smuggling the dangerous narcotic, Vraxoin." ;
-                                                     ns0:medium_synopsis "The Doctor and Romana are horrified to discover that Tryst has been storing real life forms in his CET machine and that someone is smuggling the dangerous narcotic, Vraxoin." ;
-                                                     ns0:image_pid "p00vhqw7" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01hmkgq#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vhqw7" ;
+                                                     ns0:medium_synopsis "The Doctor and Romana are horrified to discover that Tryst has been storing real life forms in his CET machine and that someone is smuggling the dangerous narcotic, Vraxoin." ;
+                                                     ns0:pid "p00vhc5k" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "The Doctor and Romana discover that someone is smuggling the dangerous narcotic, Vraxoin." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vhc5l#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xmkdy#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01hmkgq#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vhqw7.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00vhc74#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 3" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00vhc74" ;
-                                                     ns0:short_synopsis "The Mandrels have escaped from the Eden projection and are attacking the passengers." ;
-                                                     ns0:medium_synopsis "The terrifying Mandrels have escaped from Eden and are attacking people aboard the Empress. The Doctor and Romana, accused of being smugglers, are pursued by customs officers." ;
-                                                     ns0:image_pid "p00vhrrh" ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vhrrh" ;
+                                                     ns0:medium_synopsis "The terrifying Mandrels have escaped from Eden and are attacking people aboard the Empress. The Doctor and Romana, accused of being smugglers, are pursued by customs officers." ;
+                                                     ns0:pid "p00vhc74" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "The Mandrels have escaped from the Eden projection and are attacking the passengers." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vhc75#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xmkds#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vhrrh.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00vhcbv#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 4" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "p00vhcbv" ;
-                                                     ns0:short_synopsis "Unless the Doctor and Romana act quickly, the villains will escape justice." ;
-                                                     ns0:medium_synopsis "The Doctor solves the mystery of the drug smuggling racket and the culprits are revealed. But unless the Doctor and Romana act quickly, the villains will escape justice." ;
-                                                     ns0:image_pid "p00vhrys" ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vhrys" ;
+                                                     ns0:medium_synopsis "The Doctor solves the mystery of the drug smuggling racket and the culprits are revealed. But unless the Doctor and Romana act quickly, the villains will escape justice." ;
+                                                     ns0:pid "p00vhcbv" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "Unless the Doctor and Romana act quickly, the villains will escape justice." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vhcbx#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xmkcr#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vhrys.jpg> .

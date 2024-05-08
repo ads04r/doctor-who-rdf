@@ -5,65 +5,65 @@
 
 <http://www.bbc.co.uk/programmes/p00rm620#programme> rdf:type ns0:Series ;
                                                      dc:title "Destiny of the Daleks" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00rm620" ;
-                                                     ns0:short_synopsis "The TARDIS lands on the apparently abandoned planet Skaro. But the Daleks have returned!" ;
-                                                     ns0:medium_synopsis "The TARDIS lands on the apparently abandoned planet of Skaro where the Doctor and the newly regenerated Romana discover that the Daleks have returned to their homeworld." ;
-                                                     ns0:long_synopsis "The TARDIS lands on the apparently abandoned planet of Skaro where the Doctor and the newly regenerated Romana discover that the Daleks have returned to their homeworld." ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/p00vh9l1#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00vh9nn#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00vh9r4#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00vh9t8#programme> .
+                                                                 <http://www.bbc.co.uk/programmes/p00vh9t8#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:long_synopsis "The TARDIS lands on the apparently abandoned planet of Skaro where the Doctor and the newly regenerated Romana discover that the Daleks have returned to their homeworld." ;
+                                                     ns0:medium_synopsis "The TARDIS lands on the apparently abandoned planet of Skaro where the Doctor and the newly regenerated Romana discover that the Daleks have returned to their homeworld." ;
+                                                     ns0:pid "p00rm620" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "The TARDIS lands on the apparently abandoned planet Skaro. But the Daleks have returned!" .
 
 <http://www.bbc.co.uk/programmes/p00vh9l1#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 1" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00vh9l1" ;
-                                                     ns0:short_synopsis "On Skaro the Doctor and Romana discover that someone is digging beneath the surface." ;
-                                                     ns0:medium_synopsis "The TARDIS lands on the old Dalek homeworld of Skaro where the Doctor and the newly regenerated Romana discover that someone is digging deep beneath the planet's surface." ;
-                                                     ns0:image_pid "p00vhnwp" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01ftxkx#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vhnwp" ;
+                                                     ns0:medium_synopsis "The TARDIS lands on the old Dalek homeworld of Skaro where the Doctor and the newly regenerated Romana discover that someone is digging deep beneath the planet's surface." ;
+                                                     ns0:pid "p00vh9l1" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "On Skaro the Doctor and Romana discover that someone is digging beneath the surface." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vh9l2#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p03rqb6v#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01ftxkx#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vhnwp.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00vh9nn#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 2" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00vh9nn" ;
-                                                     ns0:short_synopsis "The captured Romana is interrogated by the Daleks whilst the Doctor meets the Movellans." ;
-                                                     ns0:medium_synopsis "The captured Romana is interrogated by Daleks whilst the Doctor meets the Movellans , a race equally interested in discovering what the Daleks are searching for." ;
-                                                     ns0:image_pid "p00vhnzn" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01ftxv1#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vhnzn" ;
+                                                     ns0:medium_synopsis "The captured Romana is interrogated by Daleks whilst the Doctor meets the Movellans , a race equally interested in discovering what the Daleks are searching for." ;
+                                                     ns0:pid "p00vh9nn" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "The captured Romana is interrogated by the Daleks whilst the Doctor meets the Movellans." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vh9np#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p03rqb5t#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01ftxv1#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vhnzn.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00vh9r4#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 3" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00vh9r4" ;
-                                                     ns0:short_synopsis "Davros has awoken from his centuries-long slumber and is taken prisoner by the Doctor." ;
-                                                     ns0:medium_synopsis "Davros has awoken from his centuries-long slumber and is taken prisoner by the Doctor before the Daleks can reach him. But the Daleks will stop at nothing to recover their creator." ;
-                                                     ns0:image_pid "p00vhp2f" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01fty1n#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vhp2f" ;
+                                                     ns0:medium_synopsis "Davros has awoken from his centuries-long slumber and is taken prisoner by the Doctor before the Daleks can reach him. But the Daleks will stop at nothing to recover their creator." ;
+                                                     ns0:pid "p00vh9r4" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "Davros has awoken from his centuries-long slumber and is taken prisoner by the Doctor." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vh9r6#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p03rqcqv#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01fty1n#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vhp2f.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00vh9t8#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 4" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "p00vh9t8" ;
-                                                     ns0:short_synopsis "The Daleks need Davros to break the stalemate in their war with the Movellans." ;
-                                                     ns0:medium_synopsis "The Doctor discovers that the Daleks need Davros to break the stalemate in their war with the Movellans, and the Movellans now want the Doctor to fulfil the same purpose for them." ;
-                                                     ns0:image_pid "p00vhp5p" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01fty60#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vhp5p" ;
+                                                     ns0:medium_synopsis "The Doctor discovers that the Daleks need Davros to break the stalemate in their war with the Movellans, and the Movellans now want the Doctor to fulfil the same purpose for them." ;
+                                                     ns0:pid "p00vh9t8" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "The Daleks need Davros to break the stalemate in their war with the Movellans." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vh9t9#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p03rqb7l#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01fty60#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vhp5p.jpg> .

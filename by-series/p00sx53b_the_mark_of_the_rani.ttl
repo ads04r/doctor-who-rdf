@@ -5,36 +5,36 @@
 
 <http://www.bbc.co.uk/programmes/p00sx53b#programme> rdf:type ns0:Series ;
                                                      dc:title "The Mark of the Rani" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00sx53b" ;
-                                                     ns0:short_synopsis "The Master and the Rani make an uneasy alliance on Earth." ;
-                                                     ns0:medium_synopsis "The Master and the Rani make an uneasy alliance on Earth while plotting to change history by disrupting the Industrial Revolution. The Doctor and Peri stop their scheming." ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/p00vbbf7#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00vbbhk#programme> .
+                                                                 <http://www.bbc.co.uk/programmes/p00vbbhk#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:medium_synopsis "The Master and the Rani make an uneasy alliance on Earth while plotting to change history by disrupting the Industrial Revolution. The Doctor and Peri stop their scheming." ;
+                                                     ns0:pid "p00sx53b" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "The Master and the Rani make an uneasy alliance on Earth." .
 
 <http://www.bbc.co.uk/programmes/p00vbbf7#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 1" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00vbbf7" ;
-                                                     ns0:short_synopsis "People cannot sleep and the Doctor realises it is the work of the Rani." ;
-                                                     ns0:medium_synopsis "People cannot sleep in the town of Killingworth and the Doctor realises it is the work of a renegade Time Lord, the Rani, who has teamed up with the Master to cause chaos..." ;
-                                                     ns0:image_pid "p00vbpps" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01lwlkd#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vbpps" ;
+                                                     ns0:medium_synopsis "People cannot sleep in the town of Killingworth and the Doctor realises it is the work of a renegade Time Lord, the Rani, who has teamed up with the Master to cause chaos..." ;
+                                                     ns0:pid "p00vbbf7" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "People cannot sleep and the Doctor realises it is the work of the Rani." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vbbf8#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p04688nw#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01lwlkd#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vbpps.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00vbbhk#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 2" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00vbbhk" ;
-                                                     ns0:short_synopsis "The Rani has other traps for the unwary, including the ability to turn people into trees." ;
-                                                     ns0:medium_synopsis "George Stephenson and Luke Ward do their best to help the Doctor and Peri, but the Rani has other traps for the unwary, including the ability to turn people into trees..." ;
-                                                     ns0:image_pid "p00vbpqr" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01lwlnw#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vbpqr" ;
+                                                     ns0:medium_synopsis "George Stephenson and Luke Ward do their best to help the Doctor and Peri, but the Rani has other traps for the unwary, including the ability to turn people into trees..." ;
+                                                     ns0:pid "p00vbbhk" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "The Rani has other traps for the unwary, including the ability to turn people into trees." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vbbhl#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p04688qn#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01lwlnw#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vbpqr.jpg> .

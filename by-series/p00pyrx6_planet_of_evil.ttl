@@ -5,65 +5,65 @@
 
 <http://www.bbc.co.uk/programmes/p00pyrx6#programme> rdf:type ns0:Series ;
                                                      dc:title "Planet of Evil" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00pyrx6" ;
-                                                     ns0:short_synopsis "The TARDIS picks up a distress call so the Doctor and Sarah go to investigate." ;
-                                                     ns0:medium_synopsis "When the TARDIS picks up a distress call from the planet Zeta Minor, the Doctor and Sarah go to investigate and discover an expedition has been wiped out by an unseen menace." ;
-                                                     ns0:long_synopsis "When the TARDIS picks up a distress call from the planet Zeta Minor, the Doctor and Sarah go to investigate and discover an expedition has been wiped out by an unseen menace." ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/p00vf1m8#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00vf1pr#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00vf1w2#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00vf1yc#programme> .
+                                                                 <http://www.bbc.co.uk/programmes/p00vf1yc#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:long_synopsis "When the TARDIS picks up a distress call from the planet Zeta Minor, the Doctor and Sarah go to investigate and discover an expedition has been wiped out by an unseen menace." ;
+                                                     ns0:medium_synopsis "When the TARDIS picks up a distress call from the planet Zeta Minor, the Doctor and Sarah go to investigate and discover an expedition has been wiped out by an unseen menace." ;
+                                                     ns0:pid "p00pyrx6" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "The TARDIS picks up a distress call so the Doctor and Sarah go to investigate." .
 
 <http://www.bbc.co.uk/programmes/p00vf1m8#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 1" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00vf1m8" ;
-                                                     ns0:short_synopsis "The Doctor and Sarah visit the planet Zeta Minor on the edge of the universe." ;
-                                                     ns0:medium_synopsis "The TARDIS takes the Doctor and Sarah to the planet Zeta Minor on the edge of the universe. An unseen menace has wiped out a Morestran expedition and haunts the alien jungle..." ;
-                                                     ns0:image_pid "p00vg16s" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01cv37z#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vg16s" ;
+                                                     ns0:medium_synopsis "The TARDIS takes the Doctor and Sarah to the planet Zeta Minor on the edge of the universe. An unseen menace has wiped out a Morestran expedition and haunts the alien jungle..." ;
+                                                     ns0:pid "p00vf1m8" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "The Doctor and Sarah visit the planet Zeta Minor on the edge of the universe." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vf1m9#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xzsgf#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01cv37z#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vg16s.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00vf1pr#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 2" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00vf1pr" ;
-                                                     ns0:short_synopsis "The Doctor and Sarah are held responsible for the deaths on Zeta Minor." ;
-                                                     ns0:medium_synopsis "The Doctor and Sarah are held responsible for the deaths on Zeta Minor, but the Time Lord knows that the real culprit comes from the mysterious universe of antimatter." ;
-                                                     ns0:image_pid "p00vg1dy" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01cv3cq#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vg1dy" ;
+                                                     ns0:medium_synopsis "The Doctor and Sarah are held responsible for the deaths on Zeta Minor, but the Time Lord knows that the real culprit comes from the mysterious universe of antimatter." ;
+                                                     ns0:pid "p00vf1pr" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "The Doctor and Sarah are held responsible for the deaths on Zeta Minor." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vf1ps#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xzsrz#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01cv3cq#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vg1dy.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00vf1w2#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 3" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00vf1w2" ;
-                                                     ns0:short_synopsis "In the universe of antimatter, the Doctor communes with the creature and makes a bargain. " ;
-                                                     ns0:medium_synopsis "Lost in the universe of antimatter, the Doctor communes with the creature and makes a bargain. Sarah discovers Professor Sorensen's dark secret which threatens to overwhelm him." ;
-                                                     ns0:image_pid "p00vg1gw" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01cv3g3#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vg1gw" ;
+                                                     ns0:medium_synopsis "Lost in the universe of antimatter, the Doctor communes with the creature and makes a bargain. Sarah discovers Professor Sorensen's dark secret which threatens to overwhelm him." ;
+                                                     ns0:pid "p00vf1w2" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "In the universe of antimatter, the Doctor communes with the creature and makes a bargain. " ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vf1w3#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xzsll#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01cv3g3#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vg1gw.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00vf1yc#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 4" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "p00vf1yc" ;
-                                                     ns0:short_synopsis "On board the Morestran ship, the Doctor and Sarah are hemmed in by anti-men!" ;
-                                                     ns0:medium_synopsis "Unable to escape, the Morestran probe is being pulled back to the surface of Zeta Minor. On board the ship, the Doctor and Sarah are hemmed in by anti-men!" ;
-                                                     ns0:image_pid "p00vg1jt" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01cv3lb#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vg1jt" ;
+                                                     ns0:medium_synopsis "Unable to escape, the Morestran probe is being pulled back to the surface of Zeta Minor. On board the ship, the Doctor and Sarah are hemmed in by anti-men!" ;
+                                                     ns0:pid "p00vf1yc" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "On board the Morestran ship, the Doctor and Sarah are hemmed in by anti-men!" ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vf1yd#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xzspn#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01cv3lb#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vg1jt.jpg> .

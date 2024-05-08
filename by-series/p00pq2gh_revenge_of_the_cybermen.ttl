@@ -5,65 +5,65 @@
 
 <http://www.bbc.co.uk/programmes/p00pq2gh#programme> rdf:type ns0:Series ;
                                                      dc:title "Revenge of the Cybermen" ;
-                                                     ns0:position "5" ;
-                                                     ns0:pid "p00pq2gh" ;
-                                                     ns0:short_synopsis "The time ring returns the Doctor, Sarah and Harry to space station Nerva." ;
-                                                     ns0:medium_synopsis "The time ring returns the Doctor, Sarah and Harry to Nerva at a point many years prior to their first visit. They find the crew decimated, apparently by a space plague..." ;
-                                                     ns0:long_synopsis "The time ring returns the Doctor, Sarah and Harry to Nerva at a point many years prior to their first visit. They find the crew decimated, apparently by a space plague..." ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/p00vd68q#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00vd6gw#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00vd6jz#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00vd6l6#programme> .
+                                                                 <http://www.bbc.co.uk/programmes/p00vd6l6#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:long_synopsis "The time ring returns the Doctor, Sarah and Harry to Nerva at a point many years prior to their first visit. They find the crew decimated, apparently by a space plague..." ;
+                                                     ns0:medium_synopsis "The time ring returns the Doctor, Sarah and Harry to Nerva at a point many years prior to their first visit. They find the crew decimated, apparently by a space plague..." ;
+                                                     ns0:pid "p00pq2gh" ;
+                                                     ns0:position "5" ;
+                                                     ns0:short_synopsis "The time ring returns the Doctor, Sarah and Harry to space station Nerva." .
 
 <http://www.bbc.co.uk/programmes/p00vd68q#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 1" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00vd68q" ;
-                                                     ns0:short_synopsis "The Doctor, Sarah and Harry return to Nerva and find a deadly mystery…" ;
-                                                     ns0:medium_synopsis "The Doctor, Sarah and Harry return to Nerva, but at an earlier point in time. The crew are dying and blame a space plague, but the Doctor suspects a survivor may be responsible." ;
-                                                     ns0:image_pid "p00vf3b3" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01clm6s#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vf3b3" ;
+                                                     ns0:medium_synopsis "The Doctor, Sarah and Harry return to Nerva, but at an earlier point in time. The crew are dying and blame a space plague, but the Doctor suspects a survivor may be responsible." ;
+                                                     ns0:pid "p00vd68q" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "The Doctor, Sarah and Harry return to Nerva and find a deadly mystery…" ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vd68r#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02kb3wb#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01clm6s#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vf3b3.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00vd6gw#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 2" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00vd6gw" ;
-                                                     ns0:short_synopsis "Sarah is a victim of the plague and the only cure is to transmat her down to Voga." ;
-                                                     ns0:medium_synopsis "Sarah is the latest victim of the 'space plague'. But the poison can be removed from her body by transmatting her to the surface of the mysterious planetoid, Voga…" ;
-                                                     ns0:image_pid "p00vf3h6" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01clmb4#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vf3h6" ;
+                                                     ns0:medium_synopsis "Sarah is the latest victim of the 'space plague'. But the poison can be removed from her body by transmatting her to the surface of the mysterious planetoid, Voga…" ;
+                                                     ns0:pid "p00vd6gw" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "Sarah is a victim of the plague and the only cure is to transmat her down to Voga." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vd6gx#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02kb41k#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01clmb4#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vf3h6.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00vd6jz#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 3" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00vd6jz" ;
-                                                     ns0:short_synopsis "Nerva Beacon is invaded by the Cybermen who are intent on destroying Voga." ;
-                                                     ns0:medium_synopsis "The Cybermen who are intent on destroying Voga. The Doctor and two of the Nerva crew become walking bombs which they Cybermen will detonate once they reach their target." ;
-                                                     ns0:image_pid "p00vf3n3" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01cls1x#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vf3n3" ;
+                                                     ns0:medium_synopsis "The Cybermen who are intent on destroying Voga. The Doctor and two of the Nerva crew become walking bombs which they Cybermen will detonate once they reach their target." ;
+                                                     ns0:pid "p00vd6jz" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "Nerva Beacon is invaded by the Cybermen who are intent on destroying Voga." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vd6k0#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p032wynf#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01cls1x#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vf3n3.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00vd6l6#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 4" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "p00vd6l6" ;
-                                                     ns0:short_synopsis "The Cybermen intend to crash the bomb-laden Nerva Beacon into Voga." ;
-                                                     ns0:medium_synopsis "Their plan to blow up Voga thwarted, the Cybermen intend to crash Nerva into it. Vorus is almost ready to launch his rocket at Nerva, but Sarah is still trapped on board." ;
-                                                     ns0:image_pid "p00vf3pn" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01clsjz#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vf3pn" ;
+                                                     ns0:medium_synopsis "Their plan to blow up Voga thwarted, the Cybermen intend to crash Nerva into it. Vorus is almost ready to launch his rocket at Nerva, but Sarah is still trapped on board." ;
+                                                     ns0:pid "p00vd6l6" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "The Cybermen intend to crash the bomb-laden Nerva Beacon into Voga." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vd6l7#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02kb433#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01clsjz#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vf3pn.jpg> .

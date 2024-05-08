@@ -5,26 +5,26 @@
 
 <http://www.bbc.co.uk/programmes/p00krdf6#programme> rdf:type ns0:Series ;
                                                      dc:title "The Macra Terror" ;
-                                                     ns0:position "7" ;
-                                                     ns0:pid "p00krdf6" ;
-                                                     ns0:short_synopsis "The TARDIS lands on a human colony world where everyone appears to be happy..." ;
-                                                     ns0:medium_synopsis "The TARDIS lands on a human colony world where everyone appears to be happy but they have been brainwashed by the crab-like Macra who are forcing them to mine a special gas." ;
-                                                     ns0:long_synopsis "The TARDIS lands on a human colony world where everyone appears to be happy but they have been brainwashed by the crab-like Macra who are forcing them to mine a special gas." ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/p00v2zk2#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v2zkz#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v2zlm#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00v2zmb#programme> .
+                                                                 <http://www.bbc.co.uk/programmes/p00v2zmb#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:long_synopsis "The TARDIS lands on a human colony world where everyone appears to be happy but they have been brainwashed by the crab-like Macra who are forcing them to mine a special gas." ;
+                                                     ns0:medium_synopsis "The TARDIS lands on a human colony world where everyone appears to be happy but they have been brainwashed by the crab-like Macra who are forcing them to mine a special gas." ;
+                                                     ns0:pid "p00krdf6" ;
+                                                     ns0:position "7" ;
+                                                     ns0:short_synopsis "The TARDIS lands on a human colony world where everyone appears to be happy..." .
 
 <http://www.bbc.co.uk/programmes/p00v2zk2#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 1" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00v2zk2" ;
-                                                     ns0:short_synopsis "The TARDIS arrives at a human colony where everyone appears happy. But are they?" ;
-                                                     ns0:medium_synopsis "The TARDIS arrives at a human colony where everyone appears happy. However, one citizen claims to have seen something terrible and the Doctor is eager to find out what it is." ;
-                                                     ns0:long_synopsis "The TARDIS arrives at a human colony where everyone appears happy. However, one citizen claims to have seen something terrible and the Doctor is eager to find out what it is." ;
-                                                     ns0:image_pid "p00v1z67" ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v1z67" ;
+                                                     ns0:long_synopsis "The TARDIS arrives at a human colony where everyone appears happy. However, one citizen claims to have seen something terrible and the Doctor is eager to find out what it is." ;
+                                                     ns0:medium_synopsis "The TARDIS arrives at a human colony where everyone appears happy. However, one citizen claims to have seen something terrible and the Doctor is eager to find out what it is." ;
+                                                     ns0:pid "p00v2zk2" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "The TARDIS arrives at a human colony where everyone appears happy. But are they?" ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v2zk3#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p04yjqqg#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p04yyfsl#programme> ;
@@ -32,39 +32,39 @@
 
 <http://www.bbc.co.uk/programmes/p00v2zkz#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 2" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00v2zkz" ;
-                                                     ns0:short_synopsis "Despite the Doctor's efforts, Ben has been brainwashed into believing nothing is wrong." ;
-                                                     ns0:medium_synopsis "Despite the Doctor's efforts, Ben has been brainwashed into denying that anything is wrong. Polly tries to escape from Ben but runs straight into the claws of the Macra." ;
-                                                     ns0:long_synopsis "Despite the Doctor's efforts, Ben has been brainwashed into denying that anything is wrong. Polly tries to escape from Ben but runs straight into the claws of the Macra." ;
-                                                     ns0:image_pid "p00v1z7x" ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v1z7x" ;
+                                                     ns0:long_synopsis "Despite the Doctor's efforts, Ben has been brainwashed into denying that anything is wrong. Polly tries to escape from Ben but runs straight into the claws of the Macra." ;
+                                                     ns0:medium_synopsis "Despite the Doctor's efforts, Ben has been brainwashed into denying that anything is wrong. Polly tries to escape from Ben but runs straight into the claws of the Macra." ;
+                                                     ns0:pid "p00v2zkz" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "Despite the Doctor's efforts, Ben has been brainwashed into believing nothing is wrong." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v2zl0#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p04yyfsy#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v1z7x.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v2zlm#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 3" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00v2zlm" ;
-                                                     ns0:short_synopsis "The Doctor, Jamie and Polly are sent to work in the gas mines where the Macra wait..." ;
-                                                     ns0:medium_synopsis "The Doctor, Jamie and Polly are sent to work in the gas mines whilst Ben struggles to regain control of his mind. Jamie escapes into an old shaft where the Macra are waiting." ;
-                                                     ns0:long_synopsis "The Doctor, Jamie and Polly are sent to work in the gas mines whilst Ben struggles to regain control of his mind. Jamie escapes into an old shaft where the Macra are waiting." ;
-                                                     ns0:image_pid "p00v1z8t" ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v1z8t" ;
+                                                     ns0:long_synopsis "The Doctor, Jamie and Polly are sent to work in the gas mines whilst Ben struggles to regain control of his mind. Jamie escapes into an old shaft where the Macra are waiting." ;
+                                                     ns0:medium_synopsis "The Doctor, Jamie and Polly are sent to work in the gas mines whilst Ben struggles to regain control of his mind. Jamie escapes into an old shaft where the Macra are waiting." ;
+                                                     ns0:pid "p00v2zlm" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "The Doctor, Jamie and Polly are sent to work in the gas mines where the Macra wait..." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v2zln#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p04yyfss#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v1z8t.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v2zmb#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 4" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "p00v2zmb" ;
-                                                     ns0:short_synopsis "The Doctor and Polly discover that the Macra control the colony…" ;
-                                                     ns0:medium_synopsis "The Doctor and Polly discover that the Macra are using the humans to mine the gas that they need to survive. The Pilot is shown the truth, but the Macra are still in control." ;
-                                                     ns0:long_synopsis "The Doctor and Polly discover that the Macra are using the humans to mine the gas that they need to survive. The Pilot is shown the truth, but the Macra are still in control." ;
-                                                     ns0:image_pid "p00v1zby" ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v1zby" ;
+                                                     ns0:long_synopsis "The Doctor and Polly discover that the Macra are using the humans to mine the gas that they need to survive. The Pilot is shown the truth, but the Macra are still in control." ;
+                                                     ns0:medium_synopsis "The Doctor and Polly discover that the Macra are using the humans to mine the gas that they need to survive. The Pilot is shown the truth, but the Macra are still in control." ;
+                                                     ns0:pid "p00v2zmb" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "The Doctor and Polly discover that the Macra control the colony…" ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v2zmc#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p04yyfsv#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v1zby.jpg> .

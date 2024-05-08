@@ -5,80 +5,80 @@
 
 <http://www.bbc.co.uk/programmes/b011799w#programme> rdf:type ns0:Series ;
                                                      dc:title "The Hand of Fear" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "b011799w" ;
-                                                     ns0:short_synopsis "The Doctor and Sarah Jane battle an alien named Eldrad after finding a fossilised hand" ;
-                                                     ns0:medium_synopsis "The Doctor and Sarah Jane battle an alien named Eldrad after finding a fossilised hand" ;
-                                                     foaf:depiction <http://www.bbc.co.uk/iplayer/images/series/b011799w_512_288.jpg> ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/b0116gyy#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/b0116gz6#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/b0116h58#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/b0116h5b#programme> .
+                                                                 <http://www.bbc.co.uk/programmes/b0116h5b#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:medium_synopsis "The Doctor and Sarah Jane battle an alien named Eldrad after finding a fossilised hand" ;
+                                                     ns0:pid "b011799w" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "The Doctor and Sarah Jane battle an alien named Eldrad after finding a fossilised hand" ;
+                                                     foaf:depiction <http://www.bbc.co.uk/iplayer/images/series/b011799w_512_288.jpg> .
 
 <http://www.bbc.co.uk/programmes/b0116gyy#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 1" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "b0116gyy" ;
-                                                     ns0:short_synopsis "Sarah becomes possessed by the fossilized stone hand of an alien, Eldrad." ;
-                                                     ns0:medium_synopsis "The TARDIS returns to present day Earth, where Sarah is caught in a rock fall and becomes possessed by the fossilized stone hand of the alien Eldrad." ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01f8jt8#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:image_pid "p00vfdjd" ;
                                                      ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:medium_synopsis "The TARDIS returns to present day Earth, where Sarah is caught in a rock fall and becomes possessed by the fossilized stone hand of the alien Eldrad." ;
+                                                     ns0:pid "b0116gyy" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "Sarah becomes possessed by the fossilized stone hand of an alien, Eldrad." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/b000fjm7#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xwgx6#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01f8jt8#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vfdjd.jpg> .
 
 <http://www.bbc.co.uk/programmes/b0116gz6#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 2" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "b0116gz6" ;
-                                                     ns0:short_synopsis "At a nuclear power station, the stone hand comes to life and seeks access to the reactor." ;
-                                                     ns0:medium_synopsis "At the nuclear power station, the stone hand has come to life and is determined to gain access to the reactor core." ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01f8k6g#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:image_pid "p00vfdqc" ;
                                                      ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:medium_synopsis "At the nuclear power station, the stone hand has come to life and is determined to gain access to the reactor core." ;
                                                      ns0:person <http://www.bbc.co.uk/programmes/topics/elisabeth_sladen#person> ,
                                                                 <http://www.bbc.co.uk/programmes/topics/glyn_houston#person> ,
                                                                 <http://www.bbc.co.uk/programmes/topics/tom_baker#person> ;
+                                                     ns0:pid "b0116gz6" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "At a nuclear power station, the stone hand comes to life and seeks access to the reactor." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/b000fjmb#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xwh9g#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01f8k6g#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vfdqc.jpg> .
 
 <http://www.bbc.co.uk/programmes/b0116h58#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 3" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "b0116h58" ;
-                                                     ns0:short_synopsis "The hand has regrown into Eldrad, who demands that the Doctor return her to Kastria." ;
-                                                     ns0:medium_synopsis "The hand has used the nuclear energy to regenerate itself into the female form of the alien Eldrad, who demands that the Doctor return her to the planet Kastria." ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01f8kdr#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:image_pid "p032j165" ;
                                                      ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:medium_synopsis "The hand has used the nuclear energy to regenerate itself into the female form of the alien Eldrad, who demands that the Doctor return her to the planet Kastria." ;
                                                      ns0:person <http://www.bbc.co.uk/programmes/topics/elisabeth_sladen#person> ,
                                                                 <http://www.bbc.co.uk/programmes/topics/glyn_houston#person> ,
                                                                 <http://www.bbc.co.uk/programmes/topics/roy_boyd#person> ,
                                                                 <http://www.bbc.co.uk/programmes/topics/tom_baker#person> ;
+                                                     ns0:pid "b0116h58" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "The hand has regrown into Eldrad, who demands that the Doctor return her to Kastria." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/b000fjmc#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xwhhk#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01f8kdr#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p032j165.jpg> .
 
 <http://www.bbc.co.uk/programmes/b0116h5b#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 4" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "b0116h5b" ;
-                                                     ns0:short_synopsis "The Doctor and Sarah suspect that Eldrad has not been entirely honest with them." ;
-                                                     ns0:medium_synopsis "On the dead world of Kastria, the Doctor and Sarah begin to suspect that Eldrad has not been entirely truthful with them." ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01f8kqj#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:image_pid "p032j1hs" ;
                                                      ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:medium_synopsis "On the dead world of Kastria, the Doctor and Sarah begin to suspect that Eldrad has not been entirely truthful with them." ;
                                                      ns0:person <http://www.bbc.co.uk/programmes/topics/elisabeth_sladen#person> ,
                                                                 <http://www.bbc.co.uk/programmes/topics/glyn_houston#person> ,
                                                                 <http://www.bbc.co.uk/programmes/topics/roy_boyd#person> ,
                                                                 <http://www.bbc.co.uk/programmes/topics/tom_baker#person> ;
+                                                     ns0:pid "b0116h5b" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "The Doctor and Sarah suspect that Eldrad has not been entirely honest with them." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/b000fjmf#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xwhrj#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01f8kqj#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p032j1hs.jpg> .

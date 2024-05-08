@@ -5,12 +5,6 @@
 
 <http://www.bbc.co.uk/programmes/p00km26s#programme> rdf:type ns0:Series ;
                                                      dc:title "The Daleks' Master Plan" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "p00km26s" ;
-                                                     ns0:short_synopsis "The Doctor battles the Daleks across time and space in this epic tale of loss and heroism." ;
-                                                     ns0:medium_synopsis "The TARDIS arrives on the planet Kembel where the Doctor, Steven and Katarina encounter Space Security Service agent, Bret Vyon, who is there in search of fellow agent, Marc Cory." ;
-                                                     ns0:long_synopsis "The TARDIS arrives on the planet Kembel where the Doctor, Steven and Katarina encounter Space Security Service agent, Bret Vyon, who is there in search of fellow agent, Marc Cory." ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/p00v250v#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v251q#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v252r#programme> ,
@@ -22,140 +16,146 @@
                                                                  <http://www.bbc.co.uk/programmes/p00v25d9#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v25f0#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v25g8#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00v25hg#programme> .
+                                                                 <http://www.bbc.co.uk/programmes/p00v25hg#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:long_synopsis "The TARDIS arrives on the planet Kembel where the Doctor, Steven and Katarina encounter Space Security Service agent, Bret Vyon, who is there in search of fellow agent, Marc Cory." ;
+                                                     ns0:medium_synopsis "The TARDIS arrives on the planet Kembel where the Doctor, Steven and Katarina encounter Space Security Service agent, Bret Vyon, who is there in search of fellow agent, Marc Cory." ;
+                                                     ns0:pid "p00km26s" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "The Doctor battles the Daleks across time and space in this epic tale of loss and heroism." .
 
 <http://www.bbc.co.uk/programmes/p00v250v#programme> rdf:type ns0:Episode ;
                                                      dc:title "The Nightmare Begins" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00v250v" ;
-                                                     ns0:short_synopsis "The TARDIS lands on Kembel and the Doctor goes to find help for the injured Steven." ;
-                                                     ns0:medium_synopsis "The TARDIS lands on the planet Kembel and the Doctor goes to find help for the injured Steven. He discovers that the Daleks are on Kembel and are planning to conquer Earth." ;
-                                                     ns0:image_pid "p00v2cvb" ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v2cvb" ;
+                                                     ns0:medium_synopsis "The TARDIS lands on the planet Kembel and the Doctor goes to find help for the injured Steven. He discovers that the Daleks are on Kembel and are planning to conquer Earth." ;
+                                                     ns0:pid "p00v250v" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "The TARDIS lands on Kembel and the Doctor goes to find help for the injured Steven." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v250w#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p04yjq9r#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v2cvb.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v251q#programme> rdf:type ns0:Episode ;
                                                      dc:title "Day of Armageddon" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00v251q" ;
-                                                     ns0:short_synopsis "Disguised as one of the members of the Dalek alliance, the Doctor discovers their plan." ;
-                                                     ns0:medium_synopsis "Disguised as one of the members of the Dalek alliance, the Doctor discovers that the Daleks have built a deadly weapon known as the Time Destructor. " ;
-                                                     ns0:image_pid "p00v2cww" ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
-                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v251r#programme> ;
                                                      ns0:clip <http://www.bbc.co.uk/programmes/p011p8wf#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v2cww" ;
+                                                     ns0:medium_synopsis "Disguised as one of the members of the Dalek alliance, the Doctor discovers that the Daleks have built a deadly weapon known as the Time Destructor. " ;
+                                                     ns0:pid "p00v251q" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "Disguised as one of the members of the Dalek alliance, the Doctor discovers their plan." ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v251r#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v2cww.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v252r#programme> rdf:type ns0:Episode ;
                                                      dc:title "Devil's Planet" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00v252r" ;
-                                                     ns0:short_synopsis "Having stolen the taranium core from the Daleks, the Doctor and his friends must escape." ;
-                                                     ns0:medium_synopsis "Having stolen the vital taranium core from the Daleks, the Doctor and his friends have escaped Kembel in Mavic Chen's ship but the Daleks give chase." ;
-                                                     ns0:image_pid "p00v2cyc" ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v2cyc" ;
+                                                     ns0:medium_synopsis "Having stolen the vital taranium core from the Daleks, the Doctor and his friends have escaped Kembel in Mavic Chen's ship but the Daleks give chase." ;
+                                                     ns0:pid "p00v252r" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "Having stolen the taranium core from the Daleks, the Doctor and his friends must escape." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v252s#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v2cyc.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v2560#programme> rdf:type ns0:Episode ;
                                                      dc:title "The Traitors" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "p00v2560" ;
-                                                     ns0:short_synopsis "The Doctor, Steven and Bret Vyon alert Vyon's friend, Daxtar, to the Dalek threat…" ;
-                                                     ns0:medium_synopsis "Arriving on Earth, the Doctor, Steven and Bret Vyon alert Vyon's friend, Daxtar, to the Dalek threat and Mavec Chen's treachery. But whose side is Daxtar really on?" ;
-                                                     ns0:image_pid "p00v2cyw" ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v2cyw" ;
+                                                     ns0:medium_synopsis "Arriving on Earth, the Doctor, Steven and Bret Vyon alert Vyon's friend, Daxtar, to the Dalek threat and Mavec Chen's treachery. But whose side is Daxtar really on?" ;
+                                                     ns0:pid "p00v2560" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "The Doctor, Steven and Bret Vyon alert Vyon's friend, Daxtar, to the Dalek threat…" ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v2561#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v2cyw.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v256s#programme> rdf:type ns0:Episode ;
                                                      dc:title "Counter Plot" ;
-                                                     ns0:position "5" ;
-                                                     ns0:pid "p00v256s" ;
-                                                     ns0:short_synopsis "The Doctor, Steven and Space Security Service agent Sara Kingdom head to Mira…" ;
-                                                     ns0:medium_synopsis "The Doctor and Steven, along with Space Security Service agent Sara Kingdom are transported to the planet Mira. There, unseen creatures stalk the jungle and the Daleks close in." ;
-                                                     ns0:image_pid "p00v2d1m" ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
-                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v256t#programme> ;
                                                      ns0:clip <http://www.bbc.co.uk/programmes/p011p8fr#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v2d1m" ;
+                                                     ns0:medium_synopsis "The Doctor and Steven, along with Space Security Service agent Sara Kingdom are transported to the planet Mira. There, unseen creatures stalk the jungle and the Daleks close in." ;
+                                                     ns0:pid "p00v256s" ;
+                                                     ns0:position "5" ;
+                                                     ns0:short_synopsis "The Doctor, Steven and Space Security Service agent Sara Kingdom head to Mira…" ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v256t#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v2d1m.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v257j#programme> rdf:type ns0:Episode ;
                                                      dc:title "Coronas of the Sun" ;
-                                                     ns0:position "6" ;
-                                                     ns0:pid "p00v257j" ;
-                                                     ns0:short_synopsis "Forced to return to Kembel, the Doctor tries to fool the Daleks with a fake taranium core." ;
-                                                     ns0:medium_synopsis "Forced to return to the planet Kembel, the Doctor tries to fool the Daleks and their allies by giving them a fake taranium core – but will the Daleks see through the ruse?" ;
-                                                     ns0:image_pid "p00v2d2p" ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v2d2p" ;
+                                                     ns0:medium_synopsis "Forced to return to the planet Kembel, the Doctor tries to fool the Daleks and their allies by giving them a fake taranium core – but will the Daleks see through the ruse?" ;
+                                                     ns0:pid "p00v257j" ;
+                                                     ns0:position "6" ;
+                                                     ns0:short_synopsis "Forced to return to Kembel, the Doctor tries to fool the Daleks with a fake taranium core." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v257l#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v2d2p.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v2588#programme> rdf:type ns0:Episode ;
                                                      dc:title "The Feast of Steven" ;
-                                                     ns0:position "7" ;
-                                                     ns0:pid "p00v2588" ;
-                                                     ns0:short_synopsis "Arriving in present day England, the Doctor and his companions are arrested." ;
-                                                     ns0:medium_synopsis "Arriving in present day England, the Doctor and his companions are arrested. Escaping in the TARDIS, they find themselves on a film set before celebrating Christmas in the TARDIS." ;
-                                                     ns0:image_pid "p00v2d3f" ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v2d3f" ;
+                                                     ns0:medium_synopsis "Arriving in present day England, the Doctor and his companions are arrested. Escaping in the TARDIS, they find themselves on a film set before celebrating Christmas in the TARDIS." ;
+                                                     ns0:pid "p00v2588" ;
+                                                     ns0:position "7" ;
+                                                     ns0:short_synopsis "Arriving in present day England, the Doctor and his companions are arrested." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v2589#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v2d3f.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v258x#programme> rdf:type ns0:Episode ;
                                                      dc:title "Volcano" ;
-                                                     ns0:position "8" ;
-                                                     ns0:pid "p00v258x" ;
-                                                     ns0:short_synopsis "Realising that the Doctor tricked them and has the taranium core, the Daleks pursue him." ;
-                                                     ns0:medium_synopsis "Realising that the Doctor has tricked them and is still in possession of the taranium core, the Daleks prepare to give chase in their own time/space machine. " ;
-                                                     ns0:image_pid "p00v2d4x" ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v2d4x" ;
+                                                     ns0:medium_synopsis "Realising that the Doctor has tricked them and is still in possession of the taranium core, the Daleks prepare to give chase in their own time/space machine. " ;
+                                                     ns0:pid "p00v258x" ;
+                                                     ns0:position "8" ;
+                                                     ns0:short_synopsis "Realising that the Doctor tricked them and has the taranium core, the Daleks pursue him." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v258y#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v2d4x.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v25d9#programme> rdf:type ns0:Episode ;
                                                      dc:title "Golden Death" ;
-                                                     ns0:position "9" ;
-                                                     ns0:pid "p00v25d9" ;
-                                                     ns0:short_synopsis "The TARDIS lands in ancient Egypt where the Daleks and the Meddling Monk are in league." ;
-                                                     ns0:medium_synopsis "The TARDIS lands in ancient Egypt at the Great Pyramid. The Daleks and the Meddling Monk also arrive in pursuit of the Doctor. The Monk is forced into an alliance with the Daleks." ;
-                                                     ns0:image_pid "p00v2d6m" ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v2d6m" ;
+                                                     ns0:medium_synopsis "The TARDIS lands in ancient Egypt at the Great Pyramid. The Daleks and the Meddling Monk also arrive in pursuit of the Doctor. The Monk is forced into an alliance with the Daleks." ;
+                                                     ns0:pid "p00v25d9" ;
+                                                     ns0:position "9" ;
+                                                     ns0:short_synopsis "The TARDIS lands in ancient Egypt where the Daleks and the Meddling Monk are in league." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v25db#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v2d6m.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v25f0#programme> rdf:type ns0:Episode ;
                                                      dc:title "Escape Switch" ;
-                                                     ns0:position "10" ;
-                                                     ns0:pid "p00v25f0" ;
-                                                     ns0:short_synopsis "Steven and Sara are held hostage by the Daleks. They demand the Doctor returns the core." ;
-                                                     ns0:medium_synopsis "Steven and Sara are held hostage by the Daleks who demand that the Doctor hand over the vital taranium core, or his companions will be exterminated." ;
-                                                     ns0:image_pid "p00v2d9f" ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
-                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v25f1#programme> ;
                                                      ns0:clip <http://www.bbc.co.uk/programmes/p011p95s#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v2d9f" ;
+                                                     ns0:medium_synopsis "Steven and Sara are held hostage by the Daleks who demand that the Doctor hand over the vital taranium core, or his companions will be exterminated." ;
+                                                     ns0:pid "p00v25f0" ;
+                                                     ns0:position "10" ;
+                                                     ns0:short_synopsis "Steven and Sara are held hostage by the Daleks. They demand the Doctor returns the core." ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v25f1#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v2d9f.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v25g8#programme> rdf:type ns0:Episode ;
                                                      dc:title "The Abandoned Planet" ;
-                                                     ns0:position "11" ;
-                                                     ns0:pid "p00v25g8" ;
-                                                     ns0:short_synopsis "Returning to Kembel, the Doctor, Sara and Steven discover the Dalek plan has changed." ;
-                                                     ns0:medium_synopsis "Returning to Kembel, the Doctor, Sara and Steven discover the Dalek base has been abandoned and that the leaders of the alliance have been imprisoned." ;
-                                                     ns0:image_pid "p00v2dbn" ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v2dbn" ;
+                                                     ns0:medium_synopsis "Returning to Kembel, the Doctor, Sara and Steven discover the Dalek base has been abandoned and that the leaders of the alliance have been imprisoned." ;
+                                                     ns0:pid "p00v25g8" ;
+                                                     ns0:position "11" ;
+                                                     ns0:short_synopsis "Returning to Kembel, the Doctor, Sara and Steven discover the Dalek plan has changed." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v25g9#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v2dbn.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v25hg#programme> rdf:type ns0:Episode ;
                                                      dc:title "The Destruction of Time" ;
-                                                     ns0:position "12" ;
-                                                     ns0:pid "p00v25hg" ;
-                                                     ns0:short_synopsis "With the Time Destructor now operational, the Doctor fears the Daleks are unstoppable." ;
-                                                     ns0:medium_synopsis "Mavic Chen proclaims himself leader of the Daleks' alliance. With the Time Destructor now complete and operational, the Doctor fears the Daleks will become unstoppable." ;
-                                                     ns0:image_pid "p00v2dfx" ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v2dfx" ;
+                                                     ns0:medium_synopsis "Mavic Chen proclaims himself leader of the Daleks' alliance. With the Time Destructor now complete and operational, the Doctor fears the Daleks will become unstoppable." ;
+                                                     ns0:pid "p00v25hg" ;
+                                                     ns0:position "12" ;
+                                                     ns0:short_synopsis "With the Time Destructor now operational, the Doctor fears the Daleks are unstoppable." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v25hh#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v2dfx.jpg> .

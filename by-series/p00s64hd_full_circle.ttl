@@ -5,65 +5,65 @@
 
 <http://www.bbc.co.uk/programmes/p00s64hd#programme> rdf:type ns0:Series ;
                                                      dc:title "Full Circle" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00s64hd" ;
-                                                     ns0:short_synopsis "Landing on Alzarius the Doctor and Romana discover the descendants of a crashed starliner." ;
-                                                     ns0:medium_synopsis "Materialising on planet Alzarius, the Doctor and Romana discover its inhabitants are descendants of a crashed starliner and have been repairing their ship for generations." ;
-                                                     ns0:long_synopsis "Materialising on planet Alzarius, the Doctor and Romana discover its inhabitants are descendants of a crashed starliner and have been repairing their ship for generations." ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/p00vhrk5#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00vhrtg#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00vhrzv#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00vhs2z#programme> .
+                                                                 <http://www.bbc.co.uk/programmes/p00vhs2z#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:long_synopsis "Materialising on planet Alzarius, the Doctor and Romana discover its inhabitants are descendants of a crashed starliner and have been repairing their ship for generations." ;
+                                                     ns0:medium_synopsis "Materialising on planet Alzarius, the Doctor and Romana discover its inhabitants are descendants of a crashed starliner and have been repairing their ship for generations." ;
+                                                     ns0:pid "p00s64hd" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "Landing on Alzarius the Doctor and Romana discover the descendants of a crashed starliner." .
 
 <http://www.bbc.co.uk/programmes/p00vhrk5#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 1" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00vhrk5" ;
-                                                     ns0:short_synopsis "The TARDIS enters the universe of E-Space and lands on the planet Alzarius." ;
-                                                     ns0:medium_synopsis "The TARDIS enters the universe of E-Space and lands on the planet Alzarius where Mistfall is occurring and creatures are stirring in the swamp." ;
-                                                     ns0:image_pid "p00vhvkj" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01jdzsg#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vhvkj" ;
+                                                     ns0:medium_synopsis "The TARDIS enters the universe of E-Space and lands on the planet Alzarius where Mistfall is occurring and creatures are stirring in the swamp." ;
+                                                     ns0:pid "p00vhrk5" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "The TARDIS enters the universe of E-Space and lands on the planet Alzarius." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vhrk6#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02ktssk#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01jdzsg#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vhvkj.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00vhrtg#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 2" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00vhrtg" ;
-                                                     ns0:short_synopsis "The Doctor and K-9 are stranded when the TARDIS is stolen by the Marshmen." ;
-                                                     ns0:medium_synopsis "The Doctor and K-9 are stranded when the TARDIS is stolen by the Marshmen. Romana encounters the Outlers who are regretting their decision not to return to the Starliner." ;
-                                                     ns0:image_pid "p00vhvl9" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01jf026#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vhvl9" ;
+                                                     ns0:medium_synopsis "The Doctor and K-9 are stranded when the TARDIS is stolen by the Marshmen. Romana encounters the Outlers who are regretting their decision not to return to the Starliner." ;
+                                                     ns0:pid "p00vhrtg" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "The Doctor and K-9 are stranded when the TARDIS is stolen by the Marshmen." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vhrth#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02ktstb#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01jf026#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vhvl9.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00vhrzv#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 3" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00vhrzv" ;
-                                                     ns0:short_synopsis "The Doctor discovers that the Deciders have been perpetuating a lie to their own people." ;
-                                                     ns0:medium_synopsis "Romana has been infected by the bite of a marsh spider and the Doctor discovers that the ruling Deciders have been perpetuating a lie to their own people." ;
-                                                     ns0:image_pid "p00vhvlz" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01jf0bv#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vhvlz" ;
+                                                     ns0:medium_synopsis "Romana has been infected by the bite of a marsh spider and the Doctor discovers that the ruling Deciders have been perpetuating a lie to their own people." ;
+                                                     ns0:pid "p00vhrzv" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "The Doctor discovers that the Deciders have been perpetuating a lie to their own people." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vhrzw#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02ktsts#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01jf0bv#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vhvlz.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00vhs2z#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 4" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "p00vhs2z" ;
-                                                     ns0:short_synopsis "The Doctor finally uncovers the tragic truth of the Starliner." ;
-                                                     ns0:medium_synopsis "The Marshmen are on the rampage through the ship and the Doctor finally uncovers the tragic truth of the Starliner." ;
-                                                     ns0:image_pid "p00vhvm3" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01jf0fg#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vhvm3" ;
+                                                     ns0:medium_synopsis "The Marshmen are on the rampage through the ship and the Doctor finally uncovers the tragic truth of the Starliner." ;
+                                                     ns0:pid "p00vhs2z" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "The Doctor finally uncovers the tragic truth of the Starliner." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vhs30#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02ktsxp#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01jf0fg#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vhvm3.jpg> .

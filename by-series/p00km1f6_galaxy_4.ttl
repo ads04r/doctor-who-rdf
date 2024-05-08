@@ -5,25 +5,25 @@
 
 <http://www.bbc.co.uk/programmes/p00km1f6#programme> rdf:type ns0:Series ;
                                                      dc:title "Galaxy 4" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00km1f6" ;
-                                                     ns0:short_synopsis "The TARDIS lands on a barren world where the travellers encounter the Drahvins." ;
-                                                     ns0:medium_synopsis "The TARDIS lands on a barren world where the travellers encounter the Drahvins, a race determined to eliminate the monstrous-looking but peaceful Rills." ;
-                                                     ns0:long_synopsis "The TARDIS lands on a barren world where the travellers encounter the Drahvins, a race determined to eliminate the monstrous-looking but peaceful Rills." ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/p00v24nw#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v24pr#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v24qq#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00v24rh#programme> .
+                                                                 <http://www.bbc.co.uk/programmes/p00v24rh#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:long_synopsis "The TARDIS lands on a barren world where the travellers encounter the Drahvins, a race determined to eliminate the monstrous-looking but peaceful Rills." ;
+                                                     ns0:medium_synopsis "The TARDIS lands on a barren world where the travellers encounter the Drahvins, a race determined to eliminate the monstrous-looking but peaceful Rills." ;
+                                                     ns0:pid "p00km1f6" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "The TARDIS lands on a barren world where the travellers encounter the Drahvins." .
 
 <http://www.bbc.co.uk/programmes/p00v24nw#programme> rdf:type ns0:Episode ;
                                                      dc:title "Four Hundred Dawns" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00v24nw" ;
-                                                     ns0:short_synopsis "The travellers meet the Drahvins, a predominantly female race with evils plans." ;
-                                                     ns0:medium_synopsis "The travellers meet the Drahvins, a predominantly female race. Their leader, Maaga, has a crashed spaceship and evil plans…" ;
-                                                     ns0:image_pid "p00v2c27" ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v2c27" ;
+                                                     ns0:medium_synopsis "The travellers meet the Drahvins, a predominantly female race. Their leader, Maaga, has a crashed spaceship and evil plans…" ;
+                                                     ns0:pid "p00v24nw" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "The travellers meet the Drahvins, a predominantly female race with evils plans." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v24nx#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p04yjqb3#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p04yyg2y#programme> ;
@@ -31,37 +31,37 @@
 
 <http://www.bbc.co.uk/programmes/p00v24pr#programme> rdf:type ns0:Episode ;
                                                      dc:title "Trap of Steel" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00v24pr" ;
-                                                     ns0:short_synopsis "Intent on capturing the spacecraft of the hideous Rills, Maaga holds Steven prisoner." ;
-                                                     ns0:medium_synopsis "Intent on capturing the repaired spacecraft of the hideous Rills, Maaga holds Steven hostage and forces the Doctor and Vicki to go to the Rill ship." ;
-                                                     ns0:image_pid "p00v2c44" ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v2c44" ;
+                                                     ns0:medium_synopsis "Intent on capturing the repaired spacecraft of the hideous Rills, Maaga holds Steven hostage and forces the Doctor and Vicki to go to the Rill ship." ;
+                                                     ns0:pid "p00v24pr" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "Intent on capturing the spacecraft of the hideous Rills, Maaga holds Steven prisoner." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v24ps#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p04yyg35#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v2c44.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v24qq#programme> rdf:type ns0:Episode ;
                                                      dc:title "Air Lock" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00v24qq" ;
-                                                     ns0:short_synopsis "The Doctor and Vicki learn the truth about the Drahvins from the ammonia breathing Rills." ;
-                                                     ns0:medium_synopsis "The Doctor and Vicki learn the truth about the Drahvins from the ammonia breathing Rills. Meanwhile, when Steven attempts to escape the Drahvins, he finds himself in more peril." ;
-                                                     ns0:image_pid "p00v2c7c" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p011nthf#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v2c7c" ;
+                                                     ns0:medium_synopsis "The Doctor and Vicki learn the truth about the Drahvins from the ammonia breathing Rills. Meanwhile, when Steven attempts to escape the Drahvins, he finds himself in more peril." ;
+                                                     ns0:pid "p00v24qq" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "The Doctor and Vicki learn the truth about the Drahvins from the ammonia breathing Rills." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v24qr#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p04yyg31#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p011nthf#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v2c7c.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v24rh#programme> rdf:type ns0:Episode ;
                                                      dc:title "The Exploding Planet" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "p00v24rh" ;
-                                                     ns0:short_synopsis "As the planet faces destruction, Maaga launches a final attack on the Rill base. " ;
-                                                     ns0:medium_synopsis "As the planet faces destruction, Maaga launches a final attack on the Rill base. The Doctor offers to transfer power from the TARDIS to the Rill ship so that it might escape." ;
-                                                     ns0:image_pid "p00v2c9w" ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v2c9w" ;
+                                                     ns0:medium_synopsis "As the planet faces destruction, Maaga launches a final attack on the Rill base. The Doctor offers to transfer power from the TARDIS to the Rill ship so that it might escape." ;
+                                                     ns0:pid "p00v24rh" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "As the planet faces destruction, Maaga launches a final attack on the Rill base. " ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v24rj#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p04yyg3h#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v2c9w.jpg> .

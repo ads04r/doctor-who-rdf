@@ -5,65 +5,65 @@
 
 <http://www.bbc.co.uk/programmes/p00r9wr2#programme> rdf:type ns0:Series ;
                                                      dc:title "The Androids of Tara" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "p00r9wr2" ;
-                                                     ns0:short_synopsis "In search of the fourth segment of the Key to Time, the TARDIS lands on the planet Tara." ;
-                                                     ns0:medium_synopsis "Hunting the fourth segment of the Key to Time, the TARDIS lands on the planet Tara. Here, Count Grendel meets Romana and believes she is an android duplicate of Princess Strella." ;
-                                                     ns0:long_synopsis "Hunting the fourth segment of the Key to Time, the TARDIS lands on the planet Tara. Here, Count Grendel meets Romana and believes she is an android duplicate of Princess Strella." ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/p00vfmdm#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00vfmmn#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00vfmsn#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00vfn5h#programme> .
+                                                                 <http://www.bbc.co.uk/programmes/p00vfn5h#programme> ;
+                                                     ns0:long_synopsis "Hunting the fourth segment of the Key to Time, the TARDIS lands on the planet Tara. Here, Count Grendel meets Romana and believes she is an android duplicate of Princess Strella." ;
+                                                     ns0:medium_synopsis "Hunting the fourth segment of the Key to Time, the TARDIS lands on the planet Tara. Here, Count Grendel meets Romana and believes she is an android duplicate of Princess Strella." ;
+                                                     ns0:pid "p00r9wr2" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "In search of the fourth segment of the Key to Time, the TARDIS lands on the planet Tara." .
 
 <http://www.bbc.co.uk/programmes/p00vfmdm#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 1" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00vfmdm" ;
-                                                     ns0:short_synopsis "On Tara, Romana finds the fourth segment, but is captured by the scheming Count Grendel." ;
-                                                     ns0:medium_synopsis "Arriving on Tara, Romana locates the fourth segment of the Key to Time with ease, but is captured by the scheming Count Grendel who wants the throne of Tara for himself." ;
-                                                     ns0:long_synopsis "Arriving on Tara, Romana locates the fourth segment of the Key to Time with ease. But getting it away proves more difficult, as she is captured by the scheming Count Grendel who wants the throne of Tara for himself." ;
-                                                     ns0:image_pid "p00vfrjc" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01gdyk7#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vfrjc" ;
+                                                     ns0:long_synopsis "Arriving on Tara, Romana locates the fourth segment of the Key to Time with ease. But getting it away proves more difficult, as she is captured by the scheming Count Grendel who wants the throne of Tara for himself." ;
+                                                     ns0:medium_synopsis "Arriving on Tara, Romana locates the fourth segment of the Key to Time with ease, but is captured by the scheming Count Grendel who wants the throne of Tara for himself." ;
+                                                     ns0:pid "p00vfmdm" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "On Tara, Romana finds the fourth segment, but is captured by the scheming Count Grendel." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vfmdn#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02zf81r#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01gdyk7#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vfrjc.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00vfmmn#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 2" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00vfmmn" ;
-                                                     ns0:short_synopsis "Count Grendel is set to be Tara's new king, but the Doctor plans to scupper his scheme." ;
-                                                     ns0:medium_synopsis "Grendel kidnaps Prince Reynart and seems set to be chosen as Tara's monarch when Reynart fails to arrive at his coronation. But the Doctor has a plan to scupper the Count's scheme." ;
-                                                     ns0:long_synopsis "The wicked Count Grendel kidnaps Prince Reynart and seems set to be chosen as Tara's monarch when Reynart fails to arrive at his coronation.But the Doctor has a plan to scupper the Count's scheme and prevent him being crowned." ;
-                                                     ns0:image_pid "p00vfrkn" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01gdz0h#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vfrkn" ;
+                                                     ns0:long_synopsis "The wicked Count Grendel kidnaps Prince Reynart and seems set to be chosen as Tara's monarch when Reynart fails to arrive at his coronation.But the Doctor has a plan to scupper the Count's scheme and prevent him being crowned." ;
+                                                     ns0:medium_synopsis "Grendel kidnaps Prince Reynart and seems set to be chosen as Tara's monarch when Reynart fails to arrive at his coronation. But the Doctor has a plan to scupper the Count's scheme." ;
+                                                     ns0:pid "p00vfmmn" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "Count Grendel is set to be Tara's new king, but the Doctor plans to scupper his scheme." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vfmmp#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02zf8q7#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01gdz0h#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vfrkn.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00vfmsn#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 3" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00vfmsn" ;
-                                                     ns0:short_synopsis "While Romana escapes from the castle, the Doctor is lured to meet her android duplicate." ;
-                                                     ns0:medium_synopsis "While Romana makes her escape from the castle, the Doctor is lured to a meeting with an android duplicate of her that is programmed to kill him." ;
-                                                     ns0:image_pid "p00vfrqd" ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vfrqd" ;
+                                                     ns0:medium_synopsis "While Romana makes her escape from the castle, the Doctor is lured to a meeting with an android duplicate of her that is programmed to kill him." ;
+                                                     ns0:pid "p00vfmsn" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "While Romana escapes from the castle, the Doctor is lured to meet her android duplicate." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vfmsq#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02zf8yz#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vfrqd.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00vfn5h#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 4" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "p00vfn5h" ;
-                                                     ns0:short_synopsis "The Doctor tries to enter the castle to prevent the marriage of Romana to Prince Reynart." ;
-                                                     ns0:medium_synopsis "The Doctor attempts to enter to the castle to prevent the marriage of Romana to Prince Reynart and thus thwart Grendel's dastardly plans to rule Tara." ;
-                                                     ns0:image_pid "p00vfrvy" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01gdzy4#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vfrvy" ;
+                                                     ns0:medium_synopsis "The Doctor attempts to enter to the castle to prevent the marriage of Romana to Prince Reynart and thus thwart Grendel's dastardly plans to rule Tara." ;
+                                                     ns0:pid "p00vfn5h" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "The Doctor tries to enter the castle to prevent the marriage of Romana to Prince Reynart." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vfn5j#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02zf8yr#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01gdzy4#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vfrvy.jpg> .

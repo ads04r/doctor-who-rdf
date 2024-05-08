@@ -4,122 +4,122 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
 <http://www.bbc.co.uk/programmes/p0056cjg#programme> rdf:type ns0:Series ;
-                                                     ns0:pid "p0056cjg" ;
                                                      dc:title "Dreamland" ;
-                                                     ns0:short_synopsis "The Doctor discovers an alien army hatching beneath the New Mexico desert." ;
-                                                     ns0:medium_synopsis "The Doctor discovers an alien army hatching beneath the New Mexico desert." ;
-                                                     ns0:long_synopsis "America, 1958.  The Doctor makes a new friend, Cassie who reveals that anyone approaching the Top Secret Dreamland Army base goes missing. The Doctor discovers an alien army hatching beneath the New Mexico  desert while inside Dreamland, survivors of an extraterrestrial war possess a weapon powerful enough to destroy Earth..." ;
-                                                     foaf:depiction <http://www.bbc.co.uk/iplayer/images/series/p0056cjg_512_288.jpg> ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
-                                                     ns0:format <http://www.bbc.co.uk/programmes/formats/animation#format> ;
-                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p00j5g42#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p00j5g7r#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p00j5gdm#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p00j5g5f#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p00j5gcf#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p00j5g93#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p00j5g3s#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p00j5g4l#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p00j5gbb#programme> ,
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p0056dv2#programme> ,
                                                               <http://www.bbc.co.uk/programmes/p00j5g30#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p00j5gdw#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p00j5g9n#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p00j5g89#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p00j5gbs#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p00j5ggg#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00j5g3s#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00j5g42#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00j5g4l#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00j5g5f#programme> ,
                                                               <http://www.bbc.co.uk/programmes/p00j5g6g#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00j5g7r#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00j5g89#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00j5g93#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00j5g9n#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00j5gbb#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00j5gbs#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00j5gcf#programme> ,
                                                               <http://www.bbc.co.uk/programmes/p00j5gcz#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00j5gdm#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00j5gdw#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00j5ggg#programme> ,
                                                               <http://www.bbc.co.uk/programmes/p00vfnh0#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p020dvvj#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p0056dv2#programme> ;
+                                                              <http://www.bbc.co.uk/programmes/p020dvvj#programme> ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/p0057t3p#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p0057t52#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p0057t6g#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p0059fpn#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p0059ws9#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p005bllg#programme> .
+                                                                 <http://www.bbc.co.uk/programmes/p005bllg#programme> ;
+                                                     ns0:format <http://www.bbc.co.uk/programmes/formats/animation#format> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:long_synopsis "America, 1958.  The Doctor makes a new friend, Cassie who reveals that anyone approaching the Top Secret Dreamland Army base goes missing. The Doctor discovers an alien army hatching beneath the New Mexico  desert while inside Dreamland, survivors of an extraterrestrial war possess a weapon powerful enough to destroy Earth..." ;
+                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     ns0:medium_synopsis "The Doctor discovers an alien army hatching beneath the New Mexico desert." ;
+                                                     ns0:pid "p0056cjg" ;
+                                                     ns0:short_synopsis "The Doctor discovers an alien army hatching beneath the New Mexico desert." ;
+                                                     foaf:depiction <http://www.bbc.co.uk/iplayer/images/series/p0056cjg_512_288.jpg> .
 
 <http://www.bbc.co.uk/programmes/p0057t3p#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode One" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p0057t3p" ;
-                                                     ns0:short_synopsis "The Doctor finds an extraterrestrial artefact which draws the attention of..." ;
-                                                     ns0:medium_synopsis "Dry Springs, Nevada, 1958. The Doctor finds an extraterrestrial artefact which draws the attention of a mysterious man in black…" ;
-                                                     ns0:long_synopsis "Dry Springs, Nevada, 1958. The Doctor finds an extraterrestrial artefact which draws the attention of a mysterious man in black, an alien warrior and Colonel Stark, commander of Dreamland - the military base also known as Area 51, in Roswell, New Mexico…" ;
-                                                     ns0:image_pid "p01glklp" ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
-                                                     ns0:format <http://www.bbc.co.uk/programmes/formats/animation#format> ;
-                                                     ns0:version <http://www.bbc.co.uk/programmes/p0057t3r#programme> ;
                                                      ns0:clip <http://www.bbc.co.uk/programmes/p01s465d#programme> ;
+                                                     ns0:format <http://www.bbc.co.uk/programmes/formats/animation#format> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p01glklp" ;
+                                                     ns0:long_synopsis "Dry Springs, Nevada, 1958. The Doctor finds an extraterrestrial artefact which draws the attention of a mysterious man in black, an alien warrior and Colonel Stark, commander of Dreamland - the military base also known as Area 51, in Roswell, New Mexico…" ;
+                                                     ns0:medium_synopsis "Dry Springs, Nevada, 1958. The Doctor finds an extraterrestrial artefact which draws the attention of a mysterious man in black…" ;
+                                                     ns0:pid "p0057t3p" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "The Doctor finds an extraterrestrial artefact which draws the attention of..." ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p0057t3r#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p01glklp.jpg> .
 
 <http://www.bbc.co.uk/programmes/p0057t52#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode Two" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p0057t52" ;
-                                                     ns0:short_synopsis "While the Doctor steals a spaceship from Dreamland, Cassie and Jimmy discover something…" ;
-                                                     ns0:medium_synopsis "While the Doctor steals a spaceship from Dreamland, Cassie and Jimmy discover something alien living beneath the streets of Solitude…" ;
-                                                     ns0:long_synopsis "While the Doctor steals a spaceship from Dreamland, Cassie and Jimmy discover something alien living beneath the streets of Solitude…" ;
-                                                     ns0:image_pid "p01glklw" ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
-                                                     ns0:format <http://www.bbc.co.uk/programmes/formats/animation#format> ;
-                                                     ns0:version <http://www.bbc.co.uk/programmes/p0057t56#programme> ;
                                                      ns0:clip <http://www.bbc.co.uk/programmes/p01s45kw#programme> ;
+                                                     ns0:format <http://www.bbc.co.uk/programmes/formats/animation#format> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p01glklw" ;
+                                                     ns0:long_synopsis "While the Doctor steals a spaceship from Dreamland, Cassie and Jimmy discover something alien living beneath the streets of Solitude…" ;
+                                                     ns0:medium_synopsis "While the Doctor steals a spaceship from Dreamland, Cassie and Jimmy discover something alien living beneath the streets of Solitude…" ;
+                                                     ns0:pid "p0057t52" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "While the Doctor steals a spaceship from Dreamland, Cassie and Jimmy discover something…" ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p0057t56#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p01glklw.jpg> .
 
 <http://www.bbc.co.uk/programmes/p0057t6g#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode Three" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p0057t6g" ;
-                                                     ns0:short_synopsis "Escaping from the horror beneath the desert, the Doctor confronts the Alliance of Shades" ;
-                                                     ns0:medium_synopsis "Escaping from the horror living beneath the desert, the Doctor confronts the Alliance of Shades…" ;
-                                                     ns0:long_synopsis "Escaping from the horror living beneath the desert, the Doctor confronts the Alliance of Shades and discovers two new allies in the fight against Lord Azlok…" ;
-                                                     ns0:image_pid "p01glklf" ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
-                                                     ns0:format <http://www.bbc.co.uk/programmes/formats/animation#format> ;
-                                                     ns0:version <http://www.bbc.co.uk/programmes/p0057t6j#programme> ;
                                                      ns0:clip <http://www.bbc.co.uk/programmes/p01s4686#programme> ;
+                                                     ns0:format <http://www.bbc.co.uk/programmes/formats/animation#format> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p01glklf" ;
+                                                     ns0:long_synopsis "Escaping from the horror living beneath the desert, the Doctor confronts the Alliance of Shades and discovers two new allies in the fight against Lord Azlok…" ;
+                                                     ns0:medium_synopsis "Escaping from the horror living beneath the desert, the Doctor confronts the Alliance of Shades…" ;
+                                                     ns0:pid "p0057t6g" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "Escaping from the horror beneath the desert, the Doctor confronts the Alliance of Shades" ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p0057t6j#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p01glklf.jpg> .
 
 <http://www.bbc.co.uk/programmes/p0059fpn#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode Four" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "p0059fpn" ;
-                                                     ns0:short_synopsis "Lord Azlok and Colonel Stark reveal to the Doctor the secret of their deal..." ;
-                                                     ns0:medium_synopsis "Lord Azlok and Colonel Stark reveal to the Doctor the secret of their deal - a deal that could result in the destruction of all life on Earth…" ;
-                                                     ns0:long_synopsis "Lord Azlok and Colonel Stark reveal to the Doctor the secret of their deal - a deal that could result in the destruction of all life on Earth…" ;
-                                                     ns0:image_pid "p01glmc9" ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
-                                                     ns0:format <http://www.bbc.co.uk/programmes/formats/animation#format> ;
-                                                     ns0:version <http://www.bbc.co.uk/programmes/p0059fpr#programme> ;
                                                      ns0:clip <http://www.bbc.co.uk/programmes/p01s46q0#programme> ;
+                                                     ns0:format <http://www.bbc.co.uk/programmes/formats/animation#format> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p01glmc9" ;
+                                                     ns0:long_synopsis "Lord Azlok and Colonel Stark reveal to the Doctor the secret of their deal - a deal that could result in the destruction of all life on Earth…" ;
+                                                     ns0:medium_synopsis "Lord Azlok and Colonel Stark reveal to the Doctor the secret of their deal - a deal that could result in the destruction of all life on Earth…" ;
+                                                     ns0:pid "p0059fpn" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "Lord Azlok and Colonel Stark reveal to the Doctor the secret of their deal..." ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p0059fpr#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p01glmc9.jpg> .
 
 <http://www.bbc.co.uk/programmes/p0059ws9#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode Five" ;
-                                                     ns0:position "5" ;
-                                                     ns0:pid "p0059ws9" ;
-                                                     ns0:short_synopsis "Deep beneath the Dreamland base, the Doctor faces the malevolent Skorpius Flies…" ;
-                                                     ns0:medium_synopsis "Deep beneath the Dreamland base, the Doctor faces the malevolent Skorpius Flies…" ;
-                                                     ns0:long_synopsis "Deep beneath the Dreamland base, the Doctor faces the malevolent Skorpius Flies, whilst Jimmy and Cassie get caught up in the Viperox attack on Dry Springs, while trying to protect the TARDIS…" ;
-                                                     ns0:image_pid "p01glq3v" ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
-                                                     ns0:format <http://www.bbc.co.uk/programmes/formats/animation#format> ;
-                                                     ns0:version <http://www.bbc.co.uk/programmes/p0059wsc#programme> ;
                                                      ns0:clip <http://www.bbc.co.uk/programmes/p01s46z7#programme> ;
+                                                     ns0:format <http://www.bbc.co.uk/programmes/formats/animation#format> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p01glq3v" ;
+                                                     ns0:long_synopsis "Deep beneath the Dreamland base, the Doctor faces the malevolent Skorpius Flies, whilst Jimmy and Cassie get caught up in the Viperox attack on Dry Springs, while trying to protect the TARDIS…" ;
+                                                     ns0:medium_synopsis "Deep beneath the Dreamland base, the Doctor faces the malevolent Skorpius Flies…" ;
+                                                     ns0:pid "p0059ws9" ;
+                                                     ns0:position "5" ;
+                                                     ns0:short_synopsis "Deep beneath the Dreamland base, the Doctor faces the malevolent Skorpius Flies…" ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p0059wsc#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p01glq3v.jpg> .
 
 <http://www.bbc.co.uk/programmes/p005bllg#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode Six" ;
-                                                     ns0:position "6" ;
-                                                     ns0:pid "p005bllg" ;
-                                                     ns0:short_synopsis "As the Doctor tries to stop Lord Azlok from wiping out humanity…" ;
-                                                     ns0:medium_synopsis "As the Doctor tries to stop Lord Azlok from wiping out humanity, Cassie and Jimmy help Rivesh Mantilax…" ;
-                                                     ns0:long_synopsis "As the Doctor tries to stop Lord Azlok from wiping out humanity, Cassie and Jimmy help Rivesh Mantilax activate the genetic device that could save the world. Or condemn it…" ;
-                                                     ns0:image_pid "p01gln1y" ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
-                                                     ns0:format <http://www.bbc.co.uk/programmes/formats/animation#format> ;
-                                                     ns0:version <http://www.bbc.co.uk/programmes/p005bllj#programme> ;
                                                      ns0:clip <http://www.bbc.co.uk/programmes/p01s472d#programme> ;
+                                                     ns0:format <http://www.bbc.co.uk/programmes/formats/animation#format> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p01gln1y" ;
+                                                     ns0:long_synopsis "As the Doctor tries to stop Lord Azlok from wiping out humanity, Cassie and Jimmy help Rivesh Mantilax activate the genetic device that could save the world. Or condemn it…" ;
+                                                     ns0:medium_synopsis "As the Doctor tries to stop Lord Azlok from wiping out humanity, Cassie and Jimmy help Rivesh Mantilax…" ;
+                                                     ns0:pid "p005bllg" ;
+                                                     ns0:position "6" ;
+                                                     ns0:short_synopsis "As the Doctor tries to stop Lord Azlok from wiping out humanity…" ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p005bllj#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p01gln1y.jpg> .

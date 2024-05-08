@@ -5,65 +5,65 @@
 
 <http://www.bbc.co.uk/programmes/p00r9wqx#programme> rdf:type ns0:Series ;
                                                      dc:title "The Pirate Planet" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00r9wqx" ;
-                                                     ns0:short_synopsis "The tracer leads the TARDIS to planet Calufrax in search of the second segment of the Key." ;
-                                                     ns0:medium_synopsis "The tracer leads the TARDIS to planet Calufrax in search of the second segment of the Key to Time. However, the Doctor and Romana discover that they are on the planet Zanak." ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/p00vfl2b#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00vfl3s#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00vfl5y#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00vflfs#programme> .
+                                                                 <http://www.bbc.co.uk/programmes/p00vflfs#programme> ;
+                                                     ns0:medium_synopsis "The tracer leads the TARDIS to planet Calufrax in search of the second segment of the Key to Time. However, the Doctor and Romana discover that they are on the planet Zanak." ;
+                                                     ns0:pid "p00r9wqx" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "The tracer leads the TARDIS to planet Calufrax in search of the second segment of the Key." .
 
 <http://www.bbc.co.uk/programmes/p00vfl2b#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 1" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00vfl2b" ;
-                                                     ns0:short_synopsis "The Doctor and Romana head to Calufrax but find that another planet has taken its place.	" ;
-                                                     ns0:medium_synopsis "In search of the second segment of the Key to Time, the Doctor and Romana travel to the planet Calufrax. But they find that a completely different planet has taken its place." ;
-                                                     ns0:long_synopsis "The Doctor, Romana and K9 face new dangers searching for the second segment to the Key to Time. What has happened to the planet it is hidden on?Instead of landing on Calufrax as originally intended, they arrive on a different planet and encounter the Mentiads, and the strange Captain." ;
-                                                     ns0:image_pid "p00vfqny" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01g86bk#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vfqny" ;
+                                                     ns0:long_synopsis "The Doctor, Romana and K9 face new dangers searching for the second segment to the Key to Time. What has happened to the planet it is hidden on?Instead of landing on Calufrax as originally intended, they arrive on a different planet and encounter the Mentiads, and the strange Captain." ;
+                                                     ns0:medium_synopsis "In search of the second segment of the Key to Time, the Doctor and Romana travel to the planet Calufrax. But they find that a completely different planet has taken its place." ;
+                                                     ns0:pid "p00vfl2b" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "The Doctor and Romana head to Calufrax but find that another planet has taken its place.	" ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vfl2d#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xmkbd#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01g86bk#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vfqny.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00vfl3s#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 2" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00vfl3s" ;
-                                                     ns0:short_synopsis "The Doctor and Romana encounter the Mentiads and Zanak's ruler, the cyborg Captain." ;
-                                                     ns0:medium_synopsis "Still in search of the missing planet, Calufrax, the Doctor and Romana encounter the telepathic Mentiads and Zanak's ruler, the half man, half robot Captain." ;
-                                                     ns0:image_pid "p00vfqsp" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01g86z5#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vfqsp" ;
+                                                     ns0:medium_synopsis "Still in search of the missing planet, Calufrax, the Doctor and Romana encounter the telepathic Mentiads and Zanak's ruler, the half man, half robot Captain." ;
+                                                     ns0:pid "p00vfl3s" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "The Doctor and Romana encounter the Mentiads and Zanak's ruler, the cyborg Captain." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vfl3t#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xmkd2#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01g86z5#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vfqsp.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00vfl5y#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 3" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00vfl5y" ;
-                                                     ns0:short_synopsis "The Doctor has discovered the truth about Zanak and meets its real ruler." ;
-                                                     ns0:medium_synopsis "The Doctor has discovered the sinister truth about Zanak and solved the mystery of the missing planet. On the Bridge, the Doctor meets the real ruler of Zanak." ;
-                                                     ns0:image_pid "p00vfqvs" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01g87js#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vfqvs" ;
+                                                     ns0:medium_synopsis "The Doctor has discovered the sinister truth about Zanak and solved the mystery of the missing planet. On the Bridge, the Doctor meets the real ruler of Zanak." ;
+                                                     ns0:pid "p00vfl5y" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "The Doctor has discovered the truth about Zanak and meets its real ruler." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vfl60#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xmkdc#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01g87js#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vfqvs.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00vflfs#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 4" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "p00vflfs" ;
-                                                     ns0:short_synopsis "The Doctor must prevent the Captain and Xanxia from using Zanak to consume Earth." ;
-                                                     ns0:medium_synopsis "The Doctor and Romana join forces with the Mentiads to prevent the Captain and Xanxia from using Zanak to consume Earth." ;
-                                                     ns0:long_synopsis "Time is running out for the Doctor and Romana in their struggle to defeat the Captain. They join forces with the Mentiads to prevent the Captain and Xanxia from using Zanak to consume Earth." ;
-                                                     ns0:image_pid "p00vfqx1" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01gswp1#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vfqx1" ;
+                                                     ns0:long_synopsis "Time is running out for the Doctor and Romana in their struggle to defeat the Captain. They join forces with the Mentiads to prevent the Captain and Xanxia from using Zanak to consume Earth." ;
+                                                     ns0:medium_synopsis "The Doctor and Romana join forces with the Mentiads to prevent the Captain and Xanxia from using Zanak to consume Earth." ;
+                                                     ns0:pid "p00vflfs" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "The Doctor must prevent the Captain and Xanxia from using Zanak to consume Earth." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vflft#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xmkbq#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01gswp1#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vfqx1.jpg> .

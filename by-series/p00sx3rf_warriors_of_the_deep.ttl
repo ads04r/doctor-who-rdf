@@ -5,64 +5,64 @@
 
 <http://www.bbc.co.uk/programmes/p00sx3rf#programme> rdf:type ns0:Series ;
                                                      dc:title "Warriors of the Deep" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00sx3rf" ;
-                                                     ns0:short_synopsis "The Silurians and Sea Devils are provoking a war to leave them sole heirs to the planet..." ;
-                                                     ns0:medium_synopsis "Earth's two power blocs are close to destroying one another. Under the ocean, the Silurians and Sea Devils are provoking a war that will leave them sole heirs to the planet..." ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/p00v8xwf#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v8xx4#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v8xyv#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00v8xzm#programme> .
+                                                                 <http://www.bbc.co.uk/programmes/p00v8xzm#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:medium_synopsis "Earth's two power blocs are close to destroying one another. Under the ocean, the Silurians and Sea Devils are provoking a war that will leave them sole heirs to the planet..." ;
+                                                     ns0:pid "p00sx3rf" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "The Silurians and Sea Devils are provoking a war to leave them sole heirs to the planet..." .
 
 <http://www.bbc.co.uk/programmes/p00v8xwf#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 1" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00v8xwf" ;
-                                                     ns0:short_synopsis "Seabase 4 is on alert as a strange craft approaches." ;
-                                                     ns0:medium_synopsis "Seabase 4 is on alert as a strange craft approaches. But the crew has been infiltrated by the enemy, so Commander Vorshak's solutions are scuppered at every turn." ;
-                                                     ns0:image_pid "p032hzrz" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01ldc25#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p032hzrz" ;
+                                                     ns0:medium_synopsis "Seabase 4 is on alert as a strange craft approaches. But the crew has been infiltrated by the enemy, so Commander Vorshak's solutions are scuppered at every turn." ;
+                                                     ns0:pid "p00v8xwf" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "Seabase 4 is on alert as a strange craft approaches." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v8xwg#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02pqkrj#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01ldc25#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p032hzrz.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v8xx4#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 2" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00v8xx4" ;
-                                                     ns0:short_synopsis "The Silurians and Sea Devils send in the Myrka to spearhead their invasion." ;
-                                                     ns0:medium_synopsis "The Silurians and Sea Devils send in the Myrka to spearhead their invasion of the Seabase. Meanwhile, Nilson and Doctor Solow work to bring the entire Bloc down..." ;
-                                                     ns0:image_pid "p00vbtll" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01ldc8g#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vbtll" ;
+                                                     ns0:medium_synopsis "The Silurians and Sea Devils send in the Myrka to spearhead their invasion of the Seabase. Meanwhile, Nilson and Doctor Solow work to bring the entire Bloc down..." ;
+                                                     ns0:pid "p00v8xx4" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "The Silurians and Sea Devils send in the Myrka to spearhead their invasion." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v8xx5#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02pqkzw#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01ldc8g#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vbtll.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v8xyv#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 3" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00v8xyv" ;
-                                                     ns0:short_synopsis "Vorshak's crew are cut down one by one by Sauvix's Sea Devil Warriors." ;
-                                                     ns0:medium_synopsis "As Vorshak's crew are cut down by Sauvix's Sea Devil Warriors, the Doctor is running out of ways to broker a peace between the opposing species." ;
-                                                     ns0:image_pid "p00vcyg6" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01ldckb#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vcyg6" ;
+                                                     ns0:medium_synopsis "As Vorshak's crew are cut down by Sauvix's Sea Devil Warriors, the Doctor is running out of ways to broker a peace between the opposing species." ;
+                                                     ns0:pid "p00v8xyv" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "Vorshak's crew are cut down one by one by Sauvix's Sea Devil Warriors." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v8xyw#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02pqkyp#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01ldckb#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vcyg6.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v8xzm#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 4" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "p00v8xzm" ;
-                                                     ns0:short_synopsis "War is avoided but lives are lost; the Doctor reflects there should have been another way." ;
-                                                     ns0:medium_synopsis "Lethal hexachromite gas is used against the reptilian threat.  World war is avoided but many lives are lost and the Doctor reflects there should have been another way." ;
-                                                     ns0:image_pid "p00vbtvz" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01ldd5y#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vbtvz" ;
+                                                     ns0:medium_synopsis "Lethal hexachromite gas is used against the reptilian threat.  World war is avoided but many lives are lost and the Doctor reflects there should have been another way." ;
+                                                     ns0:pid "p00v8xzm" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "War is avoided but lives are lost; the Doctor reflects there should have been another way." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v8xzp#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02pqmf6#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01ldd5y#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vbtvz.jpg> .

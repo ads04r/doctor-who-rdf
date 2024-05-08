@@ -5,64 +5,64 @@
 
 <http://www.bbc.co.uk/programmes/p00rm626#programme> rdf:type ns0:Series ;
                                                      dc:title "The Creature from the Pit" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00rm626" ;
-                                                     ns0:short_synopsis "Responding to a distress call, the Doctor and Romana land on the jungle world of Chloris." ;
-                                                     ns0:medium_synopsis "Responding to a distress call, the Doctor and Romana land on the jungle world of Chloris, a planet where metal is a scarce and valuable commodity." ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/p00vhbnb#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00vhbpz#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00vhbtw#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00vhbyb#programme> .
+                                                                 <http://www.bbc.co.uk/programmes/p00vhbyb#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:medium_synopsis "Responding to a distress call, the Doctor and Romana land on the jungle world of Chloris, a planet where metal is a scarce and valuable commodity." ;
+                                                     ns0:pid "p00rm626" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "Responding to a distress call, the Doctor and Romana land on the jungle world of Chloris." .
 
 <http://www.bbc.co.uk/programmes/p00vhbnb#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 1" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00vhbnb" ;
-                                                     ns0:short_synopsis "The Doctor and Romana follow a distress signal to the jungle world of Chloris." ;
-                                                     ns0:medium_synopsis "The Doctor and Romana follow a distress signal to the jungle world of Chloris. The planet is ruled by the ruthless Lady Adrasta who takes the Doctor prisoner." ;
-                                                     ns0:image_pid "p00vhpww" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01h9b8w#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vhpww" ;
+                                                     ns0:medium_synopsis "The Doctor and Romana follow a distress signal to the jungle world of Chloris. The planet is ruled by the ruthless Lady Adrasta who takes the Doctor prisoner." ;
+                                                     ns0:pid "p00vhbnb" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "The Doctor and Romana follow a distress signal to the jungle world of Chloris." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vhbnc#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p030p1vw#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01h9b8w#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vhpww.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00vhbpz#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 2" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00vhbpz" ;
-                                                     ns0:short_synopsis "The Doctor has escaped Adrasta by jumping down the pit which is home to a huge creature." ;
-                                                     ns0:medium_synopsis "The Doctor has escaped Adrasta's wrath by jumping down the pit into the last remaining metal mine on Chloris. But the pit is also the home of a monstrous creature." ;
-                                                     ns0:image_pid "p00vhqcy" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01h9c13#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vhqcy" ;
+                                                     ns0:medium_synopsis "The Doctor has escaped Adrasta's wrath by jumping down the pit into the last remaining metal mine on Chloris. But the pit is also the home of a monstrous creature." ;
+                                                     ns0:pid "p00vhbpz" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "The Doctor has escaped Adrasta by jumping down the pit which is home to a huge creature." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vhbq1#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p030p2yj#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01h9c13#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vhqcy.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00vhbtw#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 3" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00vhbtw" ;
-                                                     ns0:short_synopsis "The Doctor makes contact with the creature and realises that all is not as it seems. " ;
-                                                     ns0:medium_synopsis "In the pit, the Doctor establishes contact with the creature and begins to suspect that all is not as it seems. " ;
-                                                     ns0:image_pid "p00vhqjb" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01h9cd5#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vhqjb" ;
+                                                     ns0:medium_synopsis "In the pit, the Doctor establishes contact with the creature and begins to suspect that all is not as it seems. " ;
+                                                     ns0:pid "p00vhbtw" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "The Doctor makes contact with the creature and realises that all is not as it seems. " ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vhbtx#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p030p3v2#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01h9cd5#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vhqjb.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00vhbyb#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 4" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "p00vhbyb" ;
-                                                     ns0:short_synopsis "The truth of Adrasta's scheme is revealed but a terrible retribution is already in motion." ;
-                                                     ns0:medium_synopsis "With Erato now able to communicate, the truth of Adrasta's scheming is revealed but a terrible retribution has already been put in motion." ;
-                                                     ns0:image_pid "p00vhqp8" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01h9cwx#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vhqp8" ;
+                                                     ns0:medium_synopsis "With Erato now able to communicate, the truth of Adrasta's scheming is revealed but a terrible retribution has already been put in motion." ;
+                                                     ns0:pid "p00vhbyb" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "The truth of Adrasta's scheme is revealed but a terrible retribution is already in motion." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vhbyc#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p030p5lj#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01h9cwx#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vhqp8.jpg> .

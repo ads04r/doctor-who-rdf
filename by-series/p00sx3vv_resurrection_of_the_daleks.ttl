@@ -5,36 +5,36 @@
 
 <http://www.bbc.co.uk/programmes/p00sx3vv#programme> rdf:type ns0:Series ;
                                                      dc:title "Resurrection of the Daleks" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "p00sx3vv" ;
-                                                     ns0:short_synopsis "The Daleks plan to replace the High Council of the Time Lords with duplicates." ;
-                                                     ns0:medium_synopsis "The Daleks rescue Davros from his prison in space. However, he is just one part of a plan to replace the High Council of the Time Lords with killer duplicates." ;
-                                                     ns0:long_synopsis "The Daleks rescue Davros from his prison in space. However, he is just one part of a plan to replace the High Council of the Time Lords with killer duplicates." ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/p00v8yw4#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00v8yxr#programme> .
+                                                                 <http://www.bbc.co.uk/programmes/p00v8yxr#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:long_synopsis "The Daleks rescue Davros from his prison in space. However, he is just one part of a plan to replace the High Council of the Time Lords with killer duplicates." ;
+                                                     ns0:medium_synopsis "The Daleks rescue Davros from his prison in space. However, he is just one part of a plan to replace the High Council of the Time Lords with killer duplicates." ;
+                                                     ns0:pid "p00sx3vv" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "The Daleks plan to replace the High Council of the Time Lords with duplicates." .
 
 <http://www.bbc.co.uk/programmes/p00v8yw4#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 1" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00v8yw4" ;
-                                                     ns0:short_synopsis "Davros is held captive aboard a prison in space but the Daleks launch a rescue attempt." ;
-                                                     ns0:medium_synopsis "Davros has been kept in suspended animation aboard a prison space station but now the Daleks have come to collect him, aided by Lytton and his fake 'policemen'." ;
-                                                     ns0:image_pid "p00vbx12" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01lfpzc#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vbx12" ;
+                                                     ns0:medium_synopsis "Davros has been kept in suspended animation aboard a prison space station but now the Daleks have come to collect him, aided by Lytton and his fake 'policemen'." ;
+                                                     ns0:pid "p00v8yw4" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "Davros is held captive aboard a prison in space but the Daleks launch a rescue attempt." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v8yw5#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p04yjs1d#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01lfpzc#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vbx12.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v8yxr#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 2" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00v8yxr" ;
-                                                     ns0:short_synopsis "The survivors of the prison station fight the Daleks." ;
-                                                     ns0:medium_synopsis "As survivors of the prison station fight the invaders, Dalek agents on Earth take steps to protect the time corridor being used by the Doctor's friends. And Tegan says goodbye…" ;
-                                                     ns0:image_pid "p00vbx3g" ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
-                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v8yxt#programme> ;
                                                      ns0:clip <http://www.bbc.co.uk/programmes/p01lfq4k#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vbx3g" ;
+                                                     ns0:medium_synopsis "As survivors of the prison station fight the invaders, Dalek agents on Earth take steps to protect the time corridor being used by the Doctor's friends. And Tegan says goodbye…" ;
+                                                     ns0:pid "p00v8yxr" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "The survivors of the prison station fight the Daleks." ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v8yxt#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vbx3g.jpg> .

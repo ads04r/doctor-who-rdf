@@ -5,93 +5,93 @@
 
 <http://www.bbc.co.uk/programmes/p00pn9y3#programme> rdf:type ns0:Series ;
                                                      dc:title "Planet of the Spiders" ;
-                                                     ns0:position "5" ;
-                                                     ns0:pid "p00pn9y3" ;
-                                                     ns0:short_synopsis "Giant Spiders and the return of Mike Yates feature in the Third Doctor's swansong." ;
-                                                     ns0:medium_synopsis "Mike Yates invites Sarah to visit him at a Buddhist centre where he’s been staying since his resignation from UNIT. He suspects evil is afoot there..." ;
-                                                     ns0:long_synopsis "Mike Yates invites Sarah to visit him at a Buddhist centre where he’s been staying since his resignation from UNIT. He suspects evil is afoot there..." ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/p00v7c86#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v7cbb#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00v7cf8#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v7cdf#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00v7cf8#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v7ch7#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00v7cj6#programme> .
+                                                                 <http://www.bbc.co.uk/programmes/p00v7cj6#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:long_synopsis "Mike Yates invites Sarah to visit him at a Buddhist centre where he’s been staying since his resignation from UNIT. He suspects evil is afoot there..." ;
+                                                     ns0:medium_synopsis "Mike Yates invites Sarah to visit him at a Buddhist centre where he’s been staying since his resignation from UNIT. He suspects evil is afoot there..." ;
+                                                     ns0:pid "p00pn9y3" ;
+                                                     ns0:position "5" ;
+                                                     ns0:short_synopsis "Giant Spiders and the return of Mike Yates feature in the Third Doctor's swansong." .
 
 <http://www.bbc.co.uk/programmes/p00v7c86#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 1" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00v7c86" ;
-                                                     ns0:short_synopsis "The Doctor receives a mysterious package from his old companion, Jo Grant. " ;
-                                                     ns0:medium_synopsis "The Doctor receives a mysterious package from his old companion, Jo Grant. Sarah joins Mike Yates to investigate sinister events at a Buddhist meditation centre." ;
-                                                     ns0:image_pid "p00vftd1" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01c7s0f#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vftd1" ;
+                                                     ns0:medium_synopsis "The Doctor receives a mysterious package from his old companion, Jo Grant. Sarah joins Mike Yates to investigate sinister events at a Buddhist meditation centre." ;
+                                                     ns0:pid "p00v7c86" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "The Doctor receives a mysterious package from his old companion, Jo Grant. " ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v7c87#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xwgy2#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01c7s0f#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vftd1.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v7cbb#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 2" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00v7cbb" ;
-                                                     ns0:short_synopsis "Lupton, now under the control of a giant spider, steals the blue Metebelis crystal. " ;
-                                                     ns0:medium_synopsis "Lupton, now under the control of a giant spider, infiltrates UNIT HQ and steals the Metebelis crystal. But the Doctor is unwilling to give it up so easily and a chase begins." ;
-                                                     ns0:image_pid "p00vftyv" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01c7sgf#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vftyv" ;
+                                                     ns0:medium_synopsis "Lupton, now under the control of a giant spider, infiltrates UNIT HQ and steals the Metebelis crystal. But the Doctor is unwilling to give it up so easily and a chase begins." ;
+                                                     ns0:pid "p00v7cbb" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "Lupton, now under the control of a giant spider, steals the blue Metebelis crystal. " ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v7cbc#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xwh4s#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01c7sgf#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vftyv.jpg> .
-
-<http://www.bbc.co.uk/programmes/p00v7cf8#programme> rdf:type ns0:Episode ;
-                                                     dc:title "Part 3" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00v7cf8" ;
-                                                     ns0:short_synopsis "Following Lupton, Sarah is accidentally transported to Metebelis 3 where she is captured." ;
-                                                     ns0:medium_synopsis "Following Lupton, Sarah is transported to Metebelis 3 where she is captured by the human villagers. The Doctor uses the TARDIS to follow Sarah, but the spiders are waiting." ;
-                                                     ns0:image_pid "p00vfvd0" ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
-                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v7cf9#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p02xwhc2#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01c7ssn#programme> ;
-                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vfvd0.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v7cdf#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 4" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "p00v7cdf" ;
-                                                     ns0:short_synopsis "The Doctor is in a coma and Sarah is held prisoner in the spiders' larder." ;
-                                                     ns0:medium_synopsis "With the Doctor in a coma, his only hope of survival lies with a device inside the TARDIS. Sarah  is captured by the spiders and is held prisoner in their larder." ;
-                                                     ns0:image_pid "p00vfxwg" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01c7t8y#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vfxwg" ;
+                                                     ns0:medium_synopsis "With the Doctor in a coma, his only hope of survival lies with a device inside the TARDIS. Sarah  is captured by the spiders and is held prisoner in their larder." ;
+                                                     ns0:pid "p00v7cdf" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "The Doctor is in a coma and Sarah is held prisoner in the spiders' larder." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v7cdg#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xwhm9#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01c7t8y#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vfxwg.jpg> .
+
+<http://www.bbc.co.uk/programmes/p00v7cf8#programme> rdf:type ns0:Episode ;
+                                                     dc:title "Part 3" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01c7ssn#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vfvd0" ;
+                                                     ns0:medium_synopsis "Following Lupton, Sarah is transported to Metebelis 3 where she is captured by the human villagers. The Doctor uses the TARDIS to follow Sarah, but the spiders are waiting." ;
+                                                     ns0:pid "p00v7cf8" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "Following Lupton, Sarah is accidentally transported to Metebelis 3 where she is captured." ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v7cf9#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02xwhc2#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vfvd0.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v7ch7#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 5" ;
-                                                     ns0:position "5" ;
-                                                     ns0:pid "p00v7ch7" ;
-                                                     ns0:short_synopsis "Sarah makes a bargain with the Queen Spider and returns to Earth with the Doctor." ;
-                                                     ns0:medium_synopsis "Sarah makes a bargain with the Queen Spider and returns to Earth with the Doctor in the TARDIS.There they meet K'anpo,the Doctor's Time Lord guru who has the Metebelis crystal." ;
-                                                     ns0:image_pid "p00vfy2w" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01c7tzm#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vfy2w" ;
+                                                     ns0:medium_synopsis "Sarah makes a bargain with the Queen Spider and returns to Earth with the Doctor in the TARDIS.There they meet K'anpo,the Doctor's Time Lord guru who has the Metebelis crystal." ;
+                                                     ns0:pid "p00v7ch7" ;
+                                                     ns0:position "5" ;
+                                                     ns0:short_synopsis "Sarah makes a bargain with the Queen Spider and returns to Earth with the Doctor." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v7ch8#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xwhx5#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01c7tzm#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vfy2w.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v7cj6#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 6" ;
-                                                     ns0:position "6" ;
-                                                     ns0:pid "p00v7cj6" ;
-                                                     ns0:short_synopsis "The Doctor returns to Metebelis 3 where he must face the spiders' ruler, the Great One." ;
-                                                     ns0:medium_synopsis "The Doctor takes the blue crystal and returns to Metebelis 3 where he must face the spider ruler, the Great One. But it is an encounter that triggers his second regeneration..." ;
-                                                     ns0:image_pid "p00vfydn" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01c7v46#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vfydn" ;
+                                                     ns0:medium_synopsis "The Doctor takes the blue crystal and returns to Metebelis 3 where he must face the spider ruler, the Great One. But it is an encounter that triggers his second regeneration..." ;
+                                                     ns0:pid "p00v7cj6" ;
+                                                     ns0:position "6" ;
+                                                     ns0:short_synopsis "The Doctor returns to Metebelis 3 where he must face the spiders' ruler, the Great One." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v7cj7#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xwj03#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01c7v46#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vfydn.jpg> .

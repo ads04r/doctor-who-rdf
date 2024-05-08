@@ -5,37 +5,37 @@
 
 <http://www.bbc.co.uk/programmes/p00sgnmw#programme> rdf:type ns0:Series ;
                                                      dc:title "The King's Demons" ;
-                                                     ns0:position "6" ;
-                                                     ns0:pid "p00sgnmw" ;
-                                                     ns0:short_synopsis "The Doctor discovers the English King is a shape-changing android called Kamelion!" ;
-                                                     ns0:medium_synopsis "The TARDIS crew are guests of King John shortly before the signing of the Magna Carta. But the King is really a shape-changing android placed on the throne by the Master..." ;
-                                                     ns0:long_synopsis "The TARDIS crew are guests of King John shortly before the signing of the Magna Carta. But the King is really a shape-changing android placed on the throne by the Master..." ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/p00v9j5z#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00v9jc0#programme> .
+                                                                 <http://www.bbc.co.uk/programmes/p00v9jc0#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:long_synopsis "The TARDIS crew are guests of King John shortly before the signing of the Magna Carta. But the King is really a shape-changing android placed on the throne by the Master..." ;
+                                                     ns0:medium_synopsis "The TARDIS crew are guests of King John shortly before the signing of the Magna Carta. But the King is really a shape-changing android placed on the throne by the Master..." ;
+                                                     ns0:pid "p00sgnmw" ;
+                                                     ns0:position "6" ;
+                                                     ns0:short_synopsis "The Doctor discovers the English King is a shape-changing android called Kamelion!" .
 
 <http://www.bbc.co.uk/programmes/p00v9j5z#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 1" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00v9j5z" ;
-                                                     ns0:short_synopsis "When the TARDIS appears, King John is more curious than alarmed, as is Sir Gilles Estram." ;
-                                                     ns0:medium_synopsis "The TARDIS appears at a medieval joust between Frenchman Sir Gilles and Hugh Fitzwilliam. But King John seems more curious than alarmed, as is Sir Gilles..." ;
-                                                     ns0:image_pid "p00vb93x" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01l6zn6#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vb93x" ;
+                                                     ns0:medium_synopsis "The TARDIS appears at a medieval joust between Frenchman Sir Gilles and Hugh Fitzwilliam. But King John seems more curious than alarmed, as is Sir Gilles..." ;
+                                                     ns0:pid "p00v9j5z" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "When the TARDIS appears, King John is more curious than alarmed, as is Sir Gilles Estram." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v9j60#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p033y38n#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01l6zn6#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vb93x.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v9jc0#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 2" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00v9jc0" ;
-                                                     ns0:short_synopsis "The Master and the Doctor fight for control of Kamelion's mind." ;
-                                                     ns0:medium_synopsis "The Master and the Doctor fight for control over Kamelion's mind. Meanwhile Turlough and Tegan make allies in the castle in an attempt to avoid the iron maiden." ;
-                                                     ns0:image_pid "p00vb99z" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01l718w#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vb99z" ;
+                                                     ns0:medium_synopsis "The Master and the Doctor fight for control over Kamelion's mind. Meanwhile Turlough and Tegan make allies in the castle in an attempt to avoid the iron maiden." ;
+                                                     ns0:pid "p00v9jc0" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "The Master and the Doctor fight for control of Kamelion's mind." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v9jc1#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p033y2qt#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01l718w#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vb99z.jpg> .

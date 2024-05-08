@@ -5,67 +5,67 @@
 
 <http://www.bbc.co.uk/programmes/p00pn9h5#programme> rdf:type ns0:Series ;
                                                      dc:title "The Time Warrior" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00pn9h5" ;
-                                                     ns0:short_synopsis "Sarah Jane Smith and the Sontarans debut in this adventure set mainly in medieval England." ;
-                                                     ns0:medium_synopsis "Journalist Sarah Jane Smith poses as her aunt, virologist Lavinia Smith, in order to gain access to a research centre where top scientists are being held in protective custody." ;
-                                                     ns0:long_synopsis "Journalist Sarah Jane Smith poses as her aunt, virologist Lavinia Smith, in order to gain access to a research centre where top scientists are being held in protective custody." ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/p00v7b0v#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v7b2z#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v7b40#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00v7b4x#programme> .
+                                                                 <http://www.bbc.co.uk/programmes/p00v7b4x#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:long_synopsis "Journalist Sarah Jane Smith poses as her aunt, virologist Lavinia Smith, in order to gain access to a research centre where top scientists are being held in protective custody." ;
+                                                     ns0:medium_synopsis "Journalist Sarah Jane Smith poses as her aunt, virologist Lavinia Smith, in order to gain access to a research centre where top scientists are being held in protective custody." ;
+                                                     ns0:pid "p00pn9h5" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "Sarah Jane Smith and the Sontarans debut in this adventure set mainly in medieval England." .
 
 <http://www.bbc.co.uk/programmes/p00v7b0v#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 1" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00v7b0v" ;
-                                                     ns0:short_synopsis "Scientists go missing and the Doctor learns that the kidnapper is an alien from the past. " ;
-                                                     ns0:medium_synopsis "UNIT investigates when scientists go missing, kidnapped by an alien trapped in the 13th Century. Travelling back in time in the TARDIS, the Doctor is unaware that he has stowaway." ;
-                                                     ns0:image_pid "p00vflh2" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p018dkc9#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vflh2" ;
+                                                     ns0:medium_synopsis "UNIT investigates when scientists go missing, kidnapped by an alien trapped in the 13th Century. Travelling back in time in the TARDIS, the Doctor is unaware that he has stowaway." ;
+                                                     ns0:pid "p00v7b0v" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "Scientists go missing and the Doctor learns that the kidnapper is an alien from the past. " ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v7b0y#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p030p1lm#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p018dkc9#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vflh2.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v7b2z#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 2" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00v7b2z" ;
-                                                     ns0:short_synopsis "The Doctor discovers that the alien is a Sontaran warrior called Linx." ;
-                                                     ns0:medium_synopsis "The Doctor discovers that the alien is Linx - a Sontaran warrior trying to repair his spaceship. Sarah is convinced that the Doctor is responsible for the abductions." ;
-                                                     ns0:image_pid "p00vfljz" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p018dlqr#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p018gft0#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vfljz" ;
+                                                     ns0:medium_synopsis "The Doctor discovers that the alien is Linx - a Sontaran warrior trying to repair his spaceship. Sarah is convinced that the Doctor is responsible for the abductions." ;
+                                                     ns0:pid "p00v7b2z" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "The Doctor discovers that the alien is a Sontaran warrior called Linx." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v7b31#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p030p29y#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p018gft0#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p018dlqr#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vfljz.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v7b40#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 3" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00v7b40" ;
-                                                     ns0:short_synopsis "Linx is providing advanced weaponry to Irongron and his men. " ;
-                                                     ns0:medium_synopsis "Linx is providing advanced weaponry to Irongron and his men who prepare to attack Sir Edward's castle. The Doctor is forced to improvise a defence, but will it be enough?" ;
-                                                     ns0:image_pid "p00vhv2z" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p018dm77#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vhv2z" ;
+                                                     ns0:medium_synopsis "Linx is providing advanced weaponry to Irongron and his men who prepare to attack Sir Edward's castle. The Doctor is forced to improvise a defence, but will it be enough?" ;
+                                                     ns0:pid "p00v7b40" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "Linx is providing advanced weaponry to Irongron and his men. " ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v7b41#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p030p1x4#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p018dm77#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vhv2z.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v7b4x#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 4" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "p00v7b4x" ;
-                                                     ns0:short_synopsis "His ship repaired, Linx prepares to take off as the Doctor races to stop history changing." ;
-                                                     ns0:medium_synopsis "As the repairs to Linx's spaceship are completed and he prepares to take off, the Doctor races to save the captured scientists and to prevent the course of history being changed." ;
-                                                     ns0:image_pid "p00vfpmk" ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
-                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v7b4y#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p030p2s9#programme> ;
                                                      ns0:clip <http://www.bbc.co.uk/programmes/p018dmmh#programme> ,
                                                               <http://www.bbc.co.uk/programmes/p01lm509#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vfpmk" ;
+                                                     ns0:medium_synopsis "As the repairs to Linx's spaceship are completed and he prepares to take off, the Doctor races to save the captured scientists and to prevent the course of history being changed." ;
+                                                     ns0:pid "p00v7b4x" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "His ship repaired, Linx prepares to take off as the Doctor races to stop history changing." ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v7b4y#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p030p2s9#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vfpmk.jpg> .

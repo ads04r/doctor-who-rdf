@@ -5,92 +5,92 @@
 
 <http://www.bbc.co.uk/programmes/p00pn9x0#programme> rdf:type ns0:Series ;
                                                      dc:title "The Monster of Peladon" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "p00pn9x0" ;
-                                                     ns0:short_synopsis "The TARDIS returns the Doctor to Peladon fifty years after his last visit." ;
-                                                     ns0:medium_synopsis "The TARDIS returns the Doctor to Peladon at a point in time fifty years after his last visit and is arrested by Chancellor Ortron for trespassing in the sacred temple of Aggedor." ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/p00v7c1f#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v7c29#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v7c3f#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v7c42#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v7c5d#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00v7c6z#programme> .
+                                                                 <http://www.bbc.co.uk/programmes/p00v7c6z#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:medium_synopsis "The TARDIS returns the Doctor to Peladon at a point in time fifty years after his last visit and is arrested by Chancellor Ortron for trespassing in the sacred temple of Aggedor." ;
+                                                     ns0:pid "p00pn9x0" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "The TARDIS returns the Doctor to Peladon fifty years after his last visit." .
 
 <http://www.bbc.co.uk/programmes/p00v7c1f#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 1" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00v7c1f" ;
-                                                     ns0:short_synopsis "The Doctor makes a return visit to Peladon some years after his previous visit. " ;
-                                                     ns0:medium_synopsis "The Doctor makes a return visit to Peladon some years after his previous visit. There he discovers that several miners have died and the ghost of Aggedor is to blame." ;
-                                                     ns0:image_pid "p00vfrcd" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p017f8jk#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vfrcd" ;
+                                                     ns0:medium_synopsis "The Doctor makes a return visit to Peladon some years after his previous visit. There he discovers that several miners have died and the ghost of Aggedor is to blame." ;
+                                                     ns0:pid "p00v7c1f" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "The Doctor makes a return visit to Peladon some years after his previous visit. " ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v7c1h#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xwgtl#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p017f8jk#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vfrcd.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v7c29#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 2" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00v7c29" ;
-                                                     ns0:short_synopsis "Chancellor Ortron sentences the Doctor and Sarah to be punished by Aggedor." ;
-                                                     ns0:medium_synopsis "Chancellor Ortron accuses the Doctor and Sarah of being in league with the rebel miners and sentences them to be punished by Aggedor himself." ;
-                                                     ns0:image_pid "p00vfrmj" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p017f972#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vfrmj" ;
+                                                     ns0:medium_synopsis "Chancellor Ortron accuses the Doctor and Sarah of being in league with the rebel miners and sentences them to be punished by Aggedor himself." ;
+                                                     ns0:pid "p00v7c29" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "Chancellor Ortron sentences the Doctor and Sarah to be punished by Aggedor." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v7c2b#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xwh4r#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p017f972#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vfrmj.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v7c3f#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 3" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00v7c3f" ;
-                                                     ns0:short_synopsis "The Doctor attempts to expose the fraud of Aggedor's ghost. " ;
-                                                     ns0:medium_synopsis "Desperate to avoid a revolt from the miners,the Doctor attempts to expose the fraud of Aggedor's ghost. Alpha Centauri has summoned Federation troops, but whose side are they on?" ;
-                                                     ns0:image_pid "p00vfrrq" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p017f9x0#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vfrrq" ;
+                                                     ns0:medium_synopsis "Desperate to avoid a revolt from the miners,the Doctor attempts to expose the fraud of Aggedor's ghost. Alpha Centauri has summoned Federation troops, but whose side are they on?" ;
+                                                     ns0:pid "p00v7c3f" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "The Doctor attempts to expose the fraud of Aggedor's ghost. " ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v7c3g#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xwh9f#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p017f9x0#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vfrrq.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v7c42#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 4" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "p00v7c42" ;
-                                                     ns0:short_synopsis "The Ice Warriors have taken control of Peladon, so the Doctor plans to defeat them." ;
-                                                     ns0:medium_synopsis "The Ice Warriors have taken control of Peladon. Pretending to cooperate, the Doctor concocts a plan to defeat the invaders." ;
-                                                     ns0:image_pid "p00vfs86" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p017fb8s#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vfs86" ;
+                                                     ns0:medium_synopsis "The Ice Warriors have taken control of Peladon. Pretending to cooperate, the Doctor concocts a plan to defeat the invaders." ;
+                                                     ns0:pid "p00v7c42" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "The Ice Warriors have taken control of Peladon, so the Doctor plans to defeat them." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v7c43#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xwhgm#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p017fb8s#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vfs86.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v7c5d#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 5" ;
-                                                     ns0:position "5" ;
-                                                     ns0:pid "p00v7c5d" ;
-                                                     ns0:short_synopsis "Commander Azaxyr and his Ice Warriors are revealed as traitors, in league with Galaxy 5. " ;
-                                                     ns0:medium_synopsis "Commander Azaxyr and his Ice Warriors are revealed as traitors, in league with Galaxy 5. The Doctor intends to turn   Aggedor against Azaxyr, but it may already be too late." ;
-                                                     ns0:image_pid "p00vfsxk" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p017fbd0#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vfsxk" ;
+                                                     ns0:medium_synopsis "Commander Azaxyr and his Ice Warriors are revealed as traitors, in league with Galaxy 5. The Doctor intends to turn   Aggedor against Azaxyr, but it may already be too late." ;
+                                                     ns0:pid "p00v7c5d" ;
+                                                     ns0:position "5" ;
+                                                     ns0:short_synopsis "Commander Azaxyr and his Ice Warriors are revealed as traitors, in league with Galaxy 5. " ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v7c5f#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xwhmn#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p017fbd0#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vfsxk.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v7c6z#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 6" ;
-                                                     ns0:position "6" ;
-                                                     ns0:pid "p00v7c6z" ;
-                                                     ns0:short_synopsis "The Doctor and the miners fight to reclaim Peladon from the Ice Warriors. " ;
-                                                     ns0:medium_synopsis "The Doctor and the miners take the upper hand in the fight to reclaim Peladon from the Ice Warriors. But Eckersley is unwilling to give up and takes Queen Thalira hostage." ;
-                                                     ns0:image_pid "p00vft4p" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p017fbl3#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vft4p" ;
+                                                     ns0:medium_synopsis "The Doctor and the miners take the upper hand in the fight to reclaim Peladon from the Ice Warriors. But Eckersley is unwilling to give up and takes Queen Thalira hostage." ;
+                                                     ns0:pid "p00v7c6z" ;
+                                                     ns0:position "6" ;
+                                                     ns0:short_synopsis "The Doctor and the miners fight to reclaim Peladon from the Ice Warriors. " ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v7c70#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02xwhxs#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p017fbl3#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vft4p.jpg> .

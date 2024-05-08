@@ -5,99 +5,99 @@
 
 <http://www.bbc.co.uk/programmes/p00pn88n#programme> rdf:type ns0:Series ;
                                                      dc:title "The Green Death" ;
-                                                     ns0:position "5" ;
-                                                     ns0:pid "p00pn88n" ;
-                                                     ns0:short_synopsis "The Doctor and Jo discover that an old mine is infested with giant maggots." ;
-                                                     ns0:medium_synopsis "The Doctor and Jo discover that an old Welsh mine is infested by maggots that have grown to enormous size." ;
-                                                     ns0:long_synopsis "The Doctor and Jo discover that an old Welsh mine is infested by maggots that have grown to enormous size." ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/p00v8x4v#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v8x81#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v8xbw#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v8xfv#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v91dt#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00v91gl#programme> .
+                                                                 <http://www.bbc.co.uk/programmes/p00v91gl#programme> ;
+                                                     ns0:long_synopsis "The Doctor and Jo discover that an old Welsh mine is infested by maggots that have grown to enormous size." ;
+                                                     ns0:medium_synopsis "The Doctor and Jo discover that an old Welsh mine is infested by maggots that have grown to enormous size." ;
+                                                     ns0:pid "p00pn88n" ;
+                                                     ns0:position "5" ;
+                                                     ns0:short_synopsis "The Doctor and Jo discover that an old mine is infested with giant maggots." .
 
 <http://www.bbc.co.uk/programmes/p00v8x4v#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 1" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00v8x4v" ;
-                                                     ns0:short_synopsis "In Wales, a miner is found dead and glowing green possibly due to Global Chemicals." ;
-                                                     ns0:medium_synopsis "In Wales, a dead miner is found glowing green. UNIT investigates and Jo empathises with the environmentalism of Cliff Jones who is opposing the pollution from Global Chemicals." ;
-                                                     ns0:long_synopsis "In Wales, a dead miner is found glowing green. UNIT investigates and Jo empathises with the environmentalism of Cliff Jones who is opposing the pollution from Global Chemicals." ;
-                                                     ns0:image_pid "p00v91d4" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01btvt6#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v91d4" ;
+                                                     ns0:long_synopsis "In Wales, a dead miner is found glowing green. UNIT investigates and Jo empathises with the environmentalism of Cliff Jones who is opposing the pollution from Global Chemicals." ;
+                                                     ns0:medium_synopsis "In Wales, a dead miner is found glowing green. UNIT investigates and Jo empathises with the environmentalism of Cliff Jones who is opposing the pollution from Global Chemicals." ;
+                                                     ns0:pid "p00v8x4v" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "In Wales, a miner is found dead and glowing green possibly due to Global Chemicals." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v8x4w#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p030p13s#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01btvt6#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v91d4.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v8x81#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 2" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00v8x81" ;
-                                                     ns0:short_synopsis "Investigating the old mine workings, Jo and Bert become trapped beneath the surface." ;
-                                                     ns0:medium_synopsis "Investigating the old mine workings, Jo and miner Bert become trapped beneath the surface when the lift is sabotaged. Bert touches some green slime and becomes infected." ;
-                                                     ns0:long_synopsis "Investigating the old mine workings, Jo and miner Bert become trapped beneath the surface when the lift is sabotaged. Bert touches some green slime and becomes infected." ;
-                                                     ns0:image_pid "p00v91km" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01btwhc#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v91km" ;
+                                                     ns0:long_synopsis "Investigating the old mine workings, Jo and miner Bert become trapped beneath the surface when the lift is sabotaged. Bert touches some green slime and becomes infected." ;
+                                                     ns0:medium_synopsis "Investigating the old mine workings, Jo and miner Bert become trapped beneath the surface when the lift is sabotaged. Bert touches some green slime and becomes infected." ;
+                                                     ns0:pid "p00v8x81" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "Investigating the old mine workings, Jo and Bert become trapped beneath the surface." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v8x83#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p030p258#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01btwhc#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v91km.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v8xbw#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 3" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00v8xbw" ;
-                                                     ns0:short_synopsis "Trapped deep below ground, the Doctor and Jo discover the mine's terrible secret." ;
-                                                     ns0:medium_synopsis "The Doctor and Jo discover the mine's terrible secret. Global Chemicals' managing director, Stevens, is determined that they won't live to reveal what they have learnt." ;
-                                                     ns0:long_synopsis "The Doctor and Jo discover the mine's terrible secret. Global Chemicals' managing director, Stevens, is determined that they won't live to reveal what they have learnt." ;
-                                                     ns0:image_pid "p00v91sn" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01btwvk#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v91sn" ;
+                                                     ns0:long_synopsis "The Doctor and Jo discover the mine's terrible secret. Global Chemicals' managing director, Stevens, is determined that they won't live to reveal what they have learnt." ;
+                                                     ns0:medium_synopsis "The Doctor and Jo discover the mine's terrible secret. Global Chemicals' managing director, Stevens, is determined that they won't live to reveal what they have learnt." ;
+                                                     ns0:pid "p00v8xbw" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "Trapped deep below ground, the Doctor and Jo discover the mine's terrible secret." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v8xbx#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p030p2v0#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01btwvk#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v91sn.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v8xfv#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 4" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "p00v8xfv" ;
-                                                     ns0:short_synopsis "The Brigadier tries to seal the giant maggots in the mine, but they burrow up." ;
-                                                     ns0:medium_synopsis "The Brigadier attempts to seal the giant maggots in the mine with explosives, but this only results in the creatures burrowing to the surface." ;
-                                                     ns0:long_synopsis "The Brigadier attempts to seal the giant maggots in the mine with explosives, but this only results in the creatures burrowing to the surface." ;
-                                                     ns0:image_pid "p00v920g" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01btwzx#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v920g" ;
+                                                     ns0:long_synopsis "The Brigadier attempts to seal the giant maggots in the mine with explosives, but this only results in the creatures burrowing to the surface." ;
+                                                     ns0:medium_synopsis "The Brigadier attempts to seal the giant maggots in the mine with explosives, but this only results in the creatures burrowing to the surface." ;
+                                                     ns0:pid "p00v8xfv" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "The Brigadier tries to seal the giant maggots in the mine, but they burrow up." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v8xfw#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p030p3px#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01btwzx#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v920g.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v91dt#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 5" ;
-                                                     ns0:position "5" ;
-                                                     ns0:pid "p00v91dt" ;
-                                                     ns0:short_synopsis "Captain Yates is taken over by the super computer, BOSS, and ordered to kill the Doctor." ;
-                                                     ns0:medium_synopsis "Captain Mike Yates is taken over by the super computer, BOSS, and ordered to kill the Doctor. Cliff and Jo are trapped by the maggots as UNIT launch their attack." ;
-                                                     ns0:long_synopsis "Captain Mike Yates is taken over by the super computer, BOSS, and ordered to kill the Doctor. Cliff and Jo are trapped by the maggots as UNIT launch their attack." ;
-                                                     ns0:image_pid "p00v923q" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01btx5k#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v923q" ;
+                                                     ns0:long_synopsis "Captain Mike Yates is taken over by the super computer, BOSS, and ordered to kill the Doctor. Cliff and Jo are trapped by the maggots as UNIT launch their attack." ;
+                                                     ns0:medium_synopsis "Captain Mike Yates is taken over by the super computer, BOSS, and ordered to kill the Doctor. Cliff and Jo are trapped by the maggots as UNIT launch their attack." ;
+                                                     ns0:pid "p00v91dt" ;
+                                                     ns0:position "5" ;
+                                                     ns0:short_synopsis "Captain Yates is taken over by the super computer, BOSS, and ordered to kill the Doctor." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v91dv#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p030p3c4#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01btx5k#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v923q.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v91gl#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 6" ;
-                                                     ns0:position "6" ;
-                                                     ns0:pid "p00v91gl" ;
-                                                     ns0:short_synopsis "Time is running out as BOSS prepares to launch its plan for world domination." ;
-                                                     ns0:medium_synopsis "Cliff is dying and the maggots are on the verge of transforming into giant flying insects. Time is running out for the Doctor as BOSS launches its plan for world domination." ;
-                                                     ns0:long_synopsis "Cliff is dying and the maggots are on the verge of transforming into giant flying insects. Time is running out for the Doctor as BOSS launches its plan for world domination." ;
-                                                     ns0:image_pid "p00v927x" ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
-                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v91gm#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p030p56j#programme> ;
                                                      ns0:clip <http://www.bbc.co.uk/programmes/p01br4rq#programme> ,
                                                               <http://www.bbc.co.uk/programmes/p01btxmz#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v927x" ;
+                                                     ns0:long_synopsis "Cliff is dying and the maggots are on the verge of transforming into giant flying insects. Time is running out for the Doctor as BOSS launches its plan for world domination." ;
+                                                     ns0:medium_synopsis "Cliff is dying and the maggots are on the verge of transforming into giant flying insects. Time is running out for the Doctor as BOSS launches its plan for world domination." ;
+                                                     ns0:pid "p00v91gl" ;
+                                                     ns0:position "6" ;
+                                                     ns0:short_synopsis "Time is running out as BOSS prepares to launch its plan for world domination." ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v91gm#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p030p56j#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v927x.jpg> .

@@ -5,88 +5,88 @@
 
 <http://www.bbc.co.uk/programmes/p00krhg1#programme> rdf:type ns0:Series ;
                                                      dc:title "The Abominable Snowmen" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00krhg1" ;
-                                                     ns0:short_synopsis "The Doctor is delighted when the TARDIS returns him to the Himalayas in 1935." ;
-                                                     ns0:medium_synopsis "The Doctor is delighted when the TARDIS returns him to the Himalayas in 1935 near the Detsen monastery where the Doctor had been given a sacred bell, the ghanta, for safe keeping." ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/p00v2xkp#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v2xlf#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v2xn8#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v2xp0#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v2xqd#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00v2xrs#programme> .
+                                                                 <http://www.bbc.co.uk/programmes/p00v2xrs#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:medium_synopsis "The Doctor is delighted when the TARDIS returns him to the Himalayas in 1935 near the Detsen monastery where the Doctor had been given a sacred bell, the ghanta, for safe keeping." ;
+                                                     ns0:pid "p00krhg1" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "The Doctor is delighted when the TARDIS returns him to the Himalayas in 1935." .
 
 <http://www.bbc.co.uk/programmes/p00v2xkp#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 1" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00v2xkp" ;
-                                                     ns0:short_synopsis "The TARDIS lands in Tibet in 1935, where the Doctor is accused of murder…" ;
-                                                     ns0:medium_synopsis "The TARDIS lands in Tibet in 1935. There the Doctor is accused of murder by Professor Travers who is in search of the legendary Yeti." ;
-                                                     ns0:long_synopsis "The TARDIS lands in Tibet in 1935. There the Doctor is accused of murder by Professor Travers who is in search of the legendary Yeti." ;
-                                                     ns0:image_pid "p00v7g3g" ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v7g3g" ;
+                                                     ns0:long_synopsis "The TARDIS lands in Tibet in 1935. There the Doctor is accused of murder by Professor Travers who is in search of the legendary Yeti." ;
+                                                     ns0:medium_synopsis "The TARDIS lands in Tibet in 1935. There the Doctor is accused of murder by Professor Travers who is in search of the legendary Yeti." ;
+                                                     ns0:pid "p00v2xkp" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "The TARDIS lands in Tibet in 1935, where the Doctor is accused of murder…" ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v2xkq#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p04yjrkx#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v7g3g.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v2xlf#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 2" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00v2xlf" ;
-                                                     ns0:short_synopsis "Jamie and Victoria make an incredible discovery in a cave on the mountain." ;
-                                                     ns0:medium_synopsis "Jamie and Victoria make an incredible discovery in a cave on the mountain. The Doctor is tied to the gates of the Detsen Monastery as a lure for the hostile Yeti." ;
-                                                     ns0:long_synopsis "Jamie and Victoria make an incredible discovery in a cave on the mountain. The Doctor is tied to the gates of the Detsen Monastery as a lure for the hostile Yeti." ;
-                                                     ns0:image_pid "p00v7g97" ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
-                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v2xlg#programme> ;
                                                      ns0:clip <http://www.bbc.co.uk/programmes/p013jbt6#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v7g97" ;
+                                                     ns0:long_synopsis "Jamie and Victoria make an incredible discovery in a cave on the mountain. The Doctor is tied to the gates of the Detsen Monastery as a lure for the hostile Yeti." ;
+                                                     ns0:medium_synopsis "Jamie and Victoria make an incredible discovery in a cave on the mountain. The Doctor is tied to the gates of the Detsen Monastery as a lure for the hostile Yeti." ;
+                                                     ns0:pid "p00v2xlf" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "Jamie and Victoria make an incredible discovery in a cave on the mountain." ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/p00v2xlg#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v7g97.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v2xn8#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 3" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00v2xn8" ;
-                                                     ns0:short_synopsis "When a Yeti is captured by the Detsen monks, the Doctor discovers that it is a robot..." ;
-                                                     ns0:medium_synopsis "When a Yeti is captured by the Detsen monks, the Doctor discovers that it is a robot – but its control sphere is missing. Elsewhere in the monastery, the sphere is on the move." ;
-                                                     ns0:long_synopsis "When a Yeti is captured by the Detsen monks, the Doctor discovers that it is a robot – but its control sphere is missing. Elsewhere in the monastery, the sphere is on the move." ;
-                                                     ns0:image_pid "p00v7g3g" ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v7g3g" ;
+                                                     ns0:long_synopsis "When a Yeti is captured by the Detsen monks, the Doctor discovers that it is a robot – but its control sphere is missing. Elsewhere in the monastery, the sphere is on the move." ;
+                                                     ns0:medium_synopsis "When a Yeti is captured by the Detsen monks, the Doctor discovers that it is a robot – but its control sphere is missing. Elsewhere in the monastery, the sphere is on the move." ;
+                                                     ns0:pid "p00v2xn8" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "When a Yeti is captured by the Detsen monks, the Doctor discovers that it is a robot..." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v2xn9#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v7g3g.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v2xp0#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 4" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "p00v2xp0" ;
-                                                     ns0:short_synopsis "Victoria is imprisoned by the monks working for the Great Intelligence in the monastery." ;
-                                                     ns0:medium_synopsis "Imprisoned in the monastery, Victoria is able to escape. The old High Lama is in the control of the alien Great Intelligence which plans to invade Earth." ;
-                                                     ns0:long_synopsis "Imprisoned in the monastery, Victoria is able to escape. The old High Lama is in the control of the alien Great Intelligence which plans to invade Earth." ;
-                                                     ns0:image_pid "p00v7g3g" ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v7g3g" ;
+                                                     ns0:long_synopsis "Imprisoned in the monastery, Victoria is able to escape. The old High Lama is in the control of the alien Great Intelligence which plans to invade Earth." ;
+                                                     ns0:medium_synopsis "Imprisoned in the monastery, Victoria is able to escape. The old High Lama is in the control of the alien Great Intelligence which plans to invade Earth." ;
+                                                     ns0:pid "p00v2xp0" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "Victoria is imprisoned by the monks working for the Great Intelligence in the monastery." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v2xp1#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v7g3g.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v2xqd#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 5" ;
-                                                     ns0:position "5" ;
-                                                     ns0:pid "p00v2xqd" ;
-                                                     ns0:short_synopsis "The Doctor learns that Padmasambhava is still alive after three hundred years..." ;
-                                                     ns0:medium_synopsis "Discovering that his old friend, Padmasambhava, is still alive after three hundred years, the Doctor goes to confront him. The Great Intelligence prepares to make its final move." ;
-                                                     ns0:long_synopsis "Discovering that his old friend, Padmasambhava, is still alive after three hundred years, the Doctor goes to confront him. The Great Intelligence prepares to make its final move." ;
-                                                     ns0:image_pid "p00v7g3g" ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v7g3g" ;
+                                                     ns0:long_synopsis "Discovering that his old friend, Padmasambhava, is still alive after three hundred years, the Doctor goes to confront him. The Great Intelligence prepares to make its final move." ;
+                                                     ns0:medium_synopsis "Discovering that his old friend, Padmasambhava, is still alive after three hundred years, the Doctor goes to confront him. The Great Intelligence prepares to make its final move." ;
+                                                     ns0:pid "p00v2xqd" ;
+                                                     ns0:position "5" ;
+                                                     ns0:short_synopsis "The Doctor learns that Padmasambhava is still alive after three hundred years..." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v2xqf#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v7g3g.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v2xrs#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 6" ;
-                                                     ns0:position "6" ;
-                                                     ns0:pid "p00v2xrs" ;
-                                                     ns0:short_synopsis "As the Great Intelligence manifests itself on Earth, the Doctor faces a last battle." ;
-                                                     ns0:medium_synopsis "As the Great Intelligence manifests itself on Earth, the Doctor makes a last, desperate attempt to repel  the evil entity by pitting his mind against it in a mental battle." ;
-                                                     ns0:long_synopsis "As the Great Intelligence manifests itself on Earth, the Doctor makes a last, desperate attempt to repel  the evil entity by pitting his mind against it in a mental battle." ;
-                                                     ns0:image_pid "p00v7g3g" ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v7g3g" ;
+                                                     ns0:long_synopsis "As the Great Intelligence manifests itself on Earth, the Doctor makes a last, desperate attempt to repel  the evil entity by pitting his mind against it in a mental battle." ;
+                                                     ns0:medium_synopsis "As the Great Intelligence manifests itself on Earth, the Doctor makes a last, desperate attempt to repel  the evil entity by pitting his mind against it in a mental battle." ;
+                                                     ns0:pid "p00v2xrs" ;
+                                                     ns0:position "6" ;
+                                                     ns0:short_synopsis "As the Great Intelligence manifests itself on Earth, the Doctor faces a last battle." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v2xrt#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v7g3g.jpg> .

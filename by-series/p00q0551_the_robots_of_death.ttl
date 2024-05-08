@@ -5,65 +5,65 @@
 
 <http://www.bbc.co.uk/programmes/p00q0551#programme> rdf:type ns0:Series ;
                                                      dc:title "The Robots of Death" ;
-                                                     ns0:position "5" ;
-                                                     ns0:pid "p00q0551" ;
-                                                     ns0:short_synopsis "The TARDIS arrives aboard a huge sandminer as it travels across a barren landscape." ;
-                                                     ns0:medium_synopsis "The TARDIS arrives aboard a huge sandminer as it travels across a barren landscape, collecting minerals. One of the crew is murdered and the Doctor and Leela are blamed." ;
-                                                     ns0:long_synopsis "The TARDIS arrives aboard a huge sandminer as it travels across a barren landscape, collecting minerals. One of the crew is murdered and the Doctor and Leela are blamed." ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/p00vf8g8#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00vf8rj#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00vf90x#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00vf92t#programme> .
+                                                                 <http://www.bbc.co.uk/programmes/p00vf92t#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:long_synopsis "The TARDIS arrives aboard a huge sandminer as it travels across a barren landscape, collecting minerals. One of the crew is murdered and the Doctor and Leela are blamed." ;
+                                                     ns0:medium_synopsis "The TARDIS arrives aboard a huge sandminer as it travels across a barren landscape, collecting minerals. One of the crew is murdered and the Doctor and Leela are blamed." ;
+                                                     ns0:pid "p00q0551" ;
+                                                     ns0:position "5" ;
+                                                     ns0:short_synopsis "The TARDIS arrives aboard a huge sandminer as it travels across a barren landscape." .
 
 <http://www.bbc.co.uk/programmes/p00vf8g8#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 1" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00vf8g8" ;
-                                                     ns0:short_synopsis "The TARDIS takes the Doctor and Leela to a huge sandminer on an alien world. " ;
-                                                     ns0:medium_synopsis "The TARDIS takes the Doctor and Leela to a huge sandminer on an alien world. One of the crew is killed and the murderer may not be human." ;
-                                                     ns0:image_pid "p00vfhvt" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01frsxy#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vfhvt" ;
+                                                     ns0:medium_synopsis "The TARDIS takes the Doctor and Leela to a huge sandminer on an alien world. One of the crew is killed and the murderer may not be human." ;
+                                                     ns0:pid "p00vf8g8" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "The TARDIS takes the Doctor and Leela to a huge sandminer on an alien world. " ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vf8g9#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02kdgc9#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01frsxy#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vfhvt.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00vf8rj#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 2" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00vf8rj" ;
-                                                     ns0:short_synopsis "The Doctor and Leela are blamed for the murder of one of the sandminer's crew." ;
-                                                     ns0:medium_synopsis "The Doctor and Leela are blamed for the murder of one of the sandminer's crew. But the real killer is still on the loose, intent on wiping out more of the humans." ;
-                                                     ns0:image_pid "p00vfhzm" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01frt24#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vfhzm" ;
+                                                     ns0:medium_synopsis "The Doctor and Leela are blamed for the murder of one of the sandminer's crew. But the real killer is still on the loose, intent on wiping out more of the humans." ;
+                                                     ns0:pid "p00vf8rj" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "The Doctor and Leela are blamed for the murder of one of the sandminer's crew." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vf8rl#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02kdgjw#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01frt24#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vfhzm.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00vf90x#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 3" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00vf90x" ;
-                                                     ns0:short_synopsis "Taren Capel is using the robots to carry out the murders." ;
-                                                     ns0:medium_synopsis "One of the crew is the insane Taren Capel, who is using robots to carry out the murders. The Doctor discovers that there are also others who aren't what they appear to be either." ;
-                                                     ns0:image_pid "p00vfj64" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01frtnd#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vfj64" ;
+                                                     ns0:medium_synopsis "One of the crew is the insane Taren Capel, who is using robots to carry out the murders. The Doctor discovers that there are also others who aren't what they appear to be either." ;
+                                                     ns0:pid "p00vf90x" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "Taren Capel is using the robots to carry out the murders." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vf90z#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02kdhh9#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01frtnd#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vfj64.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00vf92t#programme> rdf:type ns0:Episode ;
                                                      dc:title "Part 4" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "p00vf92t" ;
-                                                     ns0:short_synopsis "As the robots close in, the Doctor and Leela join forces with the crew to fight back." ;
-                                                     ns0:medium_synopsis "As Taren Capel reveals himself and his army of killer robots close in, the Doctor and Leela join forces with the surviving crew members to defend themselves." ;
-                                                     ns0:image_pid "p00vfj9q" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01frv29#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00vfj9q" ;
+                                                     ns0:medium_synopsis "As Taren Capel reveals himself and his army of killer robots close in, the Doctor and Leela join forces with the surviving crew members to defend themselves." ;
+                                                     ns0:pid "p00vf92t" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "As the robots close in, the Doctor and Leela join forces with the crew to fight back." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00vf92v#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02kdhhn#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p01frv29#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00vfj9q.jpg> .

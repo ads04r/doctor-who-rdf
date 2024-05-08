@@ -4,12 +4,7 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
 <http://www.bbc.co.uk/programmes/b006v18m#programme> rdf:type ns0:Series ;
-                                                     ns0:pid "b006v18m" ;
                                                      dc:title "Series 2" ;
-                                                     ns0:short_synopsis "Adventures in time and space with the wandering Time Lord" ;
-                                                     ns0:medium_synopsis "Adventures in time and space with the wandering Time Lord, played in this series by David Tennant" ;
-                                                     foaf:depiction <http://www.bbc.co.uk/iplayer/images/series/b006v18m_512_288.jpg> ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:clip <http://www.bbc.co.uk/programmes/p00j4vlf#programme> ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/b0074fll#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/b0074fly#programme> ,
@@ -18,316 +13,321 @@
                                                                  <http://www.bbc.co.uk/programmes/b0074fn1#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/b0074fnh#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/b0074fnv#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/b0074gfz#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/b0074fpm#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/b0074fpz#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/b0074fqf#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/b0074fqz#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/b0074frg#programme> .
+                                                                 <http://www.bbc.co.uk/programmes/b0074frg#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/b0074gfz#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:medium_synopsis "Adventures in time and space with the wandering Time Lord, played in this series by David Tennant" ;
+                                                     ns0:pid "b006v18m" ;
+                                                     ns0:short_synopsis "Adventures in time and space with the wandering Time Lord" ;
+                                                     foaf:depiction <http://www.bbc.co.uk/iplayer/images/series/b006v18m_512_288.jpg> .
 
 <http://www.bbc.co.uk/programmes/b0074fll#programme> rdf:type ns0:Episode ;
                                                      dc:title "New Earth" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "b0074fll" ;
-                                                     ns0:short_synopsis "The Doctor and Rose Tyler find gruesome secrets inside a luxury hospital on 'New Earth'." ;
-                                                     ns0:medium_synopsis "The Doctor is summoned to an apparently beautiful 'New Earth' where he and Rose find gruesome secrets inside a luxury hospital." ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p00j4xm1#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01x64bv#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01zxg9h#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01zz10g#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01zz1j7#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01zz21c#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:image_pid "p01gd82v" ;
                                                      ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:medium_synopsis "The Doctor is summoned to an apparently beautiful 'New Earth' where he and Rose find gruesome secrets inside a luxury hospital." ;
+                                                     ns0:pid "b0074fll" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "The Doctor and Rose Tyler find gruesome secrets inside a luxury hospital on 'New Earth'." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/b0069nq7#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p0062bj1#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02mqb8m#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p00j4xm1#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p01zz21c#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p01x64bv#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p01zxg9h#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p01zz1j7#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p01zz10g#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p01gd82v.jpg> .
 
 <http://www.bbc.co.uk/programmes/b0074fly#programme> rdf:type ns0:Episode ;
                                                      dc:title "Tooth and Claw" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "b0074fly" ;
-                                                     ns0:short_synopsis "The Doctor's trip to Scotland in 1879 could prove fatal..." ;
-                                                     ns0:medium_synopsis "Queen Victoria, a werewolf and the birth of Torchwood... The Doctor's trip to Scotland, 1879, could prove fatal..." ;
-                                                     ns0:image_pid "p01gd7vn" ;
-                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
-                                                     ns0:version <http://www.bbc.co.uk/programmes/b0069ry0#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00np4yb#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p02mqcc4#programme> ;
                                                      ns0:clip <http://www.bbc.co.uk/programmes/p00j4xd8#programme> ,
                                                               <http://www.bbc.co.uk/programmes/p00j4xkh#programme> ,
                                                               <http://www.bbc.co.uk/programmes/p01x64rw#programme> ,
                                                               <http://www.bbc.co.uk/programmes/p01zxgwt#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p01zz3p7#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p01zz3jk#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01zz28n#programme> ,
                                                               <http://www.bbc.co.uk/programmes/p01zz321#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p01zz28n#programme> ;
+                                                              <http://www.bbc.co.uk/programmes/p01zz3jk#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01zz3p7#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p01gd7vn" ;
+                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     ns0:medium_synopsis "Queen Victoria, a werewolf and the birth of Torchwood... The Doctor's trip to Scotland, 1879, could prove fatal..." ;
+                                                     ns0:pid "b0074fly" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "The Doctor's trip to Scotland in 1879 could prove fatal..." ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/b0069ry0#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00np4yb#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02mqcc4#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p01gd7vn.jpg> .
 
 <http://www.bbc.co.uk/programmes/b0074fm7#programme> rdf:type ns0:Episode ;
                                                      dc:title "School Reunion" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "b0074fm7" ;
-                                                     ns0:short_synopsis "The Doctor plus companions old and new fight the bat-like Krillitanes!" ;
-                                                     ns0:medium_synopsis "The return of Sarah Jane and K-9!  The Doctor plus companions old and new fight the bat-like Krillitanes!" ;
-                                                     ns0:image_pid "p01gd83d" ;
-                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
-                                                     ns0:version <http://www.bbc.co.uk/programmes/b0069yfr#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00nwb1n#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p02mqbbk#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p00j4x8j#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p00j4x75#programme> ,
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p00j4x75#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00j4x8j#programme> ,
                                                               <http://www.bbc.co.uk/programmes/p00j4x9c#programme> ,
                                                               <http://www.bbc.co.uk/programmes/p01x64wq#programme> ,
                                                               <http://www.bbc.co.uk/programmes/p01zxgz0#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p01zz48h#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01zz43c#programme> ,
                                                               <http://www.bbc.co.uk/programmes/p01zz452#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p01zz43c#programme> ;
+                                                              <http://www.bbc.co.uk/programmes/p01zz48h#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p01gd83d" ;
+                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     ns0:medium_synopsis "The return of Sarah Jane and K-9!  The Doctor plus companions old and new fight the bat-like Krillitanes!" ;
+                                                     ns0:pid "b0074fm7" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "The Doctor plus companions old and new fight the bat-like Krillitanes!" ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/b0069yfr#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00nwb1n#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02mqbbk#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p01gd83d.jpg> .
 
 <http://www.bbc.co.uk/programmes/b0074fmn#programme> rdf:type ns0:Episode ;
                                                      dc:title "The Girl in the Fireplace" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "b0074fmn" ;
-                                                     ns0:short_synopsis "The Doctor is smitten by Madame de Pompadour, but the court at Versailles is under attack." ;
-                                                     ns0:medium_synopsis "The Doctor is smitten by Madame de Pompadour, but the court at Versailles is under attack from Clockwork killers..." ;
-                                                     ns0:image_pid "p01gd85y" ;
-                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
-                                                     ns0:version <http://www.bbc.co.uk/programmes/b006b9d0#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00nw9qr#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p02mqbcc#programme> ;
                                                      ns0:clip <http://www.bbc.co.uk/programmes/p00j4wq8#programme> ,
                                                               <http://www.bbc.co.uk/programmes/p00j4wrb#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p00j4x5w#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00j4ws0#programme> ,
                                                               <http://www.bbc.co.uk/programmes/p00j4wv5#programme> ,
                                                               <http://www.bbc.co.uk/programmes/p00j4wy8#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p00j4ws0#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00j4x5w#programme> ,
                                                               <http://www.bbc.co.uk/programmes/p01x6522#programme> ,
                                                               <http://www.bbc.co.uk/programmes/p01zxgz1#programme> ,
                                                               <http://www.bbc.co.uk/programmes/p01zz4r5#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p01gd85y" ;
+                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     ns0:medium_synopsis "The Doctor is smitten by Madame de Pompadour, but the court at Versailles is under attack from Clockwork killers..." ;
+                                                     ns0:pid "b0074fmn" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "The Doctor is smitten by Madame de Pompadour, but the court at Versailles is under attack." ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/b006b9d0#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00nw9qr#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02mqbcc#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p01gd85y.jpg> .
 
 <http://www.bbc.co.uk/programmes/b0074fn1#programme> rdf:type ns0:Episode ;
                                                      dc:title "Rise of the Cybermen" ;
-                                                     ns0:position "5" ;
-                                                     ns0:pid "b0074fn1" ;
-                                                     ns0:short_synopsis "On a parallel Earth, the Doctor sees a terrifying enemy reborn... The Cybermen are coming!" ;
-                                                     ns0:medium_synopsis "On a parallel Earth where Rose's parents remained together, the Doctor sees a terrifying enemy reborn... The Cybermen are coming!" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p00hwl98#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00hwl9t#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00hwlcr#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00hwldp#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00hwlf8#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00hwlfk#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00hwlgd#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01x654r#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01zz4vg#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01zz532#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01zz56t#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01zz5km#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01zz5kp#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p024q4td#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:image_pid "p01gd8d7" ;
                                                      ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:medium_synopsis "On a parallel Earth where Rose's parents remained together, the Doctor sees a terrifying enemy reborn... The Cybermen are coming!" ;
+                                                     ns0:pid "b0074fn1" ;
+                                                     ns0:position "5" ;
+                                                     ns0:short_synopsis "On a parallel Earth, the Doctor sees a terrifying enemy reborn... The Cybermen are coming!" ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/b006bh8x#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p0041sly#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02mqbg2#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p00hwlfk#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p00hwlf8#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p00hwldp#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p00hwl9t#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p00hwlcr#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p00hwlgd#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p00hwl98#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p024q4td#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p01x654r#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p01zz5kp#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p01zz5km#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p01zz56t#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p01zz532#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p01zz4vg#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p01gd8d7.jpg> .
 
 <http://www.bbc.co.uk/programmes/b0074fnh#programme> rdf:type ns0:Episode ;
                                                      dc:title "The Age of Steel" ;
-                                                     ns0:position "6" ;
-                                                     ns0:pid "b0074fnh" ;
-                                                     ns0:short_synopsis "The Cybermen take control of London and start converting the populace." ;
-                                                     ns0:medium_synopsis "The Cybermen take control of London and start converting the populace. It looks like even the Doctor is beaten..." ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p00hv7bd#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00j4wpn#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p0177vwt#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01x65b0#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01zz60y#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01zz6bc#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01zz6mm#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:image_pid "p01gd9yq" ;
                                                      ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:medium_synopsis "The Cybermen take control of London and start converting the populace. It looks like even the Doctor is beaten..." ;
+                                                     ns0:pid "b0074fnh" ;
+                                                     ns0:position "6" ;
+                                                     ns0:short_synopsis "The Cybermen take control of London and start converting the populace." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/b006br7w#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p0066brv#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02mqbbx#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p00j4wpn#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p00hv7bd#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p01zz60y#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p01x65b0#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p01zz6mm#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p01zz6bc#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p0177vwt#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p01gd9yq.jpg> .
 
 <http://www.bbc.co.uk/programmes/b0074fnv#programme> rdf:type ns0:Episode ;
                                                      dc:title "The Idiot's Lantern" ;
-                                                     ns0:position "7" ;
-                                                     ns0:pid "b0074fnv" ;
-                                                     ns0:short_synopsis "A face-stealing alien is rampant at the time of Queen Elizabeth II's coronation." ;
-                                                     ns0:medium_synopsis "A face-stealing alien is rampant in Britain at the time of Queen Elizabeth II's coronation. The Doctor and Rose investigate!" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p00hwn3m#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00hwntr#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00hwp0t#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00j4wnr#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01x65m5#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01zvrmq#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01zz939#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01zz9dt#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01zzb4f#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01zzb7x#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01zzbk3#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01zzbp7#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01zzc2j#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01zzd0b#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:image_pid "p01gd9zr" ;
                                                      ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:medium_synopsis "A face-stealing alien is rampant in Britain at the time of Queen Elizabeth II's coronation. The Doctor and Rose investigate!" ;
+                                                     ns0:pid "b0074fnv" ;
+                                                     ns0:position "7" ;
+                                                     ns0:short_synopsis "A face-stealing alien is rampant at the time of Queen Elizabeth II's coronation." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/b006c4nw#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00bcl9q#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02mqbf4#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p00hwn3m#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p00hwntr#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p00j4wnr#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p00hwp0t#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p01zvrmq#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p01x65m5#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p01zzd0b#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p01zzc2j#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p01zzbp7#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p01zzbk3#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p01zzb7x#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p01zzb4f#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p01zz9dt#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p01zz939#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p01gd9zr.jpg> .
-
-<http://www.bbc.co.uk/programmes/b0074gfz#programme> rdf:type ns0:Episode ;
-                                                     dc:title "The Impossible Planet" ;
-                                                     ns0:position "8" ;
-                                                     ns0:pid "b0074gfz" ;
-                                                     ns0:short_synopsis "The Doctor and Rose land in a base on an 'impossible planet'. But the TARDIS is missing." ;
-                                                     ns0:medium_synopsis "The Doctor and Rose land in a base on an 'impossible planet'. But the TARDIS is missing, there's a killer in the base, and who are the Ood?" ;
-                                                     ns0:image_pid "p01gdbrk" ;
-                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
-                                                     ns0:version <http://www.bbc.co.uk/programmes/b006ykvn#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00422q6#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p02mqbgc#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p00hx4p1#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p00hx4ll#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p00hx4pb#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p01zvs92#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p01x65p6#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p01zzfby#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p01zzdtp#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p0201rgf#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p0201rdl#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p0201qqk#programme> ;
-                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p01gdbrk.jpg> .
 
 <http://www.bbc.co.uk/programmes/b0074fpm#programme> rdf:type ns0:Episode ;
                                                      dc:title "The Satan Pit" ;
-                                                     ns0:position "9" ;
-                                                     ns0:pid "b0074fpm" ;
-                                                     ns0:short_synopsis "As Rose battles the murderous Ood, the Doctor grapples with the Beast." ;
-                                                     ns0:medium_synopsis "As Rose battles the murderous Ood, the Doctor must grapple with a monster that challenges his every belief: the Beast." ;
-                                                     ns0:image_pid "p01gdbzh" ;
-                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
-                                                     ns0:version <http://www.bbc.co.uk/programmes/b006cqcr#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p0042br7#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p02mqcbr#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p00hx5ln#programme> ,
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p00hx4r7#programme> ,
                                                               <http://www.bbc.co.uk/programmes/p00hx4rv#programme> ,
                                                               <http://www.bbc.co.uk/programmes/p00hx5d9#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p00hx4r7#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00hx5ln#programme> ,
                                                               <http://www.bbc.co.uk/programmes/p01x66gw#programme> ,
                                                               <http://www.bbc.co.uk/programmes/p01zz194#programme> ,
                                                               <http://www.bbc.co.uk/programmes/p0201rkl#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p01gdbzh" ;
+                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     ns0:medium_synopsis "As Rose battles the murderous Ood, the Doctor must grapple with a monster that challenges his every belief: the Beast." ;
+                                                     ns0:pid "b0074fpm" ;
+                                                     ns0:position "9" ;
+                                                     ns0:short_synopsis "As Rose battles the murderous Ood, the Doctor grapples with the Beast." ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/b006cqcr#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p0042br7#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02mqcbr#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p01gdbzh.jpg> .
 
 <http://www.bbc.co.uk/programmes/b0074fpz#programme> rdf:type ns0:Episode ;
                                                      dc:title "Love and Monsters" ;
-                                                     ns0:position "10" ;
-                                                     ns0:pid "b0074fpz" ;
-                                                     ns0:short_synopsis "Who is the sinister and mysterious Victor Kennedy, and why is he keen to find the Doctor?" ;
-                                                     ns0:medium_synopsis "Who is the sinister and mysterious Victor Kennedy, and why is he so keen to find the Doctor?" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p00hx5t7#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00hx6fh#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00hx6l0#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00j4wl2#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01x66q0#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01zz7lg#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p0201rz2#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p0201s2z#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p0201s43#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p0201sc3#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p0201sdy#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:image_pid "p01gdcfp" ;
                                                      ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:medium_synopsis "Who is the sinister and mysterious Victor Kennedy, and why is he so keen to find the Doctor?" ;
+                                                     ns0:pid "b0074fpz" ;
+                                                     ns0:position "10" ;
+                                                     ns0:short_synopsis "Who is the sinister and mysterious Victor Kennedy, and why is he keen to find the Doctor?" ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/b006d35g#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/b00mj852#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00p94xg#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02mqb8k#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p00hx6fh#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p00hx6l0#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p00j4wl2#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p00hx5t7#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p01x66q0#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p01zz7lg#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p0201sdy#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p0201sc3#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p0201s43#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p0201s2z#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p0201rz2#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p01gdcfp.jpg> .
 
 <http://www.bbc.co.uk/programmes/b0074fqf#programme> rdf:type ns0:Episode ;
                                                      dc:title "Fear Her" ;
-                                                     ns0:position "11" ;
-                                                     ns0:pid "b0074fqf" ;
-                                                     ns0:short_synopsis "The Doctor has brought Rose to see the Olympics, but a girl threatens billions of lives." ;
-                                                     ns0:medium_synopsis "London, 2012. The Doctor has brought Rose to see the Olympics, but a little girl unwittingly threatens billions of lives." ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p00hx6pc#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00hx6t6#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00hx81s#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p0201z3x#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p024q4f4#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:image_pid "p01gddry" ;
                                                      ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:medium_synopsis "London, 2012. The Doctor has brought Rose to see the Olympics, but a little girl unwittingly threatens billions of lives." ;
+                                                     ns0:pid "b0074fqf" ;
+                                                     ns0:position "11" ;
+                                                     ns0:short_synopsis "The Doctor has brought Rose to see the Olympics, but a girl threatens billions of lives." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/b006ddfr#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p0043r4b#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02mqb6x#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p00hx6pc#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p00hx81s#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p00hx6t6#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p024q4f4#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p0201z3x#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p01gddry.jpg> .
 
 <http://www.bbc.co.uk/programmes/b0074fqz#programme> rdf:type ns0:Episode ;
                                                      dc:title "Army of Ghosts" ;
-                                                     ns0:position "12" ;
-                                                     ns0:pid "b0074fqz" ;
-                                                     ns0:short_synopsis "The Cybermen have invaded Earth, but the Doctor and Torchwood confront a greater threat." ;
-                                                     ns0:medium_synopsis "The Cybermen have invaded Earth, but the Doctor and Torchwood are about to confront an even greater threat." ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p00hx8bc#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00hx8kh#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00hx8ll#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00hx8np#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00hx8rg#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01zz7xq#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p0202070#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p02021d5#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p02021ft#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p02022bp#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:image_pid "p01gddsq" ;
                                                      ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:medium_synopsis "The Cybermen have invaded Earth, but the Doctor and Torchwood are about to confront an even greater threat." ;
+                                                     ns0:pid "b0074fqz" ;
+                                                     ns0:position "12" ;
+                                                     ns0:short_synopsis "The Cybermen have invaded Earth, but the Doctor and Torchwood confront a greater threat." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/b006dv73#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p004456w#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02mq9dz#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p00hx8ll#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p00hx8kh#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p00hx8rg#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p00hx8np#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p00hx8bc#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p02022bp#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p02021ft#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p02021d5#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p0202070#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p01zz7xq#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p01gddsq.jpg> .
 
 <http://www.bbc.co.uk/programmes/b0074frg#programme> rdf:type ns0:Episode ;
                                                      dc:title "Doomsday" ;
-                                                     ns0:position "13" ;
-                                                     ns0:pid "b0074frg" ;
-                                                     ns0:short_synopsis "As humanity is caught in a war between Daleks and Cybermen, the Doctor faces losing Rose." ;
-                                                     ns0:medium_synopsis "As the human race is caught in a war between Daleks and Cybermen, the Doctor faces losing Rose." ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p006zgss#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00hx9t2#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00hxb46#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00hxb5v#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00hxbsr#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00hxbx1#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00hxdc0#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00hxdlq#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00mfb91#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p0202456#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p02025tv#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p0202693#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p02026ks#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p0202772#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p020278g#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:image_pid "p01gdfdj" ;
                                                      ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:medium_synopsis "As the human race is caught in a war between Daleks and Cybermen, the Doctor faces losing Rose." ;
+                                                     ns0:pid "b0074frg" ;
+                                                     ns0:position "13" ;
+                                                     ns0:short_synopsis "As humanity is caught in a war between Daleks and Cybermen, the Doctor faces losing Rose." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/b006f6hk#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p004454x#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p02mq9gd#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p00mfb91#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p00hxdlq#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p00hxbx1#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p00hx9t2#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p00hxbsr#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p00hxdc0#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p00hxb5v#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p00hxb46#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p006zgss#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p020278g#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p0202772#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p02026ks#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p0202693#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p02025tv#programme> ,
-                                                              <http://www.bbc.co.uk/programmes/p0202456#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p01gdfdj.jpg> .
+
+<http://www.bbc.co.uk/programmes/b0074gfz#programme> rdf:type ns0:Episode ;
+                                                     dc:title "The Impossible Planet" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p00hx4ll#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00hx4p1#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p00hx4pb#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01x65p6#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01zvs92#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01zzdtp#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p01zzfby#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p0201qqk#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p0201rdl#programme> ,
+                                                              <http://www.bbc.co.uk/programmes/p0201rgf#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p01gdbrk" ;
+                                                     ns0:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+                                                     ns0:medium_synopsis "The Doctor and Rose land in a base on an 'impossible planet'. But the TARDIS is missing, there's a killer in the base, and who are the Ood?" ;
+                                                     ns0:pid "b0074gfz" ;
+                                                     ns0:position "8" ;
+                                                     ns0:short_synopsis "The Doctor and Rose land in a base on an 'impossible planet'. But the TARDIS is missing." ;
+                                                     ns0:version <http://www.bbc.co.uk/programmes/b006ykvn#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p00422q6#programme> ,
+                                                                 <http://www.bbc.co.uk/programmes/p02mqbgc#programme> ;
+                                                     foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p01gdbrk.jpg> .

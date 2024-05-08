@@ -5,11 +5,6 @@
 
 <http://www.bbc.co.uk/programmes/p00kskvf#programme> rdf:type ns0:Series ;
                                                      dc:title "The Invasion" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00kskvf" ;
-                                                     ns0:short_synopsis "The travellers land in London where they help find computer scientist Professor Watkins." ;
-                                                     ns0:medium_synopsis "The travellers land in London where they agree to help find computer scientist Professor Watkins and discover Brigadier Lethbridge-Stewart is also investigating disappearances." ;
-                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
                                                      ns0:episode <http://www.bbc.co.uk/programmes/p00v535v#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v538c#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v53b4#programme> ,
@@ -17,116 +12,121 @@
                                                                  <http://www.bbc.co.uk/programmes/p00v53h9#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v53k1#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p00v53l4#programme> ,
-                                                                 <http://www.bbc.co.uk/programmes/p00v53nz#programme> .
+                                                                 <http://www.bbc.co.uk/programmes/p00v53nz#programme> ;
+                                                     ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:medium_synopsis "The travellers land in London where they agree to help find computer scientist Professor Watkins and discover Brigadier Lethbridge-Stewart is also investigating disappearances." ;
+                                                     ns0:pid "p00kskvf" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "The travellers land in London where they help find computer scientist Professor Watkins." .
 
 <http://www.bbc.co.uk/programmes/p00v535v#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 1" ;
-                                                     ns0:position "1" ;
-                                                     ns0:pid "p00v535v" ;
-                                                     ns0:short_synopsis "The TARDIS lands in London and the travellers agree to help find Professor Watkins." ;
-                                                     ns0:medium_synopsis "The TARDIS lands in London where the Doctor, Jamie and Zoe agree to help find Isobel Watkins' missing uncle." ;
-                                                     ns0:long_synopsis "The TARDIS lands in London where the Doctor, Jamie and Zoe agree to help find Isobel Watkins' missing uncle.Searching for Professor Watkins at his last place of work,a multinational electronics supplier, he meets the company's managing director. He's not what he seems - and possesses alien technology in his office." ;
-                                                     ns0:image_pid "p00v33mj" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p0160hwy#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v33mj" ;
+                                                     ns0:long_synopsis "The TARDIS lands in London where the Doctor, Jamie and Zoe agree to help find Isobel Watkins' missing uncle.Searching for Professor Watkins at his last place of work,a multinational electronics supplier, he meets the company's managing director. He's not what he seems - and possesses alien technology in his office." ;
+                                                     ns0:medium_synopsis "The TARDIS lands in London where the Doctor, Jamie and Zoe agree to help find Isobel Watkins' missing uncle." ;
+                                                     ns0:pid "p00v535v" ;
+                                                     ns0:position "1" ;
+                                                     ns0:short_synopsis "The TARDIS lands in London and the travellers agree to help find Professor Watkins." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v535y#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p04yhx7x#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p0160hwy#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v33mj.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v538c#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 2" ;
-                                                     ns0:position "2" ;
-                                                     ns0:pid "p00v538c" ;
-                                                     ns0:short_synopsis "The Brigadier confirms there is something suspicious about International Electromatics." ;
-                                                     ns0:medium_synopsis "Brigadier Lethbridge-Stewart confirms that there is something suspicious occurring at International Electromatics. Zoe and Isobel's investigation places them in terrible danger." ;
-                                                     ns0:long_synopsis "Alistair Gordon Lethbridge-Stewart, now a UN Brigadier, confirms to the Doctor that there is something suspicious occurring at International Electromatics.Zoe and Isobel's investigation places them in terrible danger, and Jamie tries to save them." ;
-                                                     ns0:image_pid "p00v33nc" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p014pgt5#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v33nc" ;
+                                                     ns0:long_synopsis "Alistair Gordon Lethbridge-Stewart, now a UN Brigadier, confirms to the Doctor that there is something suspicious occurring at International Electromatics.Zoe and Isobel's investigation places them in terrible danger, and Jamie tries to save them." ;
+                                                     ns0:medium_synopsis "Brigadier Lethbridge-Stewart confirms that there is something suspicious occurring at International Electromatics. Zoe and Isobel's investigation places them in terrible danger." ;
+                                                     ns0:pid "p00v538c" ;
+                                                     ns0:position "2" ;
+                                                     ns0:short_synopsis "The Brigadier confirms there is something suspicious about International Electromatics." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v538d#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p04yhx8d#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p014pgt5#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v33nc.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v53b4#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 3" ;
-                                                     ns0:position "3" ;
-                                                     ns0:pid "p00v53b4" ;
-                                                     ns0:short_synopsis "The Doctor and Jamie are taken prisoner by Vaughn who denies abducting Zoe and Isobel." ;
-                                                     ns0:medium_synopsis "The Doctor and Jamie are taken prisoner by Tobias Vaughn who denies abducting Zoe and Isobel. The Doctor suspects that there may be an even greater threat behind Vaughn." ;
-                                                     ns0:long_synopsis "The Doctor and Jamie are taken prisoner by Tobias Vaughn who denies abducting Zoe and Isobel. The Doctor suspects that there may be an even greater threat behind Vaughn." ;
-                                                     ns0:image_pid "p00v33pt" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p014ph6h#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v33pt" ;
+                                                     ns0:long_synopsis "The Doctor and Jamie are taken prisoner by Tobias Vaughn who denies abducting Zoe and Isobel. The Doctor suspects that there may be an even greater threat behind Vaughn." ;
+                                                     ns0:medium_synopsis "The Doctor and Jamie are taken prisoner by Tobias Vaughn who denies abducting Zoe and Isobel. The Doctor suspects that there may be an even greater threat behind Vaughn." ;
+                                                     ns0:pid "p00v53b4" ;
+                                                     ns0:position "3" ;
+                                                     ns0:short_synopsis "The Doctor and Jamie are taken prisoner by Vaughn who denies abducting Zoe and Isobel." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v53b5#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p04yhx82#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p014ph6h#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v33pt.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v53g0#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 4" ;
-                                                     ns0:position "4" ;
-                                                     ns0:pid "p00v53g0" ;
-                                                     ns0:short_synopsis "Trapped by Vaughn's men, the Doctor requests help from UNIT. But what's in the cocoon?" ;
-                                                     ns0:medium_synopsis "Trapped by Vaughn's men at International Electromatics, the Doctor requests help from the Brigadier and UNIT. A UFO is delivering cocoons to IE – but what is inside them?" ;
-                                                     ns0:long_synopsis "Trapped by Vaughn's men at International Electromatics, the Doctor requests help from the Brigadier and UNIT, the United Nations Intelligence Taskforce.A UFO is delivering cocoons to the electronics firm – but what is inside them?" ;
-                                                     ns0:image_pid "p00v33r4" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p0160jdd#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v33r4" ;
+                                                     ns0:long_synopsis "Trapped by Vaughn's men at International Electromatics, the Doctor requests help from the Brigadier and UNIT, the United Nations Intelligence Taskforce.A UFO is delivering cocoons to the electronics firm – but what is inside them?" ;
+                                                     ns0:medium_synopsis "Trapped by Vaughn's men at International Electromatics, the Doctor requests help from the Brigadier and UNIT. A UFO is delivering cocoons to IE – but what is inside them?" ;
+                                                     ns0:pid "p00v53g0" ;
+                                                     ns0:position "4" ;
+                                                     ns0:short_synopsis "Trapped by Vaughn's men, the Doctor requests help from UNIT. But what's in the cocoon?" ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v53g1#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p04yhx80#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p0160jdd#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v33r4.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v53h9#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 5" ;
-                                                     ns0:position "5" ;
-                                                     ns0:pid "p00v53h9" ;
-                                                     ns0:short_synopsis "The Cybermen are planning to immobilise Earth's population and Vaughn is helping them." ;
-                                                     ns0:medium_synopsis "The Doctor discovers that the Cybermen are planning to immobilise Earth's population by transmitting a hypnotic signal broadcast through International Electromatics products." ;
-                                                     ns0:long_synopsis "The Doctor discovers that the Cybermen are planning to immobilise Earth's population by transmitting a hypnotic signal broadcast through International Electromatics products." ;
-                                                     ns0:image_pid "p00v3456" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p014pj1v#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v3456" ;
+                                                     ns0:long_synopsis "The Doctor discovers that the Cybermen are planning to immobilise Earth's population by transmitting a hypnotic signal broadcast through International Electromatics products." ;
+                                                     ns0:medium_synopsis "The Doctor discovers that the Cybermen are planning to immobilise Earth's population by transmitting a hypnotic signal broadcast through International Electromatics products." ;
+                                                     ns0:pid "p00v53h9" ;
+                                                     ns0:position "5" ;
+                                                     ns0:short_synopsis "The Cybermen are planning to immobilise Earth's population and Vaughn is helping them." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v53hb#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p04yhx86#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p014pj1v#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v3456.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v53k1#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 6" ;
-                                                     ns0:position "6" ;
-                                                     ns0:pid "p00v53k1" ;
-                                                     ns0:short_synopsis "UNIT, Zoe, Jamie and Isobel must confront Cybermen in the sewers beneath London." ;
-                                                     ns0:medium_synopsis "Zoe, Jamie and Isobel confront Cybermen in the sewers beneath London. The Doctor hurries to devise a protection from the Cybermen's hypnotic signal." ;
-                                                     ns0:long_synopsis "Zoe, Jamie and Isobel confront the Cybermen advancing on them from all sides in the sewers beneath London.The Doctor hurries to devise a protection from the Cybermen's hypnotic signal, as they set their sights on a paralysed London." ;
-                                                     ns0:image_pid "p00v34gh" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p014pj5z#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v34gh" ;
+                                                     ns0:long_synopsis "Zoe, Jamie and Isobel confront the Cybermen advancing on them from all sides in the sewers beneath London.The Doctor hurries to devise a protection from the Cybermen's hypnotic signal, as they set their sights on a paralysed London." ;
+                                                     ns0:medium_synopsis "Zoe, Jamie and Isobel confront Cybermen in the sewers beneath London. The Doctor hurries to devise a protection from the Cybermen's hypnotic signal." ;
+                                                     ns0:pid "p00v53k1" ;
+                                                     ns0:position "6" ;
+                                                     ns0:short_synopsis "UNIT, Zoe, Jamie and Isobel must confront Cybermen in the sewers beneath London." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v53k2#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p04yhx89#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p014pj5z#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v34gh.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v53l4#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 7" ;
-                                                     ns0:position "7" ;
-                                                     ns0:pid "p00v53l4" ;
-                                                     ns0:short_synopsis "The world's population is unconscious and the Cybermen invade London in force." ;
-                                                     ns0:medium_synopsis "The world's population is unconscious and the Cybermen invade in force. The Doctor desperately attempts to persuade Vaughn to help him resist the invaders." ;
-                                                     ns0:long_synopsis "The Cybermen have immobilised the Earth's population with a hypnotic signal. Their fleet arrives and they invade in force. The Doctor desperately attempts to persuade Vaughn to help him resist the invaders." ;
-                                                     ns0:image_pid "p00v34hk" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p014pjg6#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v34hk" ;
+                                                     ns0:long_synopsis "The Cybermen have immobilised the Earth's population with a hypnotic signal. Their fleet arrives and they invade in force. The Doctor desperately attempts to persuade Vaughn to help him resist the invaders." ;
+                                                     ns0:medium_synopsis "The world's population is unconscious and the Cybermen invade in force. The Doctor desperately attempts to persuade Vaughn to help him resist the invaders." ;
+                                                     ns0:pid "p00v53l4" ;
+                                                     ns0:position "7" ;
+                                                     ns0:short_synopsis "The world's population is unconscious and the Cybermen invade London in force." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v53l5#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p04yhx8l#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p014pjg6#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v34hk.jpg> .
 
 <http://www.bbc.co.uk/programmes/p00v53nz#programme> rdf:type ns0:Episode ;
                                                      dc:title "Episode 8" ;
-                                                     ns0:position "8" ;
-                                                     ns0:pid "p00v53nz" ;
-                                                     ns0:short_synopsis "The Cybermen launch their deadly megatron bomb which will destroy all life on Earth." ;
-                                                     ns0:medium_synopsis "The Cybermen have launched their deadly megatron bomb which will destroy all life on Earth unless the Doctor can deactivate the homing signal." ;
-                                                     ns0:long_synopsis "The Cybermen have launched their deadly megatron bomb which will destroy all life on Earth unless the Doctor can deactivate the homing signal." ;
-                                                     ns0:image_pid "p00v34jj" ;
+                                                     ns0:clip <http://www.bbc.co.uk/programmes/p014pkhf#programme> ;
                                                      ns0:genre <http://www.bbc.co.uk/programmes/genres/drama/scifiandfantasy#genre> ;
+                                                     ns0:image_pid "p00v34jj" ;
+                                                     ns0:long_synopsis "The Cybermen have launched their deadly megatron bomb which will destroy all life on Earth unless the Doctor can deactivate the homing signal." ;
+                                                     ns0:medium_synopsis "The Cybermen have launched their deadly megatron bomb which will destroy all life on Earth unless the Doctor can deactivate the homing signal." ;
+                                                     ns0:pid "p00v53nz" ;
+                                                     ns0:position "8" ;
+                                                     ns0:short_synopsis "The Cybermen launch their deadly megatron bomb which will destroy all life on Earth." ;
                                                      ns0:version <http://www.bbc.co.uk/programmes/p00v53p0#programme> ,
                                                                  <http://www.bbc.co.uk/programmes/p04yhx8j#programme> ;
-                                                     ns0:clip <http://www.bbc.co.uk/programmes/p014pkhf#programme> ;
                                                      foaf:depiction <https://ichef.bbci.co.uk/images/ic/640x360/p00v34jj.jpg> .
