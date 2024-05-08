@@ -7212,7 +7212,8 @@
     po:position "1"^^xsd:nonNegativeInteger ;
     po:short_synopsis "Ruby learns the Doctor's secrets when he takes her to a future with babies and a bogeyman." ;
     po:version <http://www.bbc.co.uk/programmes/m001z8bw#programme>,
-        <http://www.bbc.co.uk/programmes/m001z9v3#programme> ;
+        <http://www.bbc.co.uk/programmes/m001z9v3#programme>,
+        <http://www.bbc.co.uk/programmes/p0hwkwhc#programme> ;
     foaf:depiction <https://ichef.bbci.co.uk/images/ic/1920x1080/p0gz2jcy.jpg> .
 
 <http://www.bbc.co.uk/programmes/m001z8c7#programme> a po:Episode ;
