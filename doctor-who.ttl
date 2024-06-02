@@ -5436,7 +5436,9 @@
         <http://www.bbc.co.uk/programmes/m001tc3r#programme>,
         <http://www.bbc.co.uk/programmes/m001tfnl#programme>,
         <http://www.bbc.co.uk/programmes/m001z8bz#programme>,
-        <http://www.bbc.co.uk/programmes/m001z8c7#programme> ;
+        <http://www.bbc.co.uk/programmes/m001z8c7#programme>,
+        <http://www.bbc.co.uk/programmes/m001zxwj#programme>,
+        <http://www.bbc.co.uk/programmes/m00204dk#programme> ;
     po:series <http://www.bbc.co.uk/programmes/m001z8c2#programme> .
 
 <http://www.bbc.co.uk/programmes/b006q2x0#programme> a po:Brand ;
@@ -6701,7 +6703,9 @@
 
 <http://www.bbc.co.uk/programmes/m001z8c2#programme> a po:Series ;
     po:episode <http://www.bbc.co.uk/programmes/m001z8bz#programme>,
-        <http://www.bbc.co.uk/programmes/m001z8c7#programme> .
+        <http://www.bbc.co.uk/programmes/m001z8c7#programme>,
+        <http://www.bbc.co.uk/programmes/m001zxwj#programme>,
+        <http://www.bbc.co.uk/programmes/m00204dk#programme> .
 
 <http://www.bbc.co.uk/programmes/p06jcmy9#programme> a po:Series ;
     dc:title "Series 11" ;
@@ -7230,6 +7234,35 @@
     po:version <http://www.bbc.co.uk/programmes/m001z8c4#programme>,
         <http://www.bbc.co.uk/programmes/m001z9v4#programme> ;
     foaf:depiction <https://ichef.bbci.co.uk/images/ic/1920x1080/p0gz2jcy.jpg> .
+
+<http://www.bbc.co.uk/programmes/m001zxwj#programme> a po:Episode ;
+    dc:title "Dot and Bubble" ;
+    po:genre <http://www.bbc.co.uk/programmes/genres/drama#genre>,
+        <http://www.bbc.co.uk/programmes/genres/scifiandfantasy#genre> ;
+    po:image_pid "p0j0qs20" ;
+    po:long_synopsis "None" ;
+    po:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+    po:medium_synopsis "The world of Finetime seems happy and harmonious. But an awful terror is preying on the citizens. Can the Doctor and Ruby make them see the truth before it’s too late?" ;
+    po:position "5"^^xsd:nonNegativeInteger ;
+    po:short_synopsis "On Finetime, the Doctor and Ruby must convince the citizens of a monstrous unseen terror." ;
+    po:version <http://www.bbc.co.uk/programmes/m001zxwh#programme>,
+        <http://www.bbc.co.uk/programmes/m001zz1y#programme>,
+        <http://www.bbc.co.uk/programmes/p0j1kfyz#programme> ;
+    foaf:depiction <https://ichef.bbci.co.uk/images/ic/1920x1080/p0j0qs20.jpg> .
+
+<http://www.bbc.co.uk/programmes/m00204dk#programme> a po:Episode ;
+    dc:title "Rogue" ;
+    po:genre <http://www.bbc.co.uk/programmes/genres/drama#genre>,
+        <http://www.bbc.co.uk/programmes/genres/scifiandfantasy#genre> ;
+    po:image_pid "p0hxbxdp" ;
+    po:long_synopsis "None" ;
+    po:masterbrand <http://www.bbc.co.uk/bbcone#service> ;
+    po:medium_synopsis "The Doctor and Ruby land in 1813, where guests at a duchess’s party are being murdered and a mysterious bounty hunter called Rogue is about to change the Doctor’s life forever." ;
+    po:position "6"^^xsd:nonNegativeInteger ;
+    po:short_synopsis "At a party in 1813, the Doctor’s life is about to be changed by a bounty hunter." ;
+    po:version <http://www.bbc.co.uk/programmes/m00204dj#programme>,
+        <http://www.bbc.co.uk/programmes/m00205bx#programme> ;
+    foaf:depiction <https://ichef.bbci.co.uk/images/ic/1920x1080/p0hxbxdp.jpg> .
 
 <http://www.bbc.co.uk/programmes/p0056cjg#programme> a po:Series ;
     dc:title "Dreamland" ;
